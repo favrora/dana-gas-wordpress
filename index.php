@@ -135,6 +135,9 @@
           <div class="result-block">
             <div class="result-block__pre-title">Latest result</div>
             <div class="result-block__title">2022</div>
+
+            <img class="result-block__bg" src="<?php echo get_template_directory_uri() . '/assets/images/result-block-bg.png'; ?>" loading="lazy">
+            <img class="result-block__bg-mob" src="<?php echo get_template_directory_uri() . '/assets/images/result-block-bg-mobile.png'; ?>" loading="lazy">
           </div>
         </div>
 

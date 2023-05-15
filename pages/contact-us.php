@@ -122,10 +122,8 @@
           <div class="col-12 col-md-6">
             <select class="form-control">
               <option value="" selected disabled>Purporse:*</option>
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
+              <option value="1">General Enquiry</option>
+              <option value="2">Feedback</option>
             </select>
           </div>
 
@@ -151,14 +149,63 @@
   </section>
 
   <!-- Location section -->
-  <section class="location-section">
+  <section class="location-section mt-5">
     <div class="container">
       <div class="row">
 
-        <div class="col-12">
-          <div class="location-section__countries">
+        <div class="col-12 d-flex justify-content-center mb-4">
+          <div class="location-section__country active" data-switch="1">UAE</div>
+          <div class="location-section__country" data-switch="2">Egypt</div>
+          <div class="location-section__country" data-switch="3">KRI</div>
+        </div>
 
-          </div>
+        <!-- UAE office location -->
+        <div class="col-12 col-md-6 switchLocation">
+          <h2 class="default-h2">Dana Gas UAE</h2>
+          <p>Crescent
+          </p>
+
+          <p>T: +
+          </p>
+
+          <a href="/" class="btn btnWithProgress mt-3 up">
+            View all
+            <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-white.png'; ?>" alt="Right arrow icon">
+          </a>
+        </div>
+
+        <!-- Egypt office location -->
+        <div class="col-12 col-md-6 switchLocation d-none">
+          <h2 class="default-h2">Dana Gas Egypt</h2>
+          <p>Crescent
+          </p>
+
+          <p>T: +
+          </p>
+
+          <a href="/" class="btn btnWithProgress mt-3 up">
+            View all
+            <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-white.png'; ?>" alt="Right arrow icon">
+          </a>
+        </div>
+
+        <!-- KRI office location -->
+        <div class="col-12 col-md-6 switchLocation d-none">
+          <h2 class="default-h2">Dana Gas KRI</h2>
+          <p>Crescent
+          </p>
+
+          <p>T: +
+          </p>
+
+          <a href="/" class="btn btnWithProgress mt-3 up">
+            View all
+            <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-white.png'; ?>" alt="Right arrow icon">
+          </a>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div id="mapLocation"></div>
         </div>
 
       </div>

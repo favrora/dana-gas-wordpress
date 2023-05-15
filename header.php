@@ -29,8 +29,8 @@
         </div>
 
         <div class="dropdown-list">
-          <a href="/">Our Story</a>
-          <a href="/">Why Invest in Dana Gas</a>
+          <a href="/about-us">Our Story</a>
+          <a href="/about-us">Why Invest in Dana Gas</a>
           <a href="/">Vision, Strategy & Values</a>
           <a href="/">Group Structure</a>
         </div>
@@ -89,7 +89,7 @@
       </li>
 
       <li><a href="/" class="dropdown__title-link">Careers</a></li>
-      <li><a href="/" class="dropdown__title-link">Contact us</a></li>
+      <li><a href="/contact-us" class="dropdown__title-link">Contact us</a></li>
     </ul>
   </div>
 </header>

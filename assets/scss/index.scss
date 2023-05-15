@@ -11,6 +11,8 @@
 @import "_app";
 @import "_components/card";
 
+// @import "@splidejs/splide/css";
+
 /****************************
  **** 1. About section *****
  ***************************/
@@ -190,6 +192,7 @@
  ***************************/
 .investors-section {
   .result-block {
+    position: relative;
     text-transform: uppercase;
     text-align: center;
     background-repeat: no-repeat;
@@ -199,23 +202,47 @@
     padding: 25px 15px 15px;
     text-align: center;
     border-radius: 3px;
-    background-image: url("/assets/images/result-block-bg.png");
+    overflow: hidden;
+
+    .result-block__bg {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .result-block__bg-mob {
+      width: 100%;
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
 
     @media (max-width: $tablet) {
       height: 100px;
       margin: 30px 0;
-      background-image: url("/assets/images/result-block-bg-mobile.png");
-      background-size: cover;
       max-width: 100%;
-      background-position: center;
+
+      .result-block__bg {
+        display: none;
+      }
+
+      .result-block__bg-mob {
+        display: block;
+      }
     }
 
     &__pre-title {
       color: $brand-primary;
       margin-bottom: -10px;
+      position: relative;
+      z-index: 10;
     }
 
     &__title {
+      position: relative;
+      z-index: 10;
       color: #1f4388;
       font: 40px $font-family-title;
     }
