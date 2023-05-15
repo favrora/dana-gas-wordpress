@@ -1,0 +1,162 @@
+// Default input style
+.input-label-box {
+  position: relative;
+
+  input {
+    padding: 1.8rem 2.25rem 0.6rem 1.125rem;
+
+    &::placeholder:not(.has-content) {
+      color: transparent;
+    }
+  }
+
+  label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 90%;
+    padding: 1.1rem 0 1.1rem 1.125rem;
+    overflow: hidden;
+    color: #747474;
+    font-size: 0.875rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    transition: all 0.15s ease;
+    pointer-events: none;
+  }
+
+  input:focus + label,
+  input:not(:placeholder-shown) + label,
+  label.has-content {
+    font-size: 0.7rem;
+    color: #969696;
+    transform: translateY(-0.6rem);
+  }
+}
+
+// Input style
+input {
+  position: relative;
+  width: 100%;
+  padding: 0.8rem 0.5rem;
+  color: #747474;
+  font-size: 0.875rem;
+  line-height: 1.15;
+  background-color: transparent;
+  border: 1px solid $gray-color;
+  border-radius: 0.25rem;
+  transition: all 200ms ease;
+
+  &.bold-input {
+    padding: 0.7rem 1rem;
+    font-size: 1.1rem;
+  }
+
+  &:hover,
+  &:focus {
+    border-color: #b2b2b2;
+    outline: 0;
+    box-shadow: none;
+  }
+
+  &:disabled,
+  &:read-only {
+    background-color: #e6e6e6;
+  }
+
+  &.invalid,
+  &.is-invalid {
+    border-color: #ff0000;
+  }
+
+  &::placeholder {
+    color: #b5b5b5;
+  }
+
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+// Custom checkbox
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    input[type="checkbox"] {
+      border-color: #b2b2b2;
+    }
+  }
+
+  input[type="checkbox"] {
+    width: 20px;
+    min-width: 20px;
+    height: 20px;
+    padding: 3px;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    transition: all 200ms ease;
+    margin-right: 0.6rem;
+    cursor: pointer;
+    appearance: none;
+
+    &::before {
+      display: block;
+      content: "";
+      width: 100%;
+      height: 100%;
+      clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+      transform: scale(0);
+      transform-origin: center;
+      transition: 120ms transform ease-in-out;
+      box-shadow: inset 1em 1em #ffffff;
+    }
+
+    &:checked {
+      background: $brand-success;
+    }
+
+    &:checked::before {
+      transform: scale(1);
+    }
+  }
+}
+
+// Range slider style
+.range-slider {
+  width: 100%;
+  cursor: grab;
+  padding: 0.5rem 0;
+
+  &:focus {
+    cursor: grabbing;
+  }
+}
+
+// Input with currency
+.currency-input {
+  position: relative;
+
+  input {
+    z-index: 2;
+    padding-right: 4rem;
+  }
+
+  .currency {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 0.8rem;
+    color: #5c5c5c;
+    display: flex;
+    align-items: center;
+    padding: 0 0.7rem;
+    background: $gray-color;
+    border-radius: 0 0.25rem 0.25rem 0;
+  }
+}

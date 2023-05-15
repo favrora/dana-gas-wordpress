@@ -1,0 +1,93 @@
+/***********************************
+ ******* Contact US CSS Code *******
+
+ 1. About section
+ 2. Group contacts section
+ 3. Form section
+ 4. Location section
+ **********************************/
+
+@import "../../node_modules/intl-tel-input/build/css/intlTelInput.css";
+
+@import "_app";
+@import "_components/card";
+
+/****************************
+ **** 1. About section *****
+ ***************************/
+
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 300px;
+  background-color: #c7c7c7;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .about-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: inset 0 -70px 40px #00000012;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    color: #ffffff;
+    position: relative;
+    z-index: 10;
+    margin: 10px 0 7px;
+  }
+}
+
+/*****************************
+ * 2. Group contacts section *
+ ****************************/
+.group-section {
+  padding: 50px 0;
+
+  &__contact {
+    color: #838383;
+
+    &-title {
+      color: $brand-primary;
+      text-transform: uppercase;
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+/****************************
+ ***** 3. Form section ******
+ ***************************/
+.form-section {
+  &__desc {
+    max-width: 380px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  &__form {
+    max-width: 800px;
+    margin: 0 auto;
+
+    .col-12 {
+      margin-bottom: 15px;
+    }
+
+    .iti {
+      width: 100%;
+    }
+  }
+}
+
+/****************************
+ *** 4. Location section ****
+ ***************************/
+.location-section {
+}

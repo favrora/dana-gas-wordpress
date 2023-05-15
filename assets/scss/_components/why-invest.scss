@@ -1,0 +1,72 @@
+// Why invest section
+.why-invest-section {
+  padding: 220px 0 80px;
+  background-image: url("/assets/images/why-invest-bg.png");
+  background-size: cover;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  font-family: $font-family-title;
+
+  @media (max-width: $tablet) {
+    padding-top: 120px;
+    margin-top: 50px;
+    background-position-x: calc(40% - 50px);
+  }
+
+  .why-invest-block {
+    padding: 40px 40px 30px;
+    background: #ffffff;
+    border-radius: 11px;
+    box-shadow: 0 0 30px #01297036;
+    margin-top: 80px;
+
+    @media (max-width: $tablet) {
+      padding: 20px 15px 20px;
+    }
+
+    p {
+      font-family: $font-family-sans-serif;
+    }
+
+    &__pre-title {
+      color: #1f4388;
+      font-size: 20px;
+      margin-bottom: -15px;
+      text-transform: uppercase;
+    }
+
+    &__title {
+      color: #1f4388;
+      font-size: 35px;
+      text-transform: uppercase;
+    }
+
+    &__data {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+
+      &-img {
+        display: flex;
+        justify-content: center;
+        width: 50px;
+        min-width: 50px;
+        margin-right: 10px;
+      }
+
+      &-title {
+        font-family: $font-family-sans-serif;
+      }
+
+      &-stats {
+        color: #1f4388;
+        font-size: 20px;
+        width: 100%;
+
+        @media (max-width: $tablet) {
+          font-size: 17px;
+        }
+      }
+    }
+  }
+}

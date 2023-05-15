@@ -1,0 +1,49 @@
+.card {
+  height: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+
+  .card-header {
+    position: relative;
+    min-height: 80px;
+    padding: 0;
+    border: 0;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .card-body {
+    display: flex;
+    padding: 0.9rem;
+    justify-content: space-between;
+    align-items: center;
+
+    .card-title {
+      font: 1.1rem $font-family-title;
+      margin-bottom: 0;
+      transition: $transitionSpeed;
+      text-align: left;
+    }
+
+    .arrow {
+      width: 20px;
+      height: 9px;
+    }
+  }
+}
+
+.card-link {
+  color: #255872;
+  text-decoration: none;
+
+  &:hover {
+    color: #255872;
+    text-decoration: none;
+
+    .card-body .card-title {
+      color: $brand-primary;
+    }
+  }
+}

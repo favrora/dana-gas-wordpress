@@ -1,0 +1,355 @@
+/***********************************
+ ******** Homepage CSS Code ********
+
+ 1. About section
+ 2. Operations section
+ 3. Investors section
+ 4. Story section
+ 5. Why invest section
+ **********************************/
+
+@import "_app";
+@import "_components/card";
+
+/****************************
+ **** 1. About section *****
+ ***************************/
+
+// @media (max-width: $desktop) {
+// font: 1.6rem $font-family-title;
+
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 500px;
+  background-color: #c7c7c7;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .about-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #0000004a;
+    box-shadow: inset 0px -70px 20px #00000057;
+  }
+
+  .container {
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 100%;
+
+    .about-box {
+      max-width: 500px;
+      margin: 0;
+      color: #ffffff;
+      text-transform: uppercase;
+      font-family: $font-family-title;
+
+      .about-end-title {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  h1 {
+    margin: 10px 0 7px;
+  }
+
+  .about-info-box {
+    display: flex;
+    z-index: 10;
+    position: absolute;
+    right: 0.75rem;
+    bottom: 20px;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font: 0.7rem $font-family-title;
+
+    &__title {
+      color: $brand-primary;
+    }
+
+    &__img {
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+
+      img {
+        width: 30px;
+      }
+    }
+  }
+
+  // mouse scroll style
+  .about-scroll {
+    position: absolute;
+    right: 0;
+    bottom: 35px;
+    left: 0;
+
+    @media (max-width: $tablet) {
+      display: none;
+    }
+
+    .scroll-downs {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: auto;
+      width: 34px;
+      height: 55px;
+      cursor: pointer;
+
+      &:hover {
+        .mouse-icon {
+          opacity: 1;
+        }
+      }
+    }
+
+    .mouse-icon {
+      width: 3px;
+      padding: 5px 7px;
+      height: 22px;
+      border: 2px solid #fff;
+      border-radius: 25px;
+      opacity: 0.7;
+      box-sizing: content-box;
+      margin-bottom: 5px;
+      transition: $transitionSpeed;
+    }
+
+    .mouse-icon-ln {
+      width: 3px;
+      height: 7px;
+      border-radius: 25%;
+      background-color: #fff;
+    }
+
+    .scroller {
+      padding: 11px;
+      animation-name: scroll;
+      animation-duration: 1.2s;
+      animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
+      animation-iteration-count: infinite;
+    }
+  }
+
+  @keyframes scroll {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(15px);
+      opacity: 0;
+    }
+  }
+}
+
+/*****************************
+ *** 2. Operations section ***
+ ****************************/
+.operations-section {
+  padding: 50px 0;
+  text-align: center;
+  text-transform: uppercase;
+
+  &__pre-title {
+    color: $brand-primary;
+    text-transform: none;
+    margin-bottom: 25px;
+  }
+
+  @media (max-width: $tablet) {
+    .btn {
+      display: none;
+    }
+  }
+}
+
+.uppercase-h2 {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+/****************************
+ *** 3. Investors section ***
+ ***************************/
+.investors-section {
+  .result-block {
+    text-transform: uppercase;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 235px;
+    height: 286px;
+    padding: 25px 15px 15px;
+    text-align: center;
+    border-radius: 3px;
+    background-image: url("/assets/images/result-block-bg.png");
+
+    @media (max-width: $tablet) {
+      height: 100px;
+      margin: 30px 0;
+      background-image: url("/assets/images/result-block-bg-mobile.png");
+      background-size: cover;
+      max-width: 100%;
+      background-position: center;
+    }
+
+    &__pre-title {
+      color: $brand-primary;
+      margin-bottom: -10px;
+    }
+
+    &__title {
+      color: #1f4388;
+      font: 40px $font-family-title;
+    }
+  }
+
+  .result-links-box {
+    display: block;
+    text-decoration: none;
+    border: 1px solid #eeeeee;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 10px;
+    transition: $transitionSpeed;
+    background: white;
+    text-align: center;
+    font-family: $font-family-title;
+
+    &__pre-title {
+      color: $brand-primary;
+      transition: $transitionSpeed;
+    }
+
+    &__title {
+      color: #323a45;
+      transition: $transitionSpeed;
+    }
+
+    &:hover {
+      color: #ffffff;
+      background: #003b5a;
+
+      .result-links-box__pre-title {
+        color: #ffffff;
+      }
+
+      .result-links-box__title {
+        color: #ffffff;
+      }
+
+      img {
+        filter: brightness(0) invert(1);
+      }
+    }
+  }
+
+  &__box {
+    @media (max-width: $tablet) {
+      .btn {
+        display: none;
+      }
+    }
+  }
+}
+
+/*****************************
+ ***** 4. Story section ******
+ ****************************/
+.story-section {
+  margin-top: 120px;
+
+  &__video {
+    position: relative;
+
+    @media (max-width: $tablet) {
+      margin-top: 30px;
+    }
+  }
+
+  &__text {
+    @media (max-width: $tablet) {
+      text-align: center;
+
+      .btn {
+        display: none;
+      }
+    }
+  }
+
+  video {
+    width: 100%;
+  }
+
+  &__play {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-icon {
+      width: 50px;
+      height: 50px;
+      background: #f15d3e;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      z-index: 10;
+      transition: $transitionSpeed;
+
+      &:hover {
+        background: #ff7154;
+      }
+    }
+  }
+
+  &__pulsation {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: #e77962a1;
+    border-radius: 50%;
+    animation: pulse-border 1500ms ease-out infinite;
+  }
+}
+
+// Pulsation animation
+@keyframes pulse-border {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    opacity: 0;
+  }
+}
