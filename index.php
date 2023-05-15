@@ -7,9 +7,9 @@
     <div class="about-box">
       <div class="about-pre-title">We are Focused on</div>
 
-      <h1>Sustainable growth in the region</h1>
+      <h1><?php echo get_field('title') ?></h1>
 
-      <div class="about-end-title">Across the natural gas value chain</div>
+      <div class="about-end-title"><?php echo get_field('after_title') ?></div>
 
       <a href="/" class="btn btnWithProgress up">
         Learn more
@@ -214,7 +214,7 @@
 </section>
 
 <?php get_footer(); ?>
-<script src="<?php echo get_template_directory_uri() . '../dist/js/index.min.js'; ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/dist/js/index.min.js'; ?>"></script>
 
 </body>
 
