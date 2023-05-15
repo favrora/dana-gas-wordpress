@@ -1,3 +1,10 @@
+<?php
+
+/**
+ * Template Name: About Us
+ */
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,13 +16,16 @@
   <title><?php bloginfo('name'); ?></title>
 
   <!-- Source files -->
+  <link href="<?php echo get_template_directory_uri() . '/dist/css/about-us.min.css'; ?>" rel="stylesheet">
   <?php wp_head(); ?>
 </head>
 
 <body>
 
+  <?php get_header(); ?>
+
   <!-- About section -->
-  <section class="about-section" style="background-image: url('/assets/images/about-us-bg.png')">
+  <section class="about-section" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/about-us-bg.png'; ?>')">
     <div class="about-overlay"></div>
     <div class="container">
       <h1>About US</h1>
@@ -23,7 +33,7 @@
   </section>
 
   <!-- Company-section -->
-  <section class="company-section pt-5">
+  <section class="company-section pt-5" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/about-shape-bg.png'; ?>)">
     <div class="container">
       <div class="row">
 
@@ -35,13 +45,13 @@
 
             <a href="/" class="btn btnWithProgress up">
               Read more
-              <img src="/assets/images/right-arrow-white.png" alt="Right arrow icon">
+              <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-white.png'; ?>" alt="Right arrow icon">
             </a>
           </div>
         </div>
 
         <div class="col-12 col-md-6 text-center">
-          <img src="/assets/images/about-dana-gas-img.png" class="data-img" alt="About dana gas" loading="lazy">
+          <img src="<?php echo get_template_directory_uri() . '/assets/images/about-dana-gas-img.png'; ?>" class="data-img" alt="About dana gas" loading="lazy">
         </div>
 
       </div>
@@ -61,7 +71,7 @@
               </div>
               <div class="card-body">
                 <div class="card-title">Egypt</div>
-                <img class="arrow" src="/assets/images/right-arrow-green.png" alt="Right arrow icon">
+                <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </div>
             </div>
           </a>
@@ -75,7 +85,7 @@
               </div>
               <div class="card-body">
                 <div class="card-title">Egypt</div>
-                <img class="arrow" src="/assets/images/right-arrow-green.png" alt="Right arrow icon">
+                <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </div>
             </div>
           </a>
@@ -89,7 +99,7 @@
               </div>
               <div class="card-body">
                 <div class="card-title">Egypt</div>
-                <img class="arrow" src="/assets/images/right-arrow-green.png" alt="Right arrow icon">
+                <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </div>
             </div>
           </a>
@@ -99,9 +109,11 @@
     </div>
   </section>
 
-  <?php include 'parts/why-invest.php' ?>
+
+  <?php include get_theme_file_path('/parts/why-invest.php'); ?>
+
   <?php get_footer(); ?>
-  <script src="<?php echo get_template_directory_uri() . '../dist/js/app.min.js'; ?>"></script>
+  <script src="<?php echo get_template_directory_uri() . '/dist/js/app.min.js'; ?>"></script>
 
 </body>
 
