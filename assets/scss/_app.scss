@@ -113,3 +113,51 @@ h6 {
 .text-larger {
   font-size: 1.15em;
 }
+
+/****************************
+ *** 2. About pages style ***
+ ***************************/
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 300px;
+  background-color: #c7c7c7;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .about-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: inset 0 -70px 40px #00000012;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    color: #ffffff;
+    position: relative;
+    z-index: 10;
+    margin: 10px 0 7px;
+  }
+}
+
+.list-with-arrow {
+  font-family: $font-family-sans-serif;
+
+  li {
+    padding-left: 5px;
+
+    &::marker {
+      font-size: 12px;
+    }
+  }
+}
+
+.title-green {
+  color: $brand-primary;
+  text-transform: uppercase;
+}

@@ -40,8 +40,10 @@
         <div class="col-12 col-md-6 company-section__data">
           <div>
             <h2 class="default-h2">Why invest in Dana Gas</h2>
-            <ul>
-              <li></li>
+            <ul class="list-with-arrow" style="list-style-image: url('<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>')">
+              <li>Mena largest</li>
+              <li>Mena largest</li>
+              <li>Mena largest</li>
             </ul>
 
             <a href="/contact-us" class="btn btnWithProgress up">
@@ -59,8 +61,35 @@
     </div>
   </section>
 
+  <!-- Countries -->
+  <section class="countries-section mt-5 mb-5">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h2 class="title-green">KRI</h2>
+          <ul class="list-with-arrow" style="list-style-image: url('<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>')">
+            <li>Mena largest</li>
+            <li>Mena largest</li>
+            <li>Mena largest</li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <h2 class="title-green">Egypt</h2>
+          <ul class="list-with-arrow" style="list-style-image: url('<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>')">
+            <li>Mena largest</li>
+            <li>Mena largest</li>
+            <li>Mena largest</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
   <!-- Cards section -->
-  <section class="cards-section mb-5">
+  <section class="cards-section mt-5 mb-5">
     <div class="container">
       <h2 class="default-h2">Our Story</h2>
       <div class="row mt-3">

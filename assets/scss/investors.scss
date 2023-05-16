@@ -1,12 +1,52 @@
-/*********************************
+/********************************
  ****** Investors CSS Code ******
 
- 1. Investors section
- ********************************/
+ 1. Cards section
+ 2. Contact section
+ *******************************/
 
 @import "_app";
 @import "_components/card";
 
 /****************************
- ** 1. Investors section ***
+ ***** 1. Cards section *****
  ***************************/
+.cards-section {
+  text-align: center;
+  text-transform: uppercase;
+
+  .card .card-body .card-title {
+    text-transform: none;
+  }
+}
+
+/****************************
+ **** 2. Contact section ****
+ ***************************/
+.contact-section {
+  .container {
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+
+    .col-12:first-child {
+      @media (min-width: $tablet) {
+        border-right: 1px solid #e8e8e8;
+      }
+    }
+
+    .default-h2 {
+      font-size: 30px;
+    }
+  }
+
+  &__name {
+    color: #545454;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  &__desc,
+  &__data {
+    color: #717171;
+  }
+}
