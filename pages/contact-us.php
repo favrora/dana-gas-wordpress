@@ -162,10 +162,14 @@
         <!-- UAE office location -->
         <div class="col-12 col-md-6 switchLocation">
           <h2 class="default-h2">Dana Gas UAE</h2>
-          <p>Crescent
+          <p>Crescent Tower 11th Floor<br>
+            Al Buhaira Corniche PO Box 2011<br>
+            Sharjah, United Arab Emirates
           </p>
 
-          <p>T: +
+          <p>T:+971 (0)6 5194444<br>
+            F:+971 (0)6 556 6522<br>
+            mail@danagas.com
           </p>
 
           <a href="/" class="btn btnWithProgress mt-3 up">
@@ -177,10 +181,13 @@
         <!-- Egypt office location -->
         <div class="col-12 col-md-6 switchLocation d-none">
           <h2 class="default-h2">Dana Gas Egypt</h2>
-          <p>Crescent
+          <p>Plot 188, City Center,<br>
+            Fifth Settlement, New Cairo, Egypt
           </p>
 
-          <p>T: +
+          <p>T:+20 (0)2 250 333 33<br>
+            F:+20 (0)2 250 333 31<br>
+            dg_egypt@danagas.com
           </p>
 
           <a href="/" class="btn btnWithProgress mt-3 up">
@@ -192,10 +199,14 @@
         <!-- KRI office location -->
         <div class="col-12 col-md-6 switchLocation d-none">
           <h2 class="default-h2">Dana Gas KRI</h2>
-          <p>Crescent
+          <p>Salim Street<br>
+            Qaiwan Towers -12th floor.<br>
+            Sulaymaniyah<br>
+            Kurdistan Region, Iraq
           </p>
 
-          <p>T: +
+          <p>T:+964 53 327 2077<br>
+            dg_kurdistan@danagas.com
           </p>
 
           <a href="/" class="btn btnWithProgress mt-3 up">
@@ -216,6 +227,9 @@
   <?php include get_theme_file_path('/parts/why-invest.php'); ?>
 
   <?php get_footer(); ?>
+  <script>
+    const locationIcon = "<?php echo get_template_directory_uri() . '/assets/images/icons/location.png'; ?>"
+  </script>
   <script src="<?php echo get_template_directory_uri() . '/dist/js/contact-us.min.js'; ?>"></script>
 
 </body>

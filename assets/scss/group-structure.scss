@@ -1,0 +1,21 @@
+/**********************************
+ ********* Group CSS Code *********
+
+ 1. Group section
+ 2. Cards section
+ *********************************/
+
+@import "_app";
+@import "_components/card";
+
+/***************************
+ **** 1. Group section *****
+ **************************/
+
+/****************************
+ ***** 2. Cards section *****
+ ***************************/
+.cards-section {
+  text-align: center;
+  text-transform: uppercase;
+}

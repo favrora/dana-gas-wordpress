@@ -90,13 +90,12 @@ document.addEventListener("DOMContentLoaded", function () {
   }).addTo(projectMap)
 
   const myIcon = L.icon({
-    iconUrl: "/images/marker-icon.png",
-    iconSize: [38, 60],
-    iconAnchor: [22, 94],
-    popupAnchor: [-3, -76],
+    iconUrl: locationIcon,
+    iconSize: [38, 38],
+    iconAnchor: [22, 22],
   })
 
-  const marker = L.marker([25.32723064775752, 55.37879333779599]).addTo(projectMap)
+  const marker = L.marker([25.32723064775752, 55.37879333779599], { icon: myIcon }).addTo(projectMap)
 
   function changeLocation(latLng) {
     marker.setLatLng(latLng)
