@@ -74,4 +74,10 @@
 .cards-section {
   text-align: center;
   text-transform: uppercase;
+
+  &.story {
+    .card .card-body .card-title {
+      text-transform: none;
+    }
+  }
 }

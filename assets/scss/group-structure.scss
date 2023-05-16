@@ -3,6 +3,7 @@
 
  1. Group section
  2. Cards section
+ 3. Table section
  *********************************/
 
 @import "_app";
@@ -12,10 +13,111 @@
  **** 1. Group section *****
  **************************/
 
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 300px;
+  background-color: #c7c7c7;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .about-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: inset 0 -70px 40px #00000012;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    color: #ffffff;
+    position: relative;
+    z-index: 10;
+    margin: 10px 0 7px;
+  }
+}
+
 /****************************
  ***** 2. Cards section *****
  ***************************/
 .cards-section {
   text-align: center;
   text-transform: uppercase;
+
+  .card .card-body .card-title {
+    text-transform: none;
+  }
+}
+
+/****************************
+ ***** 2. Table section *****
+ ***************************/
+.table-section {
+  .table-data {
+    width: 100%;
+    margin-bottom: 30px;
+    background: #ffffff;
+    box-shadow: 0 0 30px #0129701a;
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 100%;
+
+    @media (max-width: $tablet) {
+      display: block;
+      overflow-x: auto;
+    }
+
+    thead {
+      background: $brand-primary;
+    }
+
+    tbody {
+      tr {
+        border-bottom: 1px solid #e8e8e8;
+
+        &:last-child {
+          border-bottom: none;
+        }
+
+        &:first-child {
+          td {
+            padding-top: 17px;
+          }
+        }
+      }
+    }
+
+    th {
+      padding: 5px 20px;
+      color: #ffffff;
+      font-family: $font-family-sans-serif;
+      font-weight: normal;
+
+      &:first-child {
+        @media (min-width: $tablet) {
+          width: 40%;
+        }
+      }
+
+      &:nth-child(2) {
+        background: #489641;
+      }
+
+      &:nth-child(3) {
+        background: #448e3e;
+      }
+
+      &:nth-child(4) {
+        background: #41863b;
+      }
+    }
+
+    td {
+      padding: 7px 20px;
+    }
+  }
 }

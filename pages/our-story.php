@@ -40,16 +40,14 @@
         <div class="col-12 col-md-6 company-section__data">
           <div>
             <h2 class="default-h2">Our Story</h2>
-            <p>Established in 2005, Dana Gas is the first and largest private sector natural gas company in the Middle East and is listed on the Abu Dhabi Securities Exchange.</p>
-            <p>We have exploration and production, as well as processing and transportation assets in the Kurdistan Region of Iraq (KRI) and Egypt.</p>
-            <p>In the KRI, Dana Gas is engaged in and has interests in upstream, midstream and downstream activities, including the exploration, production and processing of natural gas, gas transmission and the sale of petroleum products.</p>
+            <?php echo get_field('story_description') ?>
 
-            <p>In Egypt, we have high-quality gas assets and our principal operations are focused on developing and producing from 15 fields in the onshore Nile Delta. We are also have potentially three independent prospects with resource potential in the Eastern Mediterranean basin offshore.</p>
+            <div class="showMoreText d-none"><?php echo get_field('show_more_description') ?></div>
 
-            <a href="/" class="btn btnWithProgress up">
+            <button class="btn btn-link pl-0" class="showMore">
               Show more
-              <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-white.png'; ?>" alt="Right arrow icon">
-            </a>
+              <img class="arrow-ic" src="<?php echo get_template_directory_uri() . '/assets/images/icons/dropdown-open-icon.png'; ?>" alt="Dropdown open icon icon">
+            </button>
           </div>
         </div>
 
@@ -62,7 +60,7 @@
   </section>
 
   <!-- Cards section -->
-  <section class="cards-section mb-5">
+  <section class="cards-section story mb-5">
     <div class="container">
       <h2 class="default-h2">Our Story</h2>
       <div class="row mt-3">
@@ -74,7 +72,7 @@
                 <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="Creek Waters by Emaar Properties" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title">Egypt</div>
+                <div class="card-title">Why invest in Dana Gas</div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </div>
             </div>
@@ -88,7 +86,7 @@
                 <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="Creek Waters by Emaar Properties" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title">Egypt</div>
+                <div class="card-title">Vision, strategy & values</div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </div>
             </div>
@@ -102,7 +100,7 @@
                 <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="Creek Waters by Emaar Properties" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title">Egypt</div>
+                <div class="card-title">Group structure</div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </div>
             </div>

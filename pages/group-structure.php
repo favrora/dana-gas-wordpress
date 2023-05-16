@@ -32,9 +32,76 @@
     </div>
   </section>
 
+  <!-- Table section -->
+  <section class="table-section mt-4 mb-5">
+    <div class="container">
+      <h2 class="default-h2">Group structure</h2>
+      <p>Principal subsidiaries and joint arrangements of the Group and the Group interest of ordinary share capital or interest are set out below:</p>
+
+      <table class="table-data">
+        <thead>
+          <tr>
+            <th>Subsidiaries</th>
+            <th>Ownership</th>
+            <th>Country of incorporation</th>
+            <th>Principal activities</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>The table body</td>
+            <td>The table body</td>
+            <td>The table body</td>
+            <td>The table body</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="table-data">
+        <thead>
+          <tr>
+            <th>Joint Operations</th>
+            <th>Ownership</th>
+            <th>Area of operation</th>
+            <th>Principal activities</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>The table body</td>
+            <td>The table body</td>
+            <td>The table body</td>
+            <td>The table body</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="table-data">
+        <thead>
+          <tr>
+            <th>Joint Ventures</th>
+            <th>Ownership</th>
+            <th>Country/Area of operation</th>
+            <th>Principal activities</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>The table body</td>
+            <td>The table body</td>
+            <td>The table body</td>
+            <td>The table body</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </section>
+
   <!-- Cards section -->
   <section class="cards-section mb-5">
     <div class="container">
+      <h2 class="default-h2">Our Story</h2>
       <div class="row mt-3">
 
         <div class="col-12 col-md-4 mb-3">
@@ -44,7 +111,7 @@
                 <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="Creek Waters by Emaar Properties" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title">Egypt</div>
+                <div class="card-title">Why invest in Dana Gas</div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </div>
             </div>
@@ -58,7 +125,7 @@
                 <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="Creek Waters by Emaar Properties" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title">Egypt</div>
+                <div class="card-title">Vision, strategy & values</div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </div>
             </div>
@@ -72,7 +139,7 @@
                 <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="Creek Waters by Emaar Properties" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title">Egypt</div>
+                <div class="card-title">Group structure</div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </div>
             </div>

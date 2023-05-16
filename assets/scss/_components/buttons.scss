@@ -50,6 +50,36 @@
   }
 }
 
+.btn.btn-link {
+  background: transparent;
+  border: none;
+  color: #515151;
+  font-weight: bold;
+  transition: $transitionSpeed;
+
+  &:hover {
+    color: #000000;
+    border: none;
+    background: transparent;
+  }
+
+  .arrow-ic {
+    filter: brightness(0%);
+    margin-left: 5px;
+    transition: $transitionSpeed;
+  }
+
+  &.active {
+    .arrow-ic {
+      transform: rotate(180deg);
+    }
+  }
+
+  &.pl-0 {
+    padding-left: 0;
+  }
+}
+
 // Progress Button
 .btn .dot-pulse {
   position: absolute;

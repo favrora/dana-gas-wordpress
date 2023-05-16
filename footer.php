@@ -15,7 +15,7 @@
               <a href="/">Our Story</a>
               <a href="/">Why Invest in Dana Gas</a>
               <a href="/">Vision, Strategy & Values</a>
-              <a href="/">Group Structure</a>
+              <a href="/group-structure">Group Structure</a>
             </div>
           </div>
 
