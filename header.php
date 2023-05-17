@@ -29,10 +29,10 @@
         </div>
 
         <div class="dropdown-list">
-          <a href="/about-us">Our Story</a>
-          <a href="/about-us">Why Invest in Dana Gas</a>
-          <a href="/">Vision, Strategy & Values</a>
-          <a href="/group-structure">Group Structure</a>
+          <a href="/about-us/overview/">Our Story</a>
+          <a href="/about-us/overview/1537-2/">Why Invest in Dana Gas</a>
+          <a href="/about-us/overview/vision-strategy-values/">Vision, Strategy & Values</a>
+          <a href="/about-us/overview/group-structure/">Group Structure</a>
         </div>
       </li>
 
@@ -44,9 +44,9 @@
         </div>
 
         <div class="dropdown-list">
-          <a href="/">Egypt</a>
-          <a href="/">Kurdistan Region of Iraq</a>
-          <a href="/">United Arab Emirates</a>
+          <a href="/operations/egypt/">Egypt</a>
+          <a href="/operations/kri/">Kurdistan Region of Iraq</a>
+          <a href="/operations/united-arab-emirates/">United Arab Emirates</a>
         </div>
       </li>
 
@@ -88,8 +88,8 @@
         </div>
       </li>
 
-      <li><a href="/" class="dropdown__title-link">Careers</a></li>
-      <li><a href="/contact-us" class="dropdown__title-link">Contact us</a></li>
+      <li><a href="/careers/" class="dropdown__title-link">Careers</a></li>
+      <li><a href="/contact/" class="dropdown__title-link">Contact us</a></li>
     </ul>
   </div>
 </header>

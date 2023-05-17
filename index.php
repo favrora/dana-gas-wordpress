@@ -1,3 +1,10 @@
+<?php
+/*
+* Template Name: Home
+*/
+global $danagas;
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -39,7 +46,7 @@
           <div class="mouse-icon">
             <div class="mouse-icon-ln"></div>
           </div>
-          <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/triangle-down-white.png'; ?>" class="scroller'; ?>" alt="Triangle down icon">
+          <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/triangle-down-white.png'; ?>" class="scroller" alt="Triangle down icon">
         </div>
       </div>
 
