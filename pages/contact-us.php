@@ -28,66 +28,42 @@
   <section class="about-section" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/contact-us-bg.png'; ?>)">
     <div class="about-overlay"></div>
     <div class="container">
-      <h1>Contact US</h1>
+      <h1><?php echo get_field('contact_us_title') ?></h1>
     </div>
   </section>
 
   <!-- Group contacts section -->
   <section class="group-section">
     <div class="container">
-      <h2 class="default-h2">Group contacts</h2>
+      <h2 class="default-h2"><?php echo get_field('contact_us_title_2') ?></h2>
 
       <div class="row mt-4">
 
         <div class="col-12 col-md-6 col-lg-3 mb-3">
           <div class="group-section__contact">
-            <div class="group-section__contact-title">Head Office Switchboard</div>
-
-            <div>PO Box 2011</div>
-            <div>Sharjah, United Arab Emirates</div>
-
-            <div class="mt-1">T: +971 (0)6 5194444</div>
-            <div>F: +971 (0)6 556 6522</div>
-            <div>Email: mail@danagas.com</div>
-
+            <div class="group-section__contact-title"><?php echo get_field('head_office_title') ?></div>
+            <?php echo get_field('head_office_description') ?>
           </div>
         </div>
 
         <div class="col-12 col-md-6 col-lg-3 mb-3">
           <div class="group-section__contact">
-            <div class="group-section__contact-title">Human Resources</div>
-
-            <div>PO Box 2011</div>
-            <div>Sharjah, United Arab Emirates</div>
-
-            <div class="mt-1">Email: careers@danagas.com</div>
-
+            <div class="group-section__contact-title"><?php echo get_field('human_resources_title') ?></div>
+            <?php echo get_field('human_resources_description') ?>
           </div>
         </div>
 
         <div class="col-12 col-md-6 col-lg-3 mb-3">
           <div class="group-section__contact">
-            <div class="group-section__contact-title">Investor Relations & Corporate Communication</div>
-
-            <div>PO Box 2011</div>
-            <div>Sharjah, United Arab Emirates</div>
-
-            <div class="mt-1">T: +971 (0)6 519 4499</div>
-            <div>F: +971 (0)6 556 6522</div>
-            <div>Email: ir@danagas.com</div>
-
+            <div class="group-section__contact-title"><?php echo get_field('investor_relations_title') ?></div>
+            <?php echo get_field('investor_relations_description') ?>
           </div>
         </div>
 
         <div class="col-12 col-md-6 col-lg-3 mb-3">
           <div class="group-section__contact">
-            <div class="group-section__contact-title">Contracts & Purchasing Department</div>
-
-            <div>Sharjah,</div>
-            <div>United Arab Emirates</div>
-
-            <div class="mt-1">Email: purchasing@danagas.com</div>
-
+            <div class="group-section__contact-title"><?php echo get_field('contracts_department_title') ?></div>
+            <?php echo get_field('contracts_department_description') ?>
           </div>
         </div>
 
@@ -97,17 +73,17 @@
   <!-- Form section -->
   <section class="form-section">
     <div class="container">
-      <h2 class="default-h2 text-center">Latest news updates</h2>
-      <p class="form-section__desc">Let's get this conversation started. Tell us a bit about yourself, and we'll get in touch as soon as we can.</p>
+      <h2 class="default-h2 text-center"><?php echo get_field('contact_form_title') ?></h2>
+      <p class="form-section__desc"><?php echo get_field('contact_form_description') ?></p>
 
       <form class="form-section__form mt-3">
         <div class="row">
           <div class="col-12 col-md-6">
-            <input type="text" name="first_name" placeholder="First Name:*">
+            <input type="text" name="first_name" placeholder="<?php echo get_field('contact_first_name_input') ?>:*">
           </div>
 
           <div class="col-12 col-md-6">
-            <input type="text" name="last_name" placeholder="Last Name:*">
+            <input type="text" name="last_name" placeholder="<?php echo get_field('contact_last_name_input') ?>:*">
           </div>
 
           <div class="col-12 col-md-6">
@@ -116,7 +92,7 @@
           </div>
 
           <div class="col-12 col-md-6">
-            <input type="email" name="email" placeholder="Email Address:*">
+            <input type="email" name="email" placeholder="<?php echo get_field('contact_email_address_input') ?>:*">
           </div>
 
           <div class="col-12 col-md-6">
@@ -128,16 +104,16 @@
           </div>
 
           <div class="col-12 col-md-6">
-            <input type="text" name="company_name" placeholder="Company Name:">
+            <input type="text" name="company_name" placeholder="<?php echo get_field('contact_company_name_input') ?>:">
           </div>
 
           <div class="col-12">
-            <textarea class="form-control" rows="3" placeholder="Comments:*"></textarea>
+            <textarea class="form-control" rows="3" placeholder="<?php echo get_field('contact_comments_input') ?>:*"></textarea>
           </div>
 
           <div class="col-12 text-center">
             <button class="btn btnWithProgress mt-3 up">
-              Submit
+              <?php echo get_field('contact_form_button') ?>
               <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-white.png'; ?>" alt="Right arrow icon">
             </button>
           </div>
@@ -154,63 +130,40 @@
       <div class="row">
 
         <div class="col-12 d-flex justify-content-center mb-4">
-          <div class="location-section__country active" data-switch="1">UAE</div>
-          <div class="location-section__country" data-switch="2">Egypt</div>
-          <div class="location-section__country" data-switch="3">KRI</div>
+          <div class="location-section__country active" data-switch="1"><?php echo get_field('uae_title') ?></div>
+          <div class="location-section__country" data-switch="2"><?php echo get_field('egypt_title') ?></div>
+          <div class="location-section__country" data-switch="3"><?php echo get_field('kri_title') ?></div>
         </div>
 
         <!-- UAE office location -->
         <div class="col-12 col-md-6 switchLocation">
-          <h2 class="default-h2">Dana Gas UAE</h2>
-          <p>Crescent Tower 11th Floor<br>
-            Al Buhaira Corniche PO Box 2011<br>
-            Sharjah, United Arab Emirates
-          </p>
-
-          <p>T:+971 (0)6 5194444<br>
-            F:+971 (0)6 556 6522<br>
-            mail@danagas.com
-          </p>
+          <h2 class="default-h2"><?php echo get_field('dana_gas_uae') ?></h2>
+          <?php echo get_field('location_uae_details') ?>
 
           <a href="/" class="btn btnWithProgress mt-3 up">
-            View all
+            <?php echo get_field('button_view_all') ?>
             <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-white.png'; ?>" alt="Right arrow icon">
           </a>
         </div>
 
         <!-- Egypt office location -->
         <div class="col-12 col-md-6 switchLocation d-none">
-          <h2 class="default-h2">Dana Gas Egypt</h2>
-          <p>Plot 188, City Center,<br>
-            Fifth Settlement, New Cairo, Egypt
-          </p>
-
-          <p>T:+20 (0)2 250 333 33<br>
-            F:+20 (0)2 250 333 31<br>
-            dg_egypt@danagas.com
-          </p>
+          <h2 class="default-h2"><?php echo get_field('dana_gas_egypt') ?></h2>
+          <?php echo get_field('location_egypt_details') ?>
 
           <a href="/" class="btn btnWithProgress mt-3 up">
-            View all
+            <?php echo get_field('button_view_all') ?>
             <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-white.png'; ?>" alt="Right arrow icon">
           </a>
         </div>
 
         <!-- KRI office location -->
         <div class="col-12 col-md-6 switchLocation d-none">
-          <h2 class="default-h2">Dana Gas KRI</h2>
-          <p>Salim Street<br>
-            Qaiwan Towers -12th floor.<br>
-            Sulaymaniyah<br>
-            Kurdistan Region, Iraq
-          </p>
-
-          <p>T:+964 53 327 2077<br>
-            dg_kurdistan@danagas.com
-          </p>
+          <h2 class="default-h2"><?php echo get_field('dana_gas_kri') ?></h2>
+          <?php echo get_field('location_kri_details') ?>
 
           <a href="/" class="btn btnWithProgress mt-3 up">
-            View all
+            <?php echo get_field('button_view_all') ?>
             <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-white.png'; ?>" alt="Right arrow icon">
           </a>
         </div>

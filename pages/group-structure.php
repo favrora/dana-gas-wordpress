@@ -28,72 +28,21 @@
   <section class="about-section" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/about-us-bg.png'; ?>')">
     <div class="about-overlay"></div>
     <div class="container">
-      <h1>About Us</h1>
+      <h1><?php echo get_field('about_us_global_title') ?></h1>
     </div>
   </section>
 
   <!-- Table section -->
   <section class="table-section mt-4 mb-5">
     <div class="container">
-      <h2 class="default-h2">Group structure</h2>
-      <p>Principal subsidiaries and joint arrangements of the Group and the Group interest of ordinary share capital or interest are set out below:</p>
+      <h2 class="default-h2"><?php echo get_field('group_structure_title') ?></h2>
+      <p><?php echo get_field('group_structure_description') ?></p>
 
-      <table class="table-data">
-        <thead>
-          <tr>
-            <th>Subsidiaries</th>
-            <th>Ownership</th>
-            <th>Country of incorporation</th>
-            <th>Principal activities</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>The table body</td>
-            <td>The table body</td>
-            <td>The table body</td>
-            <td>The table body</td>
-          </tr>
-        </tbody>
-      </table>
+      <?php echo get_field('group_structure_subsidiaries_table') ?>
 
-      <table class="table-data">
-        <thead>
-          <tr>
-            <th>Joint Operations</th>
-            <th>Ownership</th>
-            <th>Area of operation</th>
-            <th>Principal activities</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>The table body</td>
-            <td>The table body</td>
-            <td>The table body</td>
-            <td>The table body</td>
-          </tr>
-        </tbody>
-      </table>
+      <?php echo get_field('group_structure_joint_operations_table') ?>
 
-      <table class="table-data">
-        <thead>
-          <tr>
-            <th>Joint Ventures</th>
-            <th>Ownership</th>
-            <th>Country/Area of operation</th>
-            <th>Principal activities</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>The table body</td>
-            <td>The table body</td>
-            <td>The table body</td>
-            <td>The table body</td>
-          </tr>
-        </tbody>
-      </table>
+      <?php echo get_field('group_structure_joint_ventures_table') ?>
 
     </div>
   </section>

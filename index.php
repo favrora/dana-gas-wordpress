@@ -29,14 +29,14 @@ global $danagas;
     <div class="about-overlay"></div>
     <div class="container">
       <div class="about-box">
-        <div class="about-pre-title">We are Focused on</div>
+        <div class="about-pre-title"><?php echo get_field('pre_title') ?></div>
 
         <h1><?php echo get_field('title') ?></h1>
 
         <div class="about-end-title"><?php echo get_field('after_title') ?></div>
 
         <a href="/" class="btn btnWithProgress up">
-          Learn more
+          <?php echo get_field('title_button') ?>
           <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-white.png'; ?>" alt="Right arrow icon">
         </a>
       </div>
@@ -56,8 +56,8 @@ global $danagas;
         </div>
 
         <div>
-          <div class="about-info-box__title">Dana Gas</div>
-          <div class="about-info-box__desc">Sustainability</div>
+          <div class="about-info-box__title"><?php echo get_field('info_box_title') ?></div>
+          <div class="about-info-box__desc"><?php echo get_field('info_box_description') ?></div>
         </div>
       </div>
     </div>
@@ -67,7 +67,7 @@ global $danagas;
   <section class="operations-section">
     <div class="container">
       <div class="operations-section__pre-title">Operations</div>
-      <h2 class="default-h2 uppercase-h2">Exploration & Production assets</h2>
+      <h2 class="default-h2 uppercase-h2"><?php echo get_field('operations_title') ?></h2>
 
       <div class="row mt-3">
 
@@ -115,7 +115,7 @@ global $danagas;
       </div>
 
       <a href="/" class="btn btnWithProgress mt-4 up">
-        View all
+        <?php echo get_field('operations_button') ?>
         <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-white.png'; ?>" alt="Right arrow icon">
       </a>
     </div>
@@ -128,19 +128,19 @@ global $danagas;
       <div class="row">
 
         <div class="col-12 col-md-6 col-lg-4 investors-section__box">
-          <div class="text-brand mb-3">Investors</div>
-          <h2 class="default-h2">The results centre</h2>
-          <div class="investors-section__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industy.
+          <div class="text-brand mb-3"><?php echo get_field('investors_pre_title') ?></div>
+          <h2 class="default-h2"><?php echo get_field('investors_title') ?></h2>
+          <div class="investors-section__desc"><?php echo get_field('investors_description') ?>
           </div>
           <a href="/" class="btn btnWithProgress mt-4 up">
-            View all
+            <?php echo get_field('investors_button') ?>
             <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-white.png'; ?>" alt="Right arrow icon">
           </a>
         </div>
 
         <div class="col-12 col-md-6 col-lg-3">
           <div class="result-block">
-            <div class="result-block__pre-title">Latest result</div>
+            <div class="result-block__pre-title"><?php echo get_field('latest_result') ?></div>
             <div class="result-block__title">2022</div>
 
             <img class="result-block__bg" src="<?php echo get_template_directory_uri() . '/assets/images/result-block-bg.png'; ?>" loading="lazy">
@@ -212,20 +212,20 @@ global $danagas;
       <div class="row">
 
         <div class="col-12 col-md-6 col-lg-4 story-section__text">
-          <div class="text-brand mb-3">Latest video</div>
-          <h2 class="default-h2">Hear from the ceo</h2>
-          <div>Established in 2005, Dana Gas is the first and largest private sector natural gas company in the Middle East and is listed on the Abu Dhabi Securities Exchange.</div>
+          <div class="text-brand mb-3"><?php echo get_field('video_pre_title') ?></div>
+          <h2 class="default-h2"><?php echo get_field('ceo_title') ?></h2>
+          <div><?php echo get_field('ceo_description') ?></div>
 
           <a href="/" class="btn btnWithProgress mt-4 up">
-            Our story
+            <?php echo get_field('ceo_button') ?>
             <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-white.png'; ?>" alt="Right arrow icon">
           </a>
         </div>
 
         <div class="col-12 col-md-6 col-lg-8 story-section__video">
-          <img src="<?php echo get_template_directory_uri() . '/assets/images/video-preview.png'; ?>" id="previewImg" alt=" Video preview" loading="lazy">
+          <img src="<?php echo get_field('ceo_video_peview_image_link'); ?>" id="previewImg" alt=" Video preview" loading="lazy">
           <video id="previewVideo" class="d-none" preload="none">
-            <source src="https://ftp.f1nalboss.de/data/imgly/videoplayer/testvid.mp4" type="video/mp4" />
+            <source src="<?php echo get_field('ceo_video_link') ?>" type="video/mp4" />
           </video>
 
           <div class="story-section__play">
