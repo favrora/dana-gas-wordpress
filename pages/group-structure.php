@@ -57,7 +57,7 @@
           <a href="/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="Creek Waters by Emaar Properties" loading="lazy">
+                <img src="<?php echo get_field('why_invest_in_dana_gas') ?>" alt="Why invest in Dana Gas" loading="lazy">
               </div>
               <div class="card-body">
                 <div class="card-title">Why invest in Dana Gas</div>
@@ -71,7 +71,7 @@
           <a href="/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="Creek Waters by Emaar Properties" loading="lazy">
+                <img src="<?php echo get_field('vision_strategy_values_image') ?>" alt="Vision, strategy & values" loading="lazy">
               </div>
               <div class="card-body">
                 <div class="card-title">Vision, strategy & values</div>
@@ -85,7 +85,7 @@
           <a href="/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="Creek Waters by Emaar Properties" loading="lazy">
+                <img src="<?php echo get_field('group_structure_image') ?>" alt="Group structure" loading="lazy">
               </div>
               <div class="card-body">
                 <div class="card-title">Group structure</div>

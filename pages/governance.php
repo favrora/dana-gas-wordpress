@@ -33,7 +33,7 @@
   </section>
 
   <!-- Title section -->
-  <section class="title-section story pt-3 pb-5" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/about-shape-bg.png'; ?>)">
+  <section class="title-section top-bg-section story pt-3 pb-5" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/about-shape-bg.png'; ?>)">
     <div class="container text-center">
       <h2 class="default-h2"><?php echo get_field('governance_title') ?></h2>
       <p><?php echo get_field('governance_description') ?></p>
@@ -100,7 +100,7 @@
   </section>
 
   <!-- Governance section -->
-  <section class="governance-section mt-5 mb-5">
+  <section class="governance-section mt-5 pt-3 mb-5">
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-6">
@@ -127,7 +127,7 @@
           <a href="/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="Creek Waters by Emaar Properties" loading="lazy">
+                <img src="<?php echo get_field('board_committees_card_image') ?>" alt="Board Committees" loading="lazy">
               </div>
               <div class="card-body">
                 <div class="card-title">Board Committees</div>
@@ -141,7 +141,7 @@
           <a href="/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="Creek Waters by Emaar Properties" loading="lazy">
+                <img src="<?php echo get_field('governance_reporting_card_image') ?>" alt="Governance Reporting" loading="lazy">
               </div>
               <div class="card-body">
                 <div class="card-title">Governance Reporting</div>

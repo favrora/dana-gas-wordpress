@@ -33,7 +33,7 @@
   </section>
 
   <!-- Company-section -->
-  <section class="company-section pt-5" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/about-shape-bg.png'; ?>)">
+  <section class="company-section top-bg-section pt-5" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/about-shape-bg.png'; ?>)">
     <div class="container">
       <div class="row">
 
@@ -44,7 +44,7 @@
 
             <div class="showMoreText d-none"><?php echo get_field('show_more_description') ?></div>
 
-            <button class="btn btn-link pl-0" class="showMore">
+            <button class="showMoreBtn btn btn-link pl-0">
               <?php echo get_field('button_show_more') ?>
               <img class="arrow-ic" src="<?php echo get_template_directory_uri() . '/assets/images/icons/dropdown-open-icon.png'; ?>" alt="Dropdown open icon icon">
             </button>

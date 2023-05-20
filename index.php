@@ -75,7 +75,7 @@ global $danagas;
           <a href="/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="Creek Waters by Emaar Properties" loading="lazy">
+                <img src="<?php echo get_field('egypt_main_card_image') ?>" alt="Egypt" loading="lazy">
               </div>
               <div class="card-body">
                 <div class="card-title">Egypt</div>
@@ -89,7 +89,7 @@ global $danagas;
           <a href="/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="Creek Waters by Emaar Properties" loading="lazy">
+                <img src="<?php echo get_field('kri_main_card_image') ?>" alt="Kurdistan Region of Iraq" loading="lazy">
               </div>
               <div class="card-body">
                 <div class="card-title">Kurdistan Region of Iraq</div>
@@ -103,7 +103,7 @@ global $danagas;
           <a href="/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="Creek Waters by Emaar Properties" loading="lazy">
+                <img src="<?php echo get_field('uae_main_card_image') ?>" alt="United Arab Emirates" loading="lazy">
               </div>
               <div class="card-body">
                 <div class="card-title">United Arab Emirates</div>

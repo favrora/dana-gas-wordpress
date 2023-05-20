@@ -2,6 +2,7 @@
  ********* Global JS code *********
 
  1. Btn Progress
+ 2. Show more btn
  *********************************/
 
 /******************************
@@ -68,3 +69,22 @@ for (let i = 0; i < footerList.length; ++i) {
     }
   })
 }
+
+/******************************
+ ***** 2. Show more btn *******
+ *****************************/
+const showMoreBtn = document.querySelectorAll(".showMoreBtn"),
+  showMoreText = document.querySelectorAll(".showMoreText");
+
+for (let i = 0; i < showMoreBtn.length; ++i) {
+  showMoreBtn[i].addEventListener("click", function () {
+    if (showMoreText[i].classList.contains("d-none")) {
+      showMoreText[i].classList.remove("d-none")
+      showMoreBtn[i].classList.add("active")
+    } else {
+      showMoreText[i].classList.add("d-none")
+      showMoreBtn[i].classList.remove("active")
+    }
+  })
+}
+

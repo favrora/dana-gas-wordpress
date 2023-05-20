@@ -33,7 +33,7 @@
   </section>
 
   <!-- Company-section -->
-  <section class="company-section pt-5" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/about-shape-bg.png'; ?>)">
+  <section class="company-section top-bg-section pt-5" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/about-shape-bg.png'; ?>)">
     <div class="container">
       <div class="row">
 
@@ -77,7 +77,7 @@
   </section>
 
   <!-- Cards section -->
-  <section class="cards-section mt-5 mb-5">
+  <section class="cards-section mb-5">
     <div class="container">
       <h2 class="default-h2"><?php echo get_field('our_story_global_name') ?></h2>
       <div class="row mt-3">
@@ -86,10 +86,10 @@
           <a href="/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="Creek Waters by Emaar Properties" loading="lazy">
+                <img src="<?php echo get_field('why_invest_in_dana_gas') ?>" alt="Why invest in Dana Gas" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title">Egypt</div>
+                <div class="card-title">Why invest in Dana Gas</div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </div>
             </div>
@@ -100,10 +100,10 @@
           <a href="/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="Creek Waters by Emaar Properties" loading="lazy">
+                <img src="<?php echo get_field('vision_strategy_values_image') ?>" alt="Vision, strategy & values" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title">Egypt</div>
+                <div class="card-title">Vision, strategy & values</div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </div>
             </div>
@@ -114,10 +114,10 @@
           <a href="/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="Creek Waters by Emaar Properties" loading="lazy">
+                <img src="<?php echo get_field('group_structure_image') ?>" alt="Group structure" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title">Egypt</div>
+                <div class="card-title">Group structure</div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </div>
             </div>

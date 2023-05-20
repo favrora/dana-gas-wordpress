@@ -33,15 +33,14 @@
   </section>
 
   <!-- Company-section -->
-  <section class="company-section pt-5" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/about-shape-bg.png'; ?>)">
+  <section class="company-section top-bg-section pt-5" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/about-shape-bg.png'; ?>)">
     <div class="container">
       <div class="row">
 
         <div class="col-12 col-md-6 company-section__data">
           <div>
-            <h2 class="default-h2">About Dana Gas</h2>
-            <p>Established in 2005, Dana Gas is the first and largest private sector natural gas company in the Middle East and is listed on the Abu Dhabi Securities Exchange.</p>
-            <p>We have exploration and production, as well as processing and transportation assets in the Kurdistan Region of Iraq (KRI) and Egypt.</p>
+            <h2 class="default-h2"><?php echo get_field('about_title') ?></h2>
+            <?php echo get_field('about_description') ?>
 
             <a href="/" class="btn btnWithProgress up">
               Read more
@@ -67,10 +66,10 @@
           <a href="/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="Creek Waters by Emaar Properties" loading="lazy">
+                <img src="<?php echo get_field('board_management_card_image') ?>" alt="Board & Management" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title">Egypt</div>
+                <div class="card-title">Board & Management</div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </div>
             </div>
@@ -81,10 +80,10 @@
           <a href="/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="Creek Waters by Emaar Properties" loading="lazy">
+                <img src="<?php echo get_field('governance_card_image') ?>" alt="Governance" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title">Egypt</div>
+                <div class="card-title">Governance</div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </div>
             </div>
@@ -95,10 +94,10 @@
           <a href="/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="Creek Waters by Emaar Properties" loading="lazy">
+                <img src="<?php echo get_field('risk_management_card_image') ?>" alt="Risk management" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title">Egypt</div>
+                <div class="card-title">Risk management</div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </div>
             </div>
