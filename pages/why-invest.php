@@ -28,7 +28,7 @@
   <section class="about-section" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/about-us-bg.png'; ?>')">
     <div class="about-overlay"></div>
     <div class="container">
-      <h1>About US</h1>
+      <h1><?php echo get_field('about_us_global_title') ?></h1>
     </div>
   </section>
 
@@ -39,15 +39,11 @@
 
         <div class="col-12 col-md-6 company-section__data">
           <div>
-            <h2 class="default-h2">Why invest in Dana Gas</h2>
-            <ul class="list-with-arrow" style="list-style-image: url('<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>')">
-              <li>Mena largest</li>
-              <li>Mena largest</li>
-              <li>Mena largest</li>
-            </ul>
+            <h2 class="default-h2"><?php echo get_field('wip_invest_title') ?></h2>
+            <?php echo get_field('wip_invest_list') ?>
 
             <a href="/contact-us" class="btn btnWithProgress up">
-              Contact Us
+              <?php echo get_field('wip_invest_button') ?>
               <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-white.png'; ?>" alt="Right arrow icon">
             </a>
           </div>
@@ -67,21 +63,13 @@
 
       <div class="row">
         <div class="col-12 col-md-6">
-          <h2 class="title-green">KRI</h2>
-          <ul class="list-with-arrow" style="list-style-image: url('<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>')">
-            <li>Mena largest</li>
-            <li>Mena largest</li>
-            <li>Mena largest</li>
-          </ul>
+          <h2 class="title-green"><?php echo get_field('wip_kri_text') ?></h2>
+          <?php echo get_field('wip_invest_kri_list') ?>
         </div>
 
         <div class="col-12 col-md-6">
-          <h2 class="title-green">Egypt</h2>
-          <ul class="list-with-arrow" style="list-style-image: url('<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>')">
-            <li>Mena largest</li>
-            <li>Mena largest</li>
-            <li>Mena largest</li>
-          </ul>
+          <h2 class="title-green"><?php echo get_field('wip_egypt_text') ?></h2>
+          <?php echo get_field('wip_invest_egypt_list') ?>
         </div>
 
       </div>
@@ -91,7 +79,7 @@
   <!-- Cards section -->
   <section class="cards-section mt-5 mb-5">
     <div class="container">
-      <h2 class="default-h2">Our Story</h2>
+      <h2 class="default-h2"><?php echo get_field('our_story_global_name') ?></h2>
       <div class="row mt-3">
 
         <div class="col-12 col-md-4 mb-3">
