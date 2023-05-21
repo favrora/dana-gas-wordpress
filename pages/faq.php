@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Template Name: Faq
+ * Template Name: FAQ
  */
 ?>
 
@@ -33,15 +33,82 @@
 </section>
 
 <!-- Company-section -->
-<section class="company-section top-bg-section pt-5" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/about-shape-bg.png'; ?>)">
-    <div class="container">
-        <div class="row">
-          <h2 class="default-h2"><?php echo get_field('faq_title') ?></h2>
+<section class="company-section top-bg-section pt-5 pb-5" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/about-shape-bg.png'; ?>)">
+  <div class="container">
+    <h2 class="default-h2"><?php echo get_field('faq_title') ?></h2>
 
+    <div class="faq-question-box faqQuestionBox top-border">
+      <div class="faq-question-box__title">
+          <?php echo get_field('faq_question_title_1') ?>
 
+        <div><img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/icons/dropdown-open-icon.png'; ?>" alt="Down arrow icon"></div>
+      </div>
 
-        </div>
+      <div class="faq-question-box__content">
+          <?php echo get_field('faq_question_description_1') ?>
+      </div>
     </div>
+
+    <div class="faq-question-box faqQuestionBox">
+      <div class="faq-question-box__title">
+          <?php echo get_field('faq_question_title2') ?>
+
+        <div><img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/icons/dropdown-open-icon.png'; ?>" alt="Down arrow icon"></div>
+      </div>
+
+      <div class="faq-question-box__content">
+          <?php echo get_field('faq_question_description2') ?>
+      </div>
+    </div>
+
+    <div class="faq-question-box faqQuestionBox">
+      <div class="faq-question-box__title">
+          <?php echo get_field('faq_question_title3') ?>
+
+        <div><img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/icons/dropdown-open-icon.png'; ?>" alt="Down arrow icon"></div>
+      </div>
+
+      <div class="faq-question-box__content">
+          <?php echo get_field('faq_question_description3') ?>
+      </div>
+    </div>
+
+    <div class="faq-question-box faqQuestionBox">
+      <div class="faq-question-box__title">
+          <?php echo get_field('faq_question_title4') ?>
+
+        <div><img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/icons/dropdown-open-icon.png'; ?>" alt="Down arrow icon"></div>
+      </div>
+
+      <div class="faq-question-box__content">
+          <?php echo get_field('faq_question_description4') ?>
+      </div>
+    </div>
+
+    <div class="faq-question-box faqQuestionBox">
+      <div class="faq-question-box__title">
+          <?php echo get_field('faq_question_title5') ?>
+
+        <div><img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/icons/dropdown-open-icon.png'; ?>" alt="Down arrow icon"></div>
+      </div>
+
+      <div class="faq-question-box__content">
+          <?php echo get_field('faq_question_description5') ?>
+      </div>
+    </div>
+
+    <div class="faq-question-box faqQuestionBox">
+      <div class="faq-question-box__title">
+          <?php echo get_field('faq_question_title6') ?>
+
+        <div><img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/icons/dropdown-open-icon.png'; ?>" alt="Down arrow icon"></div>
+      </div>
+
+      <div class="faq-question-box__content">
+          <?php echo get_field('faq_question_description6') ?>
+      </div>
+    </div>
+  </div>
 </section>
 
 <!-- Cards section -->

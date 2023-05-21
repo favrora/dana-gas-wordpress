@@ -10,4 +10,44 @@
 /***************************
  **** 1. Cards section *****
  **************************/
+.faq-question-box {
+  border-bottom: 1px solid #d5d5d5;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
+  &.top-border {
+    border-top: 1px solid #d5d5d5;
+  }
+
+  &__title {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    cursor: pointer;
+
+    div {
+      width: 15px;
+      min-width: 15px;
+      margin-left: 5px;
+    }
+
+    img {
+      transition: $transitionSpeed;
+    }
+  }
+
+  &__content {
+    display: none;
+  }
+
+  &.is-active {
+    .faq-question-box__title img {
+      transform: rotate(180deg);
+    }
+
+    .faq-question-box__content {
+      display: block;
+    }
+  }
+}

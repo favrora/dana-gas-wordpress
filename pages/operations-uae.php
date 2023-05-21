@@ -33,7 +33,7 @@
 </section>
 
 <!-- Company-section -->
-<section class="company-section pt-5" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/operations-bg.png'; ?>)">
+<section class="company-section top-bg-section pt-5" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/about-shape-bg.png'; ?>)">
   <div class="container">
     <div class="row">
 
@@ -52,7 +52,7 @@
       </div>
 
       <div class="col-12 col-md-6 text-center">
-        <img src="<?php echo get_field('our_story_image_link') ?>" class="data-img" alt="About dana gas" loading="lazy">
+        <img src="<?php echo get_field('operations_image_link') ?>" class="data-img" alt="About dana gas" loading="lazy">
       </div>
 
     </div>
