@@ -11800,6 +11800,7 @@ h6,
 .reports-section .reports-nav {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .reports-section .reports-nav__item {
   padding: 10px 25px;
@@ -11809,8 +11810,9 @@ h6,
   background: transparent;
   transition: 350ms;
   cursor: pointer;
+  margin-top: 15px;
 }
-.reports-section .reports-nav__item:hover, .reports-section .reports-nav__item .is-active {
+.reports-section .reports-nav__item:hover, .reports-section .reports-nav__item.is-active {
   background: #4c9e45;
   border-color: #4c9e45;
   color: #ffffff;

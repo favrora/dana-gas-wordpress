@@ -118,13 +118,6 @@
           </ul>
 
           <a href="/investors/reports/">Reports &amp; presentations</a>
-          <ul class="child-menu">
-            <li><a class="child-menu__a" href="/investors/reports/">Annual reports</a></li>
-            <li><a class="child-menu__a" href="/investors/reports/">Presentations</a></li>
-            <li><a class="child-menu__a" href="/investors/reports/">Integrated Report</a></li>
-            <li><a class="child-menu__a" href="/investors/reports">Reserve report</a></li>
-          </ul>
-
           <a href="/investors/regulatory-disclosures/">Regulatory disclosures</a>
           <a href="/investors/sukuk-information/">Sukuk information</a>
           <a href="/investors/key-financials/">Key financials</a>

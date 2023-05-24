@@ -165,7 +165,7 @@
 <section class="reports-section pb-5 pt-5">
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center mb-3">
+      <div class="col-12 text-center mb-2">
         <h2 class="default-h2">Sustainability reports</h2>
       </div>
 
@@ -181,63 +181,63 @@
 
         <div class="reports-links">
           <div class="reports-links__item is-active">
-            <a href="https://www.danagas.com/wp-content/uploads/2022/09/222208_Dana-Gas_Sustainability-Report-Sep8En.pdf" >
+            <a href="https://www.danagas.com/wp-content/uploads/2022/09/222208_Dana-Gas_Sustainability-Report-Sep8En.pdf" target="_blank">
               <div>Sustainability Report 2021</div>
               <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
             </a>
           </div>
 
           <div class="reports-links__item">
-            <a href="https://www.danagas.com/wp-content/uploads/2021/08/2020-Sustainability-Report-web-1.pdf">
+            <a href="https://www.danagas.com/wp-content/uploads/2021/08/2020-Sustainability-Report-web-1.pdf" target="_blank">
               <div>Sustainability Report 2020</div>
               <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
             </a>
           </div>
 
           <div class="reports-links__item">
-            <a href="https://www.danagas.com/wp-content/uploads/2020/11/Dana-Gas-SR_Pages_LR.pdf">
+            <a href="https://www.danagas.com/wp-content/uploads/2020/11/Dana-Gas-SR_Pages_LR.pdf" target="_blank">
               <div>Sustainability Report 2019</div>
               <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
             </a>
 
-            <a href="https://www.danagas.com/wp-content/uploads/2020/04/DGE-Economic-Impact-Report-Eng.pdf">
+            <a href="https://www.danagas.com/wp-content/uploads/2020/04/DGE-Economic-Impact-Report-Eng.pdf" target="_blank">
               <div>Dana Gas Egypt Impact Assessment Report 2019</div>
               <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
             </a>
           </div>
 
           <div class="reports-links__item">
-            <a href="https://www.danagas.com/wp-content/uploads/2019/08/SReport-2018.pdf">
+            <a href="https://www.danagas.com/wp-content/uploads/2019/08/SReport-2018.pdf" target="_blank">
               <div>Sustainability Report 2018</div>
               <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
             </a>
-            <a href="https://www.danagas.com/wp-content/uploads/2019/05/CP-KRI-Rep-2018.pdf">
+            <a href="https://www.danagas.com/wp-content/uploads/2019/05/CP-KRI-Rep-2018.pdf" target="_blank">
               <div>CP KRI report 2018</div>
               <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
             </a>
           </div>
 
           <div class="reports-links__item">
-            <a href="https://www.danagas.com/wp-content/uploads/2019/05/Dana-Gas-SR-2017.pdf">
+            <a href="https://www.danagas.com/wp-content/uploads/2019/05/Dana-Gas-SR-2017.pdf" target="_blank">
               <div>Sustainability Report 2017</div>
               <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
             </a>
           </div>
 
           <div class="reports-links__item">
-            <a href="https://www.danagas.com/wp-content/uploads/2019/05/Dana-Gas-SR-2016-LR.pdf">
+            <a href="https://www.danagas.com/wp-content/uploads/2019/05/Dana-Gas-SR-2016-LR.pdf" target="_blank">
               <div>Sustainability Report 2016</div>
               <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
             </a>
-            <a href="https://www.danagas.com/wp-content/uploads/2019/05/AMAR_DG-Report-Q3.pdf">
+            <a href="https://www.danagas.com/wp-content/uploads/2019/05/AMAR_DG-Report-Q3.pdf" target="_blank">
               <div>AMAR report Q3</div>
               <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
             </a>
-            <a href="https://www.danagas.com/wp-content/uploads/2019/05/AMAR-Report-Q1.pdf">
+            <a href="https://www.danagas.com/wp-content/uploads/2019/05/AMAR-Report-Q1.pdf" target="_blank">
               <div>AMAR report Q1</div>
               <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
             </a>
-            <a href="https://www.danagas.com/wp-content/uploads/2019/05/AMAR-_DG-Report-Q2.pdf">
+            <a href="https://www.danagas.com/wp-content/uploads/2019/05/AMAR-_DG-Report-Q2.pdf" target="_blank">
               <div>AMAR report Q2</div>
               <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
             </a>
