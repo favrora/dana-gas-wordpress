@@ -43,7 +43,7 @@
             <h2 class="default-h2"><?php echo get_field("about_title"); ?></h2>
             <?php echo get_field("about_description"); ?>
 
-            <a href="/" class="btn btnWithProgress up">
+            <a href="/about-us/overview/" class="btn btnWithProgress up">
               Read more
               <img src="<?php echo get_template_directory_uri() .
                 "/assets/images/right-arrow-white.png"; ?>" alt="Right arrow icon">

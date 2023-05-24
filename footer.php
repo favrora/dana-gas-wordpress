@@ -1,5 +1,5 @@
 <!-- Footer section -->
-<footer class="footer-default mt-5">
+<footer class="footer-default mt-3">
 
   <div class="footer-menu">
     <div class="container">
@@ -12,26 +12,12 @@
               <div class="showDropdownList">−</div>
             </div>
             <div class="footer-menu__links">
-              <a href="/about-us/overview/#sec-75">Our story</a>
-              <a href="/about-us/overview/1537-2/#sec-1537">Why invest in Dana Gas</a>
+              <a href="/about-us/overview/">Our story</a>
+              <a href="/about-us/overview/1537-2/">Why invest in Dana Gas</a>
               <a href="/about-us/overview/vision-strategy-values/">Vision, strategy & values</a>
               <a href="/about-us/overview/group-structure/">Group structure</a>
             </div>
           </div>
-
-          <div class="footer-menu__list">
-            <div class="footer-menu__title">
-              <a href="/about-us/board-and-management/board-of-directors">Board &amp; Management</a>
-              <div class="showDropdownList">−</div>
-            </div>
-            <div class="footer-menu__links">
-              <a href="/about-us/board-and-management/board-of-directors/">Board of Directors</a>
-              <a href="/about-us/board-and-management/international-advisory-board/">International Advisory Board</a>
-              <a href="/about-us/board-and-management/senior-executive-management/">Senior Executive Management</a>
-              <a href="/about-us/board-and-management/senior-management/">Senior Management</a>
-            </div>
-          </div>
-
         </div>
 
         <div class="col-12 col-md-6 col-lg-2">
@@ -45,8 +31,6 @@
               <a href="/about-us/governance/governance-reporting/">Governance reporting</a>
             </div>
           </div>
-
-          <a href="/about-us/risk-management/" class="footer-menu__title no-list">Risk Management & Internal Audit</a>
         </div>
 
         <div class="col-12 col-md-6 col-lg-2">
@@ -61,13 +45,9 @@
               <a href="/operations/united-arab-emirates/">United Arab Emirates</a>
             </div>
           </div>
-
-          <a href="/sustainability/" class="footer-menu__title no-list">Sustainability</a>
-          <a href="/careers/" class="footer-menu__title no-list">Careers</a>
-          <a href="/contact/" class="footer-menu__title no-list">Contact Us</a>
         </div>
 
-        <div class="col-12 col-md-6 col-lg-2">
+        <div class="col-12 col-md-6 col-lg-2 d-none">
           <div class="footer-menu__list">
             <div class="footer-menu__title">
               <a href="/media/">Media</a>
@@ -90,17 +70,18 @@
             <div class="footer-menu__links">
               <a href="/investors/results-center/">Results centre</a>
               <a href="/investors/reports/">Reports &amp; presentations</a>
-              <a href="/investors/regulatory-disclosures/">Regulatory disclosures</a>
               <a href="/investors/sukuk-information/">Sukuk information</a>
-              <a href="/investors/key-financials/">Key financials</a>
               <a href="/investors/general-assembly-meeting/">General Assembly Meeting</a>
-              <a href="/investors/shareholder-information/">Shareholder information</a>
-              <a href="/investors/share-price-information-2/">Share price information</a>
-              <a href="/investors/dana-gas-unclaimed-dividend/">Dividend</a>
-              <a href="/investors/event-calender/">Events calendar</a>
               <a href="/investors/faqs/">FAQs</a>
             </div>
           </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-2">
+          <a href="/sustainability/" class="footer-menu__title no-list d-block">Sustainability</a>
+          <a href="/careers/" class="footer-menu__title no-list d-block">Careers</a>
+          <a href="/contact/" class="footer-menu__title no-list d-block">Contact Us</a>
+          <a href="/about-us/board-and-management/board-of-directors" class="footer-menu__title no-list d-block">Board &amp; Management</a>
         </div>
 
       </div>

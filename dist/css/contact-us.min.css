@@ -11858,11 +11858,17 @@ footer.footer-default .footer-menu__list {
 }
 footer.footer-default .footer-menu__title {
   width: 100%;
+  margin-bottom: 5px;
   color: #4c9e45;
   font-size: 18px;
   font-family: "Optima", sans-serif, Arial;
   text-decoration: none;
-  margin-bottom: 5px;
+}
+footer.footer-default .footer-menu__title a {
+  color: #4c9e45;
+  font-size: 18px;
+  font-family: "Optima", sans-serif, Arial;
+  text-decoration: none;
 }
 footer.footer-default .footer-menu__links a {
   display: block;

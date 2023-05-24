@@ -134,7 +134,7 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/investors/shareholder-information/#sec-3820" class="card-link">
+          <a href="/investors/shareholder-information/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_template_directory_uri() .

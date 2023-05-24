@@ -43,7 +43,7 @@
             <h2 class="default-h2"><?php echo get_field("wip_invest_title"); ?></h2>
             <?php echo get_field("wip_invest_list"); ?>
 
-            <a href="/contact-us" class="btn btnWithProgress up">
+            <a href="/contact/" class="btn btnWithProgress up">
               <?php echo get_field("wip_invest_button"); ?>
               <img src="<?php echo get_template_directory_uri() .
                 "/assets/images/right-arrow-white.png"; ?>" alt="Right arrow icon">
@@ -86,7 +86,7 @@
       <div class="row mt-3">
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/about-us/overview/1537-2/#sec-1537" class="card-link">
+          <a href="/about-us/overview/1537-2/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_field(

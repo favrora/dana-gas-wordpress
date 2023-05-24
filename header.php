@@ -31,27 +31,19 @@
         <div class="dropdown-list">
           <a href="/about-us/overview/">About us</a>
           <ul class="child-menu">
-            <li><a class="child-menu__a" href="/about-us/overview/#sec-75">Our story</a></li>
-            <li><a class="child-menu__a" href="/about-us/overview/1537-2/#sec-1537">Why invest in Dana Gas</a></li>
+            <li><a class="child-menu__a" href="/about-us/overview/">Our story</a></li>
+            <li><a class="child-menu__a" href="/about-us/overview/1537-2/">Why invest in Dana Gas</a></li>
             <li><a class="child-menu__a" href="/about-us/overview/vision-strategy-values/">Vision, strategy &amp; values</a></li>
             <li><a class="child-menu__a" href="/about-us/overview/group-structure/">Group structure</a></li>
           </ul>
 
           <a href="/about-us/board-and-management/board-of-directors">Board &amp; Management</a>
-          <ul class="child-menu">
-            <li><a class="child-menu__a" href="/about-us/board-and-management/board-of-directors/">Board of Directors</a></li>
-            <li><a class="child-menu__a" href="/about-us/board-and-management/international-advisory-board/">International Advisory Board</a></li>
-            <li><a class="child-menu__a" href="/about-us/board-and-management/senior-executive-management/">Senior Executive Management</a></li>
-            <li><a class="child-menu__a" href="/about-us/board-and-management/senior-management/">Senior Management</a></li>
-          </ul>
 
           <a href="/about-us/governance/">Governance</a>
           <ul class="child-menu">
             <li><a class="child-menu__a" href="/about-us/governance/committees/">Board committees</a></li>
             <li><a class="child-menu__a" href="/about-us/governance/governance-reporting/">Governance reporting</a></li>
           </ul>
-
-          <a href="/about-us/risk-management/">Risk Management and Internal Audit</a>
         </div>
       </li>
 
@@ -75,7 +67,7 @@
         </div>
       </li>
 
-      <li class="dropdown">
+      <li class="dropdown d-none">
         <div class="dropdown-title">
           <a href="/media/">Media</a>
           <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/dropdown-open-icon.png'; ?>" alt="Dropdown open icon">
@@ -99,14 +91,8 @@
         <div class="dropdown-list">
           <a href="/investors/results-center/">Results centre</a>
           <a href="/investors/reports/">Reports &amp; presentations</a>
-          <a href="/investors/regulatory-disclosures/">Regulatory disclosures</a>
           <a href="/investors/sukuk-information/">Sukuk information</a>
-          <a href="/investors/key-financials/">Key financials</a>
           <a href="/investors/general-assembly-meeting/">General Assembly Meeting</a>
-          <a href="/investors/shareholder-information/">Shareholder information</a>
-          <a href="/investors/share-price-information-2/">Share price information</a>
-          <a href="/investors/dana-gas-unclaimed-dividend/">Dividend</a>
-          <a href="/investors/event-calender/">Events calendar</a>
           <a href="/investors/faqs/">FAQs</a>
         </div>
       </li>
