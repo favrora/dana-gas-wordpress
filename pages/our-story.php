@@ -46,7 +46,7 @@
 
             <button class="showMoreBtn btn btn-link pl-0">
               <?php echo get_field('button_show_more') ?>
-              <img class="arrow-ic" src="<?php echo get_template_directory_uri() . '/assets/images/icons/dropdown-open-icon.png'; ?>" alt="Dropdown open icon icon">
+              <img class="arrow-ic" src="<?php echo get_template_directory_uri() . '/assets/images/icons/dropdown-open-icon.png'; ?>" alt="Dropdown open icon">
             </button>
           </div>
         </div>

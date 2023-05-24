@@ -1,0 +1,100 @@
+/***********************************
+ ******* Operations KRI Code *******
+
+ 1. Company section
+ 2. Overview block
+ 3. Cards section
+ **********************************/
+
+@import "_app";
+@import "_components/card";
+
+/****************************
+ **** 1. Company section ****
+ ***************************/
+.company-section {
+  padding-bottom: 120px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .company-section__data {
+    display: flex;
+    align-items: center;
+
+    @media (min-width: $tablet) {
+      padding-right: 40px;
+    }
+
+    @media (max-width: $tablet) {
+      margin-bottom: 30px;
+    }
+  }
+
+  .data-img {
+    max-width: 550px;
+    width: 100%;
+  }
+}
+
+.content-vertical-center {
+  display: flex;
+  align-items: center;
+
+  h2 {
+    width: 100%;
+  }
+}
+
+/*****************************
+ ***** 2. Overview block *****
+ ****************************/
+.overview-blocks {
+  .overview-item {
+    width: 330px;
+    background: white;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    padding: 20px;
+    display: flex;
+    margin-bottom: 20px;
+
+    &__img {
+      margin-right: 10px;
+      width: 47px;
+      display: flex;
+      align-items: center;
+    }
+
+    &__pre-title {
+      width: 100%;
+      margin-bottom: 5px;
+    }
+
+    &__title-main {
+      color: #1f4388;
+      line-height: 0.8;
+      font-size: 27px;
+      font-family: $font-family-title;
+      margin-right: 3px;
+    }
+
+    &__title-info {
+      color: $brand-primary;
+      font-family: $font-family-title;
+    }
+  }
+}
+
+/****************************
+ ***** 3. Cards section *****
+ ***************************/
+.cards-section {
+  text-align: center;
+  text-transform: uppercase;
+
+  &.story {
+    .card .card-body .card-title {
+      text-transform: none;
+    }
+  }
+}

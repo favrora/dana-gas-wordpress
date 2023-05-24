@@ -49,4 +49,21 @@
   &__data {
     color: #717171;
   }
+
+  &__data {
+    align-items: center;
+    margin-right: 15px;
+  }
+
+  &__data-icon {
+    background: #4c9e45;
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

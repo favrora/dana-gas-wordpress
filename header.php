@@ -64,23 +64,8 @@
 
         <div class="dropdown-list">
           <a href="/operations/egypt/">Egypt</a>
-          <ul class="child-menu">
-            <li><a class="child-menu__a" href="/operations/egypt/">Overview &amp; reserves</a></li>
-            <li><a class="child-menu__a" href="/operations/egypt/onshore-assets/">Onshore assets</a></li>
-          </ul>
-
           <a href="/operations/kri/">Kurdistan Region of Iraq</a>
-          <ul class="child-menu">
-            <li><a class="child-menu__a" href="/operations/kri/">Overview &amp; Reserves</a></li>
-            <li><a class="child-menu__a" href="/operations/kri/settlement/">Settlement</a></li>
-            <li><a class="child-menu__a" href="/operations/kri/development-and-growth/">Development &amp; growth</a></li>
-            <li><a class="child-menu__a" href="/operations/kri/gas-sale-agreements/">Gas Sale Agreements</a></li>
-          </ul>
-
           <a href="/operations/united-arab-emirates/">United Arab Emirates</a>
-          <ul class="child-menu">
-            <li><a class="child-menu__a" href="/operations/united-arab-emirates/">UAE Gas Project</a></li>
-          </ul>
         </div>
       </li>
 
@@ -156,15 +141,7 @@
 
       <li class="dropdown">
         <div class="dropdown-title">
-          <a href="https://www.danagas.com/careers/">Careers</a>
-          <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/dropdown-open-icon.png'; ?>" alt="Dropdown open icon">
-          <div class="showDropdownList">−</div>
-        </div>
-
-        <div class="dropdown-list">
-          <a href="/careers/working-with-us/">Working with us</a>
-          <a href="/careers/career-opportunities/">Career opportunities</a>
-          <a href="/careers/employment-scam-disclaimer/">Employment scam disclaimer</a>
+          <a href="/careers/">Careers</a>
         </div>
       </li>
 

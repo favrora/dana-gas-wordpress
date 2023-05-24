@@ -11,8 +11,8 @@ gulp.task("sass", function () {
   return gulp
     .src("assets/scss/*.scss", { ignore: ["assets/scss/_*.scss"] })
     .pipe(gulpSass())
-    .pipe(autoprefixer())
-    .pipe(cleanCSS())
+    // .pipe(autoprefixer())
+    // .pipe(cleanCSS())
     .pipe(
       rename(function (path) {
         path.basename += ".min"
