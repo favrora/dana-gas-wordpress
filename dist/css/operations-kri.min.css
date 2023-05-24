@@ -11844,3 +11844,8 @@ h6,
 .reports-section .reports-links__item a:hover {
   background: #e3e3e3;
 }
+.reports-section .reports-links__item a .pres-date {
+  width: 100%;
+  color: #4c9e45;
+  font-size: 14px;
+}
