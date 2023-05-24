@@ -1,0 +1,50 @@
+/*******************************
+ *** Board of directors Code ***
+
+ 1. Cards section
+ 2. Contact section
+ ******************************/
+
+@import "_app";
+@import "_components/card";
+
+/****************************
+ ***** 1. Cards section *****
+ ***************************/
+.cards-section {
+  text-align: center;
+  text-transform: uppercase;
+
+  .card .card-body .card-title {
+    text-transform: none;
+  }
+}
+
+/****************************
+ **** 2. Contact section ****
+ ***************************/
+.directors-section {
+  .card-link {
+    .card {
+      background: transparent;
+      box-shadow: none;
+    }
+
+    .card-body {
+      flex-wrap: wrap;
+      flex: 0;
+
+      .card-title {
+        width: 100%;
+        color: #1f4388;
+        font-size: 20px;
+      }
+
+      .desc {
+        text-transform: none;
+        color: #525252;
+        font-size: 18px;
+      }
+    }
+  }
+}

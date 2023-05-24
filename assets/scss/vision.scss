@@ -1,0 +1,33 @@
+/*******************************
+ *** Board of directors Code ***
+
+ 1. Cards section
+ ******************************/
+
+@import "_app";
+@import "_components/card";
+
+/****************************
+ ***** 1. Cards section *****
+ ***************************/
+.cards-section {
+  text-align: center;
+  text-transform: uppercase;
+
+  .card .card-body .card-title {
+    text-transform: none;
+  }
+}
+
+.first-section {
+  padding-bottom: 120px;
+
+  h3 {
+    margin: 15px 0 10px;
+  }
+
+  img {
+    border-radius: 10px;
+  }
+}
+
