@@ -70,10 +70,12 @@
       <div class="row mt-3">
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/" class="card-link">
+          <a href="/about-us/overview/1537-2/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="Creek Waters by Emaar Properties" loading="lazy">
+                <img src="<?php echo get_field(
+                  "why_invest_in_dana_gas"
+                ); ?>" alt="Why invest in Dana Gas" loading="lazy">
               </div>
               <div class="card-body">
                 <div class="card-title">Why invest in Dana Gas</div>
@@ -85,10 +87,12 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/" class="card-link">
+          <a href="/about-us/overview/vision-strategy-values/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="Creek Waters by Emaar Properties" loading="lazy">
+                <img src="<?php echo get_field(
+                  "vision_strategy_values_image"
+                ); ?>" alt="Vision, strategy & values" loading="lazy">
               </div>
               <div class="card-body">
                 <div class="card-title">Vision, strategy & values</div>
@@ -100,10 +104,10 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/" class="card-link">
+          <a href="/about-us/overview/group-structure/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="Creek Waters by Emaar Properties" loading="lazy">
+                <img src="<?php echo get_field("group_structure_image"); ?>" alt="Group structure" loading="lazy">
               </div>
               <div class="card-body">
                 <div class="card-title">Group structure</div>

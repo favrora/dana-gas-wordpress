@@ -28,6 +28,17 @@
     .card {
       background: transparent;
       box-shadow: none;
+
+      .card-header {
+        filter: brightness(1);
+        transition: 350ms;
+      }
+
+      &:hover {
+        .card-header {
+          filter: brightness(0.5);
+        }
+      }
     }
 
     .card-body {

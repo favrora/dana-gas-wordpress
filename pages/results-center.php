@@ -226,8 +226,6 @@
 
 
           <div class="reports-links__item">
-            <a href="https://www.danagas.com/wp-content/uploads/2022/03/DG-PR.pdf" target="_blank"><div>FY 2021 – Press Release
-            </a>
             <a href="https://www.danagas.com/wp-content/uploads/2022/03/Dana-Gas-PJSC-FY-2021-financial-statements-English.pdf" target="_blank"><div>FY 2021 – Financial Statements</div>
               <img class="arrow" src="<?php echo get_template_directory_uri() .
                 "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">

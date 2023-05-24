@@ -11821,7 +11821,6 @@ h6,
 .reports-section .reports-links {
   background: #ffffff;
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.1019607843);
-  padding: 10px;
   border-radius: 5px;
   margin-top: 15px;
 }
@@ -11838,11 +11837,10 @@ h6,
   color: #000000;
   text-decoration: none;
   font-weight: bold;
-  margin-top: 10px;
-}
-.reports-section .reports-links__item a:first-child {
-  margin-top: 0;
+  padding: 10px 15px;
+  border-bottom: 1px solid #e3e3e3;
+  transition: 350ms;
 }
 .reports-section .reports-links__item a:hover {
-  text-decoration: underline;
+  background: #e3e3e3;
 }

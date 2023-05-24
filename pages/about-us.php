@@ -66,7 +66,7 @@
       <div class="row mt-3">
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/" class="card-link">
+          <a href="/about-us/board-and-management/board-of-directors" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_field(
@@ -83,7 +83,7 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/" class="card-link">
+          <a href="/about-us/governance/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_field("governance_card_image"); ?>" alt="Governance" loading="lazy">
@@ -98,7 +98,7 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/" class="card-link">
+          <a href="/about-us/risk-management/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_field("risk_management_card_image"); ?>" alt="Risk management" loading="lazy">

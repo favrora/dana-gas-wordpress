@@ -125,10 +125,11 @@
         <div class="row mt-3">
 
             <div class="col-12 col-md-4 mb-3">
-                <a href="/" class="card-link">
+                <a href="/investors/reports/" class="card-link">
                     <div class="card">
                         <div class="card-header">
-                            <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="View our Annual report 2019" loading="lazy">
+                          <img src="<?php echo get_template_directory_uri() .
+                            "/assets/images/investors/annual-report.png"; ?>" alt="View our Annual report 2019" loading="lazy">
                         </div>
                         <div class="card-body">
                             <div class="card-title">View our Annual report 2019</div>
@@ -140,10 +141,11 @@
             </div>
 
             <div class="col-12 col-md-4 mb-3">
-                <a href="/" class="card-link">
+                <a href="/investors/event-calender/" class="card-link">
                     <div class="card">
                         <div class="card-header">
-                            <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="Events Calendar" loading="lazy">
+                          <img src="<?php echo get_template_directory_uri() .
+                            "/assets/images/investors/events-calendar.png"; ?>" alt="Events Calendar" loading="lazy">
                         </div>
                         <div class="card-body">
                             <div class="card-title">Events Calendar</div>
@@ -154,22 +156,22 @@
                 </a>
             </div>
 
-            <div class="col-12 col-md-4 mb-3">
-                <a href="/" class="card-link">
-                    <div class="card">
-                        <div class="card-header">
-                          <img src="<?php echo get_field(
-                            "why_invest_in_dana_gas"
-                          ); ?>" alt="Why invest in Dana Gas" loading="lazy">
-                        </div>
-                        <div class="card-body">
-                            <div class="card-title">Why invest in Dana Gas</div>
-                            <img class="arrow" src="<?php echo get_template_directory_uri() .
-                              "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
-                        </div>
-                    </div>
-                </a>
-            </div>
+          <div class="col-12 col-md-4 mb-3">
+            <a href="/about-us/overview/1537-2/" class="card-link">
+              <div class="card">
+                <div class="card-header">
+                  <img src="<?php echo get_field(
+                    "why_invest_in_dana_gas"
+                  ); ?>" alt="Why invest in Dana Gas" loading="lazy">
+                </div>
+                <div class="card-body">
+                  <div class="card-title">Why invest in Dana Gas</div>
+                  <img class="arrow" src="<?php echo get_template_directory_uri() .
+                    "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
+                </div>
+              </div>
+            </a>
+          </div>
 
         </div>
     </div>

@@ -8,27 +8,27 @@
         <div class="col-12 col-md-6 col-lg-3">
           <div class="footer-menu__list">
             <div class="footer-menu__title">
-              About Us
+              <a href="/about-us/">About us</a>
               <div class="showDropdownList">−</div>
             </div>
             <div class="footer-menu__links">
-              <a href="/">Our Story</a>
-              <a href="/">Why Invest in Dana Gas</a>
-              <a href="/">Vision, Strategy & Values</a>
-              <a href="/group-structure">Group Structure</a>
+              <a href="/about-us/overview/#sec-75">Our story</a>
+              <a href="/about-us/overview/1537-2/#sec-1537">Why invest in Dana Gas</a>
+              <a href="/about-us/overview/vision-strategy-values/">Vision, strategy & values</a>
+              <a href="/about-us/overview/group-structure/">Group structure</a>
             </div>
           </div>
 
           <div class="footer-menu__list">
             <div class="footer-menu__title">
-              Board & Management
+              <a href="/about-us/board-and-management/board-of-directors">Board &amp; Management</a>
               <div class="showDropdownList">−</div>
             </div>
             <div class="footer-menu__links">
-              <a href="/">Board of Directors</a>
-              <a href="/">International Advisory</a>
-              <a href="/">Board Senior</a>
-              <a href="/">Executiv</a>
+              <a href="/about-us/board-and-management/board-of-directors/">Board of Directors</a>
+              <a href="/about-us/board-and-management/international-advisory-board/">International Advisory Board</a>
+              <a href="/about-us/board-and-management/senior-executive-management/">Senior Executive Management</a>
+              <a href="/about-us/board-and-management/senior-management/">Senior Management</a>
             </div>
           </div>
 
@@ -37,46 +37,46 @@
         <div class="col-12 col-md-6 col-lg-2">
           <div class="footer-menu__list">
             <div class="footer-menu__title">
-              Governance
+              <a href="/about-us/governance/">Governance</a>
               <div class="showDropdownList">−</div>
             </div>
             <div class="footer-menu__links">
-              <a href="/">Committees</a>
-              <a href="/">Governance Reporting</a>
+              <a href="/about-us/governance/committees/">Board committees</a>
+              <a href="/about-us/governance/governance-reporting/">Governance reporting</a>
             </div>
           </div>
 
-          <a href="/" class="footer-menu__title no-list">Risk Management & Internal Audit</a>
+          <a href="/about-us/risk-management/" class="footer-menu__title no-list">Risk Management & Internal Audit</a>
         </div>
 
         <div class="col-12 col-md-6 col-lg-2">
           <div class="footer-menu__list">
             <div class="footer-menu__title">
-              Operations
+              <a href="/operations/">Operations</a>
               <div class="showDropdownList">−</div>
             </div>
             <div class="footer-menu__links">
-              <a href="/">Egypt</a>
-              <a href="/">Kurdistan Region of Iraq</a>
-              <a href="/">United Arab Emirates</a>
+              <a href="/operations/egypt/">Egypt</a>
+              <a href="/operations/kri/">Kurdistan Region of Iraq</a>
+              <a href="/operations/united-arab-emirates/">United Arab Emirates</a>
             </div>
           </div>
 
-          <a href="/" class="footer-menu__title no-list">Sustainability</a>
-          <a href="/" class="footer-menu__title no-list">Careers</a>
-          <a href="/" class="footer-menu__title no-list">Contact Us</a>
+          <a href="/sustainability/" class="footer-menu__title no-list">Sustainability</a>
+          <a href="/careers/" class="footer-menu__title no-list">Careers</a>
+          <a href="/contact/" class="footer-menu__title no-list">Contact Us</a>
         </div>
 
         <div class="col-12 col-md-6 col-lg-2">
           <div class="footer-menu__list">
             <div class="footer-menu__title">
-              Media
+              <a href="/media/">Media</a>
               <div class="showDropdownList">−</div>
             </div>
             <div class="footer-menu__links">
-              <a href="/">Press Releases</a>
-              <a href="/">Regulatory Disclosures</a>
-              <a href="/">Media Library</a>
+              <a href="/media/press-releases/">Press releases</a>
+              <a href="/media/regulatory-disclosures/">Regulatory disclosures</a>
+              <a href="/media/media-library/">Media library</a>
             </div>
           </div>
         </div>
@@ -84,21 +84,21 @@
         <div class="col-12 col-md-6 col-lg-3">
           <div class="footer-menu__list">
             <div class="footer-menu__title">
-              Investors
+              <a href="/investors/">Investors</a>
               <div class="showDropdownList">−</div>
             </div>
             <div class="footer-menu__links">
-              <a href="/">Results Centre</a>
-              <a href="/">Reports & Presentations</a>
-              <a href="/">Regulatory disclosures</a>
-              <a href="/">Sukuk information</a>
-              <a href="/">Key financials</a>
-              <a href="/">General Assembly Meeting</a>
-              <a href="/">Shareholder information</a>
-              <a href="/">Share price information</a>
-              <a href="/">Dividend</a>
-              <a href="/">Events calendar</a>
-              <a href="/">FAQs</a>
+              <a href="/investors/results-center/">Results centre</a>
+              <a href="/investors/reports/">Reports &amp; presentations</a>
+              <a href="/investors/regulatory-disclosures/">Regulatory disclosures</a>
+              <a href="/investors/sukuk-information/">Sukuk information</a>
+              <a href="/investors/key-financials/">Key financials</a>
+              <a href="/investors/general-assembly-meeting/">General Assembly Meeting</a>
+              <a href="/investors/shareholder-information/">Shareholder information</a>
+              <a href="/investors/share-price-information-2/">Share price information</a>
+              <a href="/investors/dana-gas-unclaimed-dividend/">Dividend</a>
+              <a href="/investors/event-calender/">Events calendar</a>
+              <a href="/investors/faqs/">FAQs</a>
             </div>
           </div>
         </div>
@@ -114,11 +114,11 @@
 
         <div class="col-12 col-md-6">
           <ul class="footer-nav">
-            <li><a href="https://renfaze.com/en/terms">Terms & Conditions</a>
+            <li><a href="/terms-conditions/">Terms & Conditions</a>
             </li>
-            <li><a href="https://renfaze.com/en/privacy">Privacy Policy</a>
+            <li><a href="/policy/">Privacy Policy</a>
             </li>
-            <li><a href="https://renfaze.com/en/cookies-notice">Disclaimer</a>
+            <li><a href="/disclaimer/">Disclaimer</a>
             </li>
           </ul>
         </div>

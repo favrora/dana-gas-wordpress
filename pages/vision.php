@@ -81,58 +81,60 @@
 </section>
 
 <!-- Cards section -->
-<section class="cards-section story mt-3 pt-3 mb-5">
-    <div class="container">
-        <h2 class="default-h2"><?php echo get_field("our_story_title"); ?></h2>
-        <div class="row mt-3">
+<section class="cards-section story mb-5">
+  <div class="container">
+    <h2 class="default-h2"><?php echo get_field("our_story_title"); ?></h2>
+    <div class="row mt-3">
 
-            <div class="col-12 col-md-4 mb-3">
-                <a href="/" class="card-link">
-                    <div class="card">
-                        <div class="card-header">
-                            <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="Creek Waters by Emaar Properties" loading="lazy">
-                        </div>
-                        <div class="card-body">
-                            <div class="card-title">Why invest in Dana Gas</div>
-                            <img class="arrow" src="<?php echo get_template_directory_uri() .
-                              "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
-                        </div>
-                    </div>
-                </a>
+      <div class="col-12 col-md-4 mb-3">
+        <a href="/about-us/overview/1537-2/" class="card-link">
+          <div class="card">
+            <div class="card-header">
+              <img src="<?php echo get_field("why_invest_in_dana_gas"); ?>" alt="Why invest in Dana Gas" loading="lazy">
             </div>
-
-            <div class="col-12 col-md-4 mb-3">
-                <a href="/" class="card-link">
-                    <div class="card">
-                        <div class="card-header">
-                            <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="Creek Waters by Emaar Properties" loading="lazy">
-                        </div>
-                        <div class="card-body">
-                            <div class="card-title">Vision, strategy & values</div>
-                            <img class="arrow" src="<?php echo get_template_directory_uri() .
-                              "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
-                        </div>
-                    </div>
-                </a>
+            <div class="card-body">
+              <div class="card-title">Why invest in Dana Gas</div>
+              <img class="arrow" src="<?php echo get_template_directory_uri() .
+                "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
             </div>
+          </div>
+        </a>
+      </div>
 
-            <div class="col-12 col-md-4 mb-3">
-                <a href="/" class="card-link">
-                    <div class="card">
-                        <div class="card-header">
-                            <img src="https://renfaze.com/projects-data/creek-waters/creek-waters-1.webp" alt="Creek Waters by Emaar Properties" loading="lazy">
-                        </div>
-                        <div class="card-body">
-                            <div class="card-title">Group structure</div>
-                            <img class="arrow" src="<?php echo get_template_directory_uri() .
-                              "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
-                        </div>
-                    </div>
-                </a>
+      <div class="col-12 col-md-4 mb-3">
+        <a href="/about-us/overview/vision-strategy-values/" class="card-link">
+          <div class="card">
+            <div class="card-header">
+              <img src="<?php echo get_field(
+                "vision_strategy_values_image"
+              ); ?>" alt="Vision, strategy & values" loading="lazy">
             </div>
+            <div class="card-body">
+              <div class="card-title">Vision, strategy & values</div>
+              <img class="arrow" src="<?php echo get_template_directory_uri() .
+                "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
+            </div>
+          </div>
+        </a>
+      </div>
 
-        </div>
+      <div class="col-12 col-md-4 mb-3">
+        <a href="/about-us/overview/group-structure/" class="card-link">
+          <div class="card">
+            <div class="card-header">
+              <img src="<?php echo get_field("group_structure_image"); ?>" alt="Group structure" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-title">Group structure</div>
+              <img class="arrow" src="<?php echo get_template_directory_uri() .
+                "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
+            </div>
+          </div>
+        </a>
+      </div>
+
     </div>
+  </div>
 </section>
 
 

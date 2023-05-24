@@ -86,7 +86,7 @@
       <div class="row mt-3">
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/" class="card-link">
+          <a href="/about-us/overview/1537-2/#sec-1537" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_field(
@@ -103,7 +103,7 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/" class="card-link">
+          <a href="/about-us/overview/vision-strategy-values/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_field(
@@ -120,7 +120,7 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/" class="card-link">
+          <a href="/about-us/overview/group-structure/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_field("group_structure_image"); ?>" alt="Group structure" loading="lazy">

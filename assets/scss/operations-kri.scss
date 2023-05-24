@@ -131,7 +131,6 @@
   .reports-links {
     background: #ffffff;
     box-shadow: 0 0 7px #0000001a;
-    padding: 10px;
     border-radius: 5px;
     margin-top: 15px;
 
@@ -149,14 +148,12 @@
         color: #000000;
         text-decoration: none;
         font-weight: bold;
-        margin-top: 10px;
-
-        &:first-child {
-          margin-top: 0;
-        }
+        padding: 10px 15px;
+        border-bottom: 1px solid #e3e3e3;
+        transition: 350ms;
 
         &:hover {
-          text-decoration: underline;
+          background: #e3e3e3;
         }
       }
     }

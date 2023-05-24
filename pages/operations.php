@@ -38,7 +38,7 @@
         <div class="row mt-3">
 
             <div class="col-12 col-md-4 mb-3">
-                <a href="/" class="card-link">
+              <a href="/operations/egypt/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .
@@ -54,14 +54,14 @@
             </div>
 
             <div class="col-12 col-md-4 mb-3">
-                <a href="/" class="card-link">
+              <a href="/operations/kri/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .
-                              "/assets/images/operations/kri.png"; ?>" alt="KURDISTAN REGION OF IRAQ" loading="lazy">
+                              "/assets/images/operations/kri.png"; ?>" alt="Kurdistan Region of Iraq" loading="lazy">
                         </div>
                         <div class="card-body">
-                            <div class="card-title">KURDISTAN REGION OF IRAQ</div>
+                            <div class="card-title">Kurdistan Region of Iraq</div>
                             <img class="arrow" src="<?php echo get_template_directory_uri() .
                               "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
                         </div>
@@ -70,14 +70,14 @@
             </div>
 
             <div class="col-12 col-md-4 mb-3">
-                <a href="/" class="card-link">
+              <a href="/operations/united-arab-emirates/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .
-                              "/assets/images/operations/uae.png"; ?>" alt="UNITED ARAB EMIRATES" loading="lazy">
+                              "/assets/images/operations/uae.png"; ?>" alt="United Arab Emirates" loading="lazy">
                         </div>
                         <div class="card-body">
-                            <div class="card-title">UNITED ARAB EMIRATES</div>
+                            <div class="card-title">United Arab Emirates</div>
                             <img class="arrow" src="<?php echo get_template_directory_uri() .
                               "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
                         </div>
