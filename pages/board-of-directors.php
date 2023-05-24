@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Template Name: Board of Directors
  */
@@ -13,10 +12,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title><?php bloginfo('name'); ?></title>
+    <title><?php bloginfo("name"); ?></title>
 
     <!-- Source files -->
-    <link href="<?php echo get_template_directory_uri() . '/dist/css/board-of-directors.min.css'; ?>" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri() . "/dist/css/board-of-directors.min.css"; ?>" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
 
@@ -25,10 +24,11 @@
 <?php get_header(); ?>
 
 <!-- About section -->
-<section class="about-section" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/board-of-directors-bg.png'; ?>')">
+<section class="about-section" style="background-image: url('<?php echo get_template_directory_uri() .
+  "/assets/images/board-of-directors-bg.png"; ?>')">
     <div class="about-overlay"></div>
     <div class="container">
-        <h1><?php echo get_field('header_h1_title') ?></h1>
+        <h1><?php echo get_field("header_h1_title"); ?></h1>
     </div>
 </section>
 
@@ -38,7 +38,7 @@
         <div class="row mt-3">
 
             <div class="col-12 text-center mb-3">
-                <h2 class="default-h2"><?php echo get_field('page_title') ?></h2>
+                <h2 class="default-h2"><?php echo get_field("page_title"); ?></h2>
                 <div>See our entire team & their designation</div>
             </div>
 
@@ -46,7 +46,8 @@
                 <a href="/" class="card-link">
                     <div class="card">
                         <div class="card-header">
-                            <img src="<?php echo get_template_directory_uri() . '/assets/images/directors/hamid-jafar.png'; ?>" alt="Hamid Jafar" loading="lazy">
+                            <img src="<?php echo get_template_directory_uri() .
+                              "/assets/images/directors/hamid-jafar.png"; ?>" alt="Hamid Jafar" loading="lazy">
                         </div>
                         <div class="card-body">
                             <div class="card-title">Hamid Jafar</div>
@@ -60,7 +61,8 @@
                 <a href="/" class="card-link">
                   <div class="card">
                     <div class="card-header">
-                      <img src="<?php echo get_template_directory_uri() . '/assets/images/directors/rashed-saif.png'; ?>" alt="Rashed Saif S. Al Jarwan Al Shamsi" loading="lazy">
+                      <img src="<?php echo get_template_directory_uri() .
+                        "/assets/images/directors/rashed-saif.png"; ?>" alt="Rashed Saif S. Al Jarwan Al Shamsi" loading="lazy">
                     </div>
                     <div class="card-body">
                       <div class="card-title">Rashed Saif S. Al Jarwan Al Shamsi</div>
@@ -74,7 +76,8 @@
                 <a href="/" class="card-link">
                   <div class="card">
                     <div class="card-header">
-                      <img src="<?php echo get_template_directory_uri() . '/assets/images/directors/varoujan-nerguizian.jpg'; ?>" alt="Varoujan A. Nerguizian" loading="lazy">
+                      <img src="<?php echo get_template_directory_uri() .
+                        "/assets/images/directors/varoujan-nerguizian.jpg"; ?>" alt="Varoujan A. Nerguizian" loading="lazy">
                     </div>
                     <div class="card-body">
                       <div class="card-title">Varoujan A. Nerguizian</div>
@@ -88,7 +91,8 @@
                 <a href="/" class="card-link">
                   <div class="card">
                     <div class="card-header">
-                      <img src="<?php echo get_template_directory_uri() . '/assets/images/directors/majid-jafar.png'; ?>" alt="Majid Jafar" loading="lazy">
+                      <img src="<?php echo get_template_directory_uri() .
+                        "/assets/images/directors/majid-jafar.png"; ?>" alt="Majid Jafar" loading="lazy">
                     </div>
                     <div class="card-body">
                       <div class="card-title">Majid Jafar</div>
@@ -102,7 +106,8 @@
                 <a href="/" class="card-link">
                   <div class="card">
                     <div class="card-header">
-                      <img src="<?php echo get_template_directory_uri() . '/assets/images/directors/ziad-abdulla.png'; ?>" alt="Ziad Abdulla Ibrahim Galadari Director" loading="lazy">
+                      <img src="<?php echo get_template_directory_uri() .
+                        "/assets/images/directors/ziad-abdulla.png"; ?>" alt="Ziad Abdulla Ibrahim Galadari Director" loading="lazy">
                     </div>
                     <div class="card-body">
                       <div class="card-title">Ziad Abdulla Ibrahim Galadari</div>
@@ -116,7 +121,8 @@
                 <a href="/" class="card-link">
                   <div class="card">
                     <div class="card-header">
-                      <img src="<?php echo get_template_directory_uri() . '/assets/images/directors/hani-abdulaziz.png'; ?>" alt="Hani Abdulaziz" loading="lazy">
+                      <img src="<?php echo get_template_directory_uri() .
+                        "/assets/images/directors/hani-abdulaziz.png"; ?>" alt="Hani Abdulaziz" loading="lazy">
                     </div>
                     <div class="card-body">
                       <div class="card-title">Hani Abdulaziz Hussain Al Terkait</div>
@@ -130,7 +136,8 @@
             <a href="/" class="card-link">
               <div class="card">
                 <div class="card-header">
-                  <img src="<?php echo get_template_directory_uri() . '/assets/images/directors/shaheen-mohamed.png'; ?>" alt="Shaheen Mohamed Abdulaziz" loading="lazy">
+                  <img src="<?php echo get_template_directory_uri() .
+                    "/assets/images/directors/shaheen-mohamed.png"; ?>" alt="Shaheen Mohamed Abdulaziz" loading="lazy">
                 </div>
                 <div class="card-body">
                   <div class="card-title">Shaheen Mohamed Abdulaziz Rubayea Almheiri</div>
@@ -144,7 +151,8 @@
                 <a href="/" class="card-link">
                   <div class="card">
                     <div class="card-header">
-                      <img src="<?php echo get_template_directory_uri() . '/assets/images/directors/jassim-mohamed.png'; ?>" alt="Jassim Mohamed" loading="lazy">
+                      <img src="<?php echo get_template_directory_uri() .
+                        "/assets/images/directors/jassim-mohamed.png"; ?>" alt="Jassim Mohamed" loading="lazy">
                     </div>
                     <div class="card-body">
                       <div class="card-title">Jassim Mohamed Rafie Alseddiqi Alansaari</div>
@@ -158,7 +166,8 @@
                 <a href="/" class="card-link">
                   <div class="card">
                     <div class="card-header">
-                      <img src="<?php echo get_template_directory_uri() . '/assets/images/directors/younis-al-khoori.png'; ?>" alt="H.E. Younis Al Khoori" loading="lazy">
+                      <img src="<?php echo get_template_directory_uri() .
+                        "/assets/images/directors/younis-al-khoori.png"; ?>" alt="H.E. Younis Al Khoori" loading="lazy">
                     </div>
                     <div class="card-body">
                       <div class="card-title">H.E. Younis Al Khoori</div>
@@ -172,7 +181,8 @@
             <a href="/" class="card-link">
               <div class="card">
                 <div class="card-header">
-                  <img src="<?php echo get_template_directory_uri() . '/assets/images/directors/ajit-vijay.png'; ?>" alt="Mr. Ajit Vijay Joshi" loading="lazy">
+                  <img src="<?php echo get_template_directory_uri() .
+                    "/assets/images/directors/ajit-vijay.png"; ?>" alt="Mr. Ajit Vijay Joshi" loading="lazy">
                 </div>
                 <div class="card-body">
                   <div class="card-title">Mr. Ajit Vijay Joshi</div>
@@ -186,7 +196,8 @@
             <a href="/" class="card-link">
               <div class="card">
                 <div class="card-header">
-                  <img src="<?php echo get_template_directory_uri() . '/assets/images/directors/najla-ahmed.png'; ?>" alt="Ms. Najla Ahmed Al-Midfa" loading="lazy">
+                  <img src="<?php echo get_template_directory_uri() .
+                    "/assets/images/directors/najla-ahmed.png"; ?>" alt="Ms. Najla Ahmed Al-Midfa" loading="lazy">
                 </div>
                 <div class="card-body">
                   <div class="card-title">Ms. Najla Ahmed Al-Midfa</div>
@@ -210,11 +221,13 @@
         <a href="/" class="card-link">
           <div class="card">
             <div class="card-header">
-              <img src="<?php echo get_template_directory_uri() . '/assets/images/directors/board-of-directors.png'; ?>" alt="Board of Directors" loading="lazy">
+              <img src="<?php echo get_template_directory_uri() .
+                "/assets/images/directors/board-of-directors.png"; ?>" alt="Board of Directors" loading="lazy">
             </div>
             <div class="card-body">
               <div class="card-title">Board of Directors</div>
-              <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
+              <img class="arrow" src="<?php echo get_template_directory_uri() .
+                "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
             </div>
           </div>
         </a>
@@ -224,11 +237,13 @@
         <a href="/" class="card-link">
           <div class="card">
             <div class="card-header">
-              <img src="<?php echo get_template_directory_uri() . '/assets/images/directors/international-advisory.png'; ?>" alt="International Advisory Board" loading="lazy">
+              <img src="<?php echo get_template_directory_uri() .
+                "/assets/images/directors/international-advisory.png"; ?>" alt="International Advisory Board" loading="lazy">
             </div>
             <div class="card-body">
               <div class="card-title">International Advisory Board</div>
-              <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
+              <img class="arrow" src="<?php echo get_template_directory_uri() .
+                "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
             </div>
           </div>
         </a>
@@ -238,11 +253,13 @@
         <a href="/" class="card-link">
           <div class="card">
             <div class="card-header">
-              <img src="<?php echo get_template_directory_uri() . '/assets/images/directors/senior-executive.png'; ?>" alt="Senior Executive Management" loading="lazy">
+              <img src="<?php echo get_template_directory_uri() .
+                "/assets/images/directors/senior-executive.png"; ?>" alt="Senior Executive Management" loading="lazy">
             </div>
             <div class="card-body">
               <div class="card-title">Senior Executive Management</div>
-              <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
+              <img class="arrow" src="<?php echo get_template_directory_uri() .
+                "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
             </div>
           </div>
         </a>
@@ -251,10 +268,10 @@
   </div>
 </section>
 
-<?php include get_theme_file_path('/parts/why-invest.php'); ?>
+<?php include get_theme_file_path("/parts/why-invest.php"); ?>
 
 <?php get_footer(); ?>
-<script src="<?php echo get_template_directory_uri() . '/dist/js/app.min.js'; ?>"></script>
+<script src="<?php echo get_template_directory_uri() . "/dist/js/app.min.js"; ?>"></script>
 
 </body>
 

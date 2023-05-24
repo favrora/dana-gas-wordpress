@@ -74,7 +74,7 @@ for (let i = 0; i < footerList.length; ++i) {
  ***** 2. Show more btn *******
  *****************************/
 const showMoreBtn = document.querySelectorAll(".showMoreBtn"),
-  showMoreText = document.querySelectorAll(".showMoreText");
+  showMoreText = document.querySelectorAll(".showMoreText")
 
 for (let i = 0; i < showMoreBtn.length; ++i) {
   showMoreBtn[i].addEventListener("click", function () {
@@ -87,4 +87,3 @@ for (let i = 0; i < showMoreBtn.length; ++i) {
     }
   })
 }
-

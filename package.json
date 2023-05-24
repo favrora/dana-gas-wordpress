@@ -5,6 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettier": "prettier --write \"assets/**/*.+(scss|js|css)\"",
+    "prettier-php": "prettier --write \"pages/**/*.+(php)\"",
     "save": "git add --all && git commit -m fix --no-verify && git push origin HEAD"
   },
   "author": "",
@@ -22,6 +23,7 @@
     "webpack-stream": "^7.0.0"
   },
   "dependencies": {
+    "@prettier/plugin-php": "^0.19.5",
     "@splidejs/splide": "^4.1.4",
     "bootstrap": "^5.2.3",
     "gulp-rename": "^2.0.0",

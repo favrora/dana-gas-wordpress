@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   for (let i = 0; i < faqQuestionBox.length; i++) {
     faqQuestionBox[i].addEventListener("click", () => {
-      faqQuestionBox[i].classList.toggle("is-active");
+      faqQuestionBox[i].classList.toggle("is-active")
     })
   }
 })

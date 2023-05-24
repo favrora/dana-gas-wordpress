@@ -72,14 +72,6 @@
       <li class="dropdown">
         <div class="dropdown-title">
           <a href="/sustainability/">Sustainability</a>
-          <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/dropdown-open-icon.png'; ?>" alt="Dropdown open icon">
-          <div class="showDropdownList">−</div>
-        </div>
-
-        <div class="dropdown-list">
-          <a href="/sustainability/health-safety-security-environment/">Health, Safety, Security &amp; Environment</a>
-          <a href="/sustainability/corporate-social-responsibility/">Corporate social responsibility</a>
-          <a href="/sustainability/sustainability-report/">Sustainability reports</a>
         </div>
       </li>
 
@@ -94,12 +86,6 @@
           <a href="/media/press-releases/">Press releases</a>
           <a href="/media/regulatory-disclosures/">Regulatory disclosures</a>
           <a href="/media/media-library/">Media library</a>
-          <ul class="child-menu">
-            <li><a class="child-menu__a" href="/media/media-library/">Videos</a></li>
-            <li><a class="child-menu__a" href="/media/media-library/">Images</a></li>
-          </ul>
-          <a href="/media/e-mail-alert/">E-mail alert</a>
-          <a href="/media/media-contact/">Media contact</a>
         </div>
       </li>
 
@@ -112,11 +98,6 @@
 
         <div class="dropdown-list">
           <a href="/investors/results-center/">Results centre</a>
-          <ul class="child-menu">
-            <li><a class="child-menu__a" href="/investors/results-center/">Latest results</a></li>
-            <li><a class="child-menu__a" href="/investors/results-center">Results archive</a></li>
-          </ul>
-
           <a href="/investors/reports/">Reports &amp; presentations</a>
           <a href="/investors/regulatory-disclosures/">Regulatory disclosures</a>
           <a href="/investors/sukuk-information/">Sukuk information</a>
@@ -126,9 +107,7 @@
           <a href="/investors/share-price-information-2/">Share price information</a>
           <a href="/investors/dana-gas-unclaimed-dividend/">Dividend</a>
           <a href="/investors/event-calender/">Events calendar</a>
-          <a href="/investors/email-alert/">Email alert</a>
           <a href="/investors/faqs/">FAQs</a>
-          <a href="/investors/">Investor contact</a>
         </div>
       </li>
 
