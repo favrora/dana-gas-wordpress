@@ -4,6 +4,7 @@
  1. Company section
  2. Overview block
  3. Cards section
+ 4. Sustainability
  **********************************/
 
 @import "_app";
@@ -95,6 +96,66 @@
   &.story {
     .card .card-body .card-title {
       text-transform: none;
+    }
+  }
+}
+
+/*****************************
+ ***** 4. Sustainability *****
+ ****************************/
+.reports-section {
+  .reports-nav {
+    display: flex;
+    justify-content: center;
+
+    &__item {
+      padding: 10px 25px;
+      border: 1px solid #d9d9d9;
+      border-radius: 5px;
+      margin-right: 10px;
+      background: transparent;
+      transition: 350ms;
+      cursor: pointer;
+
+      &:hover, &.is-active {
+        background: $brand-primary;
+        border-color: $brand-primary;
+        color: #ffffff;
+      }
+    }
+  }
+
+  .reports-links {
+    background: #ffffff;
+    box-shadow: 0 0 7px #0000001a;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+
+    &__item {
+      display: none;
+
+      &.is-active {
+        display: block;
+      }
+
+      a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #000000;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 10px;
+
+        &:first-child {
+          margin-top: 0;
+        }
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
   }
 }

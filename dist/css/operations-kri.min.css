@@ -5,6 +5,7 @@
  1. Company section
  2. Overview block
  3. Cards section
+ 4. Sustainability
  **********************************/
 /***********************************
  ********* Global CSS Code *********
@@ -11791,4 +11792,54 @@ h6,
 }
 .cards-section.story .card .card-body .card-title {
   text-transform: none;
+}
+
+/*****************************
+ ***** 4. Sustainability *****
+ ****************************/
+.reports-section .reports-nav {
+  display: flex;
+  justify-content: center;
+}
+.reports-section .reports-nav__item {
+  padding: 10px 25px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  margin-right: 10px;
+  background: transparent;
+  transition: 350ms;
+  cursor: pointer;
+}
+.reports-section .reports-nav__item:hover, .reports-section .reports-nav__item .is-active {
+  background: #4c9e45;
+  border-color: #4c9e45;
+  color: #ffffff;
+}
+.reports-section .reports-links {
+  background: #ffffff;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1019607843);
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.reports-section .reports-links__item {
+  display: none;
+}
+.reports-section .reports-links__item.is-active {
+  display: block;
+}
+.reports-section .reports-links__item a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.reports-section .reports-links__item a:first-child {
+  margin-top: 0;
+}
+.reports-section .reports-links__item a:hover {
+  text-decoration: underline;
 }

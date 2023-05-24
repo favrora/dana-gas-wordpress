@@ -55,7 +55,7 @@
                 <a href="/" class="card-link">
                     <div class="card">
                         <div class="card-header">
-                            <img src="<?php echo get_template_directory_uri() . '/assets/images/investors/regulatory-disclosures.png'; ?>" alt="Regulatory Disclosures" loading="lazy">
+                            <img src="<?php echo get_template_directory_uri() . '/assets/images/media/regulatory-disclosures.png'; ?>" alt="Regulatory Disclosures" loading="lazy">
                         </div>
                         <div class="card-body">
                             <div class="card-title">Regulatory Disclosures</div>
@@ -69,7 +69,7 @@
                 <a href="/" class="card-link">
                     <div class="card">
                         <div class="card-header">
-                            <img src="<?php echo get_template_directory_uri() . '/assets/images/investors/media-library.png'; ?>" alt="FAQs" loading="lazy">
+                            <img src="<?php echo get_template_directory_uri() . '/assets/images/media/media-library.png'; ?>" alt="FAQs" loading="lazy">
                         </div>
                         <div class="card-body">
                             <div class="card-title">Media Library</div>
