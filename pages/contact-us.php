@@ -130,7 +130,7 @@
   </section>
 
   <!-- Location section -->
-  <section class="location-section mt-5">
+  <section class="location-section pb-4 mt-5">
     <div class="container">
       <div class="row">
 
@@ -144,36 +144,18 @@
         <div class="col-12 col-md-6 switchLocation">
           <h2 class="default-h2"><?php echo get_field("dana_gas_uae"); ?></h2>
           <?php echo get_field("location_uae_details"); ?>
-
-          <a href="/" class="btn btnWithProgress mt-3 up">
-            <?php echo get_field("button_view_all"); ?>
-            <img src="<?php echo get_template_directory_uri() .
-              "/assets/images/right-arrow-white.png"; ?>" alt="Right arrow icon">
-          </a>
         </div>
 
         <!-- Egypt office location -->
         <div class="col-12 col-md-6 switchLocation d-none">
           <h2 class="default-h2"><?php echo get_field("dana_gas_egypt"); ?></h2>
           <?php echo get_field("location_egypt_details"); ?>
-
-          <a href="/" class="btn btnWithProgress mt-3 up">
-            <?php echo get_field("button_view_all"); ?>
-            <img src="<?php echo get_template_directory_uri() .
-              "/assets/images/right-arrow-white.png"; ?>" alt="Right arrow icon">
-          </a>
         </div>
 
         <!-- KRI office location -->
         <div class="col-12 col-md-6 switchLocation d-none">
           <h2 class="default-h2"><?php echo get_field("dana_gas_kri"); ?></h2>
           <?php echo get_field("location_kri_details"); ?>
-
-          <a href="/" class="btn btnWithProgress mt-3 up">
-            <?php echo get_field("button_view_all"); ?>
-            <img src="<?php echo get_template_directory_uri() .
-              "/assets/images/right-arrow-white.png"; ?>" alt="Right arrow icon">
-          </a>
         </div>
 
         <div class="col-12 col-md-6">

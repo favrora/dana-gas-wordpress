@@ -35,7 +35,7 @@ global $danagas;
 
         <div class="about-end-title"><?php echo get_field('after_title') ?></div>
 
-        <a href="/" class="btn btnWithProgress up">
+        <a href="/about-us/overview/" class="btn btnWithProgress up">
           <?php echo get_field('title_button') ?>
           <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-white.png'; ?>" alt="Right arrow icon">
         </a>
@@ -114,7 +114,7 @@ global $danagas;
         </div>
       </div>
 
-      <a href="/" class="btn btnWithProgress mt-4 up">
+      <a href="/operations/" class="btn btnWithProgress mt-4 up">
         <?php echo get_field('operations_button') ?>
         <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-white.png'; ?>" alt="Right arrow icon">
       </a>
@@ -132,7 +132,7 @@ global $danagas;
           <h2 class="default-h2"><?php echo get_field('investors_title') ?></h2>
           <div class="investors-section__desc"><?php echo get_field('investors_description') ?>
           </div>
-          <a href="/" class="btn btnWithProgress mt-4 up">
+          <a href="/investors/results-center/" class="btn btnWithProgress mt-4 up">
             <?php echo get_field('investors_button') ?>
             <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-white.png'; ?>" alt="Right arrow icon">
           </a>
@@ -152,7 +152,7 @@ global $danagas;
           <div class="row">
 
             <div class="col-6 col-md-4">
-              <a href="/" class="result-links-box">
+              <a href="https://www.danagas.com/wp-content/uploads/2022/08/20220811-Investor-Script-H1-2022.pdf" class="result-links-box" target="_blank">
                 <div class="result-links-box__pre-title text-brand">Q2 2022</div>
                 <div class="result-links-box__title">Investor script</div>
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
@@ -160,41 +160,41 @@ global $danagas;
             </div>
 
             <div class="col-6 col-md-4">
-              <a href="/" class="result-links-box">
+              <a href="https://www.danagas.com/wp-content/uploads/2023/05/20220510-Q1-2023-Investor-Presentation.pdf" class="result-links-box" target="_blank">
                 <div class="result-links-box__pre-title text-brand">Q2 2022</div>
-                <div class="result-links-box__title">Investor script</div>
+                <div class="result-links-box__title">Presentation</div>
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </a>
             </div>
 
             <div class="col-6 col-md-4">
-              <a href="/" class="result-links-box">
+              <a href="https://www.danagas.com/wp-content/uploads/2023/05/Dana-Gas-Q1-2023-Financial-statements-English.pdf" class="result-links-box" target="_blank">
                 <div class="result-links-box__pre-title text-brand">Q2 2022</div>
-                <div class="result-links-box__title">Investor script</div>
+                <div class="result-links-box__title">Financial statements</div>
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </a>
             </div>
 
             <div class="col-6 col-md-4">
-              <a href="/" class="result-links-box">
+              <a href="https://www.danagas.com/wp-content/uploads/2023/05/Dana-Gas-Q1-2023-Directors-report-English.pdf" class="result-links-box" target="_blank">
                 <div class="result-links-box__pre-title text-brand">Q2 2022</div>
-                <div class="result-links-box__title">Investor script</div>
+                <div class="result-links-box__title">Board report</div>
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </a>
             </div>
 
             <div class="col-6 col-md-4">
-              <a href="/" class="result-links-box">
+              <a href="https://www.danagas.com/wp-content/uploads/2023/05/20230510-Q1-2023-Press-Release-English.pdf" class="result-links-box" target="_blank">
                 <div class="result-links-box__pre-title text-brand">Q2 2022</div>
-                <div class="result-links-box__title">Investor script</div>
+                <div class="result-links-box__title">Press Release</div>
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </a>
             </div>
 
             <div class="col-6 col-md-4">
-              <a href="/" class="result-links-box">
+              <a href="https://www.danagas.com/wp-content/uploads/2023/05/20220510-Q1-2023-Investor-Presentation.pdf" class="result-links-box" target="_blank">
                 <div class="result-links-box__pre-title text-brand">Q2 2022</div>
-                <div class="result-links-box__title">Investor script</div>
+                <div class="result-links-box__title">Presentation</div>
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </a>
             </div>
@@ -216,7 +216,7 @@ global $danagas;
           <h2 class="default-h2"><?php echo get_field('ceo_title') ?></h2>
           <div><?php echo get_field('ceo_description') ?></div>
 
-          <a href="/" class="btn btnWithProgress mt-4 up">
+          <a href="/about-us/overview/" class="btn btnWithProgress mt-4 up">
             <?php echo get_field('ceo_button') ?>
             <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-white.png'; ?>" alt="Right arrow icon">
           </a>
