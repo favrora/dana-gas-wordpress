@@ -51,7 +51,7 @@
             <li><a class="child-menu__a" href="/about-us/governance/governance-reporting/">Governance reporting</a></li>
           </ul>
 
-          <a href="https://www.danagas.com/about-us/risk-management/">Risk Management and Internal Audit</a>
+          <a href="/about-us/risk-management/">Risk Management and Internal Audit</a>
         </div>
       </li>
 
