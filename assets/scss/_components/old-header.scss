@@ -209,6 +209,7 @@
         z-index: 50;
         background: $brand-primary;
         padding: 60px 0 25px 2rem;
+        box-shadow: 0 13px 7px #00000045;
 
         &.active {
           display: flex;

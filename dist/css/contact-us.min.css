@@ -11705,6 +11705,7 @@ textarea.form-control-lg {
     z-index: 50;
     background: #4c9e45;
     padding: 60px 0 25px 2rem;
+    box-shadow: 0 13px 7px rgba(0, 0, 0, 0.2705882353);
   }
   .nav-header .nav-item ul:not(.child-menu).active {
     display: flex;
