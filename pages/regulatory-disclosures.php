@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Operations
+ * Template Name: Regulatory disclosures
  */
 ?>
 
@@ -15,7 +15,7 @@
     <title><?php wp_title(''); ?></title>
 
     <!-- Source files -->
-    <link href="<?php echo get_template_directory_uri() . "/dist/css/about-us.min.css"; ?>" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri() . "/dist/css/operations-kri.min.css"; ?>" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
 
@@ -25,61 +25,78 @@
 
 <!-- About section -->
 <section class="about-section" style="background-image: url('<?php echo get_template_directory_uri() .
-  "/assets/images/operations-main-bg.png"; ?>')">
+    "/assets/images/investors-info-bg.png"; ?>')">
     <div class="about-overlay"></div>
     <div class="container">
-        <h1>Operations</h1>
+        <h1>Investors</h1>
     </div>
 </section>
 
-<!-- Cards section -->
-<section class="cards-section mt-5 mb-5">
+<!-- Annual reports section -->
+<section class="company-section reports-section top-bg-section pt-5" style="background-image: url('<?php echo get_template_directory_uri() .
+    "/assets/images/about-shape-bg.png"; ?>)">
     <div class="container">
+        <div class="row">
+
+          <div class="col-12">
+            <?php the_content(); ?>
+          </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Cards section -->
+<section class="cards-section story mb-5">
+    <div class="container">
+        <h2 class="default-h2"><?php echo get_field("our_story_title"); ?></h2>
         <div class="row mt-3">
 
             <div class="col-12 col-md-4 mb-3">
-              <a href="/operations/egypt/" class="card-link">
+                <a href="/investors/reports/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .
-                              "/assets/images/operations/egypt.png"; ?>" alt="Egypt" loading="lazy">
+                                "/assets/images/investors/annual-report.png"; ?>" alt="View our Annual report 2019" loading="lazy">
                         </div>
                         <div class="card-body">
-                            <div class="card-title">Egypt</div>
+                            <div class="card-title">View our Annual report 2019</div>
                             <img class="arrow" src="<?php echo get_template_directory_uri() .
-                              "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
+                                "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
                         </div>
                     </div>
                 </a>
             </div>
 
             <div class="col-12 col-md-4 mb-3">
-              <a href="/operations/kri/" class="card-link">
+                <a href="/investors/event-calender/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .
-                              "/assets/images/operations/kri.png"; ?>" alt="Kurdistan Region of Iraq" loading="lazy">
+                                "/assets/images/investors/events-calendar.png"; ?>" alt="Events Calendar" loading="lazy">
                         </div>
                         <div class="card-body">
-                            <div class="card-title">Kurdistan Region of Iraq</div>
+                            <div class="card-title">Events Calendar</div>
                             <img class="arrow" src="<?php echo get_template_directory_uri() .
-                              "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
+                                "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
                         </div>
                     </div>
                 </a>
             </div>
 
             <div class="col-12 col-md-4 mb-3">
-              <a href="/operations/united-arab-emirates/" class="card-link">
+                <a href="/about-us/overview/1537-2/" class="card-link">
                     <div class="card">
                         <div class="card-header">
-                            <img src="<?php echo get_template_directory_uri() .
-                              "/assets/images/operations/uae.png"; ?>" alt="United Arab Emirates" loading="lazy">
+                            <img src="<?php echo get_field(
+                                "why_invest_in_dana_gas"
+                            ); ?>" alt="Why invest in Dana Gas" loading="lazy">
                         </div>
                         <div class="card-body">
-                            <div class="card-title">United Arab Emirates</div>
+                            <div class="card-title">Why invest in Dana Gas</div>
                             <img class="arrow" src="<?php echo get_template_directory_uri() .
-                              "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
+                                "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
                         </div>
                     </div>
                 </a>
@@ -93,7 +110,7 @@
 <?php include get_theme_file_path("/parts/why-invest.php"); ?>
 
 <?php get_footer(); ?>
-<script src="<?php echo get_template_directory_uri() . "/dist/js/app.min.js"; ?>"></script>
+<script src="<?php echo get_template_directory_uri() . "/dist/js/sustainability.min.js"; ?>"></script>
 
 </body>
 
