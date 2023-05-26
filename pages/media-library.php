@@ -181,7 +181,12 @@
       <span aria-hidden="true">&times;</span>
     </div>
 
-    <img class="imagePreview" src="" alt="Preview image">
+    <div class="slider-img" id="sliderImg"></div>
+
+    <img class="slider-arrow prev" src="<?php echo get_template_directory_uri() . "/assets/images/icons/arrow-right.svg"; ?>" alt="Left arrow">
+    <img class="slider-arrow next" src="<?php echo get_template_directory_uri() . "/assets/images/icons/arrow-right.svg"; ?>" alt="Right arrow">
+
+    <div class="slider-count"><span class="currentIndex">2</span> of <span class="sliderAll"></span></div>
   </div>
 
   <div class="custom-modal__bg" data-dismiss="custom-modal"></div>

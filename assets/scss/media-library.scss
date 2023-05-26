@@ -47,6 +47,53 @@
   }
 }
 
+.slider-img {
+  height: 100%;
+
+  .slide {
+    display: none;
+    text-align: center;
+
+    &.is-active {
+      height: 100%;
+      display: block;
+    }
+
+    img {
+      height: 100%;
+    }
+  }
+}
+
+.slider-count {
+  position: absolute;
+  bottom: -50px;
+  right: 0;
+  color: #ffffff;
+}
+
+.slider-arrow {
+  position: absolute;
+  top: calc(50% - 40px);
+  cursor: pointer;
+  width: 40px;
+  opacity: 0.8;
+  transition: $transitionSpeed;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &.prev {
+    left: 20px;
+    transform: rotate(180deg);
+  }
+
+  &.next {
+    right: 20px;
+  }
+}
+
 .media-card {
   display: block;
   position: relative;

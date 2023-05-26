@@ -76,7 +76,7 @@ const customModalClose= document.querySelectorAll(".custom-modal__close"),
 
 for (let i = 0; i < customModalClose.length; ++i) {
   customModalClose[i].addEventListener("click", () => {
-    customModalClose[i].parentElement.classList.remove("is-active");
+    customModalClose[i].parentElement.parentElement.classList.remove("is-active");
   })
 }
 

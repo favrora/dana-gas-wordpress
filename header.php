@@ -81,7 +81,6 @@
         </div>
 
         <div class="dropdown-list">
-          <a href="/media/press-releases/">Press releases</a>
           <a href="/media/regulatory-disclosures/">Regulatory disclosures</a>
           <a href="/media/media-library/">Media library</a>
         </div>
