@@ -3,6 +3,7 @@
 
  1. Global Style
  2. About pages style
+ 3. Custom modal
  **********************************/
 
 // Fonts
@@ -142,6 +143,11 @@ h6 {
     position: relative;
     z-index: 10;
     margin: 10px 0 7px;
+    font-size: 50px;
+
+    @media (max-width: $tablet) {
+      font-size: 30px;
+    }
   }
 }
 
@@ -165,4 +171,62 @@ h6 {
 .title-green {
   color: $brand-primary;
   text-transform: uppercase;
+}
+
+/****************************
+ ***** 3. Custom modal ******
+ ***************************/
+.custom-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 220;
+  align-items: center;
+  justify-content: center;
+
+  &.is-active {
+    display: flex;
+  }
+
+  &__content {
+    position: absolute;
+    z-index: 230;
+    max-width: 900px;
+    width: 90vw;
+    max-height: 500px;
+    height: 80vh;
+    background: #ffffff;
+
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__close {
+    position: absolute;
+    top: -50px;
+    right: -10px;
+    color: #dfdfdf;
+    font-size: 50px;
+    line-height: 1;
+    cursor: pointer;
+    transition: 350ms;
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
+
+  &__bg {
+    background: #000000a8;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 220;
+    cursor: pointer;
+  }
 }

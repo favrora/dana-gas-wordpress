@@ -1,12 +1,10 @@
 @charset "UTF-8";
-/***********************************
- ******* Operations KRI Code *******
+/********************************
+ ****** Media CSS Code ******
 
- 1. Company section
- 2. Overview block
- 3. Cards section
- 4. Sustainability
- **********************************/
+ 1. Cards section
+ 2. Media card section
+ *******************************/
 /***********************************
  ********* Global CSS Code *********
 
@@ -11781,94 +11779,25 @@ h6,
 }
 
 /****************************
- **** 1. Company section ****
- ***************************/
-.company-section {
-  padding-bottom: 120px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.company-section .company-section__data {
-  display: flex;
-  align-items: center;
-}
-@media (min-width: 767px) {
-  .company-section .company-section__data {
-    padding-right: 40px;
-  }
-}
-@media (max-width: 767px) {
-  .company-section .company-section__data {
-    margin-bottom: 30px;
-  }
-}
-.company-section .data-img {
-  max-width: 550px;
-  width: 100%;
-}
-
-.content-vertical-center {
-  display: flex;
-  align-items: center;
-}
-.content-vertical-center h2, .content-vertical-center .h2 {
-  width: 100%;
-}
-
-/*****************************
- ***** 2. Overview block *****
- ****************************/
-.overview-blocks .overview-item {
-  width: 330px;
-  background: white;
-  border: 1px solid #e6e6e6;
-  border-radius: 3px;
-  padding: 20px;
-  display: flex;
-  margin-bottom: 20px;
-}
-.overview-blocks .overview-item__img {
-  margin-right: 10px;
-  width: 47px;
-  display: flex;
-  align-items: center;
-}
-.overview-blocks .overview-item__pre-title {
-  width: 100%;
-  margin-bottom: 5px;
-}
-.overview-blocks .overview-item__title-main {
-  color: #1f4388;
-  line-height: 0.8;
-  font-size: 27px;
-  font-family: "Optima", sans-serif, Arial;
-  margin-right: 3px;
-}
-.overview-blocks .overview-item__title-info {
-  color: #4c9e45;
-  font-family: "Optima", sans-serif, Arial;
-}
-
-/****************************
- ***** 3. Cards section *****
+ ***** 1. Cards section *****
  ***************************/
 .cards-section {
   text-align: center;
   text-transform: uppercase;
 }
-.cards-section.story .card .card-body .card-title {
+.cards-section .card .card-body .card-title {
   text-transform: none;
 }
 
 /*****************************
- ***** 4. Sustainability *****
+ *** 3. Media card section ***
  ****************************/
-.reports-section .reports-nav {
+.media-nav {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-.reports-section .reports-nav__item {
+.media-nav__item {
   padding: 10px 25px;
   border: 1px solid #d9d9d9;
   border-radius: 5px;
@@ -11878,39 +11807,76 @@ h6,
   cursor: pointer;
   margin-top: 15px;
 }
-.reports-section .reports-nav__item:hover, .reports-section .reports-nav__item.is-active {
+.media-nav__item:hover, .media-nav__item.is-active {
   background: #4c9e45;
   border-color: #4c9e45;
   color: #ffffff;
 }
-.reports-section .reports-links {
-  background: #ffffff;
-  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1019607843);
-  border-radius: 5px;
-  margin-top: 15px;
+
+.media-card {
+  display: block;
+  position: relative;
+  margin-bottom: 25px;
+  min-height: 150px;
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center;
 }
-.reports-section .reports-links__item {
+.media-card .hover-text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0 30px;
+  text-align: center;
+  font-size: 18px;
+  transition: 0.35s;
+  opacity: 0;
+}
+.media-card:hover .hover-text {
+  opacity: 1;
+}
+.media-card:hover .media-card__play {
+  background: rgba(36, 83, 108, 0.5490196078);
+}
+.media-card:hover .media-card__play-icon {
+  margin-top: -80px;
+}
+.media-card__play {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  transition: 0.35s;
+  padding-top: 0;
+}
+.media-card__play-icon {
+  width: 50px;
+  height: 50px;
+  background: #4c9e45;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: 0.35s;
+  margin-top: 0;
+}
+.media-card__play-icon:hover {
+  background: #408239;
+}
+
+.videoSection, .imagesSection {
   display: none;
 }
-.reports-section .reports-links__item.is-active {
-  display: block;
-}
-.reports-section .reports-links__item a {
+.videoSection.is-active, .imagesSection.is-active {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: #000000;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 10px 15px;
-  border-bottom: 1px solid #e3e3e3;
-  transition: 350ms;
-}
-.reports-section .reports-links__item a:hover {
-  background: #e3e3e3;
-}
-.reports-section .reports-links__item a .pres-date {
-  width: 100%;
-  color: #4c9e45;
-  font-size: 14px;
 }

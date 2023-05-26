@@ -70,6 +70,22 @@ for (let i = 0; i < footerList.length; ++i) {
   })
 }
 
+// Close modal
+const customModalClose= document.querySelectorAll(".custom-modal__close"),
+  customModalCloseBg = document.querySelectorAll(".custom-modal__bg");
+
+for (let i = 0; i < customModalClose.length; ++i) {
+  customModalClose[i].addEventListener("click", () => {
+    customModalClose[i].parentElement.classList.remove("is-active");
+  })
+}
+
+for (let i = 0; i < customModalCloseBg.length; ++i) {
+  customModalCloseBg[i].addEventListener("click", () => {
+    customModalCloseBg[i].parentElement.classList.remove("is-active");
+  })
+}
+
 /******************************
  ***** 2. Show more btn *******
  *****************************/

@@ -39,6 +39,8 @@
 
           <a href="/about-us/board-and-management/board-of-directors">Board &amp; Management</a>
           <ul class="child-menu">
+            <li><a href="/about-us/board-and-management/board-of-directors/">Board of Directors</a></li>
+            <li><a href="/about-us/board-and-management/international-advisory-board/">International Advisory Board</a></li>
             <li><a href="/about-us/board-and-management/senior-executive-management/">Senior Executive Management</a></li>
             <li><a href="/about-us/board-and-management/senior-management/">Senior Management</a></li>
           </ul>
@@ -71,7 +73,7 @@
         </div>
       </li>
 
-      <li class="dropdown d-none">
+      <li class="dropdown">
         <div class="dropdown-title">
           <a href="/media/">Media</a>
           <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/dropdown-open-icon.png'; ?>" alt="Dropdown open icon">

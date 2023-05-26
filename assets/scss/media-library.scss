@@ -1,0 +1,126 @@
+/********************************
+ ****** Media CSS Code ******
+
+ 1. Cards section
+ 2. Media card section
+ *******************************/
+
+@import "_app";
+@import "_components/card";
+
+/****************************
+ ***** 1. Cards section *****
+ ***************************/
+.cards-section {
+  text-align: center;
+  text-transform: uppercase;
+
+  .card .card-body .card-title {
+    text-transform: none;
+  }
+}
+
+/*****************************
+ *** 3. Media card section ***
+ ****************************/
+.media-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  &__item {
+    padding: 10px 25px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    margin-right: 10px;
+    background: transparent;
+    transition: 350ms;
+    cursor: pointer;
+    margin-top: 15px;
+
+    &:hover,
+    &.is-active {
+      background: $brand-primary;
+      border-color: $brand-primary;
+      color: #ffffff;
+    }
+  }
+}
+
+.media-card {
+  display: block;
+  position: relative;
+  margin-bottom: 25px;
+  min-height: 150px;
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center;
+
+  .hover-text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 30px;
+    text-align: center;
+    font-size: 18px;
+    transition: $transitionSpeed;
+    opacity: 0;
+  }
+
+  &:hover {
+    .hover-text {
+      opacity: 1;
+    }
+
+    .media-card__play {
+      background: #24536c8c;
+    }
+
+    .media-card__play-icon {
+      margin-top: -80px;
+    }
+  }
+
+  &__play {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    transition: $transitionSpeed;
+    padding-top: 0;
+
+    &-icon {
+      width: 50px;
+      height: 50px;
+      background: #4c9e45;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      z-index: 10;
+      transition: $transitionSpeed;
+      margin-top: 0;
+
+      &:hover {
+        background: #408239;
+      }
+    }
+  }
+}
+
+.videoSection, .imagesSection {
+  display: none;
+
+  &.is-active {
+    display: flex;
+  }
+}
