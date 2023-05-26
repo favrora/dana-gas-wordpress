@@ -38,6 +38,10 @@
           </ul>
 
           <a href="/about-us/board-and-management/board-of-directors">Board &amp; Management</a>
+          <ul class="child-menu">
+            <li><a href="/about-us/board-and-management/senior-executive-management/">Senior Executive Management</a></li>
+            <li><a href="/about-us/board-and-management/senior-management/">Senior Management</a></li>
+          </ul>
 
           <a href="/about-us/governance/">Governance</a>
           <ul class="child-menu">
@@ -93,6 +97,7 @@
           <a href="/investors/reports/">Reports &amp; presentations</a>
           <a href="/investors/sukuk-information/">Sukuk information</a>
           <a href="/investors/general-assembly-meeting/">General Assembly Meeting</a>
+          <a href="/investors/share-price-information-2/">Share price information</a>
           <a href="/investors/faqs/">FAQs</a>
         </div>
       </li>

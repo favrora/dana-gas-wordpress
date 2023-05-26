@@ -3,6 +3,7 @@
 
  1. Company section
  2. Cards section
+ 3. Senior management
  **********************************/
 
 @import "_app";
@@ -46,5 +47,25 @@
     .card .card-body .card-title {
       text-transform: none;
     }
+  }
+}
+
+/****************************
+ *** 3. Senior management ***
+ ***************************/
+.senior-management {
+  margin-bottom: 25px;
+  padding-left: 10px;
+  border-left: 2px solid $brand-primary;
+  border-radius: 2px;
+
+  &__name {
+    color: #1f4388;
+    font: 18px $font-family-title;
+    margin-bottom: 5px;
+  }
+
+  &__position {
+
   }
 }

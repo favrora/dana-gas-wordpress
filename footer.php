@@ -16,6 +16,7 @@
               <a href="/about-us/overview/1537-2/">Why invest in Dana Gas</a>
               <a href="/about-us/overview/vision-strategy-values/">Vision, strategy & values</a>
               <a href="/about-us/overview/group-structure/">Group structure</a>
+              <a href="/about-us/board-and-management/board-of-directors">Board & Management</a>
             </div>
           </div>
         </div>
@@ -72,6 +73,7 @@
               <a href="/investors/reports/">Reports &amp; presentations</a>
               <a href="/investors/sukuk-information/">Sukuk information</a>
               <a href="/investors/general-assembly-meeting/">General Assembly Meeting</a>
+              <a href="/investors/share-price-information-2/">Share price information</a>
               <a href="/investors/faqs/">FAQs</a>
             </div>
           </div>
@@ -81,7 +83,6 @@
           <a href="/sustainability/" class="footer-menu__title no-list d-block">Sustainability</a>
           <a href="/careers/" class="footer-menu__title no-list d-block">Careers</a>
           <a href="/contact/" class="footer-menu__title no-list d-block">Contact Us</a>
-          <a href="/about-us/board-and-management/board-of-directors" class="footer-menu__title no-list d-block">Board &amp; Management</a>
         </div>
 
       </div>

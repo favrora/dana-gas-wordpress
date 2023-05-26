@@ -4,6 +4,7 @@
 
  1. Company section
  2. Cards section
+ 3. Senior management
  **********************************/
 /***********************************
  ********* Global CSS Code *********
@@ -11755,4 +11756,19 @@ h6,
 }
 .cards-section.story .card .card-body .card-title {
   text-transform: none;
+}
+
+/****************************
+ *** 3. Senior management ***
+ ***************************/
+.senior-management {
+  margin-bottom: 25px;
+  padding-left: 10px;
+  border-left: 2px solid #4c9e45;
+  border-radius: 2px;
+}
+.senior-management__name {
+  color: #1f4388;
+  font: 18px "Optima", sans-serif, Arial;
+  margin-bottom: 5px;
 }
