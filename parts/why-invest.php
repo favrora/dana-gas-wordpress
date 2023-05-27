@@ -12,7 +12,7 @@
           <div class="row">
             <div class="col-6 why-invest-block__data">
               <div class="why-invest-block__data-img">
-                <img src="<?php echo get_template_directory_uri() . '/assets/images/why-invest-production.png'; ?>" alt="Production icon">
+                <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/why-invest-production.png'; ?>" alt="Production icon">
               </div>
 
               <div class="d-flex flex-wrap">
@@ -23,7 +23,7 @@
 
             <div class="col-6 why-invest-block__data">
               <div class="why-invest-block__data-img">
-                <img src="<?php echo get_template_directory_uri() . '/assets/images/why-invest-2p-reserves.png'; ?>" alt="2P reserves icon">
+                <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/why-invest-2p-reserves.png'; ?>" alt="2P reserves icon">
               </div>
 
               <div class="d-flex flex-wrap">
@@ -34,7 +34,7 @@
 
             <div class="col-6 why-invest-block__data">
               <div class="why-invest-block__data-img">
-                <img src="<?php echo get_template_directory_uri() . '/assets/images/why-invest-gas.png'; ?>" alt="Gas Production icon">
+                <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/why-invest-gas.png'; ?>" alt="Gas Production icon">
               </div>
 
               <div class="d-flex flex-wrap">
@@ -45,7 +45,7 @@
 
             <div class="col-6 why-invest-block__data">
               <div class="why-invest-block__data-img">
-                <img src="<?php echo get_template_directory_uri() . '/assets/images/why-invest-condensate.png'; ?>" alt="Condensate Production icon">
+                <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/why-invest-condensate.png'; ?>" alt="Condensate Production icon">
               </div>
 
               <div class="d-flex flex-wrap">

@@ -97,6 +97,7 @@
           <a href="/investors/results-center/">Results centre</a>
           <a href="/investors/reports/">Reports &amp; presentations</a>
           <a href="/investors/sukuk-information/">Sukuk information</a>
+          <a href="/investors/key-financials/">Key financials</a>
           <a href="/investors/general-assembly-meeting/">General Assembly Meeting</a>
           <a href="/investors/share-price-information-2/">Share price information</a>
           <a href="/investors/faqs/">FAQs</a>

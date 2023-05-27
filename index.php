@@ -52,7 +52,7 @@ global $danagas;
 
       <div class="about-info-box">
         <div class="about-info-box__img">
-          <img src="<?php echo get_template_directory_uri() . '/assets/images/hand-leaf.png'; ?>" alt="Hand leaf icon">
+          <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/hand-leaf.png'; ?>" alt="Hand leaf icon">
         </div>
 
         <div>
