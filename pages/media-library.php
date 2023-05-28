@@ -75,9 +75,7 @@
             <div class="card-link openImageModal">
               <div class="card">
                 <div class="card-header">
-                  <img src="<?php echo get_template_directory_uri() .
-                      "/assets/images/media/press-releases.png"; ?>" alt="Press Releases" loading="lazy">
-                  <!--<img src="<?php /*echo $cover; */?>" loading="lazy" alt="Preview img modal">-->
+                  <img src="<?php echo $cover; ?>" loading="lazy" alt="Preview img modal">
                 </div>
                 <div class="card-body">
                   <div class="card-title"><?php echo $folder['folder_name']; ?></div>

@@ -13,10 +13,26 @@
  **************************/
 .key-finance-wrap {
   .key-filtr {
+    display: flex;
+    justify-content: end;
+
+    a:not(.open-dropdown) {
+      text-transform: uppercase;
+      @extend .btn;
+    }
+
     .filtrs {
       width: 230px;
       margin-right: 20px;
       position: relative;
+      display: flex;
+      justify-content: space-between;
+
+      &.show-menu {
+        ul {
+          display: block;
+        }
+      }
 
       a {
         padding: 9px 23px;
@@ -24,7 +40,9 @@
         font-size: 14px;
         color: #373737;
         display: block;
-        background: url("../images/key-down.png") no-repeat 90% 15px;
+        border-radius: 5px;
+        text-decoration: none;
+        width: 230px;
       }
 
       ul {
@@ -37,15 +55,29 @@
         left: 0;
         width: 100%;
         background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 30px #0129701a;
 
         li {
+          display: flex;
+          justify-content: space-between;
           padding: 7px 23px;
           list-style: none;
+          cursor: pointer;
+
+          &:after {
+            display: none;
+          }
 
           label {
             font-size: 14px;
             font-weight: bold;
             margin: 0;
+          }
+
+          input {
+            width: 15px;
+            display: flex;
           }
         }
       }
@@ -56,7 +88,6 @@
       padding-left: 45px;
       font-size: 14px;
       color: #ffffff;
-      background: #1a428a  url("../images/key-download.png") 16px center no-repeat;
     }
   }
 }

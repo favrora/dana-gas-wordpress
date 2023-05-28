@@ -34,15 +34,15 @@
 
 <!-- Company-section -->
 <section class="company-section top-bg-section pt-5">
-    <div class="container">
-        <div class="row">
+  <div class="container">
+    <div class="row">
 
-            <div class="col-12">
-                <?php the_content(); ?>
-            </div>
+      <div class="col-12">
+          <?php the_content(); ?>
+      </div>
 
-        </div>
     </div>
+  </div>
 </section>
 
 
@@ -50,7 +50,7 @@
 <?php include get_theme_file_path("/parts/why-invest.php"); ?>
 
 <?php get_footer(); ?>
-<script src="<?php echo get_template_directory_uri() . "/dist/js/app.min.js"; ?>"></script>
+<script src="<?php echo get_template_directory_uri() . "/dist/js/key-financials.min.js"; ?>"></script>
 
 </body>
 
