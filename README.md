@@ -1,6 +1,6 @@
 # Dana Gas
 
-Text
+Dana Gas wordpress, new website
 
 ## Development
 
@@ -19,7 +19,7 @@ Getting Start:
     $ cd dana-gas-wordpress
     ```
 
-In order to run it locally you'll need to fetch some dependencies and a basic server setup.
+In order to run website you'll need to fetch some dependencies
 
 * Install local dependencies:
 
