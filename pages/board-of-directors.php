@@ -43,7 +43,7 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="/" class="card-link">
+                <a href="/team/hamid-jafar/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .
@@ -58,7 +58,7 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="/" class="card-link">
+                <a href="/team/rashid-saif-al-jarwan/" class="card-link">
                   <div class="card">
                     <div class="card-header">
                       <img src="<?php echo get_template_directory_uri() .
@@ -73,7 +73,7 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="/" class="card-link">
+                <a href="/team/varouj-nerguizian/" class="card-link">
                   <div class="card">
                     <div class="card-header">
                       <img src="<?php echo get_template_directory_uri() .
@@ -88,7 +88,7 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="/" class="card-link">
+                <a href="/team/majid-jafar/" class="card-link">
                   <div class="card">
                     <div class="card-header">
                       <img src="<?php echo get_template_directory_uri() .
@@ -103,7 +103,7 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="/" class="card-link">
+                <a href="/team/ziad-abdulla-galadari/" class="card-link">
                   <div class="card">
                     <div class="card-header">
                       <img src="<?php echo get_template_directory_uri() .
@@ -118,7 +118,7 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="/" class="card-link">
+                <a href="/team/hani-hussain-alterkait/" class="card-link">
                   <div class="card">
                     <div class="card-header">
                       <img src="<?php echo get_template_directory_uri() .
@@ -133,7 +133,7 @@
             </div>
 
           <div class="col-12 col-md-3 mb-3">
-            <a href="/" class="card-link">
+            <a href="/team/shaheen-mohamed-almheiri/" class="card-link">
               <div class="card">
                 <div class="card-header">
                   <img src="<?php echo get_template_directory_uri() .
@@ -148,7 +148,7 @@
           </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="/" class="card-link">
+                <a href="/team/jassim-mohamedrafi-alseddiqi/" class="card-link">
                   <div class="card">
                     <div class="card-header">
                       <img src="<?php echo get_template_directory_uri() .
@@ -163,7 +163,7 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="/" class="card-link">
+                <a href="/team/h-e-younis-al-khoori/" class="card-link">
                   <div class="card">
                     <div class="card-header">
                       <img src="<?php echo get_template_directory_uri() .
@@ -178,7 +178,7 @@
             </div>
 
           <div class="col-12 col-md-3 mb-3">
-            <a href="/" class="card-link">
+            <a href="/team/mr-ajit-vijay-joshi/" class="card-link">
               <div class="card">
                 <div class="card-header">
                   <img src="<?php echo get_template_directory_uri() .
@@ -193,7 +193,7 @@
           </div>
 
           <div class="col-12 col-md-3 mb-3">
-            <a href="/" class="card-link">
+            <a href="/team/ms-najla-ahmed-al-midfa/" class="card-link">
               <div class="card">
                 <div class="card-header">
                   <img src="<?php echo get_template_directory_uri() .

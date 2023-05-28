@@ -71,7 +71,7 @@
   </section>
 
   <!-- Form section -->
-  <section class="form-section">
+  <section class="form-section d-none">
     <div class="container">
       <h2 class="default-h2 text-center"><?php echo get_field("contact_form_title"); ?></h2>
       <p class="form-section__desc"><?php echo get_field("contact_form_description"); ?></p>

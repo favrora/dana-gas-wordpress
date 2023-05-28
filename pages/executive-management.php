@@ -43,7 +43,7 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="/" class="card-link">
+                <a href="/team/dr-patrick-allman-ward/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .
@@ -58,7 +58,7 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="/" class="card-link">
+                <a href="/team/chris-hearne/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                           <img src="<?php echo get_template_directory_uri() .
@@ -73,7 +73,7 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="/" class="card-link">
+                <a href="/team/neville-henwood/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                           <img src="<?php echo get_template_directory_uri() .
@@ -88,7 +88,7 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="/" class="card-link">
+                <a href="/team/mike-seymour/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                           <img src="<?php echo get_template_directory_uri() .
@@ -103,7 +103,7 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="/" class="card-link">
+                <a href="/team/ramganesh-srinivasan/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                           <img src="<?php echo get_template_directory_uri() .
@@ -118,7 +118,7 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="/" class="card-link">
+                <a href="/team/michael-pyszka/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                           <img src="<?php echo get_template_directory_uri() .
@@ -133,7 +133,7 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="/" class="card-link">
+                <a href="/team/shakir-shakir/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                           <img src="<?php echo get_template_directory_uri() .

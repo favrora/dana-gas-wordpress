@@ -51,9 +51,8 @@
             ?>
           <div class="col-12 col-md-4">
             <div class="media-card popup-youtube" data-video-link="<?php echo $video['video_link']; ?>">
-                <?php $img = wp_get_attachment_image_src( $video['video_thumbnil'][0] ); ?>
-              <img src="<?php echo get_template_directory_uri() .
-                  "/assets/images/media/media-library.png"; ?>" alt="Preview video media img" loading="lazy">
+              <?php $img = wp_get_attachment_image_src( $video['video_thumbnil'][0] ); ?>
+              <img src="<?php echo $img[0]; ?>" alt="Video preview img">
               <div class="media-card__play">
                 <div class="media-card__play-icon">
                   <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/play-icon.png'; ?>" alt="Play icon">
