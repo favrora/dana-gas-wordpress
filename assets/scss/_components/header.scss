@@ -145,11 +145,17 @@
   }
 
   .nav-price {
+    display: flex;
+    align-items: center;
     max-width: 740px;
     white-space: nowrap;
     overflow: hidden;
     padding-top: 7px;
     font-size: 0.8rem;
+
+    &__text {
+
+    }
   }
 }
 
@@ -158,7 +164,7 @@
   .nav-header {
     height: 75px;
 
-    .nav-price {
+    .nav-price__text {
       display: none;
     }
 

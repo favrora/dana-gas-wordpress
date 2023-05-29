@@ -1,3 +1,5 @@
+<?php global $danagas; ?>
+
 <!-- Header section -->
 <header class="nav-header">
   <a class="site-logo" href="/">
@@ -18,7 +20,19 @@
       </svg>
     </div>
 
-    <div class="nav-price">DANA Last Price 0.937 05/09/2022 11:49 Change - 0.010 / (-1.06%) Previous Close 0.947 Open 0.948 High 0.949</div>
+    <div class="nav-price">
+      <div class="nav-price__text">
+          <?php if (ICL_LANGUAGE_CODE == 'en') : ?>
+            <a href="https://www.adx.ae/English/Pages/ProductsAndServices/Securities/SelectCompany/default.aspx?listedcompanyid=DANA" target="_blank" class="stat"><?php echo $danagas['share_price']; ?></a>
+          <?php elseif (ICL_LANGUAGE_CODE == 'ar') : ?>
+            <a href="#" target="_blank" class="stat"><?php echo $danagas['share_price_ar']; ?></a>
+          <?php endif; ?>
+      </div>
+
+      <div class="lang-sec float-left">
+          <?php echo do_shortcode('[wpml_language_selector_widget]'); ?>
+      </div>
+    </div>
 
     <ul class="nav-item__ul">
       <li class="dropdown">

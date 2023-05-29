@@ -8,17 +8,15 @@ const webpack = require("webpack-stream")
 const named = require("vinyl-named")
 
 gulp.task("sass", function () {
-  return gulp
-    .src("assets/scss/*.scss", { ignore: ["assets/scss/_*.scss"] })
-    .pipe(gulpSass())
-    // .pipe(autoprefixer())
-    // .pipe(cleanCSS())
-    .pipe(
-      rename(function (path) {
-        path.basename += ".min"
-      })
-    )
-    .pipe(gulp.dest("dist/css"))
+  return (
+    gulp
+      .src("assets/scss/*.scss", { ignore: ["assets/scss/_*.scss"] })
+      .pipe(gulpSass().on("error", gulpSass.logError))
+      .pipe(autoprefixer())
+      .pipe(cleanCSS())
+      .pipe(rename({ suffix: ".min" }))
+      .pipe(gulp.dest("dist/css"))
+  )
 })
 
 gulp.task("js", () => {
