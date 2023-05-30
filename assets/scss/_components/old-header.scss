@@ -179,11 +179,35 @@
   }
 
   .nav-price {
+    display: flex;
+    align-items: center;
+    width: 100%;
     max-width: 740px;
     white-space: nowrap;
     overflow: hidden;
     padding-top: 7px;
     font-size: 0.8rem;
+    justify-content: flex-end;
+
+    .lang-sec {
+      .wpml-ls-legacy-list-horizontal {
+        padding: 0;
+
+        a {
+          color: #4D4D4D;
+          transition: 350ms;
+          margin-left: 5px;
+
+          &:hover {
+            color: #0077FF;
+          }
+        }
+      }
+    }
+
+    &__text {
+
+    }
   }
 }
 
@@ -192,12 +216,24 @@
   .nav-header {
     height: 75px;
 
-    .nav-price {
+    .nav-price__text {
       display: none;
     }
 
+    .site-logo img {
+      margin-right: 45px;
+    }
+
+    .nav-price {
+      .lang-sec {
+        .wpml-ls-legacy-list-horizontal {
+          margin-right: 45px;
+        }
+      }
+    }
+
     .nav-item {
-      ul:not(.child-menu) {
+      .nav-item__ul {
         display: none;
         position: absolute;
         left: 0;

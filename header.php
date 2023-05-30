@@ -27,6 +27,12 @@
           <?php elseif (ICL_LANGUAGE_CODE == 'ar') : ?>
             <a href="#" target="_blank" class="stat"><?php echo $danagas['share_price_ar']; ?></a>
           <?php endif; ?>
+
+          <?php if (ICL_LANGUAGE_CODE == 'en') : ?>
+            DANA Last Price 0.937 05/09/2022 11:49 Change  - 0.010 / (-1.06%)       Previous Close 0.947 Open 0.948 High 0.949
+          <?php elseif (ICL_LANGUAGE_CODE == 'ar') : ?>
+            DANA آخر سعر 0.937 05/09/2022 11:49 تغيير - 0.010 / (-1.06٪) إغلاق سابق 0.947 فتح 0.948 قمة 0.949
+          <?php endif; ?>
       </div>
 
       <div class="lang-sec float-left">
@@ -34,6 +40,7 @@
       </div>
     </div>
 
+  <?php if (ICL_LANGUAGE_CODE == 'en') : ?>
     <ul class="nav-item__ul">
       <li class="dropdown">
         <div class="dropdown-title">
@@ -129,7 +136,107 @@
           <a href="/contact/">Contact us</a>
         </div>
       </li>
-
     </ul>
+
+  <?php elseif (ICL_LANGUAGE_CODE == 'ar') : ?>
+    <ul class="nav-item__ul">
+      <li class="dropdown">
+        <div class="dropdown-title">
+          <a href="/about-us/">معلومات عنا</a>
+          <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/dropdown-open-icon.png'; ?>" alt="Dropdown open icon">
+          <div class="showDropdownList">−</div>
+        </div>
+
+        <div class="dropdown-list">
+          <a href="/about-us/overview/">معلومات عنا</a>
+          <ul class="child-menu">
+            <li><a class="child-menu__a" href="/about-us/overview/">قصتنا</a></li>
+            <li><a class="child-menu__a" href="/about-us/overview/1537-2/">لماذا الاستثمار في دانة غاز</a></li>
+            <li><a class="child-menu__a" href="/about-us/overview/vision-strategy-values/">الرؤية والاستراتيجية والقيم</a></li>
+            <li><a class="child-menu__a" href="/about-us/overview/group-structure/">هيكل المجموعة</a></li>
+          </ul>
+
+          <a href="/about-us/board-and-management/board-of-directors">مجلس الإدارة والإدارة</a>
+          <ul class="child-menu">
+            <li><a href="/about-us/board-and-management/board-of-directors/">مجلس إدارة</a></li>
+            <li><a href="/about-us/board-and-management/international-advisory-board/">المجلس الاستشاري الدولي</a></li>
+            <li><a href="/about-us/board-and-management/senior-executive-management/">الإدارة التنفيذية العليا</a></li>
+            <li><a href="/about-us/board-and-management/senior-management/">الإدارة العليا</a></li>
+          </ul>
+
+          <a href="/about-us/governance/">الحكم</a>
+          <ul class="child-menu">
+            <li><a class="child-menu__a" href="/about-us/governance/committees/">لجان مجلس الإدارة</a></li>
+            <li><a class="child-menu__a" href="/about-us/governance/governance-reporting/">تقارير الحوكمة</a></li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="dropdown">
+        <div class="dropdown-title">
+          <a href="/operations/">عمليات</a>
+          <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/dropdown-open-icon.png'; ?>" alt="Dropdown open icon">
+          <div class="showDropdownList">−</div>
+        </div>
+
+        <div class="dropdown-list">
+          <a href="/operations/egypt/">مصر</a>
+          <a href="/operations/kri/">إقليم كردستان العراق</a>
+          <a href="/operations/united-arab-emirates/">الإمارات العربية المتحدة</a>
+        </div>
+      </li>
+
+      <li class="dropdown">
+        <div class="dropdown-title">
+          <a href="/sustainability/">الاستدامة</a>
+        </div>
+      </li>
+
+      <li class="dropdown">
+        <div class="dropdown-title">
+          <a href="/media/">وسائط</a>
+          <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/dropdown-open-icon.png'; ?>" alt="Dropdown open icon">
+          <div class="showDropdownList">−</div>
+        </div>
+
+        <div class="dropdown-list">
+          <a href="/media/regulatory-disclosures/">الإفصاحات التنظيمية</a>
+          <a href="/media/media-library/">مكتبة الوسائط</a>
+        </div>
+      </li>
+
+      <li class="dropdown">
+        <div class="dropdown-title">
+          <a href="/investors/">المستثمرون</a>
+          <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/dropdown-open-icon.png'; ?>" alt="Dropdown open icon">
+          <div class="showDropdownList">−</div>
+        </div>
+
+        <div class="dropdown-list">
+          <a href="/investors/results-center/">مركز النتائج</a>
+          <a href="/investors/reports/">التقارير والعروض التقديمية</a>
+          <a href="/investors/sukuk-information/">معلومات الصكوك</a>
+          <a href="/investors/key-financials/">البيانات المالية الرئيسية</a>
+          <a href="/investors/general-assembly-meeting/">اجتماع الهيئة العامة</a>
+          <a href="/investors/share-price-information-2/">معلومات سعر السهم</a>
+          <a href="/investors/faqs/">أسئلة وأجوبة</a>
+        </div>
+      </li>
+
+      <li class="dropdown">
+        <div class="dropdown-title">
+          <a href="/careers/">وظائف</a>
+        </div>
+      </li>
+
+      <li class="dropdown">
+        <div class="dropdown-title">
+          <a href="/contact/">اتصل بنا</a>
+        </div>
+      </li>
+    </ul>
+  <?php endif; ?>
+
+
   </div>
 </header>

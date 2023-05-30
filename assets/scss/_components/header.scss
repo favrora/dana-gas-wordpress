@@ -147,11 +147,27 @@
   .nav-price {
     display: flex;
     align-items: center;
+    width: 100%;
     max-width: 740px;
     white-space: nowrap;
     overflow: hidden;
     padding-top: 7px;
     font-size: 0.8rem;
+
+    .lang-sec {
+      .wpml-ls-legacy-list-horizontal {
+        padding: 0;
+
+        a {
+          color: #4D4D4D;
+          transition: 350ms;
+
+          &:hover {
+            color: #0077FF;
+          }
+        }
+      }
+    }
 
     &__text {
 
