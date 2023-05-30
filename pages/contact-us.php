@@ -97,9 +97,15 @@
 
           <div class="col-12 col-md-6">
             <select class="form-control">
-              <option value="" selected disabled>Purporse:*</option>
-              <option value="1">General Enquiry</option>
-              <option value="2">Feedback</option>
+                <?php if (ICL_LANGUAGE_CODE == 'en') : ?>
+                  <option value="" selected disabled>Purporse:*</option>
+                  <option value="1">General Enquiry</option>
+                  <option value="2">Feedback</option>
+                <?php elseif (ICL_LANGUAGE_CODE == 'ar') : ?>
+                  <option value="" selected disabled>المحفظة: *</option>
+                  <option value="1">استفسار عام</option>
+                  <option value="2">تعليق</option>
+                <?php endif; ?>
             </select>
           </div>
 

@@ -94,7 +94,7 @@
                 ); ?>" alt="Why invest in Dana Gas" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title">Why invest in Dana Gas</div>
+                <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "لماذا الاستثمار في دانة غاز" : "Why invest in Dana Gas" ?></div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() .
                   "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
               </div>

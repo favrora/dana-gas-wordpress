@@ -40,7 +40,7 @@
 
             <div class="col-12 col-md-8 company-section__data">
                 <div>
-                    <h2 class="default-h2">Governance reporting</h2>
+                    <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "تقارير الحوكمة" : "Governance reporting" ?></h2>
 
                     <?php echo get_field("governance_reporting_content"); ?>
                 </div>

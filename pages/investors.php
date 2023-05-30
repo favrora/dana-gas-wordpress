@@ -28,7 +28,7 @@
     "/assets/images/investors-bg.png"; ?>')">
     <div class="about-overlay"></div>
     <div class="container">
-      <h1>Investors</h1>
+      <h1><?php echo ICL_LANGUAGE_CODE == 'ar' ? "المستثمرون" : "Investors" ?></h1>
     </div>
   </section>
 
@@ -125,7 +125,7 @@
                   "/assets/images/investors/events-calendar.png"; ?>" alt="Events Calendar" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title">Events Calendar</div>
+                <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "تقويم الأحداث" : "Events Calendar" ?></div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() .
                   "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
               </div>

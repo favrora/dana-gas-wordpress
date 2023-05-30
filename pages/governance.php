@@ -139,7 +139,7 @@
                 ); ?>" alt="Board Committees" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title">Board Committees</div>
+                <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "لجان مجلس الإدارة" : "Board Committees" ?></div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() .
                   "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
               </div>
@@ -156,7 +156,7 @@
                 ); ?>" alt="Governance Reporting" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title">Governance Reporting</div>
+                <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "تقارير الحوكمة" : "Governance Reporting" ?></div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() .
                   "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
               </div>

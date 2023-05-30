@@ -28,7 +28,7 @@
     "/assets/images/key-financials-bg.png"; ?>')">
     <div class="about-overlay"></div>
     <div class="container">
-        <h1>Key financials</h1>
+        <h1><?php echo ICL_LANGUAGE_CODE == 'ar' ? "البيانات المالية الرئيسية" : "Key financials" ?></h1>
     </div>
 </section>
 

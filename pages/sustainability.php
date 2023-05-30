@@ -28,7 +28,7 @@
   "/assets/images/sustainability-bg.png"; ?>')">
     <div class="about-overlay"></div>
     <div class="container">
-        <h1>Sustainability</h1>
+        <h1><?php echo ICL_LANGUAGE_CODE == 'ar' ? "الاستدامة" : "Sustainability" ?></h1>
     </div>
 </section>
 

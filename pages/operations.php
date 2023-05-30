@@ -45,7 +45,7 @@
                               "/assets/images/operations/egypt.png"; ?>" alt="Egypt" loading="lazy">
                         </div>
                         <div class="card-body">
-                            <div class="card-title">Egypt</div>
+                            <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "مصر" : "Egypt" ?></div>
                             <img class="arrow" src="<?php echo get_template_directory_uri() .
                               "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
                         </div>
@@ -61,7 +61,7 @@
                               "/assets/images/operations/kri.png"; ?>" alt="Kurdistan Region of Iraq" loading="lazy">
                         </div>
                         <div class="card-body">
-                            <div class="card-title">Kurdistan Region of Iraq</div>
+                            <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "إقليم كردستان العراق" : "Kurdistan Region of Iraq" ?></div>
                             <img class="arrow" src="<?php echo get_template_directory_uri() .
                               "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
                         </div>
@@ -77,7 +77,7 @@
                               "/assets/images/operations/uae.png"; ?>" alt="United Arab Emirates" loading="lazy">
                         </div>
                         <div class="card-body">
-                            <div class="card-title">United Arab Emirates</div>
+                            <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "الإمارات العربية المتحدة" : "United Arab Emirates" ?></div>
                             <img class="arrow" src="<?php echo get_template_directory_uri() .
                               "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
                         </div>

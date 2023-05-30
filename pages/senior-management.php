@@ -28,7 +28,7 @@
     "/assets/images/senior-management-bg.png"; ?>')">
     <div class="about-overlay"></div>
     <div class="container">
-        <h1>About us</h1>
+        <h1><?php echo ICL_LANGUAGE_CODE == 'ar' ? "معلومات عنا" : "About US" ?></h1>
     </div>
 </section>
 
@@ -105,7 +105,7 @@
 <!-- Cards section -->
 <section class="cards-section story pt-4 mb-5">
     <div class="container">
-        <h2 class="default-h2 text-center">Board & Management</h2>
+        <h2 class="default-h2 text-center"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "مجلس الإدارة والإدارة" : "Board & Management" ?></h2>
         <div class="row mt-3">
 
             <div class="col-12 col-md-4 mb-3">
@@ -116,7 +116,7 @@
                                 "/assets/images/directors/board-of-directors.png"; ?>" alt="Board of Directors" loading="lazy">
                         </div>
                         <div class="card-body">
-                            <div class="card-title">Board of Directors</div>
+                            <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "مجلس إدارة" : "Board of Directors" ?></div>
                             <img class="arrow" src="<?php echo get_template_directory_uri() .
                                 "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
                         </div>
@@ -132,7 +132,7 @@
                                 "/assets/images/directors/international-advisory.png"; ?>" alt="International Advisory Board" loading="lazy">
                         </div>
                         <div class="card-body">
-                            <div class="card-title">International Advisory Board</div>
+                            <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "المجلس الاستشاري الدولي" : "International Advisory Board" ?></div>
                             <img class="arrow" src="<?php echo get_template_directory_uri() .
                                 "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
                         </div>
@@ -148,7 +148,7 @@
                                 "/assets/images/directors/senior-executive.png"; ?>" alt="Senior Executive Management" loading="lazy">
                         </div>
                         <div class="card-body">
-                            <div class="card-title">Senior Executive Management</div>
+                            <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "الإدارة التنفيذية العليا" : "Senior Executive Management" ?></div>
                             <img class="arrow" src="<?php echo get_template_directory_uri() .
                                 "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
                         </div>

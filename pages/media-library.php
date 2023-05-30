@@ -28,7 +28,7 @@
     "/assets/images/media-library.png"; ?>')">
     <div class="about-overlay"></div>
     <div class="container">
-        <h1>Media</h1>
+      <h1><?php echo ICL_LANGUAGE_CODE == 'ar' ? "وسائط" : "Media" ?></h1>
     </div>
 </section>
 
@@ -38,8 +38,8 @@
 
       <div class="col-12 mb-3">
         <div class="media-nav">
-          <div class="media-nav__item showVideos is-active">Videos</div>
-          <div class="media-nav__item showImages">Images</div>
+          <div class="media-nav__item showVideos is-active"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "أشرطة فيديو" : "Videos" ?></div>
+          <div class="media-nav__item showImages"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "الصور" : "Images" ?></div>
         </div>
       </div>
     </div>
@@ -114,7 +114,7 @@
                       "/assets/images/media/press-releases.png"; ?>" alt="Press Releases" loading="lazy">
                 </div>
                 <div class="card-body">
-                  <div class="card-title">Press Releases</div>
+                  <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "تصريحات صحفيه" : "Press Releases" ?></div>
                   <img class="arrow" src="<?php echo get_template_directory_uri() .
                       "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
                 </div>
@@ -130,7 +130,7 @@
                       "/assets/images/media/regulatory-disclosures.png"; ?>" alt="Regulatory Disclosures" loading="lazy">
                 </div>
                 <div class="card-body">
-                  <div class="card-title">Regulatory Disclosures</div>
+                  <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "الإفصاحات التنظيمية" : "Regulatory Disclosures" ?></div>
                   <img class="arrow" src="<?php echo get_template_directory_uri() .
                       "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
                 </div>
@@ -143,10 +143,10 @@
               <div class="card">
                 <div class="card-header">
                   <img src="<?php echo get_template_directory_uri() .
-                      "/assets/images/media/media-library.png"; ?>" alt="FAQs" loading="lazy">
+                      "/assets/images/media/media-library.png"; ?>" alt="Media Library" loading="lazy">
                 </div>
                 <div class="card-body">
-                  <div class="card-title">Media Library</div>
+                  <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "مكتبة الوسائط" : "Media Library" ?></div>
                   <img class="arrow" src="<?php echo get_template_directory_uri() .
                       "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
                 </div>

@@ -28,7 +28,7 @@
     "/assets/images/about-us-bg.png"; ?>')">
     <div class="about-overlay"></div>
     <div class="container">
-      <h1>About US</h1>
+      <h1><?php echo ICL_LANGUAGE_CODE == 'ar' ? "معلومات عنا" : "About US" ?></h1>
     </div>
   </section>
 
@@ -44,7 +44,7 @@
             <?php echo get_field("about_description"); ?>
 
             <a href="/about-us/overview/" class="btn btnWithProgress up">
-              Read more
+              <?php echo ICL_LANGUAGE_CODE == 'ar' ? "اقرأ أكثر" : "Read more" ?>
               <img src="<?php echo get_template_directory_uri() .
                 "/assets/images/right-arrow-white.png"; ?>" alt="Right arrow icon">
             </a>
@@ -74,7 +74,7 @@
                 ); ?>" alt="Board & Management" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title">Board & Management</div>
+                <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "مجلس الإدارة والإدارة" : "Board & Management" ?></div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() .
                   "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
               </div>
@@ -89,7 +89,7 @@
                 <img src="<?php echo get_field("governance_card_image"); ?>" alt="Governance" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title">Governance</div>
+                <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "الحكم" : "Governance" ?></div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() .
                   "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
               </div>
@@ -104,7 +104,7 @@
                 <img src="<?php echo get_field("risk_management_card_image"); ?>" alt="Risk management" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title">Risk management</div>
+                <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "إدارة المخاطر" : "Risk management" ?></div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() .
                   "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
               </div>

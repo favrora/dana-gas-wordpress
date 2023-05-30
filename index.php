@@ -78,7 +78,7 @@ global $danagas;
                 <img src="<?php echo get_field('egypt_main_card_image') ?>" alt="Egypt" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title">Egypt</div>
+                <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "مصر" : "Egypt" ?></div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </div>
             </div>
@@ -92,7 +92,7 @@ global $danagas;
                 <img src="<?php echo get_field('kri_main_card_image') ?>" alt="Kurdistan Region of Iraq" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title">Kurdistan Region of Iraq</div>
+                <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "إقليم كردستان العراق" : "Kurdistan Region of Iraq" ?></div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </div>
             </div>
@@ -106,7 +106,7 @@ global $danagas;
                 <img src="<?php echo get_field('uae_main_card_image') ?>" alt="United Arab Emirates" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title">United Arab Emirates</div>
+                <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "الإمارات العربية المتحدة" : "United Arab Emirates" ?></div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </div>
             </div>
@@ -154,7 +154,7 @@ global $danagas;
             <div class="col-6 col-md-4">
               <a href="https://www.danagas.com/wp-content/uploads/2022/08/20220811-Investor-Script-H1-2022.pdf" class="result-links-box" target="_blank">
                 <div class="result-links-box__pre-title text-brand">Q2 2022</div>
-                <div class="result-links-box__title">Investor script</div>
+                <div class="result-links-box__title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "نص المستثمر" : "Investor script" ?></div>
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </a>
             </div>
@@ -162,7 +162,7 @@ global $danagas;
             <div class="col-6 col-md-4">
               <a href="https://www.danagas.com/wp-content/uploads/2023/05/20220510-Q1-2023-Investor-Presentation.pdf" class="result-links-box" target="_blank">
                 <div class="result-links-box__pre-title text-brand">Q2 2022</div>
-                <div class="result-links-box__title">Presentation</div>
+                <div class="result-links-box__title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "عرض تقديمي" : "Presentation" ?></div>
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </a>
             </div>
@@ -170,7 +170,7 @@ global $danagas;
             <div class="col-6 col-md-4">
               <a href="https://www.danagas.com/wp-content/uploads/2023/05/Dana-Gas-Q1-2023-Financial-statements-English.pdf" class="result-links-box" target="_blank">
                 <div class="result-links-box__pre-title text-brand">Q2 2022</div>
-                <div class="result-links-box__title">Financial statements</div>
+                <div class="result-links-box__title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "القوائم المالية" : "Financial statements" ?></div>
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </a>
             </div>
@@ -178,7 +178,7 @@ global $danagas;
             <div class="col-6 col-md-4">
               <a href="https://www.danagas.com/wp-content/uploads/2023/05/Dana-Gas-Q1-2023-Directors-report-English.pdf" class="result-links-box" target="_blank">
                 <div class="result-links-box__pre-title text-brand">Q2 2022</div>
-                <div class="result-links-box__title">Board report</div>
+                <div class="result-links-box__title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "تقرير مجلس الإدارة" : "Board report" ?></div>
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </a>
             </div>
@@ -186,7 +186,7 @@ global $danagas;
             <div class="col-6 col-md-4">
               <a href="https://www.danagas.com/wp-content/uploads/2023/05/20230510-Q1-2023-Press-Release-English.pdf" class="result-links-box" target="_blank">
                 <div class="result-links-box__pre-title text-brand">Q2 2022</div>
-                <div class="result-links-box__title">Press Release</div>
+                <div class="result-links-box__title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "بيان صحفي" : "Press Release" ?></div>
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </a>
             </div>
@@ -194,7 +194,7 @@ global $danagas;
             <div class="col-6 col-md-4">
               <a href="https://www.danagas.com/wp-content/uploads/2023/05/20220510-Q1-2023-Investor-Presentation.pdf" class="result-links-box" target="_blank">
                 <div class="result-links-box__pre-title text-brand">Q2 2022</div>
-                <div class="result-links-box__title">Presentation</div>
+                <div class="result-links-box__title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "عرض تقديمي" : "Presentation" ?></div>
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-green.png'; ?>" alt="Right arrow icon">
               </a>
             </div>

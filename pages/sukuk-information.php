@@ -28,7 +28,7 @@
     "/assets/images/investors-info-bg.png"; ?>')">
     <div class="about-overlay"></div>
     <div class="container">
-        <h1>Investors</h1>
+        <h1><?php echo ICL_LANGUAGE_CODE == 'ar' ? "المستثمرون" : "Investors" ?></h1>
     </div>
 </section>
 
@@ -153,7 +153,7 @@
                   "/assets/images/investors/annual-report.png"; ?>" alt="View our Annual report 2019" loading="lazy">
             </div>
             <div class="card-body">
-              <div class="card-title">View our Annual report 2019</div>
+              <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "اطلع على تقريرنا السنوي 2019" : "View our Annual report 2019" ?></div>
               <img class="arrow" src="<?php echo get_template_directory_uri() .
                   "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
             </div>
@@ -169,7 +169,7 @@
                   "/assets/images/investors/events-calendar.png"; ?>" alt="Events Calendar" loading="lazy">
             </div>
             <div class="card-body">
-              <div class="card-title">Events Calendar</div>
+              <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "تقويم الأحداث" : "Events Calendar" ?></div>
               <img class="arrow" src="<?php echo get_template_directory_uri() .
                   "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
             </div>
@@ -186,7 +186,7 @@
               ); ?>" alt="Why invest in Dana Gas" loading="lazy">
             </div>
             <div class="card-body">
-              <div class="card-title">Why invest in Dana Gas</div>
+              <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "لماذا الاستثمار في دانة غاز" : "Why invest in Dana Gas" ?></div>
               <img class="arrow" src="<?php echo get_template_directory_uri() .
                   "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
             </div>

@@ -39,7 +39,7 @@
 
             <div class="col-12 col-md-8 company-section__data" style="margin: 0 auto;">
                 <div>
-                    <h2 class="default-h2">Board committees</h2>
+                    <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "لجان مجلس الإدارة" : "Board committees" ?></h2>
 
                     <?php echo get_field("board_committees_content"); ?>
                 </div>

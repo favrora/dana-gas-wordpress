@@ -28,7 +28,7 @@
     "/assets/images/results-centre-bg.png"; ?>')">
     <div class="about-overlay"></div>
     <div class="container">
-        <h1>Share price information</h1>
+        <h1><?php echo ICL_LANGUAGE_CODE == 'ar' ? "معلومات سعر السهم" : "Share price information" ?></h1>
     </div>
 </section>
 
