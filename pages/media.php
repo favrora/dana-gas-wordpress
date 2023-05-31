@@ -95,12 +95,12 @@
         <div class="row mt-3 mb-3">
 
             <div class="col-12 col-md-4">
-                <h2 class="default-h2">Get in touch with us</h2>
+                <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "ابق على تواصل معنا" : "Get in touch with us" ?></h2>
             </div>
 
             <div class="col-12 col-md-3">
                 <div class="contact-section__name">Mohammed Mubaideen</div>
-                <div class="contact-section__desc">Investor Relations & Corporate Communications</div>
+                <div class="contact-section__desc"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "علاقات المستثمرين واتصالات الشركة" : "Investor Relations & Corporate Communications" ?></div>
             </div>
 
             <div class=" col-12 col-md-5 d-flex">
@@ -111,7 +111,7 @@
                     </div>
 
                     <div>
-                        Telephone<br> <?php echo get_field("telephone_contact"); ?>
+                        <?php echo ICL_LANGUAGE_CODE == 'ar' ? "هاتف" : "Telephone" ?><br> <?php echo get_field("telephone_contact"); ?>
                     </div>
                 </div>
 
@@ -122,7 +122,7 @@
                     </div>
 
                     <div>
-                        Email<br> <?php echo get_field("email_contact"); ?>
+                        <?php echo ICL_LANGUAGE_CODE == 'ar' ? "بريد إلكتروني" : "Email" ?><br> <?php echo get_field("email_contact"); ?>
                     </div>
                 </div>
             </div>

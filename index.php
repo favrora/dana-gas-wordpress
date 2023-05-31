@@ -66,7 +66,7 @@ global $danagas;
   <!-- Operations section -->
   <section class="operations-section">
     <div class="container">
-      <div class="operations-section__pre-title">Operations</div>
+      <div class="operations-section__pre-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "عمليات" : "Operations" ?></div>
       <h2 class="default-h2 uppercase-h2"><?php echo get_field('operations_title') ?></h2>
 
       <div class="row mt-3">

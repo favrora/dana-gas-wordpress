@@ -9,13 +9,14 @@
 // Fonts
 @font-face {
   font-family: "Optima";
-  src: url("/wp-content/themes/danagas/assets/fonts/Optima.ttc");
+  // /wp-content/themes/danagas/assets/fonts/Optima.ttc
+  src: url("../fonts/Optima.ttc");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Calibri Regular";
-  src: url("/wp-content/themes/danagas/assets/fonts/Calibri-regular.ttf");
+  src: url("../fonts/Calibri-regular.ttf");
   font-display: swap;
 }
 

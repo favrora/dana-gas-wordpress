@@ -127,7 +127,7 @@
     <div class="row">
       <div class="col-12 col-md-6 content-vertical-center">
         <div>
-          <h2 class="default-h2">Reserves</h2>
+          <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "محميات" : "Reserves" ?></h2>
             <?php echo get_field("reserves_content"); ?>
         </div>
       </div>

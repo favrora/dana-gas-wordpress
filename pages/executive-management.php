@@ -38,8 +38,8 @@
         <div class="row mt-3">
 
             <div class="col-12 text-center mb-3">
-                <h2 class="default-h2">Senior Executive Management</h2>
-                <div>See our entire team & their designation</div>
+                <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "الإدارة التنفيذية العليا" : "Senior Executive Management" ?></h2>
+                <div><?php echo ICL_LANGUAGE_CODE == 'ar' ? "شاهد فريقنا بالكامل وتعيينهم" : "See our entire team & their designation" ?></div>
             </div>
 
             <div class="col-12 col-md-3 mb-3">

@@ -39,12 +39,12 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center mb-5">
-                <h2 class="default-h2">International Advisory Board</h2>
-                <div class="mb-4">See our entire team & their designation</div>
+                <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "المجلس الاستشاري الدولي" : "International Advisory Board" ?></h2>
+                <div class="mb-4"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "شاهد فريقنا بالكامل وتعيينهم" : "See our entire team & their designation" ?></div>
               <div class="advisory-img-box">
                 <img class="mb-2" src="<?php echo get_template_directory_uri() .
                     "/assets/images/international-advisory-board.png"; ?>" alt="International Advisory Board" loading="lazy">
-                <div class="advisory-img-box__note">From left to right</div>
+                <div class="advisory-img-box__note"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "من اليسار الى اليمين" : "From left to right" ?></div>
               </div>
 
             </div>

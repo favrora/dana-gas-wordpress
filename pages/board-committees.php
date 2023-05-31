@@ -28,7 +28,7 @@
   "/assets/images/about-us-bg.png"; ?>')">
     <div class="about-overlay"></div>
     <div class="container">
-        <h1><?php echo get_field("about_us_global_title"); ?></h1>
+        <h1><?php echo ICL_LANGUAGE_CODE == 'ar' ? "معلومات عنا" : "About US" ?></h1>
     </div>
 </section>
 

@@ -28,7 +28,7 @@
     "/assets/images/about-us-bg.png"; ?>')">
     <div class="about-overlay"></div>
     <div class="container">
-      <h1><?php echo get_field("about_us_global_title"); ?></h1>
+      <h1><?php echo ICL_LANGUAGE_CODE == 'ar' ? "معلومات عنا" : "About US" ?></h1>
     </div>
   </section>
 
@@ -95,7 +95,7 @@
                 ); ?>" alt="Vision, strategy & values" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title">Vision, strategy & values</div>
+                <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "الرؤية والاستراتيجية والقيم" : "Vision, strategy & values" ?></div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() .
                   "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
               </div>
@@ -110,7 +110,7 @@
                 <img src="<?php echo get_field("group_structure_image"); ?>" alt="Group structure" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title">Group structure</div>
+                <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "هيكل المجموعة" : "Group structure" ?></div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() .
                   "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
               </div>

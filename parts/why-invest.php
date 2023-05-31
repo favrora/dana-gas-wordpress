@@ -5,9 +5,9 @@
 
       <div class="col-12 col-md-6">
         <div class="why-invest-block">
-          <div class="why-invest-block__pre-title"><?php echo get_field('why_invest_pre_title') ?></div>
-          <div class="why-invest-block__title"><?php echo get_field('why_invest_title') ?></div>
-          <p><?php echo get_field('why_invest_description') ?></p>
+          <div class="why-invest-block__pre-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "لماذا تستثمر في" : "Why invest in" ?></div>
+          <div class="why-invest-block__title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "دانة غاز" : "Dana Gas" ?></div>
+          <p><?php echo ICL_LANGUAGE_CODE == 'ar' ? "أكبر شركة في منطقة الشرق الأوسط وشمال إفريقيا مدرجة بشكل مستقل وتركز على الغاز الطبيعي" : "MENA's largest independently listed, natural gas-focused E&P Company" ?></p>
 
           <div class="row">
             <div class="col-6 why-invest-block__data">
@@ -16,8 +16,8 @@
               </div>
 
               <div class="d-flex flex-wrap">
-                <div class="why-invest-block__data-title"><?php echo get_field('why_gross_production') ?></div>
-                <div class="why-invest-block__data-stats"><?php echo get_field('why_gross_production_value') ?></div>
+                <div class="why-invest-block__data-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "الإنتاج الإجمالي" : "Gross Production" ?></div>
+                <div class="why-invest-block__data-stats"><?php echo get_field('why_gross_production_value_num') ?> <?php echo ICL_LANGUAGE_CODE == 'ar' ? "كيلوبايت في اليوم" : "kboepd" ?></div>
               </div>
             </div>
 
@@ -27,8 +27,8 @@
               </div>
 
               <div class="d-flex flex-wrap">
-                <div class="why-invest-block__data-title"><?php echo get_field('why_2p_reserves') ?></div>
-                <div class="why-invest-block__data-stats"><?php echo get_field('why_2p_reserves_value') ?></div>
+                <div class="why-invest-block__data-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "2P الاحتياطيات" : "2P Reserves" ?></div>
+                <div class="why-invest-block__data-stats"><?php echo get_field('why_2p_reserves_value_num') ?> <?php echo ICL_LANGUAGE_CODE == 'ar' ? "ممبو" : "mmboe" ?></div>
               </div>
             </div>
 
@@ -38,8 +38,8 @@
               </div>
 
               <div class="d-flex flex-wrap">
-                <div class="why-invest-block__data-title"><?php echo get_field('why_average_production') ?></div>
-                <div class="why-invest-block__data-stats"><?php echo get_field('why_average_production_value') ?></div>
+                <div class="why-invest-block__data-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "متوسط إنتاج الغاز اليومي" : "Average Daily Gas Production" ?></div>
+                <div class="why-invest-block__data-stats"><?php echo get_field('why_average_production_value_num') ?> <?php echo ICL_LANGUAGE_CODE == 'ar' ? "ملي قدم مكعب" : "mmscf" ?></div>
               </div>
             </div>
 
@@ -49,8 +49,8 @@
               </div>
 
               <div class="d-flex flex-wrap">
-                <div class="why-invest-block__data-title"><?php echo get_field('why_average_condensate') ?></div>
-                <div class="why-invest-block__data-stats"><?php echo get_field('why_average_condensate_value') ?></div>
+                <div class="why-invest-block__data-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "متوسط إنتاج المكثفات اليومي" : "Average Daily Condensate Production" ?></div>
+                <div class="why-invest-block__data-stats"><?php echo get_field('why_average_condensate_value_num') ?> <?php echo ICL_LANGUAGE_CODE == 'ar' ? "برميل" : "bbl" ?></div>
               </div>
             </div>
           </div>

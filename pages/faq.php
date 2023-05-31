@@ -28,7 +28,7 @@
   "/assets/images/faq-bg.png"; ?>')">
     <div class="about-overlay"></div>
     <div class="container">
-        <h1><?php echo get_field("investors_global_name"); ?></h1>
+        <h1><?php echo ICL_LANGUAGE_CODE == 'ar' ? "المستثمرون" : "Investors" ?></h1>
     </div>
 </section>
 

@@ -28,7 +28,7 @@
   "/assets/images/operations-main-bg.png"; ?>')">
     <div class="about-overlay"></div>
     <div class="container">
-        <h1>Operations</h1>
+        <h1><?php echo ICL_LANGUAGE_CODE == 'ar' ? "عمليات" : "Operations" ?></h1>
     </div>
 </section>
 
