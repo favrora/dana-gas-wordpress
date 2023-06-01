@@ -240,28 +240,28 @@
       </div>
 
       <div class="col-12 col-md-6">
-          <h3 class="title-green">Nile Delta operations</h3>
+          <h3 class="title-green"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "عمليات دلتا النيل" : "Nile Delta operations" ?></h3>
 
         <p><?php echo get_field("nile_delta_operations"); ?> <span class="showMoreText d-none"><?php echo get_field(
    "nile_delta_operations_show_more"
  ); ?></span></p>
 
         <button class="showMoreBtn btn btn-link pl-0">
-            Show more
+            <?php echo ICL_LANGUAGE_CODE == 'ar' ? "أظهر المزيد" : "Show more" ?>
           <img class="arrow-ic" src="<?php echo get_template_directory_uri() .
             "/assets/images/icons/dropdown-open-icon.png"; ?>" alt="Dropdown open icon">
         </button>
       </div>
 
       <div class="col-12 col-md-6">
-        <h3 class="title-green">El Wastani Gas plant</h3>
+        <h3 class="title-green"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "معمل الوسطاني للغاز" : "El Wastani Gas plant" ?></h3>
 
         <p><?php echo get_field("gas_plant"); ?> <span class="showMoreText d-none"><?php echo get_field(
    "gas_plant_show_more"
  ); ?></span></p>
 
         <button class="showMoreBtn btn btn-link pl-0">
-          Show more
+            <?php echo ICL_LANGUAGE_CODE == 'ar' ? "أظهر المزيد" : "Show more" ?>
           <img class="arrow-ic" src="<?php echo get_template_directory_uri() .
             "/assets/images/icons/dropdown-open-icon.png"; ?>" alt="Dropdown open icon">
         </button>

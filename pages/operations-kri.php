@@ -146,7 +146,7 @@
     <img src="<?php echo get_template_directory_uri() .
       "/assets/images/settlement-kri.png"; ?>" alt="Settlement kri" loading="lazy">
 
-    <h2 class="default-h2 text-center mt-4 mb-3">Settlement</h2>
+    <h2 class="default-h2 text-center mt-4 mb-3"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "مستعمرة" : "Settlement" ?></h2>
 
     <div class="row">
       <div class="col-12 col-md-6">
@@ -190,7 +190,7 @@
 
       <div class="col-12 col-md-6 content-vertical-center">
         <div>
-          <h2 class="default-h2 mb-2">Gas sale</h2>
+          <h2 class="default-h2 mb-2"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "بيع الغاز" : "Gas sale" ?></h2>
             <?php echo get_field("gas_sale_content"); ?>
         </div>
       </div>

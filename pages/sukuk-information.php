@@ -39,7 +39,7 @@
         <div class="row">
 
             <div class="col-12 text-center mb-2">
-                <h2 class="default-h2">Sukuk information</h2>
+                <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "معلومات الصكوك" : "Sukuk information" ?></h2>
             </div>
 
             <div class="col-12">
