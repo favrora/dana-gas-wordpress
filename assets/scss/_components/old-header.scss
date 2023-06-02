@@ -189,6 +189,10 @@
     font-size: 0.8rem;
     justify-content: flex-end;
 
+    .nav-price__text {
+      width: inherit;
+    }
+
     .lang-sec {
       .wpml-ls-legacy-list-horizontal {
         padding: 0;

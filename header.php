@@ -27,12 +27,6 @@
           <?php elseif (ICL_LANGUAGE_CODE == 'ar') : ?>
             <a href="#" target="_blank" class="stat"><?php echo $danagas['share_price_ar']; ?></a>
           <?php endif; ?>
-
-          <?php if (ICL_LANGUAGE_CODE == 'en') : ?>
-            DANA Last Price 0.937 05/09/2022 11:49 Change  - 0.010 / (-1.06%)       Previous Close 0.947 Open 0.948 High 0.949
-          <?php elseif (ICL_LANGUAGE_CODE == 'ar') : ?>
-            DANA آخر سعر 0.937 05/09/2022 11:49 تغيير - 0.010 / (-1.06٪) إغلاق سابق 0.947 فتح 0.948 قمة 0.949
-          <?php endif; ?>
       </div>
 
       <div class="lang-sec float-left">
