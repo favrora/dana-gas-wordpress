@@ -36,7 +36,7 @@
         <div class="row mt-3">
 
             <div class="col-12 col-md-4 mb-3">
-                <a href="/media/press-releases/" class="card-link">
+                <a href="<?php echo get_site_url() ?>/media/press-releases/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .
@@ -52,7 +52,7 @@
             </div>
 
             <div class="col-12 col-md-4 mb-3">
-                <a href="/media/regulatory-disclosures/" class="card-link">
+                <a href="<?php echo get_site_url() ?>/media/regulatory-disclosures/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .
@@ -68,7 +68,7 @@
             </div>
 
             <div class="col-12 col-md-4 mb-3">
-                <a href="/media/media-library/" class="card-link">
+                <a href="<?php echo get_site_url() ?>/media/media-library/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .

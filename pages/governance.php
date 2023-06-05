@@ -130,7 +130,7 @@
       <div class="row justify-content-center mt-3">
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/about-us/governance/committees/" class="card-link">
+          <a href="<?php echo get_site_url() ?>/about-us/governance/committees/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_field(
@@ -147,7 +147,7 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/about-us/governance/governance-reporting/" class="card-link">
+          <a href="<?php echo get_site_url() ?>/about-us/governance/governance-reporting/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_field(

@@ -33,7 +33,7 @@ global $danagas;
 
         <div class="about-end-title"><?php echo get_field('after_title') ?></div>
 
-        <a href="/about-us/overview/" class="btn btnWithProgress up">
+        <a href="<?php echo get_site_url() ?>/about-us/overview/" class="btn btnWithProgress up">
           <?php echo get_field('title_button') ?>
           <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-white.png'; ?>" alt="Right arrow icon">
         </a>
@@ -70,7 +70,7 @@ global $danagas;
       <div class="row mt-3">
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/operations/egypt/" class="card-link">
+          <a href="<?php echo get_site_url() ?>/operations/egypt/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_field('egypt_main_card_image') ?>" alt="Egypt" loading="lazy">
@@ -84,7 +84,7 @@ global $danagas;
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/operations/kri/" class="card-link">
+          <a href="<?php echo get_site_url() ?>/operations/kri/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_field('kri_main_card_image') ?>" alt="Kurdistan Region of Iraq" loading="lazy">
@@ -98,7 +98,7 @@ global $danagas;
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/operations/united-arab-emirates/" class="card-link">
+          <a href="<?php echo get_site_url() ?>/operations/united-arab-emirates/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_field('uae_main_card_image') ?>" alt="United Arab Emirates" loading="lazy">
@@ -112,7 +112,7 @@ global $danagas;
         </div>
       </div>
 
-      <a href="/operations/" class="btn btnWithProgress mt-4 up">
+      <a href="<?php echo get_site_url() ?>/operations/" class="btn btnWithProgress mt-4 up">
         <?php echo get_field('operations_button') ?>
         <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-white.png'; ?>" alt="Right arrow icon">
       </a>
@@ -130,7 +130,7 @@ global $danagas;
           <h2 class="default-h2"><?php echo get_field('investors_title') ?></h2>
           <div class="investors-section__desc"><?php echo get_field('investors_description') ?>
           </div>
-          <a href="/investors/results-center/" class="btn btnWithProgress mt-4 up">
+          <a href="<?php echo get_site_url() ?>/investors/results-center/" class="btn btnWithProgress mt-4 up">
             <?php echo get_field('investors_button') ?>
             <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-white.png'; ?>" alt="Right arrow icon">
           </a>
@@ -214,7 +214,7 @@ global $danagas;
           <h2 class="default-h2"><?php echo get_field('ceo_title') ?></h2>
           <div><?php echo get_field('ceo_description') ?></div>
 
-          <a href="/about-us/overview/" class="btn btnWithProgress mt-4 up">
+          <a href="<?php echo get_site_url() ?>/about-us/overview/" class="btn btnWithProgress mt-4 up">
             <?php echo get_field('ceo_button') ?>
             <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-white.png'; ?>" alt="Right arrow icon">
           </a>

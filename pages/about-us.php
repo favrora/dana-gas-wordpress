@@ -41,7 +41,7 @@
             <h2 class="default-h2"><?php echo get_field("about_title"); ?></h2>
             <?php echo get_field("about_description"); ?>
 
-            <a href="/about-us/overview/" class="btn btnWithProgress up">
+            <a href="<?php echo get_site_url() ?>/about-us/overview/" class="btn btnWithProgress up">
               <?php echo ICL_LANGUAGE_CODE == 'ar' ? "اقرأ أكثر" : "Read more" ?>
               <img src="<?php echo get_template_directory_uri() .
                 "/assets/images/right-arrow-white.png"; ?>" alt="Right arrow icon">
@@ -64,7 +64,7 @@
       <div class="row mt-3">
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/about-us/board-and-management/board-of-directors" class="card-link">
+          <a href="<?php echo get_site_url() ?>/about-us/board-and-management/board-of-directors" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_field(
@@ -81,7 +81,7 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/about-us/governance/" class="card-link">
+          <a href="<?php echo get_site_url() ?>/about-us/governance/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_field("governance_card_image"); ?>" alt="Governance" loading="lazy">
@@ -96,7 +96,7 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/about-us/risk-management/" class="card-link">
+          <a href="<?php echo get_site_url() ?>/about-us/risk-management/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_field("risk_management_card_image"); ?>" alt="Risk management" loading="lazy">

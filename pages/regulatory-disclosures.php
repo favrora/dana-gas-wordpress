@@ -52,7 +52,7 @@
         <div class="row mt-3">
 
             <div class="col-12 col-md-4 mb-3">
-                <a href="/investors/reports/" class="card-link">
+                <a href="<?php echo get_site_url() ?>/investors/reports/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .
@@ -68,7 +68,7 @@
             </div>
 
             <div class="col-12 col-md-4 mb-3">
-                <a href="/investors/event-calender/" class="card-link">
+                <a href="<?php echo get_site_url() ?>/investors/event-calender/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .
@@ -84,7 +84,7 @@
             </div>
 
             <div class="col-12 col-md-4 mb-3">
-                <a href="/about-us/overview/1537-2/" class="card-link">
+                <a href="<?php echo get_site_url() ?>/about-us/overview/1537-2/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_field(

@@ -107,7 +107,7 @@
         <div class="row mt-3">
 
             <div class="col-12 col-md-4 mb-3">
-                <a href="/about-us/board-and-management/board-of-directors/" class="card-link">
+                <a href="<?php echo get_site_url() ?>/about-us/board-and-management/board-of-directors/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .
@@ -123,7 +123,7 @@
             </div>
 
             <div class="col-12 col-md-4 mb-3">
-                <a href="/about-us/board-and-management/international-advisory-board/" class="card-link">
+                <a href="<?php echo get_site_url() ?>/about-us/board-and-management/international-advisory-board/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .
@@ -139,7 +139,7 @@
             </div>
 
             <div class="col-12 col-md-4 mb-3">
-                <a href="/about-us/board-and-management/senior-executive-management/" class="card-link">
+                <a href="<?php echo get_site_url() ?>/about-us/board-and-management/senior-executive-management/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .

@@ -41,7 +41,7 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="/team/dr-patrick-allman-ward/" class="card-link">
+                <a href="<?php echo get_site_url() ?>/team/dr-patrick-allman-ward/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .
@@ -56,7 +56,7 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="/team/chris-hearne/" class="card-link">
+                <a href="<?php echo get_site_url() ?>/team/chris-hearne/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                           <img src="<?php echo get_template_directory_uri() .
@@ -71,7 +71,7 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="/team/neville-henwood/" class="card-link">
+                <a href="<?php echo get_site_url() ?>/team/neville-henwood/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                           <img src="<?php echo get_template_directory_uri() .
@@ -86,7 +86,7 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="/team/mike-seymour/" class="card-link">
+                <a href="<?php echo get_site_url() ?>/team/mike-seymour/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                           <img src="<?php echo get_template_directory_uri() .
@@ -101,7 +101,7 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="/team/ramganesh-srinivasan/" class="card-link">
+                <a href="<?php echo get_site_url() ?>/team/ramganesh-srinivasan/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                           <img src="<?php echo get_template_directory_uri() .
@@ -116,7 +116,7 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="/team/michael-pyszka/" class="card-link">
+                <a href="<?php echo get_site_url() ?>/team/michael-pyszka/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                           <img src="<?php echo get_template_directory_uri() .
@@ -131,7 +131,7 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="/team/shakir-shakir/" class="card-link">
+                <a href="<?php echo get_site_url() ?>/team/shakir-shakir/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                           <img src="<?php echo get_template_directory_uri() .
@@ -156,7 +156,7 @@
         <div class="row mt-3">
 
             <div class="col-12 col-md-4 mb-3">
-                <a href="/about-us/board-and-management/board-of-directors/" class="card-link">
+                <a href="<?php echo get_site_url() ?>/about-us/board-and-management/board-of-directors/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .
@@ -172,7 +172,7 @@
             </div>
 
             <div class="col-12 col-md-4 mb-3">
-                <a href="/about-us/board-and-management/international-advisory-board/" class="card-link">
+                <a href="<?php echo get_site_url() ?>/about-us/board-and-management/international-advisory-board/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .
@@ -188,7 +188,7 @@
             </div>
 
             <div class="col-12 col-md-4 mb-3">
-                <a href="/about-us/board-and-management/senior-executive-management/" class="card-link">
+                <a href="<?php echo get_site_url() ?>/about-us/board-and-management/senior-executive-management/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .

@@ -37,7 +37,7 @@
       <div class="row mt-3">
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/investors/results-center/" class="card-link">
+          <a href="<?php echo get_site_url() ?>/investors/results-center/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_template_directory_uri() .
@@ -53,7 +53,7 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/investors/reports/" class="card-link">
+          <a href="<?php echo get_site_url() ?>/investors/reports/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_template_directory_uri() .
@@ -69,7 +69,7 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/investors/regulatory-disclosures/" class="card-link">
+          <a href="<?php echo get_site_url() ?>/investors/regulatory-disclosures/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_template_directory_uri() .
@@ -85,7 +85,7 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/investors/key-financials/" class="card-link">
+          <a href="<?php echo get_site_url() ?>/investors/key-financials/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_template_directory_uri() .
@@ -101,7 +101,7 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/investors/share-price-information/" class="card-link">
+          <a href="<?php echo get_site_url() ?>/investors/share-price-information/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_template_directory_uri() .
@@ -117,7 +117,7 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/investors/event-calender/" class="card-link">
+          <a href="<?php echo get_site_url() ?>/investors/event-calender/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_template_directory_uri() .
@@ -133,7 +133,7 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/investors/shareholder-information/" class="card-link">
+          <a href="<?php echo get_site_url() ?>/investors/shareholder-information/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_template_directory_uri() .
@@ -149,7 +149,7 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/investors/sukuk-information/" class="card-link">
+          <a href="<?php echo get_site_url() ?>/investors/sukuk-information/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_template_directory_uri() .
@@ -165,7 +165,7 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="/investors/faqs/" class="card-link">
+          <a href="<?php echo get_site_url() ?>/investors/faqs/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_template_directory_uri() .

@@ -36,7 +36,7 @@
         <div class="row mt-3">
 
             <div class="col-12 col-md-4 mb-3">
-              <a href="/operations/egypt/" class="card-link">
+              <a href="<?php echo get_site_url() ?>/operations/egypt/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .
@@ -52,7 +52,7 @@
             </div>
 
             <div class="col-12 col-md-4 mb-3">
-              <a href="/operations/kri/" class="card-link">
+              <a href="<?php echo get_site_url() ?>/operations/kri/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .
@@ -68,7 +68,7 @@
             </div>
 
             <div class="col-12 col-md-4 mb-3">
-              <a href="/operations/united-arab-emirates/" class="card-link">
+              <a href="<?php echo get_site_url() ?>/operations/united-arab-emirates/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .
