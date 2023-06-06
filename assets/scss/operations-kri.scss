@@ -109,7 +109,7 @@
     justify-content: center;
     flex-wrap: wrap;
 
-    &__item {
+    &__item, &__more {
       padding: 10px 25px;
       border: 1px solid #d9d9d9;
       border-radius: 5px;

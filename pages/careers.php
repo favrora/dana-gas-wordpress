@@ -59,7 +59,7 @@
 </section>
 
 <!-- Opportunities section -->
-<section class="opportunities-section pt-5">
+<section class="opportunities-section pt-5 pb-3">
   <div class="container">
     <div class="row">
 

@@ -81,7 +81,7 @@
 <!-- Cards section -->
 <section class="cards-section story mb-5">
   <div class="container">
-    <h2 class="default-h2"><?php echo get_field("our_story_title"); ?></h2>
+    <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "قصتنا" : "Our Story" ?></h2>
     <div class="row mt-3">
 
       <div class="col-12 col-md-4 mb-3">

@@ -231,3 +231,33 @@ h6 {
     cursor: pointer;
   }
 }
+
+.position-relative {
+  position: relative;
+}
+
+.subMenuReport {
+  position: absolute;
+  top: 60px;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 7px #00000038;
+  display: none;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  padding: 0;
+
+  &.is-active {
+    display: flex;
+
+    .reports-nav__item {
+      width: 100%;
+      text-align: center;
+      margin: 0;
+      padding: 5px;
+      border: none;
+      border-radius: 0;
+    }
+  }
+}

@@ -12,7 +12,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
   <!-- Source files -->
   <link href="<?php echo get_template_directory_uri() . "/dist/css/group-structure.min.css"; ?>" rel="stylesheet">
   <?php wp_head(); ?>
@@ -32,7 +31,7 @@
   </section>
 
   <!-- Table section -->
-  <section class="table-section mt-4 mb-5">
+  <section class="table-section mb-5">
     <div class="container">
       <h2 class="default-h2"><?php echo get_field("group_structure_title"); ?></h2>
       <p><?php echo get_field("group_structure_description"); ?></p>
@@ -49,7 +48,7 @@
   <!-- Cards section -->
   <section class="cards-section story mb-5">
     <div class="container">
-      <h2 class="default-h2"><?php echo get_field("our_story_title"); ?></h2>
+      <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "قصتنا" : "Our Story" ?></h2>
       <div class="row mt-3">
 
         <div class="col-12 col-md-4 mb-3">

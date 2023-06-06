@@ -70,67 +70,16 @@
   </section>
 
   <!-- Form section -->
-  <section class="form-section d-none">
+  <section class="form-section">
     <div class="container">
       <h2 class="default-h2 text-center"><?php echo get_field("contact_form_title"); ?></h2>
       <p class="form-section__desc"><?php echo get_field("contact_form_description"); ?></p>
 
-      <form class="form-section__form mt-3">
-        <div class="row">
-          <div class="col-12 col-md-6">
-            <input type="text" name="first_name" placeholder="<?php echo get_field("contact_first_name_input"); ?>:*">
-          </div>
-
-          <div class="col-12 col-md-6">
-            <input type="text" name="last_name" placeholder="<?php echo get_field("contact_last_name_input"); ?>:*">
-          </div>
-
-          <div class="col-12 col-md-6">
-            <input id="phoneNumber" type="text" class="phone" name="phone_number">
-            <input type="hidden" name="phone_county_code">
-          </div>
-
-          <div class="col-12 col-md-6">
-            <input type="email" name="email" placeholder="<?php echo get_field("contact_email_address_input"); ?>:*">
-          </div>
-
-          <div class="col-12 col-md-6">
-            <select class="form-control">
-                <?php if (ICL_LANGUAGE_CODE == 'en') : ?>
-                  <option value="" selected disabled>Purporse:*</option>
-                  <option value="1">General Enquiry</option>
-                  <option value="2">Feedback</option>
-                <?php elseif (ICL_LANGUAGE_CODE == 'ar') : ?>
-                  <option value="" selected disabled>المحفظة: *</option>
-                  <option value="1">استفسار عام</option>
-                  <option value="2">تعليق</option>
-                <?php endif; ?>
-            </select>
-          </div>
-
-          <div class="col-12 col-md-6">
-            <input type="text" name="company_name" placeholder="<?php echo get_field(
-              "contact_company_name_input"
-            ); ?>:">
-          </div>
-
-          <div class="col-12">
-            <textarea class="form-control" rows="3" placeholder="<?php echo get_field(
-              "contact_comments_input"
-            ); ?>:*"></textarea>
-          </div>
-
-          <div class="col-12 text-center">
-            <button class="btn btnWithProgress mt-3 up">
-              <?php echo get_field("contact_form_button"); ?>
-              <img src="<?php echo get_template_directory_uri() .
-                "/assets/images/right-arrow-white.png"; ?>" alt="Right arrow icon">
-            </button>
-          </div>
-
-        </div>
-      </form>
-
+        <?php if(ICL_LANGUAGE_CODE=='en'): ?>
+            <?php echo do_shortcode( '[contact-form-7 id="630" title="Contact Form"]' ); ?>
+        <?php elseif(ICL_LANGUAGE_CODE=='ar'): ?>
+            <?php echo do_shortcode( '[contact-form-7 id="4706" title="Contact Form Arabic"]' ); ?>
+        <?php endif; ?>
     </div>
   </section>
 

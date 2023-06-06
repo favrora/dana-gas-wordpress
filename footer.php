@@ -17,7 +17,19 @@
               <a href="<?php echo get_site_url() ?>/about-us/overview/1537-2/">Why invest in Dana Gas</a>
               <a href="<?php echo get_site_url() ?>/about-us/overview/vision-strategy-values/">Vision, strategy & values</a>
               <a href="<?php echo get_site_url() ?>/about-us/overview/group-structure/">Group structure</a>
+            </div>
+          </div>
+
+          <div class="footer-menu__list">
+            <div class="footer-menu__title">
               <a href="<?php echo get_site_url() ?>/about-us/board-and-management/board-of-directors">Board & Management</a>
+              <div class="showDropdownList">−</div>
+            </div>
+            <div class="footer-menu__links">
+              <a href="<?php echo get_site_url() ?>/about-us/board-and-management/board-of-directors/">Board of Directors</a>
+              <a href="<?php echo get_site_url() ?>/about-us/board-and-management/international-advisory-board/">International Advisory Board</a>
+              <a href="<?php echo get_site_url() ?>/about-us/board-and-management/senior-executive-management/">Senior Executive Management</a>
+              <a href="<?php echo get_site_url() ?>/about-us/board-and-management/senior-management/">Senior Management</a>
             </div>
           </div>
         </div>
@@ -33,6 +45,8 @@
               <a href="<?php echo get_site_url() ?>/about-us/governance/governance-reporting/">Governance reporting</a>
             </div>
           </div>
+
+          <a href="<?php echo get_site_url() ?>/about-us/risk-management/" class="footer-menu__title no-list d-block">Risk Management and Internal Audit</a>
         </div>
 
         <div class="col-12 col-md-6 col-lg-2">
@@ -47,9 +61,13 @@
               <a href="<?php echo get_site_url() ?>/operations/united-arab-emirates/">United Arab Emirates</a>
             </div>
           </div>
+
+          <a href="<?php echo get_site_url() ?>/sustainability/" class="footer-menu__title no-list d-block">Sustainability</a>
+          <a href="<?php echo get_site_url() ?>/careers/" class="footer-menu__title no-list d-block">Careers</a>
+          <a href="<?php echo get_site_url() ?>/contact/" class="footer-menu__title no-list d-block">Contact Us</a>
         </div>
 
-        <div class="col-12 col-md-6 col-lg-2 d-none">
+        <div class="col-12 col-md-6 col-lg-2">
           <div class="footer-menu__list">
             <div class="footer-menu__title">
               <a href="<?php echo get_site_url() ?>/media/">Media</a>
@@ -73,17 +91,12 @@
               <a href="<?php echo get_site_url() ?>/investors/results-center/">Results centre</a>
               <a href="<?php echo get_site_url() ?>/investors/reports/">Reports &amp; presentations</a>
               <a href="<?php echo get_site_url() ?>/investors/sukuk-information/">Sukuk information</a>
+              <a href="<?php echo get_site_url() ?>/investors/key-financials/">Key financials</a>
               <a href="<?php echo get_site_url() ?>/investors/general-assembly-meeting/">General Assembly Meeting</a>
               <a href="<?php echo get_site_url() ?>/investors/share-price-information-2/">Share price information</a>
               <a href="<?php echo get_site_url() ?>/investors/faqs/">FAQs</a>
             </div>
           </div>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-2">
-          <a href="<?php echo get_site_url() ?>/sustainability/" class="footer-menu__title no-list d-block">Sustainability</a>
-          <a href="<?php echo get_site_url() ?>/careers/" class="footer-menu__title no-list d-block">Careers</a>
-          <a href="<?php echo get_site_url() ?>/contact/" class="footer-menu__title no-list d-block">Contact Us</a>
         </div>
       </div>
 
@@ -100,7 +113,19 @@
                <a href="<?php echo get_site_url() ?>/about-us/overview/1537-2/">لماذا الاستثمار في دانة غاز</a>
                <a href="<?php echo get_site_url() ?>/about-us/overview/vision-strategy-values/">الرؤية والاستراتيجية والقيم</a>
                <a href="<?php echo get_site_url() ?>/about-us/overview/group-structure/">هيكل المجموعة</a>
+             </div>
+           </div>
+
+           <div class="footer-menu__list">
+             <div class="footer-menu__title">
                <a href="<?php echo get_site_url() ?>/about-us/board-and-management/board-of-directors">مجلس الإدارة والإدارة</a>
+               <div class="showDropdownList">−</div>
+             </div>
+             <div class="footer-menu__links">
+               <a href="<?php echo get_site_url() ?>/about-us/board-and-management/board-of-directors/">مجلس إدارة</a>
+               <a href="<?php echo get_site_url() ?>/about-us/board-and-management/international-advisory-board/">المجلس الاستشاري الدولي</a>
+               <a href="<?php echo get_site_url() ?>/about-us/board-and-management/senior-executive-management/">الإدارة التنفيذية العليا</a>
+               <a href="<?php echo get_site_url() ?>/about-us/board-and-management/senior-management/">الإدارة العليا</a>
              </div>
            </div>
          </div>
@@ -116,6 +141,7 @@
                <a href="<?php echo get_site_url() ?>/about-us/governance/governance-reporting/">تقارير الحوكمة</a>
              </div>
            </div>
+           <a href="<?php echo get_site_url() ?>/about-us/risk-management/" class="footer-menu__title no-list d-block">إدارة المخاطر والتدقيق الداخلي</a>
          </div>
 
          <div class="col-12 col-md-6 col-lg-2">
@@ -130,9 +156,13 @@
                <a href="<?php echo get_site_url() ?>/operations/united-arab-emirates/">الإمارات العربية المتحدة</a>
              </div>
            </div>
+
+           <a href="<?php echo get_site_url() ?>/sustainability/" class="footer-menu__title no-list d-block">الاستدامة</a>
+           <a href="<?php echo get_site_url() ?>/careers/" class="footer-menu__title no-list d-block">وظائف</a>
+           <a href="<?php echo get_site_url() ?>/contact/" class="footer-menu__title no-list d-block">اتصل بنا</a>
          </div>
 
-         <div class="col-12 col-md-6 col-lg-2 d-none">
+         <div class="col-12 col-md-6 col-lg-2">
            <div class="footer-menu__list">
              <div class="footer-menu__title">
                <a href="<?php echo get_site_url() ?>/media/">وسائط</a>
@@ -161,12 +191,6 @@
                <a href="<?php echo get_site_url() ?>/investors/faqs/">أسئلة وأجوبة</a>
              </div>
            </div>
-         </div>
-
-         <div class="col-12 col-md-6 col-lg-2">
-           <a href="<?php echo get_site_url() ?>/sustainability/" class="footer-menu__title no-list d-block">الاستدامة</a>
-           <a href="<?php echo get_site_url() ?>/careers/" class="footer-menu__title no-list d-block">وظائف</a>
-           <a href="<?php echo get_site_url() ?>/contact/" class="footer-menu__title no-list d-block">اتصل بنا</a>
          </div>
        </div>
      <?php endif; ?>

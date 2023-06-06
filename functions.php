@@ -249,7 +249,8 @@ function reports_shortcode( $atts ) {
         ?>
         <?php if( count( $terms ) > 4 ) : ?>
           <!--<div class="reports-nav__item">< ? php /*echo 'More'; */?></div>-->
-            <?php echo $submenu; ?>
+          <?php $moreText = (!empty(ICL_LANGUAGE_CODE) && ICL_LANGUAGE_CODE == 'ar') ? 'مزيد' : 'More'; ?>
+          <div class="position-relative"><div class="moreFilters reports-nav__more"><?php echo $moreText; ?></div><ul class="subMenuReport"><?php echo $submenu; ?></ul></div>
         <?php endif; ?>
     </div>
 
@@ -392,7 +393,8 @@ function results_shortcode( $atts ) {
         ?>
         <?php if( count( $terms ) > 4 ) : ?>
           <!--<div class="reports-nav__item">< ? php /*echo 'More'; */?></div>-->
-            <?php echo $submenu; ?>
+          <?php $moreText = (!empty(ICL_LANGUAGE_CODE) && ICL_LANGUAGE_CODE == 'ar') ? 'مزيد' : 'More'; ?>
+          <div class="position-relative"><div class="moreFilters reports-nav__more"><?php echo $moreText; ?></div><ul class="subMenuReport"><?php echo $submenu; ?></ul></div>
         <?php endif; ?>
     </div>
 
@@ -672,7 +674,7 @@ function rd_reports_shortcode( $atts ) {
                                         ?>
                                         <?php if( count( $terms ) > 4 ) : ?>
                                             <?php $moreText = (!empty(ICL_LANGUAGE_CODE) && ICL_LANGUAGE_CODE == 'ar') ? 'مزيد' : 'More'; ?>
-                                            <li><a href="#" class="more-filters"><?php echo $moreText; ?></a><ul class="sub-menu"><?php echo $submenu; ?></ul></li>
+                                          <div class="position-relative"><div class="moreFilters reports-nav__more"><?php echo $moreText; ?></div><ul class="subMenuReport"><?php echo $submenu; ?></ul></div>
                                         <?php endif; ?>
                     </ul>
                 </div>

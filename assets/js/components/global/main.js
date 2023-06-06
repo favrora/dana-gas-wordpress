@@ -97,9 +97,36 @@ for (let i = 0; i < showMoreBtn.length; ++i) {
     if (showMoreText[i].classList.contains("d-none")) {
       showMoreText[i].classList.remove("d-none")
       showMoreBtn[i].classList.add("active")
+      showMoreBtn[i].querySelector(".showMoreText").classList.add("d-none")
+      showMoreBtn[i].querySelector(".showLessText").classList.remove("d-none")
     } else {
       showMoreText[i].classList.add("d-none")
       showMoreBtn[i].classList.remove("active")
+      showMoreBtn[i].querySelector(".showMoreText").classList.remove("d-none")
+      showMoreBtn[i].querySelector(".showLessText").classList.add("d-none")
     }
   })
 }
+
+const moreFilters = document.querySelectorAll(".moreFilters"),
+  subMenuReport = document.querySelectorAll(".subMenuReport");
+
+
+for (let i = 0; i < moreFilters.length; ++i) {
+  moreFilters[i].addEventListener("click", function () {
+    moreFilters[i].parentElement.querySelector(".subMenuReport").classList.toggle("is-active");
+  })
+}
+
+for (let i = 0; i < subMenuReport.length; ++i) {
+  subMenuReport[i].addEventListener("click", function () {
+    subMenuReport[i].classList.remove("is-active");
+  })
+}
+
+/*
+
+<div class="moreFilters reports-nav__item"><?php echo $moreText; ?></div>
+
+<ul class="subMenuReport"><?php echo $submenu; ?></ul>
+ */

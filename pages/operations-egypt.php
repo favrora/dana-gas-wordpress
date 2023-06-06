@@ -233,7 +233,7 @@
 
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "محميات" : "Reserves" ?></h2>
+        <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "الأصول البرية" : "Onshore assets" ?></h2>
           <?php echo get_field("onshore_assets_pre_titile"); ?>
       </div>
 
@@ -245,9 +245,10 @@
  ); ?></span></p>
 
         <button class="showMoreBtn btn btn-link pl-0">
-            <?php echo ICL_LANGUAGE_CODE == 'ar' ? "أظهر المزيد" : "Show more" ?>
+          <span class="showMoreText"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "أظهر المزيد" : "Show more" ?></span>
+          <span class="showLessText d-none"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "عرض أقل" : "Show less" ?></span>
           <img class="arrow-ic" src="<?php echo get_template_directory_uri() .
-            "/assets/images/icons/dropdown-open-icon.png"; ?>" alt="Dropdown open icon">
+              "/assets/images/icons/dropdown-open-icon.png"; ?>" alt="Dropdown open icon">
         </button>
       </div>
 
@@ -259,9 +260,10 @@
  ); ?></span></p>
 
         <button class="showMoreBtn btn btn-link pl-0">
-            <?php echo ICL_LANGUAGE_CODE == 'ar' ? "أظهر المزيد" : "Show more" ?>
+          <span class="showMoreText"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "أظهر المزيد" : "Show more" ?></span>
+          <span class="showLessText d-none"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "عرض أقل" : "Show less" ?></span>
           <img class="arrow-ic" src="<?php echo get_template_directory_uri() .
-            "/assets/images/icons/dropdown-open-icon.png"; ?>" alt="Dropdown open icon">
+              "/assets/images/icons/dropdown-open-icon.png"; ?>" alt="Dropdown open icon">
         </button>
       </div>
     </div>
@@ -271,7 +273,6 @@
 <!-- Cards section -->
 <section class="cards-section story pt-3 mb-5">
   <div class="container">
-    <h2 class="default-h2"><?php echo get_field("our_story_title"); ?></h2>
     <div class="row mt-3">
 
       <div class="col-12 col-md-4 mb-3">

@@ -41,17 +41,17 @@
     margin: 0 auto;
   }
 
-  &__form {
+  form {
     max-width: 800px;
     margin: 0 auto;
+  }
 
-    .col-12 {
-      margin-bottom: 15px;
-    }
+  select {
+    @extend .form-control
+  }
 
-    .iti {
-      width: 100%;
-    }
+  .wpcf7-submit {
+    @extend .btn
   }
 }
 

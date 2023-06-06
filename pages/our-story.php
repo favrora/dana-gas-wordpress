@@ -39,13 +39,14 @@
 
         <div class="col-12 col-md-6 company-section__data">
           <div>
-            <h2 class="default-h2"><?php echo get_field("our_story_title"); ?></h2>
+            <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "قصتنا" : "Our Story" ?></h2>
             <?php echo get_field("story_description"); ?>
 
             <div class="showMoreText d-none"><?php echo get_field("show_more_description"); ?></div>
 
             <button class="showMoreBtn btn btn-link pl-0">
-              <?php echo get_field("button_show_more"); ?>
+              <span class="showMoreText"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "أظهر المزيد" : "Show more" ?></span>
+              <span class="showLessText d-none"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "عرض أقل" : "Show less" ?></span>
               <img class="arrow-ic" src="<?php echo get_template_directory_uri() .
                 "/assets/images/icons/dropdown-open-icon.png"; ?>" alt="Dropdown open icon">
             </button>
@@ -65,7 +66,7 @@
   <!-- Cards section -->
   <section class="cards-section story mb-5">
     <div class="container">
-      <h2 class="default-h2"><?php echo get_field("our_story_title"); ?></h2>
+      <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "قصتنا" : "Our Story" ?></h2>
       <div class="row mt-3">
 
         <div class="col-12 col-md-4 mb-3">
