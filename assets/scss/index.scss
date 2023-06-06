@@ -291,7 +291,8 @@
  ***** 4. Story section ******
  ****************************/
 .story-section {
-  margin-top: 120px;
+  background-color: #f6f5f5;
+  padding-top: 30px;
 
   &__video {
     position: relative;
@@ -356,6 +357,22 @@
     background: #e77962a1;
     border-radius: 50%;
     animation: pulse-border 1500ms ease-out infinite;
+  }
+}
+
+section.why-invest-section {
+  background-color: #f6f5f5;
+}
+
+.just-bg-image {
+  height: 220px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-bottom: -2px;
+
+  .line-space-icon-br .line-space-icon {
+    margin-top: -35px;
   }
 }
 

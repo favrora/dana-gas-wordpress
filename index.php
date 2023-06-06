@@ -62,7 +62,8 @@ global $danagas;
   </section>
 
   <!-- Operations section -->
-  <section class="operations-section">
+  <section class="operations-section top-bg-section pb-0 mb-5" style="background-image: url('<?php echo get_template_directory_uri() .
+      "/assets/images/about-shape-bg.png"; ?>)">
     <div class="container">
       <div class="operations-section__pre-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "عمليات" : "Operations" ?></div>
       <h2 class="default-h2 uppercase-h2"><?php echo get_field('operations_title') ?></h2>
@@ -116,12 +117,16 @@ global $danagas;
         <?php echo get_field('operations_button') ?>
         <img src="<?php echo get_template_directory_uri() . '/assets/images/right-arrow-white.png'; ?>" alt="Right arrow icon">
       </a>
+
+      <div class="line-space-icon-br">
+        <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/line-space-icon.png'; ?>')"></div>
+      </div>
     </div>
   </section>
 
 
   <!-- Investors section -->
-  <section class="investors-section mt-3">
+  <section class="investors-section pt-5">
     <div class="container">
       <div class="row">
 
@@ -203,6 +208,13 @@ global $danagas;
       </div>
     </div>
   </section>
+
+  <div class="just-bg-image pt-5" style="background-image: url('<?php echo get_template_directory_uri() .
+      "/assets/images/bg-shape/small-bg-grey-shape.png"; ?>)">
+    <div class="line-space-icon-br">
+      <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/line-space-icon.png'; ?>')"></div>
+    </div>
+  </div>
 
   <!-- Story section -->
   <section class="story-section">

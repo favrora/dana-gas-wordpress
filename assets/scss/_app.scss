@@ -236,6 +236,21 @@ h6 {
   position: relative;
 }
 
+.line-space-icon-br {
+  width: 62px;
+  height: 94px;
+  margin: 40px auto 0;
+
+  .line-space-icon {
+    width: 62px;
+    height: 142px;
+    margin: 40px auto 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
 .subMenuReport {
   position: absolute;
   top: 60px;
