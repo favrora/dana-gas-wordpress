@@ -31,7 +31,7 @@
 </section>
 
 <!-- Company-section -->
-<section class="company-section top-bg-section pt-5" style="background-image: url('<?php echo get_template_directory_uri() .
+<section class="company-section top-bg-section pt-5 pb-0" style="background-image: url('<?php echo get_template_directory_uri() .
   "/assets/images/about-shape-bg.png"; ?>)">
     <div class="container">
         <div class="row">
@@ -110,11 +110,15 @@
             </div>
 
         </div>
+
+      <div class="line-space-icon-br">
+        <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/line-space-icon.png'; ?>')"></div>
+      </div>
     </div>
 </section>
 
 <!-- Overview 2 section -->
-<section class="overview-2-section pb-5 pt-5">
+<section class="overview-2-section pb-5 mt-5 pt-5">
     <div class="container">
         <div class="row">
 

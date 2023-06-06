@@ -31,7 +31,7 @@
 </section>
 
 <!-- Company-section -->
-<section class="company-section top-bg-section pt-5 pb-5" style="background-image: url('<?php echo get_template_directory_uri() .
+<section class="company-section top-bg-section pt-5 pb-0" style="background-image: url('<?php echo get_template_directory_uri() .
   "/assets/images/about-shape-bg.png"; ?>)">
   <div class="container">
     <h2 class="default-h2"><?php echo get_field("faq_title"); ?></h2>
@@ -113,13 +113,16 @@
           <?php echo get_field("faq_question_description6"); ?>
       </div>
     </div>
+
+    <div class="line-space-icon-br">
+      <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/line-space-icon.png'; ?>')"></div>
+    </div>
   </div>
 </section>
 
 <!-- Cards section -->
-<section class="cards-section story mb-5">
+<section class="cards-section story pt-5 mt-5 mb-5">
     <div class="container">
-        <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "قصتنا" : "Our Story" ?></h2>
         <div class="row mt-3">
 
             <div class="col-12 col-md-4 mb-3">

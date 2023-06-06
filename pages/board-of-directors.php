@@ -31,7 +31,8 @@
 </section>
 
 <!-- Cards section -->
-<section class="directors-section mt-5 mb-5">
+<section class="directors-section pt-5 mb-5"  style="background-image: url('<?php echo get_template_directory_uri() .
+    "/assets/images/about-shape-bg.png"; ?>)">
     <div class="container">
         <div class="row mt-3">
 
@@ -206,11 +207,15 @@
           </div>
 
         </div>
+
+      <div class="line-space-icon-br">
+        <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/line-space-icon.png'; ?>')"></div>
+      </div>
     </div>
 </section>
 
 <!-- Cards section -->
-<section class="cards-section story pb-3 mb-5">
+<section class="cards-section story pt-5 pb-3 mb-5">
   <div class="container">
     <h2 class="default-h2 text-center"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "مجلس الإدارة والإدارة" : "Board & Management" ?></h2>
     <div class="row mt-3">

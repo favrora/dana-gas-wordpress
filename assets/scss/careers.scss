@@ -43,3 +43,48 @@
     font-weight: bold;
   }
 }
+
+section.why-invest-section {
+  background-color: #f6f5f5;
+  margin-top: -2px;
+}
+
+.disclaimer-section.top-bg-section {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 120px;
+}
+
+.opportunities-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+
+  .opportunities-item {
+    width: 180px;
+    background: #ffffff;
+    border: 1px solid #0000001f;
+    padding: 40px 20px;
+    border-radius: 5px;
+    margin: 0 7px;
+
+    @media (max-width: $tablet) {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+
+    .desc {
+      margin-top: 10px;
+    }
+
+    .num {
+      text-transform: uppercase;
+      color: #1f4388;
+      font-family: Optima,sans-serif,Arial;
+      font-size: 36px;
+      line-height: 1;
+    }
+  }
+}

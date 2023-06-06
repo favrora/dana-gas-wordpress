@@ -32,7 +32,8 @@
   </section>
 
   <!-- Group contacts section -->
-  <section class="group-section">
+  <section class="group-section" style="background-image: url('<?php echo get_template_directory_uri() .
+      "/assets/images/about-shape-bg.png"; ?>)">
     <div class="container">
       <h2 class="default-h2"><?php echo get_field("contact_us_title_2"); ?></h2>
 
@@ -66,11 +67,14 @@
           </div>
         </div>
 
+        <div class="line-space-icon-br">
+          <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/line-space-icon.png'; ?>')"></div>
+        </div>
       </div>
   </section>
 
   <!-- Form section -->
-  <section class="form-section">
+  <section class="form-section mt-5 pt-5">
     <div class="container">
       <h2 class="default-h2 text-center"><?php echo get_field("contact_form_title"); ?></h2>
       <p class="form-section__desc"><?php echo get_field("contact_form_description"); ?></p>
