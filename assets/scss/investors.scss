@@ -6,7 +6,6 @@
  *******************************/
 
 @import "_app";
-@import "_components/card";
 
 /****************************
  ***** 1. Cards section *****
@@ -24,18 +23,21 @@
  **** 2. Contact section ****
  ***************************/
 .contact-section {
-  .container {
-    border-top: 1px solid #e8e8e8;
-    border-bottom: 1px solid #e8e8e8;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
 
-    .col-12:first-child {
-      @media (min-width: $tablet) {
-        border-right: 1px solid #e8e8e8;
-      }
+  .col-12:first-child {
+    @media (min-width: $tablet) {
+      border-right: 1px solid #e8e8e8;
     }
+  }
 
-    .default-h2 {
-      font-size: 30px;
+  .default-h2 {
+    font-size: 30px;
+
+    @media (min-width: $tablet) {
+      max-width: 250px;
+      text-align: left;
     }
   }
 
@@ -66,4 +68,10 @@
     align-items: center;
     justify-content: center;
   }
+}
+
+.media-bg-section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
 }

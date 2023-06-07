@@ -71,18 +71,18 @@ for (let i = 0; i < footerList.length; ++i) {
 }
 
 // Close modal
-const customModalClose= document.querySelectorAll(".custom-modal__close"),
-  customModalCloseBg = document.querySelectorAll(".custom-modal__bg");
+const customModalClose = document.querySelectorAll(".custom-modal__close"),
+  customModalCloseBg = document.querySelectorAll(".custom-modal__bg")
 
 for (let i = 0; i < customModalClose.length; ++i) {
   customModalClose[i].addEventListener("click", () => {
-    customModalClose[i].parentElement.parentElement.classList.remove("is-active");
+    customModalClose[i].parentElement.parentElement.classList.remove("is-active")
   })
 }
 
 for (let i = 0; i < customModalCloseBg.length; ++i) {
   customModalCloseBg[i].addEventListener("click", () => {
-    customModalCloseBg[i].parentElement.classList.remove("is-active");
+    customModalCloseBg[i].parentElement.classList.remove("is-active")
   })
 }
 
@@ -109,18 +109,17 @@ for (let i = 0; i < showMoreBtn.length; ++i) {
 }
 
 const moreFilters = document.querySelectorAll(".moreFilters"),
-  subMenuReport = document.querySelectorAll(".subMenuReport");
-
+  subMenuReport = document.querySelectorAll(".subMenuReport")
 
 for (let i = 0; i < moreFilters.length; ++i) {
   moreFilters[i].addEventListener("click", function () {
-    moreFilters[i].parentElement.querySelector(".subMenuReport").classList.toggle("is-active");
+    moreFilters[i].parentElement.querySelector(".subMenuReport").classList.toggle("is-active")
   })
 }
 
 for (let i = 0; i < subMenuReport.length; ++i) {
   subMenuReport[i].addEventListener("click", function () {
-    subMenuReport[i].classList.remove("is-active");
+    subMenuReport[i].classList.remove("is-active")
   })
 }
 

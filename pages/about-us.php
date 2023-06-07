@@ -14,6 +14,7 @@
 
   <!-- Source files -->
   <link href="<?php echo get_template_directory_uri() . "/dist/css/about-us.min.css"; ?>" rel="stylesheet">
+  <link href="<?php echo get_template_directory_uri() . "/dist/css/base.min.css"; ?>" rel="stylesheet">
   <?php wp_head(); ?>
 </head>
 
@@ -26,7 +27,7 @@
     "/assets/images/about-us-bg.png"; ?>')">
     <div class="about-overlay"></div>
     <div class="container">
-      <h1><?php echo ICL_LANGUAGE_CODE == 'ar' ? "معلومات عنا" : "About US" ?></h1>
+      <h1><?php echo ICL_LANGUAGE_CODE == "ar" ? "معلومات عنا" : "About US"; ?></h1>
     </div>
   </section>
 
@@ -41,8 +42,8 @@
             <h2 class="default-h2"><?php echo get_field("about_title"); ?></h2>
             <?php echo get_field("about_description"); ?>
 
-            <a href="<?php echo get_site_url() ?>/about-us/overview/" class="btn btnWithProgress up">
-              <?php echo ICL_LANGUAGE_CODE == 'ar' ? "اقرأ أكثر" : "Read more" ?>
+            <a href="<?php echo get_site_url(); ?>/about-us/overview/" class="btn btnWithProgress up">
+              <?php echo ICL_LANGUAGE_CODE == "ar" ? "اقرأ أكثر" : "Read more"; ?>
               <img src="<?php echo get_template_directory_uri() .
                 "/assets/images/right-arrow-white.png"; ?>" alt="Right arrow icon">
             </a>
@@ -64,7 +65,7 @@
       <div class="row mt-3">
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="<?php echo get_site_url() ?>/about-us/board-and-management/board-of-directors" class="card-link">
+          <a href="<?php echo get_site_url(); ?>/about-us/board-and-management/board-of-directors" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_field(
@@ -72,7 +73,9 @@
                 ); ?>" alt="Board & Management" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "مجلس الإدارة والإدارة" : "Board & Management" ?></div>
+                <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
+                  ? "مجلس الإدارة والإدارة"
+                  : "Board & Management"; ?></div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() .
                   "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
               </div>
@@ -81,13 +84,13 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="<?php echo get_site_url() ?>/about-us/governance/" class="card-link">
+          <a href="<?php echo get_site_url(); ?>/about-us/governance/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_field("governance_card_image"); ?>" alt="Governance" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "الحكم" : "Governance" ?></div>
+                <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "الحكم" : "Governance"; ?></div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() .
                   "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
               </div>
@@ -96,13 +99,15 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="<?php echo get_site_url() ?>/about-us/risk-management/" class="card-link">
+          <a href="<?php echo get_site_url(); ?>/about-us/risk-management/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_field("risk_management_card_image"); ?>" alt="Risk management" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "إدارة المخاطر" : "Risk management" ?></div>
+                <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
+                  ? "إدارة المخاطر"
+                  : "Risk management"; ?></div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() .
                   "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
               </div>

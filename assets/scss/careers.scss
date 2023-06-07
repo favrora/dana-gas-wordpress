@@ -6,7 +6,6 @@
  ***********************************/
 
 @import "_app";
-@import "_components/card";
 
 /****************************
  **** 1. Careers section *****
@@ -58,12 +57,15 @@ section.why-invest-section {
 
 .opportunities-box {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   text-align: center;
 
+  @media (max-width: $tablet) {
+    flex-wrap: wrap;
+  }
+
   .opportunities-item {
-    width: 180px;
+    width: 170px;
     background: #ffffff;
     border: 1px solid #0000001f;
     padding: 40px 20px;
@@ -82,7 +84,7 @@ section.why-invest-section {
     .num {
       text-transform: uppercase;
       color: #1f4388;
-      font-family: Optima,sans-serif,Arial;
+      font-family: Optima, sans-serif, Arial;
       font-size: 36px;
       line-height: 1;
     }

@@ -14,6 +14,7 @@
 
 
   <!-- Source files -->
+    <link href="<?php echo get_template_directory_uri() . "/dist/css/base.min.css"; ?>" rel="stylesheet">
   <link href="<?php echo get_template_directory_uri() . "/dist/css/about-us.min.css"; ?>" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
@@ -45,10 +46,10 @@
           <div class="showMoreText d-none"><?php echo get_field("operations_show_more_description"); ?></div>
 
           <button class="showMoreBtn btn btn-link pl-0">
-            <span class="showMoreText"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "أظهر المزيد" : "Show more" ?></span>
-            <span class="showLessText d-none"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "عرض أقل" : "Show less" ?></span>
+            <span class="showMoreText"><?php echo ICL_LANGUAGE_CODE == "ar" ? "أظهر المزيد" : "Show more"; ?></span>
+            <span class="showLessText d-none"><?php echo ICL_LANGUAGE_CODE == "ar" ? "عرض أقل" : "Show less"; ?></span>
             <img class="arrow-ic" src="<?php echo get_template_directory_uri() .
-                "/assets/images/icons/dropdown-open-icon.png"; ?>" alt="Dropdown open icon">
+              "/assets/images/icons/dropdown-open-icon.png"; ?>" alt="Dropdown open icon">
           </button>
         </div>
       </div>
@@ -66,17 +67,17 @@
 <!-- Cards section -->
 <section class="cards-section story pt-3 mb-5">
   <div class="container">
-    <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "قصتنا" : "Our Story" ?></h2>
+    <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == "ar" ? "قصتنا" : "Our Story"; ?></h2>
     <div class="row mt-3">
 
       <div class="col-12 col-md-4 mb-3">
-        <a href="<?php echo get_site_url() ?>/operations/egypt/" class="card-link">
+        <a href="<?php echo get_site_url(); ?>/operations/egypt/" class="card-link">
           <div class="card">
             <div class="card-header">
               <img src="<?php echo get_field("egypt_card_image"); ?>" alt="Egypt" loading="lazy">
             </div>
             <div class="card-body">
-              <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "مصر" : "Egypt" ?></div>
+              <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "مصر" : "Egypt"; ?></div>
               <img class="arrow" src="<?php echo get_template_directory_uri() .
                 "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
             </div>
@@ -85,13 +86,15 @@
       </div>
 
       <div class="col-12 col-md-4 mb-3">
-        <a href="<?php echo get_site_url() ?>/operations/kri/" class="card-link">
+        <a href="<?php echo get_site_url(); ?>/operations/kri/" class="card-link">
           <div class="card">
             <div class="card-header">
               <img src="<?php echo get_field("kri_card_image"); ?>" alt="Kurdistan Region of Iraq" loading="lazy">
             </div>
             <div class="card-body">
-              <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "إقليم كردستان العراق" : "Kurdistan Region of Iraq" ?></div>
+              <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
+                ? "إقليم كردستان العراق"
+                : "Kurdistan Region of Iraq"; ?></div>
               <img class="arrow" src="<?php echo get_template_directory_uri() .
                 "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
             </div>
@@ -100,13 +103,15 @@
       </div>
 
       <div class="col-12 col-md-4 mb-3">
-        <a href="<?php echo get_site_url() ?>/operations/united-arab-emirates/" class="card-link">
+        <a href="<?php echo get_site_url(); ?>/operations/united-arab-emirates/" class="card-link">
           <div class="card">
             <div class="card-header">
               <img src="<?php echo get_field("uae_card_image"); ?>" alt="United Arab Emirates" loading="lazy">
             </div>
             <div class="card-body">
-              <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "الإمارات العربية المتحدة" : "United Arab Emirates" ?></div>
+              <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
+                ? "الإمارات العربية المتحدة"
+                : "United Arab Emirates"; ?></div>
               <img class="arrow" src="<?php echo get_template_directory_uri() .
                 "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
             </div>

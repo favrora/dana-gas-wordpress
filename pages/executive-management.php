@@ -13,6 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Source files -->
+    <link href="<?php echo get_template_directory_uri() . "/dist/css/base.min.css"; ?>" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri() . "/dist/css/board-of-directors.min.css"; ?>" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
@@ -23,10 +24,10 @@
 
 <!-- About section -->
 <section class="about-section" style="background-image: url('<?php echo get_template_directory_uri() .
-    "/assets/images/executive-management-bg.png"; ?>')">
+  "/assets/images/executive-management-bg.png"; ?>')">
     <div class="about-overlay"></div>
     <div class="container">
-        <h1><?php echo ICL_LANGUAGE_CODE == 'ar' ? "معلومات عنا" : "About US" ?></h1>
+        <h1><?php echo ICL_LANGUAGE_CODE == "ar" ? "معلومات عنا" : "About US"; ?></h1>
     </div>
 </section>
 
@@ -36,16 +37,20 @@
         <div class="row mt-3">
 
             <div class="col-12 text-center mb-3">
-                <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "الإدارة التنفيذية العليا" : "Senior Executive Management" ?></h2>
-                <div><?php echo ICL_LANGUAGE_CODE == 'ar' ? "شاهد فريقنا بالكامل وتعيينهم" : "See our entire team & their designation" ?></div>
+                <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == "ar"
+                  ? "الإدارة التنفيذية العليا"
+                  : "Senior Executive Management"; ?></h2>
+                <div><?php echo ICL_LANGUAGE_CODE == "ar"
+                  ? "شاهد فريقنا بالكامل وتعيينهم"
+                  : "See our entire team & their designation"; ?></div>
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="<?php echo get_site_url() ?>/team/dr-patrick-allman-ward/" class="card-link">
+                <a href="<?php echo get_site_url(); ?>/team/dr-patrick-allman-ward/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .
-                                "/assets/images/executive/patrick-allman.png"; ?>" alt="Dr. Patrick Allman-Ward" loading="lazy">
+                              "/assets/images/executive/patrick-allman.png"; ?>" alt="Dr. Patrick Allman-Ward" loading="lazy">
                         </div>
                         <div class="card-body">
                             <div class="card-title">Dr. Patrick Allman-Ward</div>
@@ -56,11 +61,11 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="<?php echo get_site_url() ?>/team/chris-hearne/" class="card-link">
+                <a href="<?php echo get_site_url(); ?>/team/chris-hearne/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                           <img src="<?php echo get_template_directory_uri() .
-                              "/assets/images/executive/chris-hearne.png"; ?>" alt="Chris Hearne" loading="lazy">
+                            "/assets/images/executive/chris-hearne.png"; ?>" alt="Chris Hearne" loading="lazy">
                         </div>
                         <div class="card-body">
                             <div class="card-title">Chris Hearne</div>
@@ -71,11 +76,11 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="<?php echo get_site_url() ?>/team/neville-henwood/" class="card-link">
+                <a href="<?php echo get_site_url(); ?>/team/neville-henwood/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                           <img src="<?php echo get_template_directory_uri() .
-                              "/assets/images/executive/neville-henwood.jpg"; ?>" alt="Neville Henwood" loading="lazy">
+                            "/assets/images/executive/neville-henwood.jpg"; ?>" alt="Neville Henwood" loading="lazy">
                         </div>
                         <div class="card-body">
                             <div class="card-title">Neville Henwood</div>
@@ -86,11 +91,11 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="<?php echo get_site_url() ?>/team/mike-seymour/" class="card-link">
+                <a href="<?php echo get_site_url(); ?>/team/mike-seymour/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                           <img src="<?php echo get_template_directory_uri() .
-                              "/assets/images/executive/mike-seymour.png"; ?>" alt="Mike Seymour" loading="lazy">
+                            "/assets/images/executive/mike-seymour.png"; ?>" alt="Mike Seymour" loading="lazy">
                         </div>
                         <div class="card-body">
                             <div class="card-title">Mike Seymour</div>
@@ -101,11 +106,11 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="<?php echo get_site_url() ?>/team/ramganesh-srinivasan/" class="card-link">
+                <a href="<?php echo get_site_url(); ?>/team/ramganesh-srinivasan/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                           <img src="<?php echo get_template_directory_uri() .
-                              "/assets/images/executive/ramganesh-srinivasan.png"; ?>" alt="Ramganesh Srinivasan" loading="lazy">
+                            "/assets/images/executive/ramganesh-srinivasan.png"; ?>" alt="Ramganesh Srinivasan" loading="lazy">
                         </div>
                         <div class="card-body">
                             <div class="card-title">Ramganesh Srinivasan</div>
@@ -116,11 +121,11 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="<?php echo get_site_url() ?>/team/michael-pyszka/" class="card-link">
+                <a href="<?php echo get_site_url(); ?>/team/michael-pyszka/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                           <img src="<?php echo get_template_directory_uri() .
-                              "/assets/images/executive/michael-pyszka.png"; ?>" alt="Michael Pyszka" loading="lazy">
+                            "/assets/images/executive/michael-pyszka.png"; ?>" alt="Michael Pyszka" loading="lazy">
                         </div>
                         <div class="card-body">
                             <div class="card-title">Michael Pyszka</div>
@@ -131,11 +136,11 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="<?php echo get_site_url() ?>/team/shakir-shakir/" class="card-link">
+                <a href="<?php echo get_site_url(); ?>/team/shakir-shakir/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                           <img src="<?php echo get_template_directory_uri() .
-                              "/assets/images/executive/shakir-shakir.png"; ?>" alt="Shakir Shakir" loading="lazy">
+                            "/assets/images/executive/shakir-shakir.png"; ?>" alt="Shakir Shakir" loading="lazy">
                         </div>
                         <div class="card-body">
                             <div class="card-title">Shakir Shakir</div>
@@ -152,52 +157,60 @@
 <!-- Cards section -->
 <section class="cards-section story pt-2 pb-3 mb-5">
     <div class="container">
-        <h2 class="default-h2 text-center"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "مجلس الإدارة والإدارة" : "Board & Management" ?></h2>
+        <h2 class="default-h2 text-center"><?php echo ICL_LANGUAGE_CODE == "ar"
+          ? "مجلس الإدارة والإدارة"
+          : "Board & Management"; ?></h2>
         <div class="row mt-3">
 
             <div class="col-12 col-md-4 mb-3">
-                <a href="<?php echo get_site_url() ?>/about-us/board-and-management/board-of-directors/" class="card-link">
+                <a href="<?php echo get_site_url(); ?>/about-us/board-and-management/board-of-directors/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .
-                                "/assets/images/directors/board-of-directors.png"; ?>" alt="Board of Directors" loading="lazy">
+                              "/assets/images/directors/board-of-directors.png"; ?>" alt="Board of Directors" loading="lazy">
                         </div>
                         <div class="card-body">
-                            <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "مجلس إدارة" : "Board of Directors" ?></div>
+                            <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
+                              ? "مجلس إدارة"
+                              : "Board of Directors"; ?></div>
                             <img class="arrow" src="<?php echo get_template_directory_uri() .
-                                "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
+                              "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
                         </div>
                     </div>
                 </a>
             </div>
 
             <div class="col-12 col-md-4 mb-3">
-                <a href="<?php echo get_site_url() ?>/about-us/board-and-management/international-advisory-board/" class="card-link">
+                <a href="<?php echo get_site_url(); ?>/about-us/board-and-management/international-advisory-board/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .
-                                "/assets/images/directors/international-advisory.png"; ?>" alt="International Advisory Board" loading="lazy">
+                              "/assets/images/directors/international-advisory.png"; ?>" alt="International Advisory Board" loading="lazy">
                         </div>
                         <div class="card-body">
-                            <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "المجلس الاستشاري الدولي" : "International Advisory Board" ?></div>
+                            <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
+                              ? "المجلس الاستشاري الدولي"
+                              : "International Advisory Board"; ?></div>
                             <img class="arrow" src="<?php echo get_template_directory_uri() .
-                                "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
+                              "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
                         </div>
                     </div>
                 </a>
             </div>
 
             <div class="col-12 col-md-4 mb-3">
-                <a href="<?php echo get_site_url() ?>/about-us/board-and-management/senior-executive-management/" class="card-link">
+                <a href="<?php echo get_site_url(); ?>/about-us/board-and-management/senior-executive-management/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .
-                                "/assets/images/directors/senior-executive.png"; ?>" alt="Senior Executive Management" loading="lazy">
+                              "/assets/images/directors/senior-executive.png"; ?>" alt="Senior Executive Management" loading="lazy">
                         </div>
                         <div class="card-body">
-                            <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "الإدارة التنفيذية العليا" : "Senior Executive Management" ?></div>
+                            <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
+                              ? "الإدارة التنفيذية العليا"
+                              : "Senior Executive Management"; ?></div>
                             <img class="arrow" src="<?php echo get_template_directory_uri() .
-                                "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
+                              "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
                         </div>
                     </div>
                 </a>

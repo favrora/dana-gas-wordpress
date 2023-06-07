@@ -491,6 +491,7 @@ function results_shortcode( $atts ) {
 }
 add_shortcode( 'results', 'results_shortcode' );
 
+
 function press_shortcode( $atts ) {
 
     ob_start();
@@ -518,19 +519,16 @@ function press_shortcode( $atts ) {
     </style>
 
     <div class="scrol-bar">
-
-        <div class="parent">
-            <div class="child">
-                <ul id="inner" class="clearfix nav nav-tabs">
+      <div class="reports-nav mb-5">
                             <?php
                                 $counter = 1;
                                 $submenu = '';
                                 foreach ( $terms as $term ) {
                                     $url = add_query_arg( array( 'lang' => ICL_LANGUAGE_CODE, 'cat' => $term->slug ) );
                                     if( isset( $_GET['cat'] ) && ( $_GET['cat'] == $term->slug ) ) {
-                                        $active = 'active';
+                                        $active = 'is-active';
                                     } elseif( !isset( $_GET['cat'] ) && ( $counter == 1 ) ) {
-                                        $active = 'active';
+                                        $active = 'is-active';
                                     } else {
                                         $active = '';
                                     }
@@ -538,17 +536,17 @@ function press_shortcode( $atts ) {
                                         //remove duplicate
                                         if(substr($term->slug, -3) == '-ar' && ICL_LANGUAGE_CODE == 'ar') {
                                             if( $counter > 6 ) {
-                                                $submenu .= '<li><a href="'.$url.'" class="'.$active.'">'.$term->name.'</a></li>';
+                                                $submenu .= '<a class="reports-nav__item '.$active.'" href="'.$url.'">'.$term->name.'</a>';
                                             } else {
-                                                echo '<li><a href="'.$url.'" class="'.$active.'">'.$term->name.'</a></li>';
+                                                echo '<a class="reports-nav__item '.$active.'" href="'.$url.'">'.$term->name.'</a>';
                                             }
 //
                                         }
                                     } elseif (ICL_LANGUAGE_CODE == 'en') {
                                         if( $counter > 6 ) {
-                                            $submenu .= '<li><a href="'.$url.'" class="'.$active.'">'.$term->name.'</a></li>';
+                                            $submenu .= '<a class="reports-nav__item '.$active.'" href="'.$url.'">'.$term->name.'</a>';
                                         } else {
-                                            echo '<li><a href="'.$url.'" class="'.$active.'">'.$term->name.'</a></li>';
+                                            echo '<a class="reports-nav__item '.$active.'" href="'.$url.'">'.$term->name.'</a>';
                                         }
                                     }
 
@@ -556,9 +554,7 @@ function press_shortcode( $atts ) {
                                 }
                             ?>
                                     <?php $moreText = (!empty(ICL_LANGUAGE_CODE) && ICL_LANGUAGE_CODE == 'ar') ? 'مزيد' : 'More'; ?>
-                  <li><a href="#" class="more-filters"><?php echo $moreText; ?></a><ul class="sub-menu"><?php echo $submenu; ?></ul></li>
-                </ul>
-            </div>
+                  <div class="position-relative"><div class="moreFilters reports-nav__more"><?php echo $moreText; ?></div><ul class="subMenuReport"><?php echo $submenu; ?></ul>
         </div>
         <div class="tab-content">
             <?php
@@ -585,12 +581,18 @@ function press_shortcode( $atts ) {
                 $reports->the_post();
                 ?>
                 <div id="sec-<?php the_ID(); ?>">
-                    <button class="accordion press-accordion <?php echo ( $counter == 1 ) ? 'activez' : ''; ?>"><?php echo get_the_title(); ?>  <span class="pres-date"><?php echo rwmb_meta( 'pr_date' ); ?></span></button>
-                    <div class="panel press-panel <?php echo ( $counter == 1 ) ? 'activez' : ''; ?>">
-                        <div class="panel-inner">
-                            <?php the_content(); ?>
-                        </div>
-                    </div>
+
+
+               <div class="faq-question-box faqQuestionBox <?php echo ( $counter == 1 ) ? 'top-border' : ''; ?>">
+                 <div class="faq-question-box__title <?php echo ( $counter == 1 ) ? 'is-active' : ''; ?>">
+                 <?php echo get_the_title(); ?> (<?php echo rwmb_meta( 'pr_date' ); ?>)
+                   <div><img class="arrow" src="<?php echo get_template_directory_uri() . "/assets/images/icons/dropdown-open-icon.png"; ?>" alt="Down arrow icon"></div>
+                 </div>
+
+                 <div class="faq-question-box__content">
+                    <?php the_content(); ?>
+                 </div>
+               </div>
                 </div>
             <?php
             $counter++;

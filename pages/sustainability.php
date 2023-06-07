@@ -13,6 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Source files -->
+    <link href="<?php echo get_template_directory_uri() . "/dist/css/base.min.css"; ?>" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri() . "/dist/css/operations-kri.min.css"; ?>" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
@@ -26,7 +27,7 @@
   "/assets/images/sustainability-bg.png"; ?>')">
     <div class="about-overlay"></div>
     <div class="container">
-        <h1><?php echo ICL_LANGUAGE_CODE == 'ar' ? "الاستدامة" : "Sustainability" ?></h1>
+        <h1><?php echo ICL_LANGUAGE_CODE == "ar" ? "الاستدامة" : "Sustainability"; ?></h1>
     </div>
 </section>
 
@@ -112,7 +113,8 @@
         </div>
 
       <div class="line-space-icon-br">
-        <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/line-space-icon.png'; ?>')"></div>
+        <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() .
+          "/assets/images/line-space-icon.png"; ?>')"></div>
       </div>
     </div>
 </section>
@@ -186,9 +188,9 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-          <?php if (ICL_LANGUAGE_CODE == 'en') : ?>
+          <?php if (ICL_LANGUAGE_CODE == "en"): ?>
               <?php echo do_shortcode('[reports cat="60" title="Sustainability reports"]'); ?>
-          <?php elseif (ICL_LANGUAGE_CODE == 'ar') : ?>
+          <?php elseif (ICL_LANGUAGE_CODE == "ar"): ?>
               <?php echo do_shortcode('[reports cat="60" title="تقارير الاستدامة"]'); ?>
           <?php endif; ?>
       </div>

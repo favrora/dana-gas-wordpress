@@ -14,6 +14,7 @@
 
 
   <!-- Source files -->
+    <link href="<?php echo get_template_directory_uri() . "/dist/css/base.min.css"; ?>" rel="stylesheet">
   <link href="<?php echo get_template_directory_uri() . "/dist/css/operations-kri.min.css"; ?>" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
@@ -37,9 +38,9 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-          <?php if (ICL_LANGUAGE_CODE == 'en') : ?>
+          <?php if (ICL_LANGUAGE_CODE == "en"): ?>
               <?php echo do_shortcode('[reports cat="28" show_filters="false" title="Latest results - 2023"]'); ?>
-          <?php elseif (ICL_LANGUAGE_CODE == 'ar') : ?>
+          <?php elseif (ICL_LANGUAGE_CODE == "ar"): ?>
               <?php echo do_shortcode('[reports cat="28" show_filters="false" title="آخر النتائج - 2023"]'); ?>
           <?php endif; ?>
       </div>
@@ -52,9 +53,9 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-          <?php if (ICL_LANGUAGE_CODE == 'en') : ?>
+          <?php if (ICL_LANGUAGE_CODE == "en"): ?>
               <?php echo do_shortcode('[results cat="122" title="Results archive"]'); ?>
-          <?php elseif (ICL_LANGUAGE_CODE == 'ar') : ?>
+          <?php elseif (ICL_LANGUAGE_CODE == "ar"): ?>
               <?php echo do_shortcode('[results cat="122" title="أرشيف النتائج"]'); ?>
           <?php endif; ?>
       </div>

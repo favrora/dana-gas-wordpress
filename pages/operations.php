@@ -13,6 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Source files -->
+    <link href="<?php echo get_template_directory_uri() . "/dist/css/base.min.css"; ?>" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri() . "/dist/css/about-us.min.css"; ?>" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
@@ -26,7 +27,7 @@
   "/assets/images/operations-main-bg.png"; ?>')">
     <div class="about-overlay"></div>
     <div class="container">
-        <h1><?php echo ICL_LANGUAGE_CODE == 'ar' ? "عمليات" : "Operations" ?></h1>
+        <h1><?php echo ICL_LANGUAGE_CODE == "ar" ? "عمليات" : "Operations"; ?></h1>
     </div>
 </section>
 
@@ -36,14 +37,14 @@
         <div class="row mt-3">
 
             <div class="col-12 col-md-4 mb-3">
-              <a href="<?php echo get_site_url() ?>/operations/egypt/" class="card-link">
+              <a href="<?php echo get_site_url(); ?>/operations/egypt/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .
                               "/assets/images/operations/egypt.png"; ?>" alt="Egypt" loading="lazy">
                         </div>
                         <div class="card-body">
-                            <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "مصر" : "Egypt" ?></div>
+                            <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "مصر" : "Egypt"; ?></div>
                             <img class="arrow" src="<?php echo get_template_directory_uri() .
                               "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
                         </div>
@@ -52,14 +53,16 @@
             </div>
 
             <div class="col-12 col-md-4 mb-3">
-              <a href="<?php echo get_site_url() ?>/operations/kri/" class="card-link">
+              <a href="<?php echo get_site_url(); ?>/operations/kri/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .
                               "/assets/images/operations/kri.png"; ?>" alt="Kurdistan Region of Iraq" loading="lazy">
                         </div>
                         <div class="card-body">
-                            <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "إقليم كردستان العراق" : "Kurdistan Region of Iraq" ?></div>
+                            <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
+                              ? "إقليم كردستان العراق"
+                              : "Kurdistan Region of Iraq"; ?></div>
                             <img class="arrow" src="<?php echo get_template_directory_uri() .
                               "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
                         </div>
@@ -68,14 +71,16 @@
             </div>
 
             <div class="col-12 col-md-4 mb-3">
-              <a href="<?php echo get_site_url() ?>/operations/united-arab-emirates/" class="card-link">
+              <a href="<?php echo get_site_url(); ?>/operations/united-arab-emirates/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .
                               "/assets/images/operations/uae.png"; ?>" alt="United Arab Emirates" loading="lazy">
                         </div>
                         <div class="card-body">
-                            <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "الإمارات العربية المتحدة" : "United Arab Emirates" ?></div>
+                            <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
+                              ? "الإمارات العربية المتحدة"
+                              : "United Arab Emirates"; ?></div>
                             <img class="arrow" src="<?php echo get_template_directory_uri() .
                               "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
                         </div>

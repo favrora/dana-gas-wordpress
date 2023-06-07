@@ -1,21 +1,29 @@
 <?php
-
-global $danagas;
+/**
+ * Template Name: Team member
+ */
 ?>
 
-<?php get_header() ?>
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+
+<head>
+  <!-- Meta info -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Source files -->
+  <link href="<?php echo get_template_directory_uri() . "/dist/css/base.min.css"; ?>" rel="stylesheet">
+  <link href="<?php echo get_template_directory_uri() . "/dist/css/about-us.min.css"; ?>" rel="stylesheet">
+    <?php wp_head(); ?>
+</head>
+
+<body>
+
+<?php get_header(); ?>
 
 <?php while ( have_posts() ) : the_post(); ?>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="breadcrumbs">
-					<?php bcn_display($return = false, $linked = true, $reverse = false, $force = false) ?>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <div class="container">
         <div class="row">
@@ -61,5 +69,9 @@ global $danagas;
 <?php endwhile; ?>
 
 
-<?php include 'parts/footer-links.php'; ?>
-<?php get_footer() ?>
+<?php get_footer(); ?>
+<script src="<?php echo get_template_directory_uri() . "/dist/js/app.min.js"; ?>"></script>
+
+</body>
+
+</html>

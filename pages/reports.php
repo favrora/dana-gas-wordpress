@@ -13,6 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Source files -->
+    <link href="<?php echo get_template_directory_uri() . "/dist/css/base.min.css"; ?>" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri() . "/dist/css/operations-kri.min.css"; ?>" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
@@ -26,7 +27,7 @@
   "/assets/images/reports-bg.png"; ?>')">
     <div class="about-overlay"></div>
     <div class="container">
-        <h1><?php echo ICL_LANGUAGE_CODE == 'ar' ? "التقارير" : "Reports" ?></h1>
+        <h1><?php echo ICL_LANGUAGE_CODE == "ar" ? "التقارير" : "Reports"; ?></h1>
     </div>
 </section>
 
@@ -36,9 +37,9 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-          <?php if (ICL_LANGUAGE_CODE == 'en') : ?>
+          <?php if (ICL_LANGUAGE_CODE == "en"): ?>
               <?php echo do_shortcode('[reports cat="20" title="Annual reports"]'); ?>
-          <?php elseif (ICL_LANGUAGE_CODE == 'ar') : ?>
+          <?php elseif (ICL_LANGUAGE_CODE == "ar"): ?>
               <?php echo do_shortcode('[reports cat="20" title="تقارير سنوية"]'); ?>
           <?php endif; ?>
       </div>
@@ -51,9 +52,9 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-          <?php if (ICL_LANGUAGE_CODE == 'en') : ?>
+          <?php if (ICL_LANGUAGE_CODE == "en"): ?>
               <?php echo do_shortcode('[reports cat="29" title="Presentations"]'); ?>
-          <?php elseif (ICL_LANGUAGE_CODE == 'ar') : ?>
+          <?php elseif (ICL_LANGUAGE_CODE == "ar"): ?>
               <?php echo do_shortcode('[reports cat="29" title="العروض التقديمية"]'); ?>
           <?php endif; ?>
       </div>
@@ -66,9 +67,9 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-          <?php if (ICL_LANGUAGE_CODE == 'en') : ?>
+          <?php if (ICL_LANGUAGE_CODE == "en"): ?>
               <?php echo do_shortcode('[reports cat="408" title="Integrated Report"]'); ?>
-          <?php elseif (ICL_LANGUAGE_CODE == 'ar') : ?>
+          <?php elseif (ICL_LANGUAGE_CODE == "ar"): ?>
               <?php echo do_shortcode('[reports cat="408" title="تقرير متكامل"]'); ?>
           <?php endif; ?>
       </div>
@@ -81,9 +82,9 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-          <?php if (ICL_LANGUAGE_CODE == 'en') : ?>
+          <?php if (ICL_LANGUAGE_CODE == "en"): ?>
               <?php echo do_shortcode('[reports cat="21" title="Reserve report" ]'); ?>
-          <?php elseif (ICL_LANGUAGE_CODE == 'ar') : ?>
+          <?php elseif (ICL_LANGUAGE_CODE == "ar"): ?>
               <?php echo do_shortcode('[reports cat="21" title="تقرير الاحتياطي"]'); ?>
           <?php endif; ?>
       </div>

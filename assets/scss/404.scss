@@ -1,0 +1,57 @@
+/***********************************
+ ******** About US CSS Code ********
+
+ 1. Company section
+ 2. Cards section
+ 3. Senior management
+ 4. Faq section
+ **********************************/
+
+@import "_app";
+
+/****************************
+ **** 1. Company section ****
+ ***************************/
+
+.content-section {
+  padding: 120px 0 220px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+
+  .box-error {
+    max-width: 380px;
+    margin: 0 auto;
+    text-align: center;
+
+    &__title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      font: 150px $font-family-title;
+
+      @media (max-width: $tablet) {
+        font: 60px $font-family-title;
+      }
+
+      img {
+        max-height: 120px;
+        margin: 0 7px;
+
+        @media (max-width: $tablet) {
+          max-height: 80px;
+        }
+      }
+    }
+
+    &__error {
+      font-size: 24px;
+    }
+
+    &__content {
+      font-size: 18px;
+      color: #717171;
+    }
+  }
+}

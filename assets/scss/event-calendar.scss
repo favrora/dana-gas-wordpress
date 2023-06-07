@@ -1,0 +1,138 @@
+/***********************************
+ ******** About US CSS Code ********
+
+ 1. Company section
+ 2. Cards section
+ 3. Senior management
+ **********************************/
+
+@import "_app";
+
+/****************************
+ **** 1. Company section ****
+ ***************************/
+.company-section {
+  padding-bottom: 120px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .company-section__data {
+    display: flex;
+    align-items: center;
+
+    @media (min-width: $tablet) {
+      padding-right: 40px;
+    }
+
+    @media (max-width: $tablet) {
+      margin-bottom: 30px;
+    }
+  }
+
+  .data-img {
+    max-width: 550px;
+    width: 100%;
+  }
+
+  .line-space-icon-br {
+    margin: 0 auto;
+    height: 10px;
+
+    .line-space-icon {
+      margin: 0 auto;
+    }
+  }
+}
+
+// Event Calender
+.event-calendar {
+  background: #efece3;
+  border-radius: 10px;
+
+  .ev-cal-header {
+    a {
+      font-weight: normal;
+      color: #3aae2a;
+      padding: 18px;
+      display: inline-block;
+      text-align: left;
+      &.ev-title {
+        width: 50%;
+      }
+      &.ev-date {
+        width: 24%;
+      }
+      &.ev-out {
+        width: 24%;
+      }
+    }
+  }
+
+  .ev-cal-row {
+    padding: 6px 18px;
+    background: #efece3;
+    text-align: left;
+
+    p {
+      font-size: 14px;
+      display: inline-block;
+      margin-bottom: 0;
+    }
+    a {
+      font-size: 14px;
+      display: inline-block;
+      position: relative;
+    }
+    .ev-row-title {
+      width: 50%;
+    }
+    .ev-row-date {
+      width: 24%;
+    }
+    .ev-row-out {
+      width: 24%;
+    }
+  }
+}
+
+.addToCalendar {
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  z-index: 1;
+  text-align: left;
+  left: 0;
+  top: 20px;
+}
+.addToCalendar ul {
+  display: none;
+  margin: 0;
+  width: 100%;
+  background: #fff;
+  padding: 0;
+  border: 0;
+
+  &.is-active {
+    display: block;
+  }
+}
+.addToCalendar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 5px 0;
+  padding: 0 8px;
+  float: none;
+  width: auto;
+  text-align: left;
+}
+.addToCalendar ul li a {
+  color: #000;
+  font-size: 12px;
+}
+.addToCalendar ul li a span {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+}

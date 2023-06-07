@@ -13,6 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Source files -->
+    <link href="<?php echo get_template_directory_uri() . "/dist/css/base.min.css"; ?>" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri() . "/dist/css/about-us.min.css"; ?>" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
@@ -26,7 +27,7 @@
   "/assets/images/about-us-bg.png"; ?>')">
     <div class="about-overlay"></div>
     <div class="container">
-        <h1><?php echo ICL_LANGUAGE_CODE == 'ar' ? "معلومات عنا" : "About US" ?></h1>
+        <h1><?php echo ICL_LANGUAGE_CODE == "ar" ? "معلومات عنا" : "About US"; ?></h1>
     </div>
 </section>
 
@@ -38,7 +39,9 @@
 
             <div class="col-12 col-md-8 company-section__data">
                 <div>
-                    <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "تقارير الحوكمة" : "Governance reporting" ?></h2>
+                    <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == "ar"
+                      ? "تقارير الحوكمة"
+                      : "Governance reporting"; ?></h2>
 
                     <?php echo get_field("governance_reporting_content"); ?>
                 </div>

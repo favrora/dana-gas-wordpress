@@ -14,6 +14,7 @@
 
 
   <!-- Source files -->
+    <link href="<?php echo get_template_directory_uri() . "/dist/css/base.min.css"; ?>" rel="stylesheet">
   <link href="<?php echo get_template_directory_uri() . "/dist/css/investors.min.css"; ?>" rel="stylesheet">
   <?php wp_head(); ?>
 </head>
@@ -27,7 +28,7 @@
     "/assets/images/investors-bg.png"; ?>')">
     <div class="about-overlay"></div>
     <div class="container">
-      <h1><?php echo ICL_LANGUAGE_CODE == 'ar' ? "المستثمرون" : "Investors" ?></h1>
+      <h1><?php echo ICL_LANGUAGE_CODE == "ar" ? "المستثمرون" : "Investors"; ?></h1>
     </div>
   </section>
 
@@ -37,7 +38,7 @@
       <div class="row mt-3">
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="<?php echo get_site_url() ?>/investors/results-center/" class="card-link">
+          <a href="<?php echo get_site_url(); ?>/investors/results-center/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_template_directory_uri() .
@@ -53,7 +54,7 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="<?php echo get_site_url() ?>/investors/reports/" class="card-link">
+          <a href="<?php echo get_site_url(); ?>/investors/reports/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_template_directory_uri() .
@@ -69,7 +70,7 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="<?php echo get_site_url() ?>/investors/regulatory-disclosures/" class="card-link">
+          <a href="<?php echo get_site_url(); ?>/investors/regulatory-disclosures/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_template_directory_uri() .
@@ -85,7 +86,7 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="<?php echo get_site_url() ?>/investors/key-financials/" class="card-link">
+          <a href="<?php echo get_site_url(); ?>/investors/key-financials/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_template_directory_uri() .
@@ -101,7 +102,7 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="<?php echo get_site_url() ?>/investors/share-price-information/" class="card-link">
+          <a href="<?php echo get_site_url(); ?>/investors/share-price-information/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_template_directory_uri() .
@@ -117,14 +118,16 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="<?php echo get_site_url() ?>/investors/event-calender/" class="card-link">
+          <a href="<?php echo get_site_url(); ?>/investors/event-calender/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_template_directory_uri() .
                   "/assets/images/investors/events-calendar.png"; ?>" alt="Events Calendar" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "تقويم الأحداث" : "Events Calendar" ?></div>
+                <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
+                  ? "تقويم الأحداث"
+                  : "Events Calendar"; ?></div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() .
                   "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
               </div>
@@ -133,7 +136,7 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="<?php echo get_site_url() ?>/investors/shareholder-information/" class="card-link">
+          <a href="<?php echo get_site_url(); ?>/investors/shareholder-information/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_template_directory_uri() .
@@ -149,7 +152,7 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="<?php echo get_site_url() ?>/investors/sukuk-information/" class="card-link">
+          <a href="<?php echo get_site_url(); ?>/investors/sukuk-information/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_template_directory_uri() .
@@ -165,7 +168,7 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="<?php echo get_site_url() ?>/investors/faqs/" class="card-link">
+          <a href="<?php echo get_site_url(); ?>/investors/faqs/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_template_directory_uri() .
@@ -190,12 +193,16 @@
       <div class="row mt-3 mb-3">
 
         <div class="col-12 col-md-4">
-          <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "ابق على تواصل معنا" : "Get in touch with us" ?></h2>
+          <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == "ar"
+            ? "ابق على تواصل معنا"
+            : "Get in touch with us"; ?></h2>
         </div>
 
         <div class="col-12 col-md-3">
           <div class="contact-section__name">Mohammed Mubaideen</div>
-          <div class="contact-section__desc"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "علاقات المستثمرين واتصالات الشركة" : "Investor Relations & Corporate Communications" ?></div>
+          <div class="contact-section__desc"><?php echo ICL_LANGUAGE_CODE == "ar"
+            ? "علاقات المستثمرين واتصالات الشركة"
+            : "Investor Relations & Corporate Communications"; ?></div>
         </div>
 
         <div class=" col-12 col-md-5 d-flex">
@@ -206,7 +213,9 @@
             </div>
 
             <div>
-                <?php echo ICL_LANGUAGE_CODE == 'ar' ? "هاتف" : "Telephone" ?>Telephone<br> <?php echo get_field("telephone_contact"); ?>
+                <?php echo ICL_LANGUAGE_CODE == "ar" ? "هاتف" : "Telephone"; ?>Telephone<br> <?php echo get_field(
+  "telephone_contact"
+); ?>
             </div>
           </div>
 
@@ -217,7 +226,9 @@
             </div>
 
             <div>
-                <?php echo ICL_LANGUAGE_CODE == 'ar' ? "بريد إلكتروني" : "Email" ?><br> <?php echo get_field("email_contact"); ?>
+                <?php echo ICL_LANGUAGE_CODE == "ar" ? "بريد إلكتروني" : "Email"; ?><br> <?php echo get_field(
+  "email_contact"
+); ?>
             </div>
           </div>
         </div>

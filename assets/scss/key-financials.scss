@@ -6,7 +6,6 @@
  ********************************/
 
 @import "_app";
-@import "_components/card";
 
 /***************************
  ***** 1. Filter style *****
@@ -18,7 +17,43 @@
 
     a:not(.open-dropdown) {
       text-transform: uppercase;
-      @extend .btn;
+      position: relative;
+      padding: 0.6rem 1.5rem;
+      height: 45px;
+      font-weight: 500;
+      letter-spacing: 0.025rem;
+      border-radius: 4px;
+      background: $brand-primary;
+      border-color: $brand-primary;
+      color: #ffffff;
+      transition: $transitionSpeed;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      font-family: $font-family-title;
+      --bs-btn-active-color: #ffffff;
+      --bs-btn-active-bg: #388532;
+      --bs-btn-active-border-color: #388532;
+
+      &:hover,
+      &:focus-visible {
+        color: #ffffff;
+        background: $brand-primary-hover;
+        border-color: $brand-primary-hover;
+      }
+
+      &.gray {
+        background: #00000094;
+        border-color: #1b1b1b94;
+      }
+
+      &.up {
+        text-transform: uppercase;
+
+        img {
+          margin-left: 5px;
+        }
+      }
     }
 
     .filtrs {

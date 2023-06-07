@@ -13,6 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Source files -->
+    <link href="<?php echo get_template_directory_uri() . "/dist/css/base.min.css"; ?>" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri() . "/dist/css/board-of-directors.min.css"; ?>" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
@@ -32,17 +33,19 @@
 
 <!-- Cards section -->
 <section class="directors-section pt-5 mb-5"  style="background-image: url('<?php echo get_template_directory_uri() .
-    "/assets/images/about-shape-bg.png"; ?>)">
+  "/assets/images/about-shape-bg.png"; ?>)">
     <div class="container">
         <div class="row mt-3">
 
             <div class="col-12 text-center mb-3">
                 <h2 class="default-h2"><?php echo get_field("page_title"); ?></h2>
-                <div><?php echo ICL_LANGUAGE_CODE == 'ar' ? "شاهد فريقنا بالكامل وتعيينهم" : "See our entire team & their designation" ?></div>
+                <div><?php echo ICL_LANGUAGE_CODE == "ar"
+                  ? "شاهد فريقنا بالكامل وتعيينهم"
+                  : "See our entire team & their designation"; ?></div>
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="<?php echo get_site_url() ?>/team/hamid-jafar/" class="card-link">
+                <a href="<?php echo get_site_url(); ?>/team/hamid-jafar/" class="card-link">
                     <div class="card">
                         <div class="card-header">
                             <img src="<?php echo get_template_directory_uri() .
@@ -57,7 +60,7 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="<?php echo get_site_url() ?>/team/rashid-saif-al-jarwan/" class="card-link">
+                <a href="<?php echo get_site_url(); ?>/team/rashid-saif-al-jarwan/" class="card-link">
                   <div class="card">
                     <div class="card-header">
                       <img src="<?php echo get_template_directory_uri() .
@@ -72,7 +75,7 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="<?php echo get_site_url() ?>/team/varouj-nerguizian/" class="card-link">
+                <a href="<?php echo get_site_url(); ?>/team/varouj-nerguizian/" class="card-link">
                   <div class="card">
                     <div class="card-header">
                       <img src="<?php echo get_template_directory_uri() .
@@ -87,7 +90,7 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="<?php echo get_site_url() ?>/team/majid-jafar/" class="card-link">
+                <a href="<?php echo get_site_url(); ?>/team/majid-jafar/" class="card-link">
                   <div class="card">
                     <div class="card-header">
                       <img src="<?php echo get_template_directory_uri() .
@@ -102,7 +105,7 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="<?php echo get_site_url() ?>/team/ziad-abdulla-galadari/" class="card-link">
+                <a href="<?php echo get_site_url(); ?>/team/ziad-abdulla-galadari/" class="card-link">
                   <div class="card">
                     <div class="card-header">
                       <img src="<?php echo get_template_directory_uri() .
@@ -117,7 +120,7 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="<?php echo get_site_url() ?>/team/hani-hussain-alterkait/" class="card-link">
+                <a href="<?php echo get_site_url(); ?>/team/hani-hussain-alterkait/" class="card-link">
                   <div class="card">
                     <div class="card-header">
                       <img src="<?php echo get_template_directory_uri() .
@@ -132,7 +135,7 @@
             </div>
 
           <div class="col-12 col-md-3 mb-3">
-            <a href="<?php echo get_site_url() ?>/team/shaheen-mohamed-almheiri/" class="card-link">
+            <a href="<?php echo get_site_url(); ?>/team/shaheen-mohamed-almheiri/" class="card-link">
               <div class="card">
                 <div class="card-header">
                   <img src="<?php echo get_template_directory_uri() .
@@ -147,7 +150,7 @@
           </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="<?php echo get_site_url() ?>/team/jassim-mohamedrafi-alseddiqi/" class="card-link">
+                <a href="<?php echo get_site_url(); ?>/team/jassim-mohamedrafi-alseddiqi/" class="card-link">
                   <div class="card">
                     <div class="card-header">
                       <img src="<?php echo get_template_directory_uri() .
@@ -162,7 +165,7 @@
             </div>
 
             <div class="col-12 col-md-3 mb-3">
-                <a href="<?php echo get_site_url() ?>/team/h-e-younis-al-khoori/" class="card-link">
+                <a href="<?php echo get_site_url(); ?>/team/h-e-younis-al-khoori/" class="card-link">
                   <div class="card">
                     <div class="card-header">
                       <img src="<?php echo get_template_directory_uri() .
@@ -177,7 +180,7 @@
             </div>
 
           <div class="col-12 col-md-3 mb-3">
-            <a href="<?php echo get_site_url() ?>/team/mr-ajit-vijay-joshi/" class="card-link">
+            <a href="<?php echo get_site_url(); ?>/team/mr-ajit-vijay-joshi/" class="card-link">
               <div class="card">
                 <div class="card-header">
                   <img src="<?php echo get_template_directory_uri() .
@@ -192,7 +195,7 @@
           </div>
 
           <div class="col-12 col-md-3 mb-3">
-            <a href="<?php echo get_site_url() ?>/team/ms-najla-ahmed-al-midfa/" class="card-link">
+            <a href="<?php echo get_site_url(); ?>/team/ms-najla-ahmed-al-midfa/" class="card-link">
               <div class="card">
                 <div class="card-header">
                   <img src="<?php echo get_template_directory_uri() .
@@ -209,7 +212,8 @@
         </div>
 
       <div class="line-space-icon-br">
-        <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/line-space-icon.png'; ?>')"></div>
+        <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() .
+          "/assets/images/line-space-icon.png"; ?>')"></div>
       </div>
     </div>
 </section>
@@ -217,18 +221,22 @@
 <!-- Cards section -->
 <section class="cards-section story pt-5 pb-3 mb-5">
   <div class="container">
-    <h2 class="default-h2 text-center"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "مجلس الإدارة والإدارة" : "Board & Management" ?></h2>
+    <h2 class="default-h2 text-center"><?php echo ICL_LANGUAGE_CODE == "ar"
+      ? "مجلس الإدارة والإدارة"
+      : "Board & Management"; ?></h2>
     <div class="row mt-3">
 
       <div class="col-12 col-md-4 mb-3">
-        <a href="<?php echo get_site_url() ?>/about-us/board-and-management/board-of-directors/" class="card-link">
+        <a href="<?php echo get_site_url(); ?>/about-us/board-and-management/board-of-directors/" class="card-link">
           <div class="card">
             <div class="card-header">
               <img src="<?php echo get_template_directory_uri() .
                 "/assets/images/directors/board-of-directors.png"; ?>" alt="Board of Directors" loading="lazy">
             </div>
             <div class="card-body">
-              <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "مجلس إدارة" : "Board of Directors" ?></div>
+              <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
+                ? "مجلس إدارة"
+                : "Board of Directors"; ?></div>
               <img class="arrow" src="<?php echo get_template_directory_uri() .
                 "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
             </div>
@@ -237,14 +245,16 @@
       </div>
 
       <div class="col-12 col-md-4 mb-3">
-        <a href="<?php echo get_site_url() ?>/about-us/board-and-management/international-advisory-board/" class="card-link">
+        <a href="<?php echo get_site_url(); ?>/about-us/board-and-management/international-advisory-board/" class="card-link">
           <div class="card">
             <div class="card-header">
               <img src="<?php echo get_template_directory_uri() .
                 "/assets/images/directors/international-advisory.png"; ?>" alt="International Advisory Board" loading="lazy">
             </div>
             <div class="card-body">
-              <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "المجلس الاستشاري الدولي" : "International Advisory Board" ?></div>
+              <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
+                ? "المجلس الاستشاري الدولي"
+                : "International Advisory Board"; ?></div>
               <img class="arrow" src="<?php echo get_template_directory_uri() .
                 "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
             </div>
@@ -253,14 +263,16 @@
       </div>
 
       <div class="col-12 col-md-4 mb-3">
-        <a href="<?php echo get_site_url() ?>/about-us/board-and-management/senior-executive-management/" class="card-link">
+        <a href="<?php echo get_site_url(); ?>/about-us/board-and-management/senior-executive-management/" class="card-link">
           <div class="card">
             <div class="card-header">
               <img src="<?php echo get_template_directory_uri() .
                 "/assets/images/directors/senior-executive.png"; ?>" alt="Senior Executive Management" loading="lazy">
             </div>
             <div class="card-body">
-              <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "الإدارة التنفيذية العليا" : "Senior Executive Management" ?></div>
+              <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
+                ? "الإدارة التنفيذية العليا"
+                : "Senior Executive Management"; ?></div>
               <img class="arrow" src="<?php echo get_template_directory_uri() .
                 "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
             </div>

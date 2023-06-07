@@ -14,6 +14,7 @@
 
 
   <!-- Source files -->
+    <link href="<?php echo get_template_directory_uri() . "/dist/css/base.min.css"; ?>" rel="stylesheet">
   <link href="<?php echo get_template_directory_uri() . "/dist/css/careers.min.css"; ?>" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
@@ -27,7 +28,7 @@
   "/assets/images/careers-bg.png"; ?>')">
   <div class="about-overlay"></div>
   <div class="container">
-    <h1><?php echo ICL_LANGUAGE_CODE == 'ar' ? "وظائف" : "Careers" ?></h1>
+    <h1><?php echo ICL_LANGUAGE_CODE == "ar" ? "وظائف" : "Careers"; ?></h1>
   </div>
 </section>
 
@@ -57,7 +58,8 @@
     </div>
 
     <div class="line-space-icon-br">
-      <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/line-space-icon.png'; ?>')"></div>
+      <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() .
+        "/assets/images/line-space-icon.png"; ?>')"></div>
     </div>
   </div>
 </section>
@@ -79,21 +81,21 @@
         <div class="opportunities-box">
           <div class="opportunities-item">
             <img class="icon" src="<?php echo get_template_directory_uri() .
-                "/assets/images/icons/employees-icon.png"; ?>" alt="icon">
+              "/assets/images/icons/employees-icon.png"; ?>" alt="icon">
             <div class="desc">Full-time Employees</div>
             <div class="num">146</div>
           </div>
 
           <div class="opportunities-item">
             <img class="icon" src="<?php echo get_template_directory_uri() .
-                "/assets/images/icons/training-icon.png"; ?>" alt="icon">
+              "/assets/images/icons/training-icon.png"; ?>" alt="icon">
             <div class="desc">Training Days Achieved</div>
             <div class="num">481</div>
           </div>
 
           <div class="opportunities-item">
             <img class="icon" src="<?php echo get_template_directory_uri() .
-                "/assets/images/icons/nationalities-icon.png"; ?>" alt="icon">
+              "/assets/images/icons/nationalities-icon.png"; ?>" alt="icon">
             <div class="desc">Nationalities Represented</div>
             <div class="num">17</div>
           </div>
@@ -109,7 +111,8 @@
   "/assets/images/bg-shape/grey-shape-end.png"; ?>)">
   <div class="container">
     <div class="line-space-icon-br">
-      <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/line-space-icon.png'; ?>')"></div>
+      <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() .
+        "/assets/images/line-space-icon.png"; ?>')"></div>
     </div>
 
     <div class="row pt-5">

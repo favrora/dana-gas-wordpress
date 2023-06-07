@@ -14,6 +14,7 @@
 
 
   <!-- Source files -->
+    <link href="<?php echo get_template_directory_uri() . "/dist/css/base.min.css"; ?>" rel="stylesheet">
   <link href="<?php echo get_template_directory_uri() . "/dist/css/governance.min.css"; ?>" rel="stylesheet">
   <?php wp_head(); ?>
 </head>
@@ -27,7 +28,7 @@
     "/assets/images/about-us-bg.png"; ?>')">
     <div class="about-overlay"></div>
     <div class="container">
-      <h1><?php echo ICL_LANGUAGE_CODE == 'ar' ? "معلومات عنا" : "About US" ?></h1>
+      <h1><?php echo ICL_LANGUAGE_CODE == "ar" ? "معلومات عنا" : "About US"; ?></h1>
     </div>
   </section>
 
@@ -130,7 +131,7 @@
       <div class="row justify-content-center mt-3">
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="<?php echo get_site_url() ?>/about-us/governance/committees/" class="card-link">
+          <a href="<?php echo get_site_url(); ?>/about-us/governance/committees/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_field(
@@ -138,7 +139,9 @@
                 ); ?>" alt="Board Committees" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "لجان مجلس الإدارة" : "Board Committees" ?></div>
+                <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
+                  ? "لجان مجلس الإدارة"
+                  : "Board Committees"; ?></div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() .
                   "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
               </div>
@@ -147,7 +150,7 @@
         </div>
 
         <div class="col-12 col-md-4 mb-3">
-          <a href="<?php echo get_site_url() ?>/about-us/governance/governance-reporting/" class="card-link">
+          <a href="<?php echo get_site_url(); ?>/about-us/governance/governance-reporting/" class="card-link">
             <div class="card">
               <div class="card-header">
                 <img src="<?php echo get_field(
@@ -155,7 +158,9 @@
                 ); ?>" alt="Governance Reporting" loading="lazy">
               </div>
               <div class="card-body">
-                <div class="card-title"><?php echo ICL_LANGUAGE_CODE == 'ar' ? "تقارير الحوكمة" : "Governance Reporting" ?></div>
+                <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
+                  ? "تقارير الحوكمة"
+                  : "Governance Reporting"; ?></div>
                 <img class="arrow" src="<?php echo get_template_directory_uri() .
                   "/assets/images/right-arrow-green.png"; ?>" alt="Right arrow icon">
               </div>

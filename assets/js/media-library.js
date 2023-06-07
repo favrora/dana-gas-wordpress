@@ -13,10 +13,10 @@ document.addEventListener("DOMContentLoaded", function () {
   /*******************************
    ****** 2. Media nav menu ******
    ******************************/
-  const showVideos= document.querySelector(".showVideos"),
+  const showVideos = document.querySelector(".showVideos"),
     showImages = document.querySelector(".showImages"),
     videoSection = document.querySelector(".videoSection"),
-    imagesSection = document.querySelector(".imagesSection");
+    imagesSection = document.querySelector(".imagesSection")
 
   showVideos.addEventListener("click", () => {
     videoSection.classList.add("is-active")
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     imagesSection.classList.remove("is-active")
     showImages.classList.remove("is-active")
-  });
+  })
 
   showImages.addEventListener("click", () => {
     imagesSection.classList.add("is-active")
@@ -32,105 +32,104 @@ document.addEventListener("DOMContentLoaded", function () {
 
     videoSection.classList.remove("is-active")
     showVideos.classList.remove("is-active")
-  });
+  })
 
   /*******************************
    ** 3. Modal with img & video **
    ******************************/
   const videoModal = document.getElementById("videoModal"),
-    videoLinks = document.querySelectorAll(".popup-youtube");
+    videoLinks = document.querySelectorAll(".popup-youtube")
 
   // Attach click event listeners to video links
-  videoLinks.forEach(function(videoLink) {
-    videoLink.addEventListener("click", function() {
+  videoLinks.forEach(function (videoLink) {
+    videoLink.addEventListener("click", function () {
       let videoUrl = this.getAttribute("data-video-link"),
-        iframeSrc = "";
+        iframeSrc = ""
 
       if (videoUrl.includes("youtube.com")) {
-        const videoId = videoUrl.match(/youtube\.com\/watch\?v=([^&]+)/)[1];
-        iframeSrc = "https://www.youtube.com/embed/" + videoId;
+        const videoId = videoUrl.match(/youtube\.com\/watch\?v=([^&]+)/)[1]
+        iframeSrc = "https://www.youtube.com/embed/" + videoId
       } else {
-        iframeSrc = videoUrl;
+        iframeSrc = videoUrl
       }
 
-      document.getElementById("videoIframe").setAttribute("src", iframeSrc);
-      videoModal.classList.add("is-active");
-    });
-  });
+      document.getElementById("videoIframe").setAttribute("src", iframeSrc)
+      videoModal.classList.add("is-active")
+    })
+  })
 
   // Open Image modal
   const openImageModal = document.querySelectorAll(".openImageModal"),
     imagesModal = document.getElementById("imagesModal"),
     sliderImg = document.getElementById("sliderImg"),
     currentIndexSlider = document.querySelector(".currentIndex"),
-    sliderAll = document.querySelector(".sliderAll");
+    sliderAll = document.querySelector(".sliderAll")
 
-  openImageModal.forEach(function(cardImage) {
-    cardImage.addEventListener("click", function() {
+  openImageModal.forEach(function (cardImage) {
+    cardImage.addEventListener("click", function () {
       const imgModalLinks = document.querySelectorAll(".img-modal-links .img-link"),
-        imgArr = [];
+        imgArr = []
 
       for (let i = 0; i < imgModalLinks.length; i++) {
-        const link = imgModalLinks[i].dataset.link;
-        if (link) imgArr.push(link);
+        const link = imgModalLinks[i].dataset.link
+        if (link) imgArr.push(link)
       }
 
-      loadImages(imgArr);
+      loadImages(imgArr)
 
-      imagesModal.classList.add("is-active");
-    });
-  });
+      imagesModal.classList.add("is-active")
+    })
+  })
 
   // load new images in slider
   function loadImages(imgArr) {
     sliderImg.innerHTML = ""
 
     for (let i = 0; i < imgArr.length; i++) {
-      const slide = document.createElement("div");
-      const img = document.createElement("img");
-      img.src = imgArr[i];
+      const slide = document.createElement("div")
+      const img = document.createElement("img")
+      img.src = imgArr[i]
 
-      if (i === 0) slide.className = "slide is-active";
-      else slide.className = "slide";
+      if (i === 0) slide.className = "slide is-active"
+      else slide.className = "slide"
 
-      slide.appendChild(img);
-      sliderImg.appendChild(slide);
+      slide.appendChild(img)
+      sliderImg.appendChild(slide)
     }
 
-    currentIndexSlider.innerHTML = "0";
-    sliderAll.innerHTML = imgArr.length;
+    currentIndexSlider.innerHTML = "0"
+    sliderAll.innerHTML = imgArr.length
   }
 
   // Next slide arrow
-  let prevButton = document.querySelector('.slider-arrow.prev'),
-    nextButton = document.querySelector('.slider-arrow.next'),
-    currentIndex = 0;
+  let prevButton = document.querySelector(".slider-arrow.prev"),
+    nextButton = document.querySelector(".slider-arrow.next"),
+    currentIndex = 0
 
   function showSlide(index) {
-    const slides = sliderImg.querySelectorAll('.slide');
+    const slides = sliderImg.querySelectorAll(".slide")
 
     if (index < 0) {
-      currentIndex = slides.length - 1;
+      currentIndex = slides.length - 1
     } else if (index >= slides.length) {
-      currentIndex = 0;
+      currentIndex = 0
     }
 
-    slides.forEach(function(slide) {
-      slide.classList.remove('is-active');
-    });
+    slides.forEach(function (slide) {
+      slide.classList.remove("is-active")
+    })
 
-    slides[currentIndex].classList.add('is-active');
-    currentIndexSlider.innerHTML = currentIndex;
+    slides[currentIndex].classList.add("is-active")
+    currentIndexSlider.innerHTML = currentIndex
   }
 
-  prevButton.addEventListener('click', function() {
-    currentIndex--;
-    showSlide(currentIndex);
-  });
+  prevButton.addEventListener("click", function () {
+    currentIndex--
+    showSlide(currentIndex)
+  })
 
-  nextButton.addEventListener('click', function() {
-    currentIndex++;
-    showSlide(currentIndex);
-  });
-
+  nextButton.addEventListener("click", function () {
+    currentIndex++
+    showSlide(currentIndex)
+  })
 })
