@@ -38,63 +38,63 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center mb-4">
-        <h2 class="default-h2">Senior management</h2>
-        <div>See our entire team & their designation</div>
+        <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == "ar" ? "" : "Senior management"; ?></h2>
+        <div><?php echo ICL_LANGUAGE_CODE == "ar" ? "شاهد فريقنا بالكامل وتعيينهم" : "See our entire team & their designation"; ?></div>
       </div>
 
       <div class="col-12 col-md-6 col-lg-3">
         <div class="senior-management">
-          <div class="senior-management__name">Ahmed Kebaili</div>
-          <div class="senior-management__position">Chief Geophysicist</div>
+          <div class="senior-management__name"><?php echo ICL_LANGUAGE_CODE == "ar" ? "احمد قبيلي" : "Ahmed Kebaili"; ?></div>
+          <div class="senior-management__position"><?php echo ICL_LANGUAGE_CODE == "ar" ? "رئيس الجيوفيزياء" : "Chief Geophysicist"; ?></div>
         </div>
       </div>
 
       <div class="col-12 col-md-6 col-lg-3">
         <div class="senior-management">
-          <div class="senior-management__name">Azfar Aboobakar</div>
-          <div class="senior-management__position">Head of Financial Control & Reporting</div>
+          <div class="senior-management__name"><?php echo ICL_LANGUAGE_CODE == "ar" ? "اظفر ابو بكر" : "Azfar Aboobakar"; ?></div>
+          <div class="senior-management__position"><?php echo ICL_LANGUAGE_CODE == "ar" ? "رئيس الرقابة المالية والإبلاغ" : "Head of Financial Control & Reporting"; ?></div>
         </div>
       </div>
 
       <div class="col-12 col-md-6 col-lg-3">
         <div class="senior-management">
-          <div class="senior-management__name">Mohammmed Mubaideen</div>
-          <div class="senior-management__position">Head of Investor Relations</div>
+          <div class="senior-management__name"><?php echo ICL_LANGUAGE_CODE == "ar" ? "محمد مبيضين" : "Mohammmed Mubaideen"; ?></div>
+          <div class="senior-management__position"><?php echo ICL_LANGUAGE_CODE == "ar" ? "رئيس علاقات المستثمرين" : "Head of Investor Relations"; ?></div>
         </div>
       </div>
 
       <div class="col-12 col-md-6 col-lg-3">
         <div class="senior-management">
-          <div class="senior-management__name">Richard Helwani</div>
-          <div class="senior-management__position">Head of IT</div>
+          <div class="senior-management__name"><?php echo ICL_LANGUAGE_CODE == "ar" ? "ريتشارد حلواني" : "Richard Helwani"; ?></div>
+          <div class="senior-management__position"><?php echo ICL_LANGUAGE_CODE == "ar" ? "رئيس قسم تقنية المعلومات" : "Head of IT"; ?></div>
         </div>
       </div>
 
       <div class="col-12 col-md-6 col-lg-3">
         <div class="senior-management">
-          <div class="senior-management__name">Matthew Nix</div>
-          <div class="senior-management__position">Head of Corporate Finance</div>
+          <div class="senior-management__name"><?php echo ICL_LANGUAGE_CODE == "ar" ? "ماثيو نيكس" : "Matthew Nix"; ?></div>
+          <div class="senior-management__position"><?php echo ICL_LANGUAGE_CODE == "ar" ? "رئيس قسم تمويل الشركات" : "Head of Corporate Finance"; ?></div>
         </div>
       </div>
 
       <div class="col-12 col-md-6 col-lg-3">
         <div class="senior-management">
-          <div class="senior-management__name">Ayman Samra</div>
-          <div class="senior-management__position">Finance Manager - Egypt</div>
+          <div class="senior-management__name"><?php echo ICL_LANGUAGE_CODE == "ar" ? "أيمن سمرة" : "Ayman Samra"; ?></div>
+          <div class="senior-management__position"><?php echo ICL_LANGUAGE_CODE == "ar" ? "مدير مالي - مصر" : "Finance Manager - Egypt"; ?></div>
         </div>
       </div>
 
       <div class="col-12 col-md-6 col-lg-3">
         <div class="senior-management">
-          <div class="senior-management__name">Shaun P. Hoolahan</div>
-          <div class="senior-management__position">Head of Subsurface & RE</div>
+          <div class="senior-management__name"><?php echo ICL_LANGUAGE_CODE == "ar" ? "شون ب. هولاهان" : "Shaun P. Hoolahan"; ?></div>
+          <div class="senior-management__position"><?php echo ICL_LANGUAGE_CODE == "ar" ? "رئيس قسم تحت السطحية و RE" : "Head of Subsurface & RE"; ?></div>
         </div>
       </div>
 
       <div class="col-12 col-md-6 col-lg-3">
         <div class="senior-management">
-          <div class="senior-management__name">Mohamed Khafagy</div>
-          <div class="senior-management__position">WASCO General Manager - Egypt</div>
+          <div class="senior-management__name"><?php echo ICL_LANGUAGE_CODE == "ar" ? "محمد خفاجي" : "Mohamed Khafagy"; ?></div>
+          <div class="senior-management__position"><?php echo ICL_LANGUAGE_CODE == "ar" ? "مدير عام واسكو - مصر" : "WASCO General Manager - Egypt"; ?></div>
         </div>
       </div>
     </div>

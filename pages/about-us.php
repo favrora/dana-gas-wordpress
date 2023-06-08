@@ -56,11 +56,16 @@
         </div>
 
       </div>
+
+      <div class="line-space-icon-br mt-5">
+        <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() .
+            "/assets/images/line-space-icon.png"; ?>')"></div>
+      </div>
     </div>
   </section>
 
   <!-- Cards section -->
-  <section class="cards-section mb-5">
+  <section class="cards-section mt-5 pt-5 mb-5">
     <div class="container">
       <div class="row mt-3">
 
@@ -68,9 +73,8 @@
           <a href="<?php echo get_site_url(); ?>/about-us/board-and-management/board-of-directors" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="<?php echo get_field(
-                  "board_management_card_image"
-                ); ?>" alt="Board & Management" loading="lazy">
+                <img src="<?php echo get_template_directory_uri() .
+                    "/assets/images/cards/board-management-card.png"; ?>" alt="Board & Management" loading="lazy">
               </div>
               <div class="card-body">
                 <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
@@ -87,7 +91,8 @@
           <a href="<?php echo get_site_url(); ?>/about-us/governance/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="<?php echo get_field("governance_card_image"); ?>" alt="Governance" loading="lazy">
+                <img src="<?php echo get_template_directory_uri() .
+                    "/assets/images/cards/governance-card.png"; ?>" alt="Governance" loading="lazy">
               </div>
               <div class="card-body">
                 <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "الحكم" : "Governance"; ?></div>
@@ -102,7 +107,8 @@
           <a href="<?php echo get_site_url(); ?>/about-us/risk-management/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="<?php echo get_field("risk_management_card_image"); ?>" alt="Risk management" loading="lazy">
+                <img src="<?php echo get_template_directory_uri() .
+                    "/assets/images/cards/risk-management.png"; ?>" alt="Risk management" loading="lazy">
               </div>
               <div class="card-body">
                 <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"

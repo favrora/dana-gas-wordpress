@@ -39,7 +39,6 @@
       <li class="dropdown">
         <div class="dropdown-title">
           <a href="<?php echo get_site_url() ?>/about-us/">About us</a>
-          <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/dropdown-open-icon.png'; ?>" alt="Dropdown open icon">
           <div class="showDropdownList">−</div>
         </div>
 
@@ -72,7 +71,6 @@
       <li class="dropdown">
         <div class="dropdown-title">
           <a href="<?php echo get_site_url() ?>/operations/">Operations</a>
-          <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/dropdown-open-icon.png'; ?>" alt="Dropdown open icon">
           <div class="showDropdownList">−</div>
         </div>
 
@@ -92,7 +90,6 @@
       <li class="dropdown">
         <div class="dropdown-title">
           <a href="<?php echo get_site_url() ?>/media/">Media</a>
-          <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/dropdown-open-icon.png'; ?>" alt="Dropdown open icon">
           <div class="showDropdownList">−</div>
         </div>
 
@@ -106,7 +103,6 @@
       <li class="dropdown">
         <div class="dropdown-title">
           <a href="<?php echo get_site_url() ?>/investors/">Investors</a>
-          <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/dropdown-open-icon.png'; ?>" alt="Dropdown open icon">
           <div class="showDropdownList">−</div>
         </div>
 
@@ -116,6 +112,7 @@
           <a href="<?php echo get_site_url() ?>/investors/sukuk-information/">Sukuk information</a>
           <a href="<?php echo get_site_url() ?>/investors/key-financials/">Key financials</a>
           <a href="<?php echo get_site_url() ?>/investors/general-assembly-meeting/">General Assembly Meeting</a>
+          <a href="<?php echo get_site_url() ?>/investors/shareholder-information/">Shareholder information</a>
           <a href="<?php echo get_site_url() ?>/investors/share-price-information-2/">Share price information</a>
           <a href="<?php echo get_site_url() ?>/investors/faqs/">FAQs</a>
         </div>
@@ -139,7 +136,6 @@
       <li class="dropdown">
         <div class="dropdown-title">
           <a href="<?php echo get_site_url() ?>/about-us/">معلومات عنا</a>
-          <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/dropdown-open-icon.png'; ?>" alt="Dropdown open icon">
           <div class="showDropdownList">−</div>
         </div>
 
@@ -172,7 +168,6 @@
       <li class="dropdown">
         <div class="dropdown-title">
           <a href="<?php echo get_site_url() ?>/operations/">عمليات</a>
-          <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/dropdown-open-icon.png'; ?>" alt="Dropdown open icon">
           <div class="showDropdownList">−</div>
         </div>
 
@@ -192,7 +187,6 @@
       <li class="dropdown">
         <div class="dropdown-title">
           <a href="<?php echo get_site_url() ?>/media/">وسائط</a>
-          <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/dropdown-open-icon.png'; ?>" alt="Dropdown open icon">
           <div class="showDropdownList">−</div>
         </div>
 
@@ -206,7 +200,6 @@
       <li class="dropdown">
         <div class="dropdown-title">
           <a href="<?php echo get_site_url() ?>/investors/">المستثمرون</a>
-          <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/dropdown-open-icon.png'; ?>" alt="Dropdown open icon">
           <div class="showDropdownList">−</div>
         </div>
 
@@ -216,6 +209,7 @@
           <a href="<?php echo get_site_url() ?>/investors/sukuk-information/">معلومات الصكوك</a>
           <a href="<?php echo get_site_url() ?>/investors/key-financials/">البيانات المالية الرئيسية</a>
           <a href="<?php echo get_site_url() ?>/investors/general-assembly-meeting/">اجتماع الهيئة العامة</a>
+          <a href="<?php echo get_site_url() ?>/investors/shareholder-information/">معلومات المساهمين</a>
           <a href="<?php echo get_site_url() ?>/investors/share-price-information-2/">معلومات سعر السهم</a>
           <a href="<?php echo get_site_url() ?>/investors/faqs/">أسئلة وأجوبة</a>
         </div>

@@ -57,9 +57,8 @@
         </div>
 
         <div class="col-12 col-md-6 text-center">
-          <img src="<?php echo get_field(
-            "our_story_image_link"
-          ); ?>" class="data-img" alt="About dana gas" loading="lazy">
+          <img src="<?php echo get_template_directory_uri() .
+              "/assets/images/our-story-1-image.png"; ?>" class="data-img" alt="About dana gas" loading="lazy">
         </div>
 
       </div>
@@ -81,9 +80,8 @@
           <a href="<?php echo get_site_url(); ?>/about-us/overview/1537-2/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="<?php echo get_field(
-                  "why_invest_in_dana_gas"
-                ); ?>" alt="Why invest in Dana Gas" loading="lazy">
+                <img src="<?php echo get_template_directory_uri() .
+                    "/assets/images/cards/why-invest-card.png"; ?>" alt="Why invest in Dana Gas" loading="lazy">
               </div>
               <div class="card-body">
                 <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
@@ -100,9 +98,8 @@
           <a href="<?php echo get_site_url(); ?>/about-us/overview/vision-strategy-values/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="<?php echo get_field(
-                  "vision_strategy_values_image"
-                ); ?>" alt="Vision, strategy & values" loading="lazy">
+                <img src="<?php echo get_template_directory_uri() .
+                    "/assets/images/cards/vision-strategy-card.png"; ?>" alt="Vision, strategy & values" loading="lazy">
               </div>
               <div class="card-body">
                 <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
@@ -119,7 +116,8 @@
           <a href="<?php echo get_site_url(); ?>/about-us/overview/group-structure/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="<?php echo get_field("group_structure_image"); ?>" alt="Group structure" loading="lazy">
+                <img src="<?php echo get_template_directory_uri() .
+                    "/assets/images/cards/group-structure-card.png"; ?>" alt="Group structure" loading="lazy">
               </div>
               <div class="card-body">
                 <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"

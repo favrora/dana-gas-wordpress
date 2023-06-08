@@ -4,9 +4,10 @@
   background-color: #fff;
   transition: 300ms;
   width: 90%;
-  max-width: 1200px;
-  height: 86px;
+  max-width: 1320px;
+  height: 121px;
   margin: 0 auto;
+  padding: 10px 0 0;
 
   .site-logo {
     img {
@@ -90,8 +91,15 @@
       .dropdown-title {
         height: 100%;
         cursor: pointer;
-        padding: 5px 15px 10px;
+        padding: 5px 27px 10px;
         transition: $transitionSpeed;
+        color: #414042;
+        font-size: 21px;
+        font-family: $font-family-sans-serif;
+
+        @media (min-width: 767px) and (max-width: 1230px) {
+          padding: 5px 12px 10px;
+        }
 
         @media (min-width: $tablet) {
           .showDropdownList {
@@ -100,7 +108,7 @@
         }
 
         a {
-          color: #000000;
+          color: #414042;
           text-decoration: none;
 
           @media (max-width: $tablet) {
@@ -151,7 +159,7 @@
           width: 100%;
           color: #ffffff;
           text-decoration: none;
-          padding: 10px 20px 10px;
+          padding: 5px 20px 5px;
           background: transparent;
           transition: $transitionSpeed;
 
@@ -189,6 +197,10 @@
     padding-top: 7px;
     font-size: 0.8rem;
     justify-content: flex-end;
+
+    @media (min-width: 1230px) {
+      max-width: 930px;
+    }
 
     .nav-price__text {
       width: inherit;
@@ -228,7 +240,7 @@
       z-index: 10;
       right: 0;
       left: 0;
-      top: 120px;
+      top: 110px;
       padding-top: 8px;
     }
 

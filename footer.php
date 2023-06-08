@@ -93,6 +93,7 @@
               <a href="<?php echo get_site_url() ?>/investors/sukuk-information/">Sukuk information</a>
               <a href="<?php echo get_site_url() ?>/investors/key-financials/">Key financials</a>
               <a href="<?php echo get_site_url() ?>/investors/general-assembly-meeting/">General Assembly Meeting</a>
+              <a href="<?php echo get_site_url() ?>/investors/shareholder-information/">Shareholder information</a>
               <a href="<?php echo get_site_url() ?>/investors/share-price-information-2/">Share price information</a>
               <a href="<?php echo get_site_url() ?>/investors/faqs/">FAQs</a>
             </div>
@@ -187,6 +188,7 @@
                <a href="<?php echo get_site_url() ?>/investors/reports/">التقارير والعروض التقديمية</a>
                <a href="<?php echo get_site_url() ?>/investors/sukuk-information/">معلومات الصكوك</a>
                <a href="<?php echo get_site_url() ?>/investors/general-assembly-meeting/">اجتماع الهيئة العامة</a>
+               <a href="<?php echo get_site_url() ?>/investors/shareholder-information/">معلومات المساهمين</a>
                <a href="<?php echo get_site_url() ?>/investors/share-price-information-2/">معلومات سعر السهم</a>
                <a href="<?php echo get_site_url() ?>/investors/faqs/">أسئلة وأجوبة</a>
              </div>
@@ -208,7 +210,7 @@
               <ul class="footer-nav">
                 <li><a href="<?php echo get_site_url() ?>/terms-conditions/">Terms & Conditions</a>
                 </li>
-                <li><a href="<?php echo get_site_url() ?>/policy/">Privacy Policy</a>
+                <li class="nav-li-border"><a href="<?php echo get_site_url() ?>/policy/">Privacy Policy</a>
                 </li>
                 <li><a href="<?php echo get_site_url() ?>/disclaimer/">Disclaimer</a>
                 </li>
@@ -225,7 +227,7 @@
               <ul class="footer-nav">
                 <li><a href="<?php echo get_site_url() ?>/terms-conditions/">البنود و الظروف</a>
                 </li>
-                <li><a href="<?php echo get_site_url() ?>/policy/">سياسة الخصوصية</a>
+                <li class="nav-li-border"><a href="<?php echo get_site_url() ?>/policy/">سياسة الخصوصية</a>
                 </li>
                 <li><a href="<?php echo get_site_url() ?>/disclaimer/">تنصل</a>
                 </li>

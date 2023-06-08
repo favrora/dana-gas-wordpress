@@ -65,4 +65,7 @@
 
     </div>
   </div>
+
+  <div class="ft-shape-bottom-bg" style="background-image: url('<?php echo get_template_directory_uri() .
+      "/assets/images/bg-shape/footer-shape.png"; ?>')"></div>
 </section>

@@ -41,6 +41,10 @@
                 <div>
                     <h2 class="default-h2"><?php echo get_field("sustainability_title_2"); ?></h2>
                     <?php echo get_field("sustainability_description"); ?>
+
+                    <a class="btn btn-transparent mt-3" href="<?php echo get_site_url() ?>/wp-content/uploads/2021/12/Dana-Gas-Group-HSSE-SP-Policy-Mar-2021.pdf" target="_blank" download><?php echo ICL_LANGUAGE_CODE == "ar"
+                            ? "تحميل"
+                            : "Download"; ?></a>
                 </div>
             </div>
 
@@ -53,7 +57,7 @@
                               "/assets/images/icons/gas-production.png"; ?>" alt="Injury Free Man-Hours" loading="lazy">
                         </div>
                         <div class="overview-item__text">
-                            <div class="overview-item__pre-title">Injury Free Man-Hours</div>
+                            <div class="overview-item__pre-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "ساعات عمل خالية من الإصابات" : "Injury Free Man-Hours"; ?></div>
                             <div class="d-flex align-content-end">
                                 <div class="overview-item__title-main"><?php echo get_field(
                                   "free_man-hours_value"
@@ -68,7 +72,7 @@
                               "/assets/images/icons/condensate-production.png"; ?>" alt="Recordable Injuries at Zora Gas Plant" loading="lazy">
                         </div>
                         <div class="overview-item__text">
-                            <div class="overview-item__pre-title">Recordable Injuries at Zora Gas Plant</div>
+                            <div class="overview-item__pre-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "إصابات قابلة للتسجيل في معمل غاز الزوراء" : "Recordable Injuries at Zora Gas Plant"; ?></div>
                             <div class="d-flex align-content-end">
                                 <div class="overview-item__title-main"><?php echo get_field(
                                   "recordable_injuries_value"
@@ -83,7 +87,7 @@
                               "/assets/images/icons/lpg-production.png"; ?>" alt="Certification For Head Office" loading="lazy">
                         </div>
                         <div class="overview-item__text">
-                            <div class="overview-item__pre-title">Certification For Head Office</div>
+                            <div class="overview-item__pre-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "شهادة للمكتب الرئيسي" : "Certification For Head Office"; ?></div>
                             <div class="d-flex align-content-end">
                                 <div class="overview-item__title-main"><?php echo get_field(
                                   "certification_for_head_office_value"
@@ -98,7 +102,7 @@
                               "/assets/images/icons/net-production.png"; ?>" alt="Net production icon" loading="lazy">
                         </div>
                         <div class="overview-item__text">
-                            <div class="overview-item__pre-title">Injury Free Days Achieved</div>
+                            <div class="overview-item__pre-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "تم تحقيق أيام خالية من الإصابات" : "Injury Free Days Achieved"; ?></div>
                             <div class="d-flex align-content-end">
                                 <div class="overview-item__title-main"><?php echo get_field(
                                   "injury_free_days"

@@ -52,8 +52,8 @@
                               "/assets/images/directors/hamid-jafar.png"; ?>" alt="Hamid Jafar" loading="lazy">
                         </div>
                         <div class="card-body">
-                            <div class="card-title">Hamid Jafar</div>
-                            <div class="desc">Chairman of the Board</div>
+                            <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "حميد جعفر" : "Hamid Jafar"; ?></div>
+                            <div class="desc"><?php echo ICL_LANGUAGE_CODE == "ar" ? "رئيس مجلس الإدارة" : "Chairman of the Board"; ?></div>
                         </div>
                     </div>
                 </a>
@@ -67,8 +67,8 @@
                         "/assets/images/directors/rashed-saif.png"; ?>" alt="Rashed Saif S. Al Jarwan Al Shamsi" loading="lazy">
                     </div>
                     <div class="card-body">
-                      <div class="card-title">Rashed Saif S. Al Jarwan Al Shamsi</div>
-                      <div class="desc">Vice Chairman & Chairman of the Board Steering Committee</div>
+                      <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "راشد سيف صالح الجروان الشامسي" : "Rashed Saif S. Al Jarwan Al Shamsi"; ?></div>
+                      <div class="desc"><?php echo ICL_LANGUAGE_CODE == "ar" ? "نائب رئيس مجلس الإدارة ورئيس اللجنة التوجيهية لمجلس الإدارة" : "Vice Chairman & Chairman of the Board Steering Committee"; ?></div>
                     </div>
                   </div>
                 </a>
@@ -82,8 +82,8 @@
                         "/assets/images/directors/varoujan-nerguizian.jpg"; ?>" alt="Varoujan A. Nerguizian" loading="lazy">
                     </div>
                     <div class="card-body">
-                      <div class="card-title">Varoujan A. Nerguizian</div>
-                      <div class="desc">Corporate Governance,  Remuneration & Nominations Committee (CG</div>
+                      <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "فاروجان أ. نركيزيان" : "Varoujan A. Nerguizian"; ?></div>
+                      <div class="desc"><?php echo ICL_LANGUAGE_CODE == "ar" ? "لجنة الحوكمة والمكافآت والترشيحات" : "Corporate Governance,  Remuneration & Nominations Committee (CG)"; ?></div>
                     </div>
                   </div>
                 </a>
@@ -97,8 +97,8 @@
                         "/assets/images/directors/majid-jafar.png"; ?>" alt="Majid Jafar" loading="lazy">
                     </div>
                     <div class="card-body">
-                      <div class="card-title">Majid Jafar</div>
-                      <div class="desc">Board Managing Director</div>
+                      <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "ماجد جعفر" : "Majid Jafar"; ?></div>
+                      <div class="desc"><?php echo ICL_LANGUAGE_CODE == "ar" ? "عضو مجلس الإدارة المنتدب" : "Board Managing Director"; ?></div>
                     </div>
                   </div>
                 </a>
@@ -112,8 +112,8 @@
                         "/assets/images/directors/ziad-abdulla.png"; ?>" alt="Ziad Abdulla Ibrahim Galadari Director" loading="lazy">
                     </div>
                     <div class="card-body">
-                      <div class="card-title">Ziad Abdulla Ibrahim Galadari</div>
-                      <div class="desc">Director</div>
+                      <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "زياد عبدالله ابراهيم كلداري" : "Ziad Abdulla Ibrahim Galadari"; ?></div>
+                      <div class="desc"><?php echo ICL_LANGUAGE_CODE == "ar" ? "مخرج" : "Director"; ?></div>
                     </div>
                   </div>
                 </a>
@@ -127,8 +127,8 @@
                         "/assets/images/directors/hani-abdulaziz.png"; ?>" alt="Hani Abdulaziz" loading="lazy">
                     </div>
                     <div class="card-body">
-                      <div class="card-title">Hani Abdulaziz Hussain Al Terkait</div>
-                      <div class="desc">Director & Chairman of  Reserves Sub-Committee</div>
+                      <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "هاني عبد العزيز حسين التركيت" : "Hani Abdulaziz Hussain Al Terkait"; ?></div>
+                      <div class="desc"><?php echo ICL_LANGUAGE_CODE == "ar" ? "مدير ورئيس لجنة الاحتياطيات" : "Director & Chairman of  Reserves Sub-Committee"; ?></div>
                     </div>
                   </div>
                 </a>
@@ -142,8 +142,8 @@
                     "/assets/images/directors/shaheen-mohamed.png"; ?>" alt="Shaheen Mohamed Abdulaziz" loading="lazy">
                 </div>
                 <div class="card-body">
-                  <div class="card-title">Shaheen Mohamed Abdulaziz Rubayea Almheiri</div>
-                  <div class="desc">Director</div>
+                  <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "شاهين محمد عبد العزيز ربيع المهيري" : "Shaheen Mohamed Abdulaziz Rubayea Almheiri"; ?></div>
+                  <div class="desc"><?php echo ICL_LANGUAGE_CODE == "ar" ? "مخرج" : "Director"; ?></div>
                 </div>
               </div>
             </a>
@@ -157,8 +157,8 @@
                         "/assets/images/directors/jassim-mohamed.png"; ?>" alt="Jassim Mohamed" loading="lazy">
                     </div>
                     <div class="card-body">
-                      <div class="card-title">Jassim Mohamed Rafie Alseddiqi Alansaari</div>
-                      <div class="desc">Director & Chairman of Audit &  Compliance Committee (A&CC)</div>
+                      <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "جاسم محمد رفيع الصديقي الأنصاري" : "Jassim Mohamed Rafie Alseddiqi Alansaari"; ?></div>
+                      <div class="desc"><?php echo ICL_LANGUAGE_CODE == "ar" ? "عضو مجلس الإدارة ورئيس لجنة التدقيق والامتثال (A&CC)" : "Director & Chairman of Audit &  Compliance Committee (A&CC)"; ?></div>
                     </div>
                   </div>
                 </a>
@@ -172,8 +172,8 @@
                         "/assets/images/directors/younis-al-khoori.png"; ?>" alt="H.E. Younis Al Khoori" loading="lazy">
                     </div>
                     <div class="card-body">
-                      <div class="card-title">H.E. Younis Al Khoori</div>
-                      <div class="desc">Director</div>
+                      <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "هو. يونس الخوري" : "H.E. Younis Al Khoori"; ?></div>
+                      <div class="desc"><?php echo ICL_LANGUAGE_CODE == "ar" ? "مخرج" : "Director"; ?></div>
                     </div>
                   </div>
                 </a>
@@ -187,8 +187,8 @@
                     "/assets/images/directors/ajit-vijay.png"; ?>" alt="Mr. Ajit Vijay Joshi" loading="lazy">
                 </div>
                 <div class="card-body">
-                  <div class="card-title">Mr. Ajit Vijay Joshi</div>
-                  <div class="desc">Director</div>
+                  <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "السيد أجيت فيجاي جوشي" : "Mr. Ajit Vijay Joshi"; ?></div>
+                  <div class="desc"><?php echo ICL_LANGUAGE_CODE == "ar" ? "مخرج" : "Director"; ?></div>
                 </div>
               </div>
             </a>
@@ -202,8 +202,8 @@
                     "/assets/images/directors/najla-ahmed.png"; ?>" alt="Ms. Najla Ahmed Al-Midfa" loading="lazy">
                 </div>
                 <div class="card-body">
-                  <div class="card-title">Ms. Najla Ahmed Al-Midfa</div>
-                  <div class="desc">Director</div>
+                  <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "السيدة نجلاء احمد المدفع" : "Ms. Najla Ahmed Al-Midfa"; ?></div>
+                  <div class="desc"><?php echo ICL_LANGUAGE_CODE == "ar" ? "مخرج" : "Director"; ?></div>
                 </div>
               </div>
             </a>

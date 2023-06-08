@@ -59,6 +59,11 @@ footer.footer-default {
       }
     }
 
+    .nav-li-border {
+      border-right: 1px solid #cccccc;
+      border-left: 1px solid #cccccc;
+    }
+
     .footer-nav {
       display: flex;
       list-style: none;

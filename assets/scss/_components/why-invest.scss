@@ -1,6 +1,7 @@
 // Why invest section
 .why-invest-section {
-  padding: 220px 0 80px;
+  position: relative;
+  padding: 280px 0 180px;
   background-size: cover;
   background-position-x: center;
   background-repeat: no-repeat;
@@ -8,27 +9,52 @@
 
   @media (max-width: $tablet) {
     padding-top: 120px;
-    margin-top: 50px;
+    padding-bottom: 150px;
+    margin-top: 30px;
     background-position-x: calc(40% - 50px);
   }
 
   .line-space-icon-br {
-    margin: -120px auto 0;
+    margin: -112px auto 0;
 
     .line-space-icon {
-      margin: -120px auto 0;
+      margin: -180px auto 0;
+    }
+
+    @media (max-width: $tablet) {
+      height: 142px;
+      margin: 0 auto;
+    }
+  }
+
+  .ft-shape-bottom-bg {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    height: 300px;
+    z-index: 10;
+
+    @media (min-width: 1300px) {
+      background-position: center 0;
     }
   }
 
   .why-invest-block {
+    position: relative;
+    z-index: 30;
     padding: 40px 40px 30px;
     background: #ffffff;
     border-radius: 11px;
     box-shadow: 0 0 30px #01297036;
-    margin-top: 80px;
+    margin: 90px 0 50px;
 
     @media (max-width: $tablet) {
       padding: 20px 15px 20px;
+      margin: 80px 0 10px;
     }
 
     p {

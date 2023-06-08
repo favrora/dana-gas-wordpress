@@ -54,10 +54,10 @@
                 "/assets/images/icons/gas-production.png"; ?>" alt="Gas production icon" loading="lazy">
             </div>
             <div class="overview-item__text">
-              <div class="overview-item__pre-title">Gas production</div>
+              <div class="overview-item__pre-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "إنتاج الغاز" : "Gas production"; ?></div>
               <div class="d-flex align-content-end">
                 <div class="overview-item__title-main"><?php echo get_field("gross_gas_production_value"); ?></div>
-                <div class="overview-item__title-info">mmscfpd</div>
+                <div class="overview-item__title-info"><?php echo ICL_LANGUAGE_CODE == "ar" ? "mmscfpd" : "mmscfpd"; ?></div>
               </div>
             </div>
           </div>
@@ -68,10 +68,10 @@
                 "/assets/images/icons/condensate-production.png"; ?>" alt="Condensate production icon" loading="lazy">
             </div>
             <div class="overview-item__text">
-              <div class="overview-item__pre-title">Condensate</div>
+              <div class="overview-item__pre-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "مكثف" : "Condensate"; ?></div>
               <div class="d-flex align-content-end">
                 <div class="overview-item__title-main"><?php echo get_field("condensate_production_value"); ?></div>
-                <div class="overview-item__title-info">bblpd</div>
+                <div class="overview-item__title-info"><?php echo ICL_LANGUAGE_CODE == "ar" ? "bblpd" : "bblpd"; ?></div>
               </div>
             </div>
           </div>
@@ -82,10 +82,10 @@
                 "/assets/images/icons/lpg-production.png"; ?>" alt="LPG production icon" loading="lazy">
             </div>
             <div class="overview-item__text">
-              <div class="overview-item__pre-title">LPG production</div>
+              <div class="overview-item__pre-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "إنتاج غاز البترول المسال" : "LPG production"; ?></div>
               <div class="d-flex align-content-end">
                 <div class="overview-item__title-main"><?php echo get_field("gross_lpg_production_value"); ?></div>
-                <div class="overview-item__title-info">MTD</div>
+                <div class="overview-item__title-info"><?php echo ICL_LANGUAGE_CODE == "ar" ? "MTD" : "MTD"; ?></div>
               </div>
             </div>
           </div>
@@ -96,10 +96,10 @@
                 "/assets/images/icons/net-production.png"; ?>" alt="Net production icon" loading="lazy">
             </div>
             <div class="overview-item__text">
-              <div class="overview-item__pre-title">Production</div>
+              <div class="overview-item__pre-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "إنتاج" : "Production"; ?></div>
               <div class="d-flex align-content-end">
                 <div class="overview-item__title-main"><?php echo get_field("net_production_value"); ?></div>
-                <div class="overview-item__title-info">kboepd</div>
+                <div class="overview-item__title-info"><?php echo ICL_LANGUAGE_CODE == "ar" ? "kboepd" : "kboepd"; ?></div>
               </div>
             </div>
           </div>
@@ -163,7 +163,7 @@
                 "/assets/images/icons/gas-production.png"; ?>" alt="Gas production icon" loading="lazy">
             </div>
             <div class="overview-item__text">
-              <div class="overview-item__pre-title">Gas production</div>
+              <div class="overview-item__pre-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "إنتاج الغاز" : "Gas production"; ?></div>
               <div class="d-flex align-content-end">
                 <div class="overview-item__title-main"><?php echo get_field("gas_production_value_2"); ?></div>
                 <div class="overview-item__title-info">mmscfpd</div>
@@ -177,7 +177,7 @@
                 "/assets/images/icons/condensate-production.png"; ?>" alt="Condensate production icon" loading="lazy">
             </div>
             <div class="overview-item__text">
-              <div class="overview-item__pre-title">Condensate</div>
+              <div class="overview-item__pre-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "مكثف" : "Condensate"; ?></div>
               <div class="d-flex align-content-end">
                 <div class="overview-item__title-main"><?php echo get_field("condensate_production_value_2"); ?></div>
                 <div class="overview-item__title-info">bblpd</div>
@@ -191,7 +191,7 @@
                 "/assets/images/icons/lpg-production.png"; ?>" alt="LPG production icon" loading="lazy">
             </div>
             <div class="overview-item__text">
-              <div class="overview-item__pre-title">LPG production</div>
+              <div class="overview-item__pre-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "إنتاج غاز البترول المسال" : "LPG production"; ?></div>
               <div class="d-flex align-content-end">
                 <div class="overview-item__title-main"><?php echo get_field("lpg_production_value_2"); ?></div>
                 <div class="overview-item__title-info">MTD</div>
@@ -205,7 +205,7 @@
                 "/assets/images/icons/net-production.png"; ?>" alt="Net production icon" loading="lazy">
             </div>
             <div class="overview-item__text">
-              <div class="overview-item__pre-title">Production</div>
+              <div class="overview-item__pre-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "إنتاج" : "Production"; ?></div>
               <div class="d-flex align-content-end">
                 <div class="overview-item__title-main"><?php echo get_field("net_production_value_2"); ?></div>
                 <div class="overview-item__title-info">kboepd</div>
@@ -311,7 +311,8 @@
         <a href="<?php echo get_site_url(); ?>/operations/egypt/" class="card-link">
           <div class="card">
             <div class="card-header">
-              <img src="<?php echo get_field("egypt_card_image"); ?>" alt="Egypt" loading="lazy">
+              <img src="<?php echo get_template_directory_uri() .
+                  "/assets/images/cards/egypt-card.png"; ?>" alt="Egypt" loading="lazy">
             </div>
             <div class="card-body">
               <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "مصر" : "Egypt"; ?></div>
@@ -326,7 +327,8 @@
         <a href="<?php echo get_site_url(); ?>/operations/kri/" class="card-link">
           <div class="card">
             <div class="card-header">
-              <img src="<?php echo get_field("kri_card_image"); ?>" alt="Kurdistan Region of Iraq" loading="lazy">
+              <img src="<?php echo get_template_directory_uri() .
+                  "/assets/images/cards/kri-card.png"; ?>" alt="Kurdistan Region of Iraq" loading="lazy">
             </div>
             <div class="card-body">
               <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
@@ -343,7 +345,8 @@
         <a href="<?php echo get_site_url(); ?>/operations/united-arab-emirates/" class="card-link">
           <div class="card">
             <div class="card-header">
-              <img src="<?php echo get_field("uae_card_image"); ?>" alt="United Arab Emirates" loading="lazy">
+              <img src="<?php echo get_template_directory_uri() .
+                  "/assets/images/cards/uae-card.png"; ?>" alt="United Arab Emirates" loading="lazy">
             </div>
             <div class="card-body">
               <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"

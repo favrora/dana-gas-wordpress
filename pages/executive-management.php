@@ -32,7 +32,7 @@
 </section>
 
 <!-- Cards section -->
-<section class="directors-section mt-5 mb-5">
+<section class="directors-section executive  mt-5 mb-5">
     <div class="container">
         <div class="row mt-3">
 
@@ -53,8 +53,8 @@
                               "/assets/images/executive/patrick-allman.png"; ?>" alt="Dr. Patrick Allman-Ward" loading="lazy">
                         </div>
                         <div class="card-body">
-                            <div class="card-title">Dr. Patrick Allman-Ward</div>
-                            <div class="desc">Chief Executive Officer</div>
+                            <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "د. باتريك ألمان وارد" : "Dr. Patrick Allman-Ward"; ?></div>
+                            <div class="desc"><?php echo ICL_LANGUAGE_CODE == "ar" ? "الرئيس التنفيذي" : "Chief Executive Officer"; ?></div>
                         </div>
                     </div>
                 </a>
@@ -68,8 +68,8 @@
                             "/assets/images/executive/chris-hearne.png"; ?>" alt="Chris Hearne" loading="lazy">
                         </div>
                         <div class="card-body">
-                            <div class="card-title">Chris Hearne</div>
-                            <div class="desc">Chief Financial Officer</div>
+                            <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "كريس هيرن" : "Chris Hearne"; ?></div>
+                            <div class="desc"><?php echo ICL_LANGUAGE_CODE == "ar" ? "المدير المالي" : "Chief Financial Officer"; ?></div>
                         </div>
                     </div>
                 </a>
@@ -83,8 +83,8 @@
                             "/assets/images/executive/neville-henwood.jpg"; ?>" alt="Neville Henwood" loading="lazy">
                         </div>
                         <div class="card-body">
-                            <div class="card-title">Neville Henwood</div>
-                            <div class="desc">Legal and Commercial Director</div>
+                            <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "نيفيل هينوود" : "Neville Henwood"; ?></div>
+                            <div class="desc"><?php echo ICL_LANGUAGE_CODE == "ar" ? "المدير القانوني والتجاري" : "Legal and Commercial Director"; ?></div>
                         </div>
                     </div>
                 </a>
@@ -98,8 +98,8 @@
                             "/assets/images/executive/mike-seymour.png"; ?>" alt="Mike Seymour" loading="lazy">
                         </div>
                         <div class="card-body">
-                            <div class="card-title">Mike Seymour</div>
-                            <div class="desc">Head of HSSE & Sustainability</div>
+                            <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "مايك سيمور" : "Mike Seymour"; ?></div>
+                            <div class="desc"><?php echo ICL_LANGUAGE_CODE == "ar" ? "رئيس HSSE والاستدامة" : "Head of HSSE & Sustainability"; ?></div>
                         </div>
                     </div>
                 </a>
@@ -113,8 +113,8 @@
                             "/assets/images/executive/ramganesh-srinivasan.png"; ?>" alt="Ramganesh Srinivasan" loading="lazy">
                         </div>
                         <div class="card-body">
-                            <div class="card-title">Ramganesh Srinivasan</div>
-                            <div class="desc">Head of Human Resources</div>
+                            <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "رامغانيش سرينيفاسان" : "Ramganesh Srinivasan"; ?></div>
+                            <div class="desc"><?php echo ICL_LANGUAGE_CODE == "ar" ? "رئيس الموارد البشرية" : "Head of Human Resources"; ?></div>
                         </div>
                     </div>
                 </a>
@@ -128,8 +128,8 @@
                             "/assets/images/executive/michael-pyszka.png"; ?>" alt="Michael Pyszka" loading="lazy">
                         </div>
                         <div class="card-body">
-                            <div class="card-title">Michael Pyszka</div>
-                            <div class="desc">General Manager – Egypt</div>
+                            <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "مايكل بيسزكا" : "Michael Pyszka"; ?></div>
+                            <div class="desc"><?php echo ICL_LANGUAGE_CODE == "ar" ? "مدير عام - مصر" : "General Manager – Egypt"; ?></div>
                         </div>
                     </div>
                 </a>
@@ -143,8 +143,8 @@
                             "/assets/images/executive/shakir-shakir.png"; ?>" alt="Shakir Shakir" loading="lazy">
                         </div>
                         <div class="card-body">
-                            <div class="card-title">Shakir Shakir</div>
-                            <div class="desc">Iraq Country Manager</div>
+                            <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "شاكر شاكر" : "Shakir Shakir"; ?></div>
+                            <div class="desc"><?php echo ICL_LANGUAGE_CODE == "ar" ? "مدير دولة العراق" : "Iraq Country Manager"; ?></div>
                         </div>
                     </div>
                 </a>

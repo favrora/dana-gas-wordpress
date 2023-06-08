@@ -167,9 +167,7 @@
             <a href="<?php echo get_site_url(); ?>/about-us/overview/1537-2/" class="card-link">
               <div class="card">
                 <div class="card-header">
-                  <img src="<?php echo get_field(
-                    "why_invest_in_dana_gas"
-                  ); ?>" alt="Why invest in Dana Gas" loading="lazy">
+                  <img src="<?php echo get_template_directory_uri() . "/assets/images/cards/why-invest-card.png"; ?>" alt="Why invest in Dana Gas" loading="lazy">
                 </div>
                 <div class="card-body">
                   <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"

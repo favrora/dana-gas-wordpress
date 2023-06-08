@@ -50,9 +50,8 @@
 
       <div class="col-12 col-md-6">
           <?php echo get_field("image_content"); ?>
-        <img src="<?php echo get_field(
-          "working_with_us_image"
-        ); ?>" class="data-img" alt="Working with us" loading="lazy">
+        <img src="<?php echo get_template_directory_uri() .
+            "/assets/images/careers/img-1.png"; ?>" class="data-img" alt="img" loading="lazy">
       </div>
 
     </div>
@@ -125,9 +124,8 @@
       </div>
 
       <div class="col-12 col-md-6">
-        <img src="<?php echo get_field(
-          "disclaimer_image"
-        ); ?>" class="data-img" alt="Employment scam disclaimer" loading="lazy">
+        <img src="<?php echo get_template_directory_uri() .
+            "/assets/images/careers/img-2.png"; ?>" class="data-img" alt="Employment scam disclaimer" loading="lazy">
       </div>
 
     </div>

@@ -15,6 +15,7 @@
   <!-- Source files -->
   <link href="<?php echo get_template_directory_uri() . "/dist/css/base.min.css"; ?>" rel="stylesheet">
   <link href="<?php echo get_template_directory_uri() . "/dist/css/about-us.min.css"; ?>" rel="stylesheet">
+  <link href="<?php echo get_template_directory_uri() . "/dist/css/single-team.min.css"; ?>" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
 
@@ -25,10 +26,10 @@
 <?php while ( have_posts() ) : the_post(); ?>
 
 
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
             <div class="col-md-12">
-                <div class="st-header clearfix">
+              <div class="row">
                     <!-- Language --->
 	                <?php if(ICL_LANGUAGE_CODE=='en'): ?>
                         <div class="float-left">
@@ -36,7 +37,7 @@
                             <h6><?php echo rwmb_meta( 'team_member-ges' ); ?></h6>
                         </div>
                         <div class="float-right">
-                            <button onclick="window.history.back();" class="bck-btn">Back</button>
+                            <button class="btn" onclick="window.history.back();" class="bck-btn">Back</button>
                         </div>
 	                <?php elseif(ICL_LANGUAGE_CODE=='ar'): ?>
                         <div class="float-right">
@@ -44,7 +45,7 @@
                             <h6><?php echo rwmb_meta( 'team_member-ges' ); ?></h6>
                         </div>
                         <div class="float-left">
-                            <button onclick="window.history.back();" class="bck-btn">عودة</button>
+                            <button class="btn" onclick="window.history.back();" class="bck-btn">عودة</button>
                         </div>
 	                <?php endif; ?>
                     <!-- Language --->
@@ -52,18 +53,20 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="st-detail clearfix">
-                    <figure class="float-left">
-						<?php the_post_thumbnail() ?>
-                    </figure>
-                    <article class="float-left">
-						<?php the_content() ?>
-                    </article>
-                </div>
-            </div>
+
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <figure class="float-left">
+              <?php the_post_thumbnail() ?>
+          </figure>
         </div>
+
+        <div class="col-12 col-md-6">
+          <article class="float-left">
+              <?php the_content() ?>
+          </article>
+        </div>
+      </div>
     </div>
 
 <?php endwhile; ?>
