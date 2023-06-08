@@ -33,16 +33,21 @@
   </section>
 
   <!-- Title section -->
-  <section class="title-section top-bg-section story pt-3 pb-5" style="background-image: url('<?php echo get_template_directory_uri() .
+  <section class="title-section top-bg-section story pt-3 pb-0" style="background-image: url('<?php echo get_template_directory_uri() .
     "/assets/images/about-shape-bg.png"; ?>)">
     <div class="container text-center">
       <h2 class="default-h2"><?php echo get_field("governance_title"); ?></h2>
       <p><?php echo get_field("governance_description"); ?></p>
+
+      <div class="line-space-icon-br">
+        <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() .
+            "/assets/images/line-space-icon.png"; ?>')"></div>
+      </div>
     </div>
   </section>
 
   <!-- Company section -->
-  <section class="company-section pt-5">
+  <section class="company-section pt-5 mt-5">
     <div class="container">
       <div class="row">
 
@@ -54,9 +59,8 @@
         </div>
 
         <div class="col-12 col-md-6 text-center">
-          <img src="<?php echo get_field(
-            "governance_img_link_2"
-          ); ?>" class="data-img" alt="About dana gas" loading="lazy">
+          <img src="<?php echo get_template_directory_uri() .
+              "/assets/images/investors/governance-1.png"; ?>" class="data-img" alt="About dana gas" loading="lazy">
         </div>
 
       </div>
@@ -64,35 +68,43 @@
   </section>
 
   <!-- Responsibilities section -->
-  <section class="responsibilities-section mt-5 mb-5">
+  <section class="responsibilities-section bottom-bg-section" style="background-image: url('<?php echo get_template_directory_uri() .
+      "/assets/images/bg-shape/shape-middle.png"; ?>)">
     <div class="container">
-      <div class="row">
+      <div class="line-space-icon-br top-integrated" style="margin-top: -30px;">
+        <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() .
+            "/assets/images/line-space-icon.png"; ?>')"></div>
+      </div>
 
+      <div class="row">
         <div class="col-12">
           <h2 class="title-green"><?php echo get_field("governance_title_3"); ?></h2>
         </div>
 
         <div class="col-12 col-md-6">
-          <?php echo get_field("governance_description_3"); ?>
+            <?php echo get_field("governance_description_3"); ?>
         </div>
 
         <div class="col-12 col-md-6">
-          <?php echo get_field("governance_description_3_list"); ?>
+            <?php echo get_field("governance_description_3_list"); ?>
         </div>
+      </div>
 
+      <div class="line-space-icon-br top-integrated" style="margin-top: -30px;">
+        <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() .
+            "/assets/images/line-space-icon.png"; ?>')"></div>
       </div>
     </div>
   </section>
 
   <!-- Responsibilities section -->
-  <section class="responsibilities-section mt-5 mb-5">
+  <section class="responsibilities-section mt-5 pt-5 mb-5">
     <div class="container">
       <div class="row">
 
         <div class="col-12 col-md-6">
-          <img src="<?php echo get_field(
-            "governance_img_link_4"
-          ); ?>" class="data-img" alt="About dana gas" loading="lazy">
+          <img src="<?php echo get_template_directory_uri() .
+              "/assets/images/investors/governance-responsibilities.png"; ?>" class="data-img" alt="About dana gas" loading="lazy">
         </div>
 
         <div class="col-12 col-md-6">
@@ -105,26 +117,37 @@
   </section>
 
   <!-- Governance section -->
-  <section class="governance-section mt-5 pt-3 mb-5">
+  <section class="governance-section bottom-bg-section" style="background-image: url('<?php echo get_template_directory_uri() .
+      "/assets/images/bg-shape/shape-middle.png"; ?>)">
     <div class="container">
+      <div class="line-space-icon-br top-integrated" style="margin-top: -30px;">
+        <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() .
+            "/assets/images/line-space-icon.png"; ?>')"></div>
+      </div>
+
       <div class="row">
-        <div class="col-12 col-md-6">
-          <h2 class="title-green"><?php echo get_field("governance_title_5"); ?></h2>
-          <?php echo get_field("governance_description_5"); ?>
+        <div class="col-12 col-md-6 d-flex align-items-center flex-wrap">
+          <div>
+            <h2 class="title-green"><?php echo get_field("governance_title_5"); ?></h2>
+              <?php echo get_field("governance_description_5"); ?>
+          </div>
         </div>
 
         <div class="col-12 col-md-6">
-          <img src="<?php echo get_field(
-            "governance_img_link_5"
-          ); ?>" class="data-img" alt="About dana gas" loading="lazy">
+          <img src="<?php echo get_template_directory_uri() .
+              "/assets/images/investors/governance-corporate.png"; ?>" class="data-img" alt="About dana gas" loading="lazy">
         </div>
+      </div>
 
+      <div class="line-space-icon-br top-integrated" style="margin-top: -30px;">
+        <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() .
+            "/assets/images/line-space-icon.png"; ?>')"></div>
       </div>
     </div>
   </section>
 
   <!-- Cards section -->
-  <section class="cards-section pt-3 mb-5">
+  <section class="cards-section pt-5 mt-5 mb-5">
     <div class="container">
       <h2 class="default-h2"><?php echo get_field("governance_title"); ?></h2>
 

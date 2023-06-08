@@ -556,7 +556,7 @@ function press_shortcode( $atts ) {
                                     <?php $moreText = (!empty(ICL_LANGUAGE_CODE) && ICL_LANGUAGE_CODE == 'ar') ? 'مزيد' : 'More'; ?>
                   <div class="position-relative"><div class="moreFilters reports-nav__more"><?php echo $moreText; ?></div><ul class="subMenuReport"><?php echo $submenu; ?></ul>
         </div>
-        <div class="tab-content">
+        <div class="tab-content mt-4">
             <?php
             if( isset( $_GET['cat'] ) ) {
                 $cat = $_GET['cat'];

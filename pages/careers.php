@@ -108,9 +108,9 @@
 
 <!-- Disclaimer section -->
 <section class="disclaimer-section top-bg-section" style="background-image: url('<?php echo get_template_directory_uri() .
-  "/assets/images/bg-shape/grey-shape-end.png"; ?>)">
+  "/assets/images/bg-shape/grey-shape-end.png"; ?>');padding-top: 30px;">
   <div class="container">
-    <div class="line-space-icon-br">
+    <div class="line-space-icon-br" style="height: 150px;">
       <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() .
         "/assets/images/line-space-icon.png"; ?>')"></div>
     </div>

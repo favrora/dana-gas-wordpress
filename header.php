@@ -97,6 +97,7 @@
         </div>
 
         <div class="dropdown-list">
+          <a href="<?php echo get_site_url() ?>/media/press-releases/">Press releases</a>
           <a href="<?php echo get_site_url() ?>/media/regulatory-disclosures/">Regulatory disclosures</a>
           <a href="<?php echo get_site_url() ?>/media/media-library/">Media library</a>
         </div>
@@ -196,6 +197,7 @@
         </div>
 
         <div class="dropdown-list">
+          <a href="<?php echo get_site_url() ?>/media/press-releases/">تصريحات صحفيه</a>
           <a href="<?php echo get_site_url() ?>/media/regulatory-disclosures/">الإفصاحات التنظيمية</a>
           <a href="<?php echo get_site_url() ?>/media/media-library/">مكتبة الوسائط</a>
         </div>

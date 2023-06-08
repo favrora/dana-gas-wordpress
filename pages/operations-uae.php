@@ -46,7 +46,7 @@
           <div class="showMoreText d-none"><?php echo get_field("operations_show_more_description"); ?></div>
 
           <button class="showMoreBtn btn btn-link pl-0">
-            <span class="showMoreText"><?php echo ICL_LANGUAGE_CODE == "ar" ? "أظهر المزيد" : "Show more"; ?></span>
+            <span class="showMoreTextSwitch"><?php echo ICL_LANGUAGE_CODE == "ar" ? "أظهر المزيد" : "Show more"; ?></span>
             <span class="showLessText d-none"><?php echo ICL_LANGUAGE_CODE == "ar" ? "عرض أقل" : "Show less"; ?></span>
             <img class="arrow-ic" src="<?php echo get_template_directory_uri() .
               "/assets/images/icons/dropdown-open-icon.png"; ?>" alt="Dropdown open icon">
@@ -61,13 +61,17 @@
       </div>
 
     </div>
+
+    <div class="line-space-icon-br">
+      <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() .
+          "/assets/images/line-space-icon.png"; ?>')"></div>
+    </div>
   </div>
 </section>
 
 <!-- Cards section -->
-<section class="cards-section story pt-3 mb-5">
+<section class="cards-section story pt-5 mt-5 mb-5">
   <div class="container">
-    <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == "ar" ? "قصتنا" : "Our Story"; ?></h2>
     <div class="row mt-3">
 
       <div class="col-12 col-md-4 mb-3">

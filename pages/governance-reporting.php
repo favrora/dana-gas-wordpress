@@ -54,15 +54,33 @@
             </div>
 
         </div>
+
+      <div class="line-space-icon-br">
+        <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() .
+            "/assets/images/line-space-icon.png"; ?>')"></div>
+      </div>
     </div>
 </section>
 
-
+<!-- Reserve report section -->
+<section class="reports-section pt-5 mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+          <?php if (ICL_LANGUAGE_CODE == "en"): ?>
+              <?php echo do_shortcode('[reports cat="26" title="Governance reports"]'); ?>
+          <?php elseif (ICL_LANGUAGE_CODE == "ar"): ?>
+              <?php echo do_shortcode('[reports cat="26" title="تقارير الحوكمة"]'); ?>
+          <?php endif; ?>
+      </div>
+    </div>
+  </div>
+</section>
 
 <?php include get_theme_file_path("/parts/why-invest.php"); ?>
 
 <?php get_footer(); ?>
-<script src="<?php echo get_template_directory_uri() . "/dist/js/app.min.js"; ?>"></script>
+<script src="<?php echo get_template_directory_uri() . "/dist/js/sustainability.min.js"; ?>"></script>
 
 </body>
 

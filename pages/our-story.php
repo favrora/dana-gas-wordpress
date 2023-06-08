@@ -46,7 +46,7 @@
             <div class="showMoreText d-none"><?php echo get_field("show_more_description"); ?></div>
 
             <button class="showMoreBtn btn btn-link pl-0">
-              <span class="showMoreText"><?php echo ICL_LANGUAGE_CODE == "ar" ? "أظهر المزيد" : "Show more"; ?></span>
+              <span class="showMoreTextSwitch"><?php echo ICL_LANGUAGE_CODE == "ar" ? "أظهر المزيد" : "Show more"; ?></span>
               <span class="showLessText d-none"><?php echo ICL_LANGUAGE_CODE == "ar"
                 ? "عرض أقل"
                 : "Show less"; ?></span>

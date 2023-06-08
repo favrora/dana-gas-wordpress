@@ -97,12 +97,12 @@ for (let i = 0; i < showMoreBtn.length; ++i) {
     if (showMoreText[i].classList.contains("d-none")) {
       showMoreText[i].classList.remove("d-none")
       showMoreBtn[i].classList.add("active")
-      showMoreBtn[i].querySelector(".showMoreText").classList.add("d-none")
+      showMoreBtn[i].querySelector(".showMoreTextSwitch").classList.add("d-none")
       showMoreBtn[i].querySelector(".showLessText").classList.remove("d-none")
     } else {
       showMoreText[i].classList.add("d-none")
       showMoreBtn[i].classList.remove("active")
-      showMoreBtn[i].querySelector(".showMoreText").classList.remove("d-none")
+      showMoreBtn[i].querySelector(".showMoreTextSwitch").classList.remove("d-none")
       showMoreBtn[i].querySelector(".showLessText").classList.add("d-none")
     }
   })

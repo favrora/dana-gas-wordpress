@@ -18,7 +18,7 @@
     <?php wp_head(); ?>
 </head>
 
-<body>
+<body class="why-invest-grey-bg">
 
 <?php get_header(); ?>
 
@@ -45,7 +45,7 @@
           <div class="showMoreText d-none"><?php echo get_field("operations_show_more_description"); ?></div>
 
           <button class="showMoreBtn btn btn-link pl-0">
-            <span class="showMoreText"><?php echo ICL_LANGUAGE_CODE == "ar" ? "أظهر المزيد" : "Show more"; ?></span>
+            <span class="showMoreTextSwitch"><?php echo ICL_LANGUAGE_CODE == "ar" ? "أظهر المزيد" : "Show more"; ?></span>
             <span class="showLessText d-none"><?php echo ICL_LANGUAGE_CODE == "ar" ? "عرض أقل" : "Show less"; ?></span>
             <img class="arrow-ic" src="<?php echo get_template_directory_uri() .
               "/assets/images/icons/dropdown-open-icon.png"; ?>" alt="Dropdown open icon">
@@ -126,7 +126,7 @@
 
 
 <!-- Reserves section -->
-<section class="reserves-section mt-5 pt-5 pb-5">
+<section class="reserves-section mt-5 pt-5">
   <div class="container">
 
     <div class="row">
@@ -139,8 +139,99 @@
 
       <div class="col-12 col-md-6">
         <img src="<?php echo get_template_directory_uri() .
-          "/assets/images/map/egypt-2.png"; ?>" alt="Reserves" loading="lazy">
+          "/assets/images/map/kri-map.png"; ?>" alt="kri map" loading="lazy">
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- Overview 2 section -->
+<section class="overview-section bottom-bg-section" style="background-image: url('<?php echo get_template_directory_uri() .
+    "/assets/images/bg-shape/shape-middle.png"; ?>)">
+  <div class="container">
+    <div class="line-space-icon-br top-integrated" style="margin-top: -30px;">
+      <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() .
+          "/assets/images/line-space-icon.png"; ?>')"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <h2 class="default-h2 mt-2 mb-3"><?php echo ICL_LANGUAGE_CODE == "ar"
+                ? "ملخص"
+                : "Overview"; ?></h2>
+
+          <?php echo get_field("overview_2_content"); ?>
+      </div>
+
+      <div class="col-12 col-md-6">
+        <div class="overview-blocks mb-3">
+
+          <div class="overview-item" style="margin: 0 auto 20px;">
+            <div class="overview-item__img">
+              <img src="<?php echo get_template_directory_uri() .
+                  "/assets/images/icons/gas-production.png"; ?>" alt="Gas production icon" loading="lazy">
+            </div>
+            <div class="overview-item__text">
+              <div class="overview-item__pre-title">Gross gas production</div>
+              <div class="d-flex align-content-end">
+                <div class="overview-item__title-main">309</div>
+                <div class="overview-item__title-info">mmscfpd</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="overview-item" style="margin: 0 auto 20px;">
+            <div class="overview-item__img">
+              <img src="<?php echo get_template_directory_uri() .
+                  "/assets/images/icons/condensate-production.png"; ?>" alt="Condensate production icon" loading="lazy">
+            </div>
+            <div class="overview-item__text">
+              <div class="overview-item__pre-title">Gross condensate production</div>
+              <div class="d-flex align-content-end">
+                <div class="overview-item__title-main">13.0</div>
+                <div class="overview-item__title-info">bblpd</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="overview-item" style="margin: 0 auto 20px;">
+            <div class="overview-item__img">
+              <img src="<?php echo get_template_directory_uri() .
+                  "/assets/images/icons/lpg-production.png"; ?>" alt="LPG production icon" loading="lazy">
+            </div>
+            <div class="overview-item__text">
+              <div class="overview-item__pre-title">Gross LPG production</div>
+              <div class="d-flex align-content-end">
+                <div class="overview-item__title-main">976</div>
+                <div class="overview-item__title-info">MTD</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="overview-item" style="margin: 0 auto 20px;">
+            <div class="overview-item__img">
+              <img src="<?php echo get_template_directory_uri() .
+                  "/assets/images/icons/net-production.png"; ?>" alt="Net production icon" loading="lazy">
+            </div>
+            <div class="overview-item__text">
+              <div class="overview-item__pre-title">Net production</div>
+              <div class="d-flex align-content-end">
+                <div class="overview-item__title-main">26.7</div>
+                <div class="overview-item__title-info">kboepd</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <img src="<?php echo get_template_directory_uri() .
+            "/assets/images/map/iraq.png"; ?>" alt="Development kri" loading="lazy">
+      </div>
+    </div>
+
+    <div class="line-space-icon-br top-integrated" style="margin-top: -30px;">
+      <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() .
+          "/assets/images/line-space-icon.png"; ?>')"></div>
     </div>
   </div>
 </section>
@@ -170,24 +261,34 @@
 </section>
 
 <!-- Development section -->
-<section class="development-section mt-5 pb-5">
+<section class="development-section bottom-bg-section" style="background-image: url('<?php echo get_template_directory_uri() .
+    "/assets/images/bg-shape/shape-middle.png"; ?>)">
   <div class="container">
-    <div class="row">
+    <div class="line-space-icon-br top-integrated" style="margin-top: -30px;">
+      <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() .
+          "/assets/images/line-space-icon.png"; ?>')"></div>
+    </div>
 
+    <div class="row">
       <div class="col-12 col-md-6">
           <?php echo get_field("development_content"); ?>
       </div>
 
       <div class="col-12 col-md-6">
-        <img src="<?php echo get_field("development_image_link"); ?>" alt="Development kri" loading="lazy">
+        <img src="<?php echo get_template_directory_uri() .
+            "/assets/images/operations/development-img.png"; ?>" alt="Development kri" loading="lazy">
       </div>
+    </div>
 
+    <div class="line-space-icon-br top-integrated" style="margin-top: -30px;">
+      <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() .
+          "/assets/images/line-space-icon.png"; ?>')"></div>
     </div>
   </div>
 </section>
 
 <!-- Gas sale section -->
-<section class="gas-sale-section mt-5 pb-5">
+<section class="gas-sale-section mt-5 pt-5 pb-5">
   <div class="container">
     <div class="row">
 
@@ -208,9 +309,12 @@
 </section>
 
 <!-- Cards section -->
-<section class="cards-section story pt-3 mb-5">
+<section class="cards-section bottom-bg-section story pt-5 mt-5" style="background-image: url('<?php echo get_template_directory_uri() . "/assets/images/bg-shape/grey-shape-end.png"; ?>)">
   <div class="container">
-    <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == "ar" ? "قصتنا" : "Our Story"; ?></h2>
+    <div class="line-space-icon-br">
+      <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() .
+          "/assets/images/line-space-icon.png"; ?>')"></div>
+    </div>
     <div class="row mt-3">
 
       <div class="col-12 col-md-4 mb-3">

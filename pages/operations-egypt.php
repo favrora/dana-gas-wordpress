@@ -117,7 +117,7 @@
 </section>
 
 <!-- Reserves section -->
-<section class="reserves-section mt-5 pt-5 pb-5">
+<section class="reserves-section mt-5 pt-5">
   <div class="container">
 
     <div class="row">
@@ -136,8 +136,14 @@
 </section>
 
 <!-- Overview 2 section -->
-<section class="overview-2-section pb-5 pt-5">
+<section class="overview-2-section bottom-bg-section" style="background-image: url('<?php echo get_template_directory_uri() .
+    "/assets/images/bg-shape/shape-middle.png"; ?>)">
   <div class="container">
+    <div class="line-space-icon-br top-integrated">
+      <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() .
+          "/assets/images/line-space-icon.png"; ?>')"></div>
+    </div>
+
     <div class="row">
 
       <div class="col-12 col-md-7 company-section__data">
@@ -211,11 +217,16 @@
       </div>
 
     </div>
+
+    <div class="line-space-icon-br top-integrated">
+      <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() .
+          "/assets/images/line-space-icon.png"; ?>')"></div>
+    </div>
   </div>
 </section>
 
 <!-- Reserves 2 section -->
-<section class="reserves-2-section mt-5 pb-5">
+<section class="reserves-2-section mt-5">
   <div class="container">
 
     <div class="row">
@@ -235,11 +246,16 @@
 </section>
 
 <!-- Onshore assets section -->
-<section class="onshore-section mt-5 pb-5">
+<section class="onshore-section bottom-bg-section" style="background-image: url('<?php echo get_template_directory_uri() .
+    "/assets/images/bg-shape/shape-middle.png"; ?>)">
   <div class="container">
+    <div class="line-space-icon-br top-integrated" style="margin-top: -30px;">
+      <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() .
+          "/assets/images/line-space-icon.png"; ?>')"></div>
+    </div>
 
     <div class="row">
-      <div class="col-12 text-center">
+      <div class="col-12 text-center mb-4">
         <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == "ar" ? "الأصول البرية" : "Onshore assets"; ?></h2>
           <?php echo get_field("onshore_assets_pre_titile"); ?>
       </div>
@@ -254,7 +270,7 @@
  ); ?></span></p>
 
         <button class="showMoreBtn btn btn-link pl-0">
-          <span class="showMoreText"><?php echo ICL_LANGUAGE_CODE == "ar" ? "أظهر المزيد" : "Show more"; ?></span>
+          <span class="showMoreTextSwitch"><?php echo ICL_LANGUAGE_CODE == "ar" ? "أظهر المزيد" : "Show more"; ?></span>
           <span class="showLessText d-none"><?php echo ICL_LANGUAGE_CODE == "ar" ? "عرض أقل" : "Show less"; ?></span>
           <img class="arrow-ic" src="<?php echo get_template_directory_uri() .
             "/assets/images/icons/dropdown-open-icon.png"; ?>" alt="Dropdown open icon">
@@ -271,18 +287,23 @@
  ); ?></span></p>
 
         <button class="showMoreBtn btn btn-link pl-0">
-          <span class="showMoreText"><?php echo ICL_LANGUAGE_CODE == "ar" ? "أظهر المزيد" : "Show more"; ?></span>
+          <span class="showMoreTextSwitch"><?php echo ICL_LANGUAGE_CODE == "ar" ? "أظهر المزيد" : "Show more"; ?></span>
           <span class="showLessText d-none"><?php echo ICL_LANGUAGE_CODE == "ar" ? "عرض أقل" : "Show less"; ?></span>
           <img class="arrow-ic" src="<?php echo get_template_directory_uri() .
             "/assets/images/icons/dropdown-open-icon.png"; ?>" alt="Dropdown open icon">
         </button>
       </div>
     </div>
+
+    <div class="line-space-icon-br top-integrated" style="margin-top: -30px;">
+      <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() .
+          "/assets/images/line-space-icon.png"; ?>')"></div>
+    </div>
   </div>
 </section>
 
 <!-- Cards section -->
-<section class="cards-section story pt-3 mb-5">
+<section class="cards-section story mt-5 pt-5 mb-5">
   <div class="container">
     <div class="row mt-3">
 
