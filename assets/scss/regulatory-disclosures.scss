@@ -1,0 +1,25 @@
+@import "_components/contact-form";
+
+.cards-section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding-top: 70px;
+
+  @media (max-width: 767px) {
+    padding-top: 120px;
+  }
+
+  .line-space-icon-br {
+    height: 142px;
+    margin: 0 auto 40px;
+  }
+}
+
+section.why-invest-section {
+  background-color: #f6f5f5;
+
+  @media (max-width: 767px) {
+    margin-top: -5px;
+  }
+}

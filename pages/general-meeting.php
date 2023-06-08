@@ -32,7 +32,7 @@
 </section>
 
 <!-- General meeting section -->
-<section class="company-section reports-section top-bg-section pt-5" style="background-image: url('<?php echo get_template_directory_uri() .
+<section class="company-section reports-section top-bg-section pt-5 pb-0" style="background-image: url('<?php echo get_template_directory_uri() .
   "/assets/images/about-shape-bg.png"; ?>)">
   <div class="container">
     <div class="row">
@@ -44,9 +44,28 @@
           <?php endif; ?>
       </div>
     </div>
+
+    <div class="line-space-icon-br">
+      <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() .
+          "/assets/images/line-space-icon.png"; ?>')"></div>
+    </div>
   </div>
 </section>
 
+<!-- Form section -->
+<section class="form-section mt-5 pt-5">
+  <div class="container">
+    <h2 class="default-h2 text-center"><?php echo ICL_LANGUAGE_CODE == "ar"
+            ? "آخر تحديثات الأخبار"
+            : "Latest news updates"; ?></h2>
+
+      <?php if (ICL_LANGUAGE_CODE == "en"): ?>
+          <?php echo do_shortcode('[contact-form-7 id="630" title="Contact Form"]'); ?>
+      <?php elseif (ICL_LANGUAGE_CODE == "ar"): ?>
+          <?php echo do_shortcode('[contact-form-7 id="4706" title="Contact Form Arabic"]'); ?>
+      <?php endif; ?>
+  </div>
+</section>
 
 <?php include get_theme_file_path("/parts/why-invest.php"); ?>
 

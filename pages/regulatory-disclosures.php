@@ -15,6 +15,7 @@
     <!-- Source files -->
     <link href="<?php echo get_template_directory_uri() . "/dist/css/base.min.css"; ?>" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri() . "/dist/css/operations-kri.min.css"; ?>" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri() . "/dist/css/regulatory-disclosures.min.css"; ?>" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
 
@@ -32,7 +33,7 @@
 </section>
 
 <!-- Annual reports section -->
-<section class="company-section reports-section top-bg-section pt-5" style="background-image: url('<?php echo get_template_directory_uri() .
+<section class="company-section reports-section top-bg-section pt-5 pb-0" style="background-image: url('<?php echo get_template_directory_uri() .
   "/assets/images/about-shape-bg.png"; ?>)">
     <div class="container">
         <div class="row">
@@ -42,14 +43,38 @@
           </div>
 
         </div>
+
+      <div class="line-space-icon-br">
+        <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() .
+            "/assets/images/line-space-icon.png"; ?>')"></div>
+      </div>
     </div>
 </section>
 
+<!-- Form section -->
+<section class="form-section mt-5 pt-5">
+  <div class="container">
+    <h2 class="default-h2 text-center"><?php echo ICL_LANGUAGE_CODE == "ar"
+            ? "آخر تحديثات الأخبار"
+            : "Latest news updates"; ?></h2>
+
+      <?php if (ICL_LANGUAGE_CODE == "en"): ?>
+          <?php echo do_shortcode('[contact-form-7 id="630" title="Contact Form"]'); ?>
+      <?php elseif (ICL_LANGUAGE_CODE == "ar"): ?>
+          <?php echo do_shortcode('[contact-form-7 id="4706" title="Contact Form Arabic"]'); ?>
+      <?php endif; ?>
+  </div>
+</section>
 
 <!-- Cards section -->
-<section class="cards-section story mb-5">
+<section class="cards-section story"  style="background-image: url('<?php echo get_template_directory_uri() .
+    "/assets/images/bg-shape/shape-bottom.png"; ?>)">
     <div class="container">
-        <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == "ar" ? "قصتنا" : "Our Story"; ?></h2>
+      <div class="line-space-icon-br">
+        <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() .
+            "/assets/images/line-space-icon.png"; ?>')"></div>
+      </div>
+
         <div class="row mt-3">
 
             <div class="col-12 col-md-4 mb-3">

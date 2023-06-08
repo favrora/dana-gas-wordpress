@@ -1,0 +1,40 @@
+/*****************************
+ ******* Form section ********
+ ****************************/
+.form-section {
+  &__desc {
+    max-width: 380px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  form {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  select {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #323a45;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 5px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    min-height: calc(1.6em + 0.75rem + 2px);
+  }
+
+  input.wpcf7-submit:read-only {
+    background: #4c9e45;
+
+    &:hover, &:focus-visible {
+      background: #388532;
+    }
+  }
+}

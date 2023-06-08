@@ -148,6 +148,27 @@ h6 {
   background-position-y: bottom;
 }
 
+.bottom-bg-section {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 120px;
+
+  .line-space-icon-br {
+    height: 142px;
+    margin: 0 auto 40px;
+  }
+
+  &.middle {
+    background-position: center;
+  }
+}
+
+.why-invest-grey-bg section.why-invest-section {
+  background-color: #f6f5f5;
+  margin-top: -2px;
+}
+
 .list-with-arrow {
   font-family: $font-family-sans-serif;
   list-style-image: url("/wp-content/themes/danagas/assets/images/right-arrow-green.png");

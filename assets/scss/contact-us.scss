@@ -2,8 +2,7 @@
  ******* Contact US CSS Code *******
 
  1. Group contacts section
- 2. Form section
- 3. Location section
+ 2. Location section
  **********************************/
 
 // Packages style
@@ -11,6 +10,7 @@
 @import "../../node_modules/leaflet/dist/leaflet";
 
 @import "_app";
+@import "_components/contact-form";
 
 /*****************************
  * 1. Group contacts section *
@@ -34,40 +34,7 @@
 }
 
 /****************************
- ***** 2. Form section ******
- ***************************/
-.form-section {
-  &__desc {
-    max-width: 380px;
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  form {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-
-  select {
-    display: block;
-    width: 100%;
-    padding: 0.375rem 0.75rem;
-    font-size: 0.9rem;
-    font-weight: 400;
-    line-height: 1.6;
-    color: #323a45;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    appearance: none;
-    border-radius: 5px;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    min-height: calc(1.6em + 0.75rem + 2px);
-  }
-}
-
-/****************************
- *** 3. Location section ****
+ *** 2. Location section ****
  ***************************/
 .location-section {
   &__country {

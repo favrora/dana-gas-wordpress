@@ -199,7 +199,7 @@
         padding: 0;
 
         a {
-          color: #4d4d4d;
+          color: #4c9e45;
           transition: 350ms;
           margin-left: 5px;
 
@@ -219,9 +219,17 @@
 @media (max-width: $tablet) {
   .nav-header {
     height: 75px;
+    margin-bottom: 43px;
 
     .nav-price__text {
-      display: none;
+      display: block;
+      position: absolute;
+      background: #ffffff;
+      z-index: 10;
+      right: 0;
+      left: 0;
+      top: 120px;
+      padding-top: 8px;
     }
 
     .site-logo img {
@@ -332,7 +340,7 @@
 }
 
 .mobile-menu {
-  stroke: #000000;
+  stroke: #4c9e45;
   transition: $transitionSpeed;
 
   @media (min-width: $tablet) {
@@ -346,7 +354,7 @@
     z-index: 100;
     position: absolute;
     right: 15px;
-    stroke: black;
+    stroke: #4c9e45;
     transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
 
     path {

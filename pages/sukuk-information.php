@@ -18,7 +18,7 @@
     <?php wp_head(); ?>
 </head>
 
-<body>
+<body class="why-invest-grey-bg">
 
 <?php get_header(); ?>
 
@@ -53,11 +53,29 @@
   </div>
 </section>
 
+<!-- Form section -->
+<section class="form-section mt-5 pt-5">
+  <div class="container">
+    <h2 class="default-h2 text-center"><?php echo ICL_LANGUAGE_CODE == "ar"
+            ? "آخر تحديثات الأخبار"
+            : "Latest news updates"; ?></h2>
+
+      <?php if (ICL_LANGUAGE_CODE == "en"): ?>
+          <?php echo do_shortcode('[contact-form-7 id="630" title="Contact Form"]'); ?>
+      <?php elseif (ICL_LANGUAGE_CODE == "ar"): ?>
+          <?php echo do_shortcode('[contact-form-7 id="4706" title="Contact Form Arabic"]'); ?>
+      <?php endif; ?>
+  </div>
+</section>
 
 <!-- Cards section -->
-<section class="cards-section story pt-5 mt-5 mb-5">
+<section class="cards-section bottom-bg-section story pt-5 mt-5" style="background-image: url('<?php echo get_template_directory_uri() . "/assets/images/bg-shape/grey-shape-end.png"; ?>)">
   <div class="container">
-    <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == "ar" ? "قصتنا" : "Our Story"; ?></h2>
+    <div class="line-space-icon-br">
+      <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() .
+          "/assets/images/line-space-icon.png"; ?>')"></div>
+    </div>
+
     <div class="row mt-3">
 
       <div class="col-12 col-md-4 mb-3">
