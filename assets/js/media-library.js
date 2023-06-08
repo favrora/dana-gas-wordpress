@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   openImageModal.forEach(function (cardImage) {
     cardImage.addEventListener("click", function () {
-      const imgModalLinks = document.querySelectorAll(".img-modal-links .img-link"),
+      const imgModalLinks = cardImage.querySelectorAll(".img-modal-links .img-link"),
         imgArr = []
 
       for (let i = 0; i < imgModalLinks.length; i++) {
@@ -84,6 +84,10 @@ document.addEventListener("DOMContentLoaded", function () {
   // load new images in slider
   function loadImages(imgArr) {
     sliderImg.innerHTML = ""
+    currentIndexSlider.innerHTML = "0"
+    sliderAll.innerHTML = imgArr.length
+
+    console.log(imgArr);
 
     for (let i = 0; i < imgArr.length; i++) {
       const slide = document.createElement("div")
@@ -96,9 +100,6 @@ document.addEventListener("DOMContentLoaded", function () {
       slide.appendChild(img)
       sliderImg.appendChild(slide)
     }
-
-    currentIndexSlider.innerHTML = "0"
-    sliderAll.innerHTML = imgArr.length
   }
 
   // Next slide arrow
