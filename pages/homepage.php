@@ -274,9 +274,7 @@ global $danagas; ?>
         </div>
 
         <div class="col-12 col-md-6 col-lg-8 story-section__video">
-          <img src="<?php echo get_field(
-            "ceo_video_peview_image_link"
-          ); ?>" id="previewImg" alt=" Video preview" loading="lazy">
+          <img src="<?php echo get_field("ceo_video_peview_image_link") !== "" ? get_field("ceo_video_peview_image_link") : get_template_directory_uri() . "/assets/images/video-preview.png"; ?>" id="previewImg" alt=" Video preview" loading="lazy">
           <video id="previewVideo" class="d-none" preload="none">
             <source src="<?php echo get_field("ceo_video_link"); ?>" type="video/mp4" />
           </video>

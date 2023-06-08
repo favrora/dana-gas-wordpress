@@ -337,7 +337,8 @@
         <a href="<?php echo get_site_url(); ?>/operations/kri/" class="card-link">
           <div class="card">
             <div class="card-header">
-              <img src="<?php echo get_field("kri_card_image"); ?>" alt="Kurdistan Region of Iraq" loading="lazy">
+              <img src="<?php echo get_template_directory_uri() .
+                  "/assets/images/cards/kri-card.png"; ?>" alt="Kurdistan Region of Iraq" loading="lazy">
             </div>
             <div class="card-body">
               <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"

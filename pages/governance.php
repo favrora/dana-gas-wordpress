@@ -157,9 +157,7 @@
           <a href="<?php echo get_site_url(); ?>/about-us/governance/committees/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="<?php echo get_field(
-                  "board_committees_card_image"
-                ); ?>" alt="Board Committees" loading="lazy">
+                <img src="<?php echo get_template_directory_uri() . "/assets/images/cards/board-committees.png"; ?>" alt="Board Committees" loading="lazy">
               </div>
               <div class="card-body">
                 <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
@@ -176,9 +174,7 @@
           <a href="<?php echo get_site_url(); ?>/about-us/governance/governance-reporting/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="<?php echo get_field(
-                  "governance_reporting_card_image"
-                ); ?>" alt="Governance Reporting" loading="lazy">
+                <img src="<?php echo get_template_directory_uri() . "/assets/images/cards/governance-reporting.png"; ?>" alt="Governance Reporting" loading="lazy">
               </div>
               <div class="card-body">
                 <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"

@@ -37,7 +37,7 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-12 col-md-8 company-section__data">
+            <div class="col-12 col-md-7 company-section__data">
                 <div>
                     <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == "ar"
                       ? "تقارير الحوكمة"
@@ -47,10 +47,9 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-4 text-center">
-                <img src="<?php echo get_field(
-                  "governance_reporting_image_link"
-                ); ?>" class="data-img" alt="About dana gas" loading="lazy">
+            <div class="col-12 col-md-5 text-center">
+                <img src="<?php echo get_field("governance_reporting_image_link") !== "" ? get_field("governance_reporting_image_link") : get_template_directory_uri() .
+                "/assets/images/investors/governance-responsibilities.png"; ?>" class="data-img" alt="About dana gas" loading="lazy">
             </div>
 
         </div>

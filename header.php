@@ -135,95 +135,95 @@
     <ul class="nav-item__ul">
       <li class="dropdown">
         <div class="dropdown-title">
-          <a href="<?php echo get_site_url() ?>/about-us/">معلومات عنا</a>
+          <a href="<?php echo get_site_url() ?>/%d8%b9%d9%86-%d8%af%d8%a7%d9%86%d8%a9-%d8%ba%d8%a7%d8%b2/?lang=ar">معلومات عنا</a>
           <div class="showDropdownList">−</div>
         </div>
 
         <div class="dropdown-list">
-          <a href="<?php echo get_site_url() ?>/about-us/overview/">معلومات عنا</a>
+          <a href="<?php echo get_site_url() ?>/%d8%b9%d9%86-%d8%af%d8%a7%d9%86%d8%a9-%d8%ba%d8%a7%d8%b2/%d9%84%d9%85%d8%ad%d8%a9-%d8%b9%d8%a7%d9%85%d8%a9/?lang=ar">معلومات عنا</a>
           <ul class="child-menu">
-            <li><a class="child-menu__a" href="<?php echo get_site_url() ?>/about-us/overview/">قصتنا</a></li>
-            <li><a class="child-menu__a" href="<?php echo get_site_url() ?>/about-us/overview/1537-2/">لماذا الاستثمار في دانة غاز</a></li>
-            <li><a class="child-menu__a" href="<?php echo get_site_url() ?>/about-us/overview/vision-strategy-values/">الرؤية والاستراتيجية والقيم</a></li>
-            <li><a class="child-menu__a" href="<?php echo get_site_url() ?>/about-us/overview/group-structure/">هيكل المجموعة</a></li>
+            <li><a class="child-menu__a" href="<?php echo get_site_url() ?>/%d8%b9%d9%86-%d8%af%d8%a7%d9%86%d8%a9-%d8%ba%d8%a7%d8%b2/%d9%84%d9%85%d8%ad%d8%a9-%d8%b9%d8%a7%d9%85%d8%a9/?lang=ar">قصتنا</a></li>
+            <li><a class="child-menu__a" href="<?php echo get_site_url() ?>/%d8%b9%d9%86-%d8%af%d8%a7%d9%86%d8%a9-%d8%ba%d8%a7%d8%b2/%d9%84%d9%85%d8%ad%d8%a9-%d8%b9%d8%a7%d9%85%d8%a9/%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%ab%d9%85%d8%a7%d8%b1-%d9%81%d9%8a-%d8%af%d8%a7%d9%86%d8%a9-%d8%ba%d8%a7%d8%b2/?lang=ar">لماذا الاستثمار في دانة غاز</a></li>
+            <li><a class="child-menu__a" href="<?php echo get_site_url() ?>/%d8%b9%d9%86-%d8%af%d8%a7%d9%86%d8%a9-%d8%ba%d8%a7%d8%b2/%d9%84%d9%85%d8%ad%d8%a9-%d8%b9%d8%a7%d9%85%d8%a9/vision-strategy-values/?lang=ar">الرؤية والاستراتيجية والقيم</a></li>
+            <li><a class="child-menu__a" href="<?php echo get_site_url() ?>/%d8%b9%d9%86-%d8%af%d8%a7%d9%86%d8%a9-%d8%ba%d8%a7%d8%b2/%d9%84%d9%85%d8%ad%d8%a9-%d8%b9%d8%a7%d9%85%d8%a9/%d9%87%d9%8a%d9%83%d9%84-%d8%a7%d9%84%d9%85%d8%ac%d9%85%d9%88%d8%b9%d8%a9/?lang=ar">هيكل المجموعة</a></li>
           </ul>
 
-          <a href="<?php echo get_site_url() ?>/about-us/board-and-management/board-of-directors">مجلس الإدارة والإدارة</a>
+          <a href="<?php echo get_site_url() ?>/%d8%b9%d9%86-%d8%af%d8%a7%d9%86%d8%a9-%d8%ba%d8%a7%d8%b2/%d9%85%d8%ac%d9%84%d8%b3-%d8%a7%d9%84%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d9%88%d8%a7%d9%84%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%b9%d9%84%d9%8a%d9%80%d8%a7/?lang=ar">مجلس الإدارة والإدارة</a>
           <ul class="child-menu">
-            <li><a href="<?php echo get_site_url() ?>/about-us/board-and-management/board-of-directors/">مجلس إدارة</a></li>
-            <li><a href="<?php echo get_site_url() ?>/about-us/board-and-management/international-advisory-board/">المجلس الاستشاري الدولي</a></li>
-            <li><a href="<?php echo get_site_url() ?>/about-us/board-and-management/senior-executive-management/">الإدارة التنفيذية العليا</a></li>
-            <li><a href="<?php echo get_site_url() ?>/about-us/board-and-management/senior-management/">الإدارة العليا</a></li>
+            <li><a href="<?php echo get_site_url() ?>/%d8%b9%d9%86-%d8%af%d8%a7%d9%86%d8%a9-%d8%ba%d8%a7%d8%b2/%d9%85%d8%ac%d9%84%d8%b3-%d8%a7%d9%84%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d9%88%d8%a7%d9%84%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%b9%d9%84%d9%8a%d9%80%d8%a7/?lang=ar">مجلس إدارة</a></li>
+            <li><a href="<?php echo get_site_url() ?>/%d8%b9%d9%86-%d8%af%d8%a7%d9%86%d8%a9-%d8%ba%d8%a7%d8%b2/%d9%85%d8%ac%d9%84%d8%b3-%d8%a7%d9%84%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d9%88%d8%a7%d9%84%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%b9%d9%84%d9%8a%d9%80%d8%a7/%d8%a7%d9%84%d9%85%d8%ac%d9%84%d8%b3-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b4%d8%a7%d8%b1%d9%8a-%d8%a7%d9%84%d8%af%d9%88%d9%84%d9%8a/?lang=ar">المجلس الاستشاري الدولي</a></li>
+            <li><a href="<?php echo get_site_url() ?>/%d8%b9%d9%86-%d8%af%d8%a7%d9%86%d8%a9-%d8%ba%d8%a7%d8%b2/%d9%85%d8%ac%d9%84%d8%b3-%d8%a7%d9%84%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d9%88%d8%a7%d9%84%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%b9%d9%84%d9%8a%d9%80%d8%a7/%d8%a7%d9%84%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%b9%d9%84%d9%8a%d9%80%d8%a7/?lang=ar">الإدارة التنفيذية العليا</a></li>
+            <li><a href="<?php echo get_site_url() ?>/%d8%b9%d9%86-%d8%af%d8%a7%d9%86%d8%a9-%d8%ba%d8%a7%d8%b2/%d9%85%d8%ac%d9%84%d8%b3-%d8%a7%d9%84%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d9%88%d8%a7%d9%84%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%b9%d9%84%d9%8a%d9%80%d8%a7/%d8%a7%d9%84%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%b9%d9%84%d9%8a%d8%a7/?lang=ar">الإدارة العليا</a></li>
           </ul>
 
-          <a href="<?php echo get_site_url() ?>/about-us/governance/">الحكم</a>
+          <a href="<?php echo get_site_url() ?>/%d8%b9%d9%86-%d8%af%d8%a7%d9%86%d8%a9-%d8%ba%d8%a7%d8%b2/%d8%a7%d9%84%d8%ad%d9%88%d9%83%d9%85%d8%a9/?lang=ar">الحكم</a>
           <ul class="child-menu">
-            <li><a class="child-menu__a" href="<?php echo get_site_url() ?>/about-us/governance/committees/">لجان مجلس الإدارة</a></li>
-            <li><a class="child-menu__a" href="<?php echo get_site_url() ?>/about-us/governance/governance-reporting/">تقارير الحوكمة</a></li>
+            <li><a class="child-menu__a" href="<?php echo get_site_url() ?>/%d8%b9%d9%86-%d8%af%d8%a7%d9%86%d8%a9-%d8%ba%d8%a7%d8%b2/%d8%a7%d9%84%d8%ad%d9%88%d9%83%d9%85%d8%a9/%d9%84%d8%ac%d8%a7%d9%86-%d9%85%d8%ac%d9%84%d8%b3-%d8%a7%d9%84%d8%a5%d8%af%d8%a7%d8%b1%d8%a9/?lang=ar">لجان مجلس الإدارة</a></li>
+            <li><a class="child-menu__a" href="<?php echo get_site_url() ?>/%d8%b9%d9%86-%d8%af%d8%a7%d9%86%d8%a9-%d8%ba%d8%a7%d8%b2/%d8%a7%d9%84%d8%ad%d9%88%d9%83%d9%85%d8%a9/%d8%aa%d9%82%d8%b1%d9%8a%d8%b1-%d8%a7%d9%84%d8%ad%d9%88%d9%83%d9%85%d8%a9/?lang=ar">تقارير الحوكمة</a></li>
           </ul>
-          <a href="<?php echo get_site_url() ?>/about-us/risk-management/">إدارة المخاطر والتدقيق الداخلي</a>
+          <a href="<?php echo get_site_url() ?>/%d8%b9%d9%86-%d8%af%d8%a7%d9%86%d8%a9-%d8%ba%d8%a7%d8%b2/%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d9%85%d8%ae%d8%a7%d8%b7%d8%b1/?lang=ar">إدارة المخاطر والتدقيق الداخلي</a>
         </div>
       </li>
 
       <li class="dropdown">
         <div class="dropdown-title">
-          <a href="<?php echo get_site_url() ?>/operations/">عمليات</a>
+          <a href="<?php echo get_site_url() ?>/%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%b4%d8%ba%d9%8a%d9%84%d9%8a%d8%a9/?lang=ar">عمليات</a>
           <div class="showDropdownList">−</div>
         </div>
 
         <div class="dropdown-list">
-          <a href="<?php echo get_site_url() ?>/operations/egypt/">مصر</a>
-          <a href="<?php echo get_site_url() ?>/operations/kri/">إقليم كردستان العراق</a>
-          <a href="<?php echo get_site_url() ?>/operations/united-arab-emirates/">الإمارات العربية المتحدة</a>
+          <a href="<?php echo get_site_url() ?>/%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%b4%d8%ba%d9%8a%d9%84%d9%8a%d8%a9/%d9%85%d8%b5%d8%b1/?lang=ar">مصر</a>
+          <a href="<?php echo get_site_url() ?>/%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%b4%d8%ba%d9%8a%d9%84%d9%8a%d8%a9/%d8%a5%d9%82%d9%84%d9%8a%d9%85-%d9%83%d8%b1%d8%af%d8%b3%d8%aa%d8%a7%d9%86-%d8%a7%d9%84%d8%b9%d8%b1%d8%a7%d9%82/?lang=ar">إقليم كردستان العراق</a>
+          <a href="<?php echo get_site_url() ?>/%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%b4%d8%ba%d9%8a%d9%84%d9%8a%d8%a9/%d8%af%d9%88%d9%84%d8%a9-%d8%a7%d9%84%d8%a5%d9%85%d8%a7%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d8%b1%d8%a8%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%aa%d8%ad%d8%af%d8%a9/?lang=ar">الإمارات العربية المتحدة</a>
         </div>
       </li>
 
       <li class="dropdown">
         <div class="dropdown-title">
-          <a href="<?php echo get_site_url() ?>/sustainability/">الاستدامة</a>
+          <a href="<?php echo get_site_url() ?>/%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%af%d8%a7%d9%85%d8%a9/?lang=ar">الاستدامة</a>
         </div>
       </li>
 
       <li class="dropdown">
         <div class="dropdown-title">
-          <a href="<?php echo get_site_url() ?>/media/">وسائط</a>
+          <a href="<?php echo get_site_url() ?>/%d8%a7%d9%84%d9%85%d8%b1%d9%83%d8%b2-%d8%a7%d9%84%d8%a5%d8%b9%d9%84%d8%a7%d9%85%d9%8a/?lang=ar">وسائط</a>
           <div class="showDropdownList">−</div>
         </div>
 
         <div class="dropdown-list">
-          <a href="<?php echo get_site_url() ?>/media/press-releases/">تصريحات صحفيه</a>
-          <a href="<?php echo get_site_url() ?>/media/regulatory-disclosures/">الإفصاحات التنظيمية</a>
-          <a href="<?php echo get_site_url() ?>/media/media-library/">مكتبة الوسائط</a>
+          <a href="<?php echo get_site_url() ?>/%d8%a7%d9%84%d9%85%d8%b1%d9%83%d8%b2-%d8%a7%d9%84%d8%a5%d8%b9%d9%84%d8%a7%d9%85%d9%8a/press-releases/?lang=ar">تصريحات صحفيه</a>
+          <a href="<?php echo get_site_url() ?>/%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d8%ab%d9%85%d8%b1%d9%88%d9%86/%d8%a7%d9%84%d8%a5%d9%81%d8%b5%d8%a7%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%86%d8%b8%d9%8a%d9%85%d9%8a%d8%a9/?lang=ar">الإفصاحات التنظيمية</a>
+          <a href="<?php echo get_site_url() ?>/%d8%a7%d9%84%d9%85%d8%b1%d9%83%d8%b2-%d8%a7%d9%84%d8%a5%d8%b9%d9%84%d8%a7%d9%85%d9%8a/media-library/?lang=ar">مكتبة الوسائط</a>
         </div>
       </li>
 
       <li class="dropdown">
         <div class="dropdown-title">
-          <a href="<?php echo get_site_url() ?>/investors/">المستثمرون</a>
+          <a href="<?php echo get_site_url() ?>/%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d8%ab%d9%85%d8%b1%d9%88%d9%86/?lang=ar">المستثمرون</a>
           <div class="showDropdownList">−</div>
         </div>
 
         <div class="dropdown-list">
-          <a href="<?php echo get_site_url() ?>/investors/results-center/">مركز النتائج</a>
-          <a href="<?php echo get_site_url() ?>/investors/reports/">التقارير والعروض التقديمية</a>
-          <a href="<?php echo get_site_url() ?>/investors/sukuk-information/">معلومات الصكوك</a>
-          <a href="<?php echo get_site_url() ?>/investors/key-financials/">البيانات المالية الرئيسية</a>
-          <a href="<?php echo get_site_url() ?>/investors/general-assembly-meeting/">اجتماع الهيئة العامة</a>
-          <a href="<?php echo get_site_url() ?>/investors/shareholder-information/">معلومات المساهمين</a>
-          <a href="<?php echo get_site_url() ?>/investors/share-price-information-2/">معلومات سعر السهم</a>
-          <a href="<?php echo get_site_url() ?>/investors/faqs/">أسئلة وأجوبة</a>
+          <a href="<?php echo get_site_url() ?>/%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d8%ab%d9%85%d8%b1%d9%88%d9%86/%d9%85%d8%b1%d9%83%d8%b2-%d8%a7%d9%84%d9%86%d8%aa%d8%a7%d8%a6%d8%ac-%d9%88%d8%a7%d9%84%d8%b9%d8%b1%d9%88%d8%b6-%d8%a7%d9%84%d8%aa%d9%88%d8%b6%d9%8a%d8%ad%d9%8a%d8%a9/?lang=ar">مركز النتائج</a>
+          <a href="<?php echo get_site_url() ?>/%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d8%ab%d9%85%d8%b1%d9%88%d9%86/%d8%a7%d9%84%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1-%d9%88%d8%a7%d9%84%d8%b9%d8%b1%d9%88%d8%b6-%d8%a7%d9%84%d8%aa%d9%88%d8%b6%d9%8a%d8%ad%d9%8a%d8%a9/?lang=ar">التقارير والعروض التقديمية</a>
+          <a href="<?php echo get_site_url() ?>/%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d8%ab%d9%85%d8%b1%d9%88%d9%86/%d8%a7%d9%84%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%ae%d8%a7%d8%b5%d8%a9-%d8%a8%d8%a7%d9%84%d8%b5%d9%83%d9%88%d9%83/?lang=ar">معلومات الصكوك</a>
+          <a href="<?php echo get_site_url() ?>/%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d8%ab%d9%85%d8%b1%d9%88%d9%86/%d8%a7%d9%84%d9%85%d8%a4%d8%b4%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%a7%d9%84%d9%8a%d8%a9-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9/?lang=ar">البيانات المالية الرئيسية</a>
+          <a href="<?php echo get_site_url() ?>/%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d8%ab%d9%85%d8%b1%d9%88%d9%86/%d8%a5%d8%ac%d8%aa%d9%85%d8%a7%d8%b9-%d8%a7%d9%84%d8%ac%d9%85%d8%b9%d9%8a%d8%a9-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d9%85%d9%8a%d8%a9/?lang=ar">اجتماع الهيئة العامة</a>
+          <a href="<?php echo get_site_url() ?>/%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d8%ab%d9%85%d8%b1%d9%88%d9%86/shareholder-information/?lang=ar">معلومات المساهمين</a>
+          <a href="<?php echo get_site_url() ?>/%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d8%ab%d9%85%d8%b1%d9%88%d9%86/2901-2/?lang=ar">معلومات سعر السهم</a>
+          <a href="<?php echo get_site_url() ?>/%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d8%ab%d9%85%d8%b1%d9%88%d9%86/%d8%a3%d8%b3%d8%a6%d9%84%d8%a9-%d9%88%d8%a3%d8%ac%d9%88%d8%a8%d8%a9/?lang=ar">أسئلة وأجوبة</a>
         </div>
       </li>
 
       <li class="dropdown">
         <div class="dropdown-title">
-          <a href="<?php echo get_site_url() ?>/careers/">وظائف</a>
+          <a href="<?php echo get_site_url() ?>/%d8%a7%d9%84%d9%88%d8%b8%d8%a7%d8%a6%d9%81/?lang=ar">وظائف</a>
         </div>
       </li>
 
       <li class="dropdown">
         <div class="dropdown-title">
-          <a href="<?php echo get_site_url() ?>/contact/">اتصل بنا</a>
+          <a href="<?php echo get_site_url() ?>/%d8%aa%d9%88%d8%a7%d8%b5%d9%84-%d9%85%d8%b9%d9%86%d8%a7/?lang=ar">اتصل بنا</a>
         </div>
       </li>
     </ul>

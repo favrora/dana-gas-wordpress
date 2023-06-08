@@ -56,71 +56,71 @@
 
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="senior-management">
-                    <div class="senior-management__name">Mr. Kai Hietarinta</div>
-                    <div class="senior-management__position">Former Vice Chairman of Neste Oy (Finland)</div>
+                    <div class="senior-management__name"><?php echo ICL_LANGUAGE_CODE == "ar" ? "السيد كاي هيتارينتا" : "Mr. Kai Hietarinta"; ?></div>
+                    <div class="senior-management__position"><?php echo ICL_LANGUAGE_CODE == "ar" ? "نائب رئيس مجلس إدارة Neste Oy السابق (فنلندا)" : "Former Vice Chairman of Neste Oy (Finland)"; ?></div>
                 </div>
             </div>
 
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="senior-management">
-                    <div class="senior-management__name">Dr. Joseph Stanislaw</div>
-                    <div class="senior-management__position">Former CEO of Cambridge Energy Research Associates (CERA)</div>
+                    <div class="senior-management__name"><?php echo ICL_LANGUAGE_CODE == "ar" ? "د. جوزيف ستانيسلاو" : "Dr. Joseph Stanislaw"; ?></div>
+                    <div class="senior-management__position"><?php echo ICL_LANGUAGE_CODE == "ar" ? "الرئيس التنفيذي السابق لشركة Cambridge Energy Research Associates (CERA)" : "Former CEO of Cambridge Energy Research Associates (CERA)"; ?></div>
                 </div>
             </div>
 
           <div class="col-12 col-md-6 col-lg-3">
             <div class="senior-management">
-              <div class="senior-management__name">Mr. Nordine Ait-Laoussine</div>
-              <div class="senior-management__position">Former Algerian Oil Minister & former Head of Sonatrach</div>
+              <div class="senior-management__name"><?php echo ICL_LANGUAGE_CODE == "ar" ? "السيد نور الدين آيت لوزين" : "Mr. Nordine Ait-Laoussine"; ?></div>
+              <div class="senior-management__position"><?php echo ICL_LANGUAGE_CODE == "ar" ? "وزير النفط الجزائري الأسبق والرئيس الأسبق لسوناطراك" : "Former Algerian Oil Minister & former Head of Sonatrach"; ?></div>
             </div>
           </div>
 
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="senior-management">
-                    <div class="senior-management__name">Sir Graham Hearne</div>
-                    <div class="senior-management__position">Chairman of the IA Board, former  Chairman of Enterprise Oil (UK)</div>
+                    <div class="senior-management__name"><?php echo ICL_LANGUAGE_CODE == "ar" ? "السير جراهام هيرن" : "Sir Graham Hearne"; ?></div>
+                    <div class="senior-management__position"><?php echo ICL_LANGUAGE_CODE == "ar" ? "رئيس مجلس إدارة IA ، والرئيس السابق لشركة Enterprise Oil (المملكة المتحدة)" : "Chairman of the IA Board, former  Chairman of Enterprise Oil (UK)"; ?></div>
                 </div>
             </div>
 
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="senior-management">
-                    <div class="senior-management__name">Ms. Razan Jafar</div>
-                    <div class="senior-management__position">Secretary of the IA Board</div>
+                    <div class="senior-management__name"><?php echo ICL_LANGUAGE_CODE == "ar" ? "السيدة رزان جعفر" : "Ms. Razan Jafar"; ?></div>
+                    <div class="senior-management__position"><?php echo ICL_LANGUAGE_CODE == "ar" ? "أمين مجلس إدارة IA" : "Secretary of the IA Board"; ?></div>
                 </div>
             </div>
 
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="senior-management">
-                    <div class="senior-management__name">Hamid Jafar</div>
-                    <div class="senior-management__position">Chairman of Dana Gas</div>
+                    <div class="senior-management__name"><?php echo ICL_LANGUAGE_CODE == "ar" ? "حميد جعفر" : "Hamid Jafar"; ?></div>
+                    <div class="senior-management__position"><?php echo ICL_LANGUAGE_CODE == "ar" ? "رئيس مجلس إدارة دانة غاز" : "Chairman of Dana Gas"; ?></div>
                 </div>
             </div>
 
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="senior-management">
-                    <div class="senior-management__name">Said Arrata</div>
-                    <div class="senior-management__position">Chairman and CEO, Delta Oil and Gas (UK)</div>
+                    <div class="senior-management__name"><?php echo ICL_LANGUAGE_CODE == "ar" ? "سعيد عراتة" : "Said Arrata"; ?></div>
+                    <div class="senior-management__position"><?php echo ICL_LANGUAGE_CODE == "ar" ? "رئيس مجلس الإدارة والرئيس التنفيذي لشركة دلتا للنفط والغاز (المملكة المتحدة)" : "Chairman and CEO, Delta Oil and Gas (UK)"; ?></div>
                 </div>
             </div>
 
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="senior-management">
-                    <div class="senior-management__name">Lord Simon of Highbury</div>
-                    <div class="senior-management__position">Former Chairman of British Petroleum (BP)</div>
+                    <div class="senior-management__name"><?php echo ICL_LANGUAGE_CODE == "ar" ? "اللورد سيمون من هايبري" : "Lord Simon of Highbury"; ?></div>
+                    <div class="senior-management__position"><?php echo ICL_LANGUAGE_CODE == "ar" ? "الرئيس السابق لشركة بريتيش بتروليوم (BP" : "Former Chairman of British Petroleum (BP"; ?>)</div>
                 </div>
             </div>
 
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="senior-management">
-                    <div class="senior-management__name">Dr. Burckhard Bergmann</div>
-                    <div class="senior-management__position">Former member of the Board of Gazprom (Russia)</div>
+                    <div class="senior-management__name"><?php echo ICL_LANGUAGE_CODE == "ar" ? "دكتور بوركهارد بيرجمان" : "Dr. Burckhard Bergmann"; ?></div>
+                    <div class="senior-management__position"><?php echo ICL_LANGUAGE_CODE == "ar" ? "عضو سابق في مجلس إدارة شركة غازبروم (روسيا)" : "Former member of the Board of Gazprom (Russia)"; ?></div>
                 </div>
             </div>
 
           <div class="col-12 col-md-6 col-lg-3">
             <div class="senior-management">
-              <div class="senior-management__name">Dr. Nader Sultan</div>
-              <div class="senior-management__position">Former CEO of Kuwait Petroleum  Corporation and Director of the</div>
+              <div class="senior-management__name"><?php echo ICL_LANGUAGE_CODE == "ar" ? "د. نادر سلطان" : "Dr. Nader Sultan"; ?></div>
+              <div class="senior-management__position"><?php echo ICL_LANGUAGE_CODE == "ar" ? "الرئيس التنفيذي السابق لمؤسسة البترول الكويتية ومدير" : "Former CEO of Kuwait Petroleum  Corporation and Director of the"; ?></div>
             </div>
           </div>
         </div>

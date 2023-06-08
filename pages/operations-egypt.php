@@ -129,7 +129,8 @@
       </div>
 
       <div class="col-12 col-md-6">
-        <img src="<?php echo get_field("reserves_image_link"); ?>" alt="Reserves" loading="lazy">
+        <img src="<?php echo get_template_directory_uri() .
+            "/assets/images/operations-uae.png"; ?>" alt="Operations uae" loading="lazy">
       </div>
     </div>
   </div>

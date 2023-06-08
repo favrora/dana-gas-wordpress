@@ -54,7 +54,7 @@
                     <div class="overview-item">
                         <div class="overview-item__img">
                             <img src="<?php echo get_template_directory_uri() .
-                              "/assets/images/icons/gas-production.png"; ?>" alt="Injury Free Man-Hours" loading="lazy">
+                              "/assets/images/icons/sustainability-1.png"; ?>" alt="Injury Free Man-Hours" loading="lazy">
                         </div>
                         <div class="overview-item__text">
                             <div class="overview-item__pre-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "ساعات عمل خالية من الإصابات" : "Injury Free Man-Hours"; ?></div>
@@ -69,7 +69,7 @@
                     <div class="overview-item">
                         <div class="overview-item__img">
                             <img src="<?php echo get_template_directory_uri() .
-                              "/assets/images/icons/condensate-production.png"; ?>" alt="Recordable Injuries at Zora Gas Plant" loading="lazy">
+                              "/assets/images/icons/sustainability-2.png"; ?>" alt="Recordable Injuries at Zora Gas Plant" loading="lazy">
                         </div>
                         <div class="overview-item__text">
                             <div class="overview-item__pre-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "إصابات قابلة للتسجيل في معمل غاز الزوراء" : "Recordable Injuries at Zora Gas Plant"; ?></div>
@@ -84,7 +84,7 @@
                     <div class="overview-item">
                         <div class="overview-item__img">
                             <img src="<?php echo get_template_directory_uri() .
-                              "/assets/images/icons/lpg-production.png"; ?>" alt="Certification For Head Office" loading="lazy">
+                              "/assets/images/icons/sustainability-3.png"; ?>" alt="Certification For Head Office" loading="lazy">
                         </div>
                         <div class="overview-item__text">
                             <div class="overview-item__pre-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "شهادة للمكتب الرئيسي" : "Certification For Head Office"; ?></div>
@@ -99,7 +99,7 @@
                     <div class="overview-item">
                         <div class="overview-item__img">
                             <img src="<?php echo get_template_directory_uri() .
-                              "/assets/images/icons/net-production.png"; ?>" alt="Net production icon" loading="lazy">
+                              "/assets/images/icons/sustainability-4.png"; ?>" alt="Net production icon" loading="lazy">
                         </div>
                         <div class="overview-item__text">
                             <div class="overview-item__pre-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "تم تحقيق أيام خالية من الإصابات" : "Injury Free Days Achieved"; ?></div>
@@ -142,10 +142,10 @@
                     <div class="overview-item">
                         <div class="overview-item__img">
                             <img src="<?php echo get_template_directory_uri() .
-                              "/assets/images/icons/gas-production.png"; ?>" alt="Hazardous Waste Recycled" loading="lazy">
+                              "/assets/images/icons/sustainability-5.png"; ?>" alt="Hazardous Waste Recycled" loading="lazy">
                         </div>
                         <div class="overview-item__text">
-                            <div class="overview-item__pre-title">Hazardous Waste Recycled</div>
+                            <div class="overview-item__pre-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "إعادة تدوير المخلفات الخطرة" : "Hazardous Waste Recycled"; ?></div>
                             <div class="d-flex align-content-end">
                                 <div class="overview-item__title-main"><?php echo get_field("hazardous_waste"); ?></div>
                             </div>
@@ -155,10 +155,10 @@
                     <div class="overview-item">
                         <div class="overview-item__img">
                             <img src="<?php echo get_template_directory_uri() .
-                              "/assets/images/icons/condensate-production.png"; ?>" alt="Total Energy Consumption icon" loading="lazy">
+                              "/assets/images/icons/sustainability-6.png"; ?>" alt="Total Energy Consumption icon" loading="lazy">
                         </div>
                         <div class="overview-item__text">
-                            <div class="overview-item__pre-title">Total Energy Consumption</div>
+                            <div class="overview-item__pre-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "إجمالي استهلاك الطاقة" : "Total Energy Consumption"; ?></div>
                             <div class="d-flex align-content-end">
                                 <div class="overview-item__title-main"><?php echo get_field("total_energy_2"); ?></div>
                             </div>
@@ -168,10 +168,10 @@
                     <div class="overview-item">
                         <div class="overview-item__img">
                             <img src="<?php echo get_template_directory_uri() .
-                              "/assets/images/icons/lpg-production.png"; ?>" alt="Total Water Footprint icon" loading="lazy">
+                              "/assets/images/icons/sustainability-7.png"; ?>" alt="Total Water Footprint icon" loading="lazy">
                         </div>
                         <div class="overview-item__text">
-                            <div class="overview-item__pre-title">Total Water Footprint</div>
+                            <div class="overview-item__pre-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "إجمالي البصمة المائية" : "Total Water Footprint"; ?></div>
                             <div class="d-flex align-content-end">
                                 <div class="overview-item__title-main"><?php echo get_field(
                                   "total_water_footprint_2"

@@ -81,21 +81,21 @@
           <div class="opportunities-item">
             <img class="icon" src="<?php echo get_template_directory_uri() .
               "/assets/images/icons/employees-icon.png"; ?>" alt="icon">
-            <div class="desc">Full-time Employees</div>
+            <div class="desc"><?php echo ICL_LANGUAGE_CODE == "ar" ? "الموظفين بدوام كامل" : "Full-time Employees"; ?></div>
             <div class="num">146</div>
           </div>
 
           <div class="opportunities-item">
             <img class="icon" src="<?php echo get_template_directory_uri() .
               "/assets/images/icons/training-icon.png"; ?>" alt="icon">
-            <div class="desc">Training Days Achieved</div>
+            <div class="desc"><?php echo ICL_LANGUAGE_CODE == "ar" ? "أنجزت أيام التدريب" : "Training Days Achieved"; ?></div>
             <div class="num">481</div>
           </div>
 
           <div class="opportunities-item">
             <img class="icon" src="<?php echo get_template_directory_uri() .
               "/assets/images/icons/nationalities-icon.png"; ?>" alt="icon">
-            <div class="desc">Nationalities Represented</div>
+            <div class="desc"><?php echo ICL_LANGUAGE_CODE == "ar" ? "الجنسيات الممثلة" : "Nationalities Represented"; ?></div>
             <div class="num">17</div>
           </div>
         </div>

@@ -37,7 +37,7 @@
                             <h6><?php echo rwmb_meta( 'team_member-ges' ); ?></h6>
                         </div>
                         <div class="float-right">
-                            <button class="btn" onclick="window.history.back();" class="bck-btn">Back</button>
+                            <button class="btn bck-btn" onclick="window.history.back();">Back</button>
                         </div>
 	                <?php elseif(ICL_LANGUAGE_CODE=='ar'): ?>
                         <div class="float-right">
@@ -45,7 +45,7 @@
                             <h6><?php echo rwmb_meta( 'team_member-ges' ); ?></h6>
                         </div>
                         <div class="float-left">
-                            <button class="btn" onclick="window.history.back();" class="bck-btn">عودة</button>
+                            <button class="btn bck-btn" onclick="window.history.back();">عودة</button>
                         </div>
 	                <?php endif; ?>
                     <!-- Language --->
