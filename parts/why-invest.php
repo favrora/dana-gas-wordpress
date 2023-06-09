@@ -1,5 +1,5 @@
 <!-- Why invest section -->
-<section class="why-invest-section" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/why-invest-bg.png'; ?>')">
+<section class="why-invest-section" style="background-image: url('<?php echo get_site_url() . '/wp-content/uploads/2023/06/footer-bg-image.png'; ?>')">
 
   <div class="line-space-icon-br">
     <div class="line-space-icon" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/line-space-icon.png'; ?>')"></div>

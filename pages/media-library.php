@@ -140,8 +140,7 @@
             <a href="<?php echo get_site_url(); ?>/media/press-releases/" class="card-link">
               <div class="card">
                 <div class="card-header">
-                  <img src="<?php echo get_template_directory_uri() .
-                    "/assets/images/media/press-releases.png"; ?>" alt="Press Releases" loading="lazy">
+                  <img src="<?php echo get_site_url() . '/wp-content/uploads/2023/06/press-releases.png'; ?>" alt="Press Releases" loading="lazy">
                 </div>
                 <div class="card-body">
                   <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
@@ -158,8 +157,7 @@
             <a href="<?php echo get_site_url(); ?>/media/regulatory-disclosures/" class="card-link">
               <div class="card">
                 <div class="card-header">
-                  <img src="<?php echo get_template_directory_uri() .
-                    "/assets/images/media/regulatory-disclosures.png"; ?>" alt="Regulatory Disclosures" loading="lazy">
+                  <img src="<?php echo get_site_url() . '/wp-content/uploads/2023/06/regulatory-disclosures.png'; ?>" alt="Regulatory Disclosures" loading="lazy">
                 </div>
                 <div class="card-body">
                   <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
@@ -176,8 +174,7 @@
             <a href="<?php echo get_site_url(); ?>/media/media-library/" class="card-link">
               <div class="card">
                 <div class="card-header">
-                  <img src="<?php echo get_template_directory_uri() .
-                    "/assets/images/media/media-library.png"; ?>" alt="Media Library" loading="lazy">
+                  <img src="<?php echo get_site_url() . '/wp-content/uploads/2023/06/media-library.png'; ?>" alt="Media Library" loading="lazy">
                 </div>
                 <div class="card-body">
                   <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"

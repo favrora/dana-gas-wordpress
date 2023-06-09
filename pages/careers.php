@@ -50,8 +50,7 @@
 
       <div class="col-12 col-md-6">
           <?php echo get_field("image_content"); ?>
-        <img src="<?php echo get_template_directory_uri() .
-            "/assets/images/careers/img-1.png"; ?>" class="data-img" alt="img" loading="lazy">
+        <img src="<?php echo get_site_url() . '/wp-content/uploads/2023/06/careers-img-1.png'; ?>" class="data-img" alt="img" loading="lazy">
       </div>
 
     </div>
@@ -124,8 +123,7 @@
       </div>
 
       <div class="col-12 col-md-6">
-        <img src="<?php echo get_template_directory_uri() .
-            "/assets/images/careers/img-2.png"; ?>" class="data-img" alt="Employment scam disclaimer" loading="lazy">
+        <img src="<?php echo get_site_url() . '/wp-content/uploads/2023/06/careers-img-2.png'; ?>" class="data-img" alt="Employment scam disclaimer" loading="lazy">
       </div>
 
     </div>

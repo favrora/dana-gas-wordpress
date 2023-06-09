@@ -138,8 +138,8 @@
       </div>
 
       <div class="col-12 col-md-6">
-        <img src="<?php echo get_template_directory_uri() .
-          "/assets/images/map/kri-map.png"; ?>" alt="kri map" loading="lazy">
+        <img src="<?php echo get_site_url() .
+            "/wp-content/uploads/2023/06/kri-map.png"; ?>" alt="kri map" loading="lazy">
       </div>
     </div>
   </div>
@@ -224,8 +224,8 @@
 
         </div>
 
-        <img src="<?php echo get_template_directory_uri() .
-            "/assets/images/map/iraq.png"; ?>" alt="Development kri" loading="lazy">
+        <img src="<?php echo get_site_url() .
+            "/wp-content/uploads/2023/06/iraq-map.png"; ?>" alt="Development kri" loading="lazy">
       </div>
     </div>
 
@@ -240,8 +240,7 @@
 <section class="settlement-section mt-5">
   <div class="container">
 
-    <img src="<?php echo get_template_directory_uri() .
-      "/assets/images/settlement-kri.png"; ?>" alt="Settlement kri" loading="lazy">
+    <img src="<?php echo get_site_url() . '/wp-content/uploads/2023/06/settlement-kri.png'; ?>" alt="Settlement kri" loading="lazy">
 
     <h2 class="default-h2 text-center mt-4 mb-3"><?php echo ICL_LANGUAGE_CODE == "ar"
       ? "مستعمرة"
@@ -275,8 +274,7 @@
       </div>
 
       <div class="col-12 col-md-6">
-        <img src="<?php echo get_template_directory_uri() .
-            "/assets/images/operations/development-img.png"; ?>" alt="Development kri" loading="lazy">
+        <img src="<?php echo get_site_url() . '/wp-content/uploads/2023/06/kri-development-img.png'; ?>" alt="Development kri" loading="lazy">
       </div>
     </div>
 
@@ -293,8 +291,7 @@
     <div class="row">
 
       <div class="col-12 col-md-6">
-        <img src="<?php echo get_template_directory_uri() .
-          "/assets/images/gas-sale.png"; ?>" alt="Gas sale" loading="lazy">
+        <img src="<?php echo get_site_url() . '/wp-content/uploads/2023/06/kri-gas-sale.png'; ?>" alt="Gas sale" loading="lazy">
       </div>
 
       <div class="col-12 col-md-6 content-vertical-center">
@@ -321,8 +318,8 @@
         <a href="<?php echo get_site_url(); ?>/operations/egypt/" class="card-link">
           <div class="card">
             <div class="card-header">
-              <img src="<?php echo get_template_directory_uri() .
-                  "/assets/images/cards/egypt-card.png"; ?>" alt="Egypt" loading="lazy">
+              <img src="<?php echo get_site_url() .
+                  "/wp-content/uploads/2023/06/egypt-card-post.png"; ?>" alt="Egypt" loading="lazy">
             </div>
             <div class="card-body">
               <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "مصر" : "Egypt"; ?></div>
@@ -337,8 +334,8 @@
         <a href="<?php echo get_site_url(); ?>/operations/kri/" class="card-link">
           <div class="card">
             <div class="card-header">
-              <img src="<?php echo get_template_directory_uri() .
-                  "/assets/images/cards/kri-card.png"; ?>" alt="Kurdistan Region of Iraq" loading="lazy">
+              <img src="<?php echo get_site_url() .
+                  "/wp-content/uploads/2023/06/kri-card-post.png"; ?>" alt="Kurdistan Region of Iraq" loading="lazy">
             </div>
             <div class="card-body">
               <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
@@ -355,8 +352,8 @@
         <a href="<?php echo get_site_url(); ?>/operations/united-arab-emirates/" class="card-link">
           <div class="card">
             <div class="card-header">
-              <img src="<?php echo get_template_directory_uri() .
-                  "/assets/images/cards/uae-card.png"; ?>" alt="United Arab Emirates" loading="lazy">
+              <img src="<?php echo get_site_url() .
+                  "/wp-content/uploads/2023/06/uae-card-post-1.png"; ?>" alt="United Arab Emirates" loading="lazy">
             </div>
             <div class="card-body">
               <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"

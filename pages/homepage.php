@@ -80,8 +80,7 @@ global $danagas; ?>
           <a href="<?php echo get_site_url(); ?>/operations/egypt/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="<?php echo get_template_directory_uri() .
-                    "/assets/images/cards/home-egypt-card.png"; ?>" alt="Egypt" loading="lazy">
+                <img src="<?php echo get_site_url() . '/wp-content/uploads/2023/06/home-egypt-card.png'; ?>" alt="Egypt" loading="lazy">
               </div>
               <div class="card-body">
                 <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "مصر" : "Egypt"; ?></div>
@@ -96,8 +95,7 @@ global $danagas; ?>
           <a href="<?php echo get_site_url(); ?>/operations/kri/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="<?php echo get_template_directory_uri() .
-                    "/assets/images/cards/home-kri-card.png"; ?>" alt="Kurdistan Region of Iraq" loading="lazy">
+                <img src="<?php echo get_site_url() . '/wp-content/uploads/2023/06/home-kri-card.png'; ?>" alt="Kurdistan Region of Iraq" loading="lazy">
               </div>
               <div class="card-body">
                 <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
@@ -114,8 +112,7 @@ global $danagas; ?>
           <a href="<?php echo get_site_url(); ?>/operations/united-arab-emirates/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="<?php echo get_template_directory_uri() .
-                    "/assets/images/cards/home-uae-card.png"; ?>" alt="United Arab Emirates" loading="lazy">
+                <img src="<?php echo get_site_url() . '/wp-content/uploads/2023/06/home-uae-card.png'; ?>" alt="United Arab Emirates" loading="lazy">
               </div>
               <div class="card-body">
                 <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"

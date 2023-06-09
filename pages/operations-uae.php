@@ -55,8 +55,8 @@
       </div>
 
       <div class="col-12 col-md-6 text-center">
-        <img src="<?php echo get_template_directory_uri() .
-            "/assets/images/map/uae.png"; ?>" class="data-img" alt="About dana gas" loading="lazy">
+        <img src="<?php echo get_site_url() .
+            "/wp-content/uploads/2023/06/uae-map.png"; ?>" class="data-img" alt="About dana gas" loading="lazy">
       </div>
 
     </div>
@@ -77,8 +77,8 @@
         <a href="<?php echo get_site_url(); ?>/operations/egypt/" class="card-link">
           <div class="card">
             <div class="card-header">
-              <img src="<?php echo get_template_directory_uri() .
-                  "/assets/images/cards/group-structure-card.png"; ?>" alt="Egypt" loading="lazy">
+              <img src="<?php echo get_site_url() .
+                  "/wp-content/uploads/2023/06/egypt-card-post.png"; ?>" alt="Egypt" loading="lazy">
             </div>
             <div class="card-body">
               <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "مصر" : "Egypt"; ?></div>
@@ -93,8 +93,8 @@
         <a href="<?php echo get_site_url(); ?>/operations/kri/" class="card-link">
           <div class="card">
             <div class="card-header">
-              <img src="<?php echo get_template_directory_uri() .
-                  "/assets/images/cards/kri-card.png"; ?>" alt="Kurdistan Region of Iraq" loading="lazy">
+              <img src="<?php echo get_site_url() .
+                  "/wp-content/uploads/2023/06/kri-card-post.png"; ?>" alt="Kurdistan Region of Iraq" loading="lazy">
             </div>
             <div class="card-body">
               <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
@@ -111,8 +111,8 @@
         <a href="<?php echo get_site_url(); ?>/operations/united-arab-emirates/" class="card-link">
           <div class="card">
             <div class="card-header">
-              <img src="<?php echo get_template_directory_uri() .
-                  "/assets/images/cards/uae-card.png"; ?>" alt="United Arab Emirates" loading="lazy">
+              <img src="<?php echo get_site_url() .
+                  "/wp-content/uploads/2023/06/uae-card-post-1.png"; ?>" alt="United Arab Emirates" loading="lazy">
             </div>
             <div class="card-body">
               <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"

@@ -131,8 +131,7 @@
                 <a href="<?php echo get_site_url(); ?>/investors/reports/" class="card-link">
                     <div class="card">
                         <div class="card-header">
-                          <img src="<?php echo get_template_directory_uri() .
-                            "/assets/images/investors/annual-report.png"; ?>" alt="View our Annual report 2019" loading="lazy">
+                          <img src="<?php echo get_site_url() . '/wp-content/uploads/2023/06/card-annual-report.png'; ?>" alt="View our Annual report 2019" loading="lazy">
                         </div>
                         <div class="card-body">
                             <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
@@ -149,8 +148,7 @@
                 <a href="<?php echo get_site_url(); ?>/investors/event-calender/" class="card-link">
                     <div class="card">
                         <div class="card-header">
-                          <img src="<?php echo get_template_directory_uri() .
-                            "/assets/images/investors/events-calendar.png"; ?>" alt="Events Calendar" loading="lazy">
+                          <img src="<?php echo get_site_url() . '/wp-content/uploads/2023/06/events-calendar-card.png'; ?>" alt="Events Calendar" loading="lazy">
                         </div>
                         <div class="card-body">
                             <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
@@ -167,7 +165,7 @@
             <a href="<?php echo get_site_url(); ?>/about-us/overview/1537-2/" class="card-link">
               <div class="card">
                 <div class="card-header">
-                  <img src="<?php echo get_template_directory_uri() . "/assets/images/cards/why-invest-card.png"; ?>" alt="Why invest in Dana Gas" loading="lazy">
+                  <img src="<?php echo get_site_url() . '/wp-content/uploads/2023/06/why-invest-card.png'; ?>" alt="Why invest in Dana Gas" loading="lazy">
                 </div>
                 <div class="card-body">
                   <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"

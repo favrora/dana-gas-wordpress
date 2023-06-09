@@ -3,7 +3,7 @@
 <!-- Header section -->
 <header class="nav-header">
   <a class="site-logo" href="<?php echo get_site_url() ?>">
-    <img src="<?php echo get_template_directory_uri() . '/assets/images/Dana-Gas-logo.png'; ?>" alt="Dana Gas">
+    <img src="<?php echo get_site_url() . '/wp-content/uploads/2023/06/dana-gas-logo.png'; ?>" alt="Dana Gas">
   </a>
 
   <div class="nav-item">

@@ -58,7 +58,7 @@
 
         <div class="col-12 col-md-6 text-center">
           <img src="<?php echo get_template_directory_uri() .
-              "/assets/images/our-story-1-image.png"; ?>" class="data-img" alt="About dana gas" loading="lazy">
+              "/wp-content/uploads/2023/06/our-story-1-image.png"; ?>" class="data-img" alt="About dana gas" loading="lazy">
         </div>
 
       </div>
@@ -80,8 +80,7 @@
           <a href="<?php echo get_site_url(); ?>/about-us/overview/1537-2/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="<?php echo get_template_directory_uri() .
-                    "/assets/images/cards/why-invest-card.png"; ?>" alt="Why invest in Dana Gas" loading="lazy">
+                <img src="<?php echo get_site_url() . '/wp-content/uploads/2023/06/why-invest-card.png'; ?>" alt="Why invest in Dana Gas" loading="lazy">
               </div>
               <div class="card-body">
                 <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
@@ -98,8 +97,7 @@
           <a href="<?php echo get_site_url(); ?>/about-us/overview/vision-strategy-values/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="<?php echo get_template_directory_uri() .
-                    "/assets/images/cards/vision-strategy-card.png"; ?>" alt="Vision, strategy & values" loading="lazy">
+                <img src="<?php echo get_site_url() . '/wp-content/uploads/2023/06/vision-strategy-card.png'; ?>" alt="Vision, strategy & values" loading="lazy">
               </div>
               <div class="card-body">
                 <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
@@ -116,8 +114,7 @@
           <a href="<?php echo get_site_url(); ?>/about-us/overview/group-structure/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="<?php echo get_template_directory_uri() .
-                    "/assets/images/cards/group-structure-card.png"; ?>" alt="Group structure" loading="lazy">
+                <img src="<?php echo get_site_url() . '/wp-content/uploads/2023/06/group-structure-card.png'; ?>" alt="Group structure" loading="lazy">
               </div>
               <div class="card-body">
                 <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"

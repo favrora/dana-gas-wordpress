@@ -73,8 +73,7 @@
           <a href="<?php echo get_site_url(); ?>/investors/regulatory-disclosures/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="<?php echo get_template_directory_uri() .
-                  "/assets/images/investors/regulatory-disclosures.png"; ?>" alt="Regulatory Disclosures" loading="lazy">
+                <img src="<?php echo get_site_url() . '/wp-content/uploads/2023/06/regulatory-disclosures.png'; ?>" alt="Regulatory Disclosures" loading="lazy">
               </div>
               <div class="card-body">
                 <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar" ? "الإفصاحات التنظيمية" : "Regulatory Disclosures"; ?></div>
@@ -121,8 +120,7 @@
           <a href="<?php echo get_site_url(); ?>/investors/event-calender/" class="card-link">
             <div class="card">
               <div class="card-header">
-                <img src="<?php echo get_template_directory_uri() .
-                  "/assets/images/investors/events-calendar.png"; ?>" alt="Events Calendar" loading="lazy">
+                <img src="<?php echo get_site_url() . '/wp-content/uploads/2023/06/events-calendar-card.png'; ?>" alt="Events Calendar" loading="lazy">
               </div>
               <div class="card-body">
                 <div class="card-title"><?php echo ICL_LANGUAGE_CODE == "ar"
