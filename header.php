@@ -2,7 +2,11 @@
 
 <!-- Header section -->
 <header class="nav-header">
-  <a class="site-logo" href="<?php echo get_site_url() ?>">
+    <?php if (ICL_LANGUAGE_CODE == 'en') : ?>
+    <a class="site-logo" href="<?php echo get_site_url() ?>/">
+      <?php elseif (ICL_LANGUAGE_CODE == 'ar') : ?>
+    <a class="site-logo" href="<?php echo get_site_url() ?>/?lang=ar">
+      <?php endif; ?>
     <img src="<?php echo get_site_url() . '/wp-content/uploads/2023/06/dana-gas-logo.png'; ?>" alt="Dana Gas">
   </a>
 
@@ -228,7 +232,30 @@
       </li>
     </ul>
   <?php endif; ?>
-
-
   </div>
+
+  <script>
+    const siteLang = "<?php echo ICL_LANGUAGE_CODE == "ar" ? "ar" : "en"; ?>";
+
+    if (sessionStorage.getItem("redirectLang") === "true" && siteLang !== "ar") {
+      sessionStorage.removeItem("redirectLang");
+      window.location.href = document.querySelector(".wpml-ls-link").getAttribute("href");
+    } else if (siteLang === "ar") {
+      sessionStorage.removeItem("redirectLang");
+    }
+
+    if (siteLang === "ar") {
+      document.addEventListener("DOMContentLoaded", function () {
+        const a = document.querySelectorAll("a[href]");
+
+        for (let i = 0; i < a.length; i++) {
+          if (!a[i].classList.contains("wpml-ls-link")) {
+            a[i].addEventListener("click", () => {
+              sessionStorage.setItem("redirectLang", "true");
+            })
+          }
+        }
+      });
+    }
+  </script>
 </header>
