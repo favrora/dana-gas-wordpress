@@ -284,3 +284,10 @@ h6 {
     }
   }
 }
+
+html[lang="ar"] .btn {
+  img {
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+  }
+}

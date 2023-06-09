@@ -23,8 +23,8 @@ global $danagas; ?>
   <?php get_header(); ?>
 
   <!-- About section -->
-  <section class="about-section" style="background-image: url('<?php echo get_template_directory_uri() .
-    "/assets/images/main-page-bg.png"; ?>')">
+  <section class="about-section" style="background-image: url('<?php echo get_site_url() .
+    "/wp-content/uploads/2023/06/main-page-bg.png"; ?>')">
     <div class="about-overlay"></div>
     <div class="container">
       <div class="about-box">

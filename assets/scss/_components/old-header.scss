@@ -204,6 +204,10 @@
 
     .nav-price__text {
       width: inherit;
+
+      iframe {
+        height: 42px!important;
+      }
     }
 
     .lang-sec {
@@ -231,7 +235,7 @@
 @media (max-width: $tablet) {
   .nav-header {
     height: 75px;
-    margin-bottom: 43px;
+    margin-bottom: 53px;
 
     .nav-price__text {
       display: block;
@@ -240,7 +244,7 @@
       z-index: 10;
       right: 0;
       left: 0;
-      top: 110px;
+      top: 120px;
       padding-top: 8px;
     }
 
