@@ -585,7 +585,7 @@ function press_shortcode( $atts ) {
 
                <div class="faq-question-box faqQuestionBox <?php echo ( $counter == 1 ) ? 'top-border' : ''; ?>">
                  <div class="faq-question-box__title <?php echo ( $counter == 1 ) ? 'is-active' : ''; ?>">
-                 <?php echo get_the_title(); ?> (<?php echo rwmb_meta( 'pr_date' ); ?>)
+                 <?php echo get_the_title(); ?>
                    <div><img class="arrow" src="<?php echo get_template_directory_uri() . "/assets/images/icons/dropdown-open-icon.png"; ?>" alt="Down arrow icon"></div>
                  </div>
 

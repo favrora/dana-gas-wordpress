@@ -42,7 +42,7 @@
 <!--            </div>-->
 <!--        </div>-->
 <!--    </div>   [press]-->
-<div class="page-content reports-section pt-2">
+<div class="page-content reports-section rel pt-2">
     <div class="container">
         <div class="row">
 
