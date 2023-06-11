@@ -34,7 +34,7 @@
 <!-- Cards section -->
 <section class="cards-section mt-5 mb-5">
     <div class="container">
-        <div class="row mt-3">
+        <div class="row slider-js mt-3">
 
             <div class="col-12 col-md-4 mb-3">
               <a href="<?php echo get_site_url(); ?>/operations/egypt/" class="card-link">

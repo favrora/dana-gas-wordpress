@@ -36,7 +36,7 @@
 <section class="cards-section media-bg-section mt-5 mb-5" style="background-image: url('<?php echo get_template_directory_uri() .
   "/assets/images/about-shape-bg.png"; ?>)">
     <div class="container">
-        <div class="row mt-3">
+        <div class="row slider-js mt-3">
 
             <div class="col-12 col-md-4 mb-3">
                 <a href="<?php echo get_site_url(); ?>/media/press-releases/" class="card-link">

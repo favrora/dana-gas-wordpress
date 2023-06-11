@@ -3,6 +3,7 @@
 
  1. Btn Progress
  2. Show more btn
+ 3. Mobile card slider
  *********************************/
 
 /******************************
@@ -123,9 +124,15 @@ for (let i = 0; i < subMenuReport.length; ++i) {
   })
 }
 
-/*
+/******************************
+ *** 3. Mobile card slider ****
+ *****************************/
+const sliderBox = document.querySelectorAll(".slider-js");
 
-<div class="moreFilters reports-nav__item"><?php echo $moreText; ?></div>
+if (window.matchMedia("(max-width: 768px)").matches) {
+  sliderBox.addEventListener('wheel', (event) => {
+    event.preventDefault();
+    sliderBox.scrollLeft += event.deltaY;
+  });
+}
 
-<ul class="subMenuReport"><?php echo $submenu; ?></ul>
- */

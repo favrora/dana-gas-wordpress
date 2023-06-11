@@ -291,3 +291,18 @@ html[lang="ar"] .btn {
     -webkit-transform: scaleX(-1);
   }
 }
+
+@media (max-width: $tablet) {
+  .slider-js {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+
+    .col-12 {
+      display: inline-block;
+      width: 90%;
+    }
+  }
+}

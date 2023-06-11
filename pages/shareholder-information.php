@@ -117,7 +117,7 @@
                 "/assets/images/line-space-icon.png"; ?>')"></div>
         </div>
 
-        <div class="row mt-3">
+        <div class="row slider-js mt-3">
 
             <div class="col-12 col-md-4 mb-3">
                 <a href="<?php echo get_site_url(); ?>/investors/reports/" class="card-link">

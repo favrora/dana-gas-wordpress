@@ -54,7 +54,7 @@
   <section class="cards-section story pt-5 mb-5">
     <div class="container">
       <h2 class="default-h2"><?php echo ICL_LANGUAGE_CODE == "ar" ? "قصتنا" : "Our Story"; ?></h2>
-      <div class="row mt-3">
+      <div class="row slider-js mt-3">
 
         <div class="col-12 col-md-4 mb-3">
           <a href="<?php echo get_site_url(); ?>/about-us/overview/1537-2/" class="card-link">

@@ -151,7 +151,7 @@
     <div class="container">
       <h2 class="default-h2"><?php echo get_field("governance_title"); ?></h2>
 
-      <div class="row justify-content-center mt-3">
+      <div class="row slider-js justify-content-center mt-3">
 
         <div class="col-12 col-md-4 mb-3">
           <a href="<?php echo get_site_url(); ?>/about-us/governance/committees/" class="card-link">

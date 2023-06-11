@@ -138,7 +138,7 @@
         <h2 class="default-h2 text-center"><?php echo ICL_LANGUAGE_CODE == "ar"
           ? "مجلس الإدارة والإدارة"
           : "Board & Management"; ?></h2>
-        <div class="row mt-3">
+        <div class="row slider-js mt-3">
 
             <div class="col-12 col-md-4 mb-3">
                 <a href="<?php echo get_site_url(); ?>/about-us/board-and-management/board-of-directors/" class="card-link">

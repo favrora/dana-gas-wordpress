@@ -74,7 +74,7 @@ global $danagas; ?>
         : "Operations"; ?></div>
       <h2 class="default-h2 uppercase-h2"><?php echo get_field("operations_title"); ?></h2>
 
-      <div class="row mt-3">
+      <div class="row mt-3 slider-js">
 
         <div class="col-12 col-md-4 mb-3">
           <a href="<?php echo get_site_url(); ?>/operations/egypt/" class="card-link">
